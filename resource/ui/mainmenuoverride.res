@@ -2135,6 +2135,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	"MainMenuSubButtonBorder"
+
 			"paintbackground"	"1"
 
 			"armedBgColor_override"		"TanDark"
