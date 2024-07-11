@@ -1,8 +1,0 @@
-"chapters"
-{
-	1	"background"
-}
-"BackgroundMaps"
-{
-	1	"background"
-}

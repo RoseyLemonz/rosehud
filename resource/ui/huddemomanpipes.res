@@ -47,7 +47,7 @@
 		"fieldName"		"StickyBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"36"
+		"wide"			"40"
 		"tall"			"15"
 		"visible"		"1"
 		"visible_minmode"	"0"
@@ -59,10 +59,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"34"
+		"wide"			"40"
 		"tall"			"16"
 		"visible"		"1"
 		
@@ -70,7 +70,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
-			"xpos"			"0"
+			"xpos"			"2"
 			"ypos"			"0"
 			"wide"			"14"
 			"tall"			"14"
@@ -83,11 +83,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"15"
+			"xpos"			"18"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"15"
-			"tall"			"16"
+			"wide"			"20"
+			"tall"			"14"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -97,7 +97,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFontSmallishBold"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -111,10 +111,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"34"
+		"wide"			"40"
 		"tall"			"16"
 		"visible"		"1"
 		
@@ -122,10 +122,10 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
-			"xpos"			"0"
+			"xpos"			"2"
 			"ypos"			"0"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"15"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/hud/ico_stickybomb_faded"
@@ -135,11 +135,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"15"
+			"xpos"			"18"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"15"
-			"tall"			"16"
+			"wide"			"20"
+			"tall"			"14"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
@@ -149,7 +149,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMediumSmall"
+			"font"			"HudFontSmallishBold"
 		}
 		"NumPipesLabelDropshadow"
 		{

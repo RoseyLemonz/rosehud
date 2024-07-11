@@ -17,22 +17,6 @@
 		"resize_time"		"0.2"
 	}
 
-	"BGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"p1.1"
-		"tall"			"f5"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"				"NoBorder"
-		"bgcolor_override"		"TransparentBlack"
-		"proportionaltoparent"	"1"
-	}
-
 	"TopBar"
 	{
 		"ControlName"	"EditablePanel"
@@ -40,13 +24,64 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"640"
+		"wide"			"f0"
 		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
+
+		"Gradient"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Gradient"
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"p0.5"
+			"tall"		"f6"
+			"zpos"	"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"rotation"		"2"
+			"proportionaltoparent"	"1"
+			"scaleimage"	"1"
+			"mouseinputenabled"	"0"
+			"alpha"		"100"
+
+			"image"		"gradient_pure_black"
+		}
+
+		"BGPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BGPanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"p1.1"
+			"tall"			"f5"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"border"				"NoBorder"
+			"bgcolor_override"		"DarkerBlack"
+			"proportionaltoparent"	"1"
+		}
+
+		"OuterShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"OuterShadow"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"-2"
+			"wide"			"p1.1"
+			"tall"			"p1"
+			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			"border"		"OuterShadowBorder"
+			"proportionaltoparent"	"1"
+		}
 
 		"ToggleChatButton"
 		{
@@ -55,8 +90,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"28"
-			"tall"			"f5"
+			"wide"			"40"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -72,14 +107,10 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
-			"roundedcorners"	"1"
-			"paintbackground"	"1"
+			"roundedcorners"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"TanDark"
-			"defaultBgColor_override"	"TanDarker"
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
@@ -101,27 +132,11 @@
 			}
 		}
 
-		"PartyPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"PartyPanel"
-			"xpos"			"29"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"144"
-			"tall"			"f5"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"TrueBlack"
-			"proportionaltoparent"	"1"
-		}
-
 		"PartySlot0"
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"29"
+			"xpos"			"40"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -142,7 +157,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"53"
+			"xpos"			"64"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -163,7 +178,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"77"
+			"xpos"			"88"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -184,7 +199,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"101"
+			"xpos"			"112"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -205,7 +220,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"125"
+			"xpos"			"136"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -226,7 +241,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"149"
+			"xpos"			"160"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -576,8 +591,8 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"28"
-			"tall"			"f5"
+			"wide"			"30"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -600,7 +615,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"TanDarker"
+			"defaultBgColor_override"	"192 28 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -613,7 +628,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
-				"ypos"			"rs1-6"
+				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -634,7 +649,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"110"
-			"tall"			"f5"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -693,7 +708,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"90"
-			"tall"			"f5"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
@@ -750,28 +765,33 @@
 			"xpos"			"rs1-31"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"28"
-			"tall"			"f5"
+			"wide"			"115"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		" "
+			"labeltext"		"#MMenu_FindAGame"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
+			"textinsety"	"5"
+			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"TanDarker"
+			"defaultBgColor_override"	"GreenSolid"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -782,8 +802,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-6"
+				"xpos"			"6"
+				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"

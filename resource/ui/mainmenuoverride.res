@@ -2987,7 +2987,7 @@
 		"zpos"			"-1"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" "TransparentBlack"
+		"fillcolor"		"DarkerBlack"
 	}
 	
 	"BackToReplaysButton"
@@ -3063,19 +3063,5 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
-	}
-	"ChatPopupPin"
-	{
-		"fieldName"		"ChatPopupPin"
-		"ControlName"	"Panel"
-		"xpos"			"c-314"
-		"ypos"			"c-246"
-	}
-	"InviteNotifPin"
-	{
-		"fieldName"		"InviteNotifPin"
-		"ControlName"	"Panel"
-		"xpos"			"c-318"
-		"ypos"			"c-246"
 	}
 }

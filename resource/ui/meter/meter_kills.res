@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
 		"ypos"			"c158"
-		"wide"			"36"
+		"wide"			"40"
 		"tall"			"16"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -19,7 +19,7 @@
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"36"
+		"wide"			"40"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
@@ -59,10 +59,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"17"
+		"xpos"					"18"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"15"
+		"wide"					"20"
 		"tall"					"16"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -72,6 +72,6 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontSmallishBold"
 	}
 }
