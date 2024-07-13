@@ -15,7 +15,19 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
-	
+
+	"frame_caption"
+	{
+		"xpos"		"9999"
+	}
+
+	"MessageTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle"
+		"xpos"			"9999"
+	}
+
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"

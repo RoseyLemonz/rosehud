@@ -241,7 +241,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"180 72 57 255"
+		"fgcolor"		"RedTeamSolid"
 	}
 
 	"TeamMenuRedShadow"
@@ -285,7 +285,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"84 104 155 255"
+		"fgcolor"		"BlueTeamSolid"
 	}
 
 	"TeamMenuBlueShadow"
@@ -429,7 +429,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"84 104 155 255"
+		"fillcolor" 	"BlueTeamSolid"
 	}
 
 	"BlueCountBG2"
@@ -443,7 +443,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"54 84 115 255"
+		"fillcolor" 	"BlueTeamTransparent"
 	}
 	
 	"RedCount"
@@ -478,7 +478,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"160 72 57 255"
+		"fillcolor" 	"RedTeamSolid"
 	}
 
 	"RedCountBG2"
@@ -492,7 +492,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"130 52 27 255"
+		"fillcolor" 	"RedTeamTransparent"
 	}
 	
 	"HighlanderLabel"

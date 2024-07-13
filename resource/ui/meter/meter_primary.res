@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
 		"ypos"			"c140"
+		"zpos"			"-1"
 		"wide"			"48"
 		"tall"			"18"
 		"MeterFG"		"White"

@@ -1,3 +1,5 @@
+//====================================
+
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
@@ -20,6 +22,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 }
+
+//====================================
 
 //Health Dying Pulse
 event HudHealthDyingPulse
@@ -48,6 +52,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate PlayerStatusHealthValue			fgcolor		"TanLight" Linear 0.0 0.0
 }
+
+//====================================
 
 //Low Ammo Pulse
 
@@ -82,6 +88,47 @@ event HudLowAmmoPulseStop
 	Animate	AmmoNoClip		fgcolor		"TanLight" 			Linear 0.0 0.075
 }
 
+//====================================
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	Animate	ChargeMeter 	FgColor		"TanLight"				Linear 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"TanDarker"				Linear 0.3 0.4
+
+	Animate	ChargeMeter1 	FgColor		"TanLight"				Linear 0.0 0.3
+	Animate	ChargeMeter1 	FgColor		"TanDarker"				Linear 0.3 0.4
+
+	Animate	ChargeMeter2 	FgColor		"TanLight"				Linear 0.0 0.3
+	Animate	ChargeMeter2 	FgColor		"TanDarker"				Linear 0.3 0.4
+
+	Animate	ChargeMeter3 	FgColor		"TanLight"				Linear 0.0 0.3
+	Animate	ChargeMeter3 	FgColor		"TanDarker"				Linear 0.3 0.4
+
+	Animate	ChargeMeter4 	FgColor		"TanLight"				Linear 0.0 0.3
+	Animate	ChargeMeter4 	FgColor		"TanDarker"				Linear 0.3 0.4
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+}
+
+//====================================
+
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
@@ -113,4 +160,16 @@ event HudSpyDisguiseFadeOut
 	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1
 }
 
+//====================================
 
+event TeamStatus_PlayerDead
+{
+	SetVisible	respawntime	1	0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible	respawntime	0	0.2
+}
+
+//====================================

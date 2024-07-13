@@ -14,6 +14,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+
+	"frame_caption"
+	{
+		"xpos"		"9999"
+	}
 	
 	"MapInfoTitle"
 	{
@@ -138,7 +143,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"cs0.6"
+		"xpos"			"cs0.1"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -163,32 +168,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"cs-0.5"
-		"ypos"			"r40"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_WatchIntro"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"intro"
-		"default"		"1"
-		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
+		"xpos"			"9999"
 	}
 	
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"cs-1.6"
+		"xpos"			"cs-1."
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"

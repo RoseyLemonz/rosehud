@@ -15,6 +15,11 @@
 		"tabPosition"		"0"
 		"paintbackground"	"0"
 	}
+
+	"frame_caption"
+	{
+		"xpos"		"9999"
+	}
 	
 	"titlelabel"
 	{
