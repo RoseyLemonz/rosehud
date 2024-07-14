@@ -75,7 +75,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"13"
+				"xpos"			"12"
 				"xpos_minmode"	"15"
 				"ypos"			"12"
 				"ypos_minmode"	"12"
@@ -157,7 +157,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-13"
+				"xpos"			"rs1-12"
 				"xpos_minmode"	"rs1-15"
 				"ypos"			"12"
 				"ypos_minmode"	"12"

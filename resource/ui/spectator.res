@@ -38,27 +38,37 @@
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
+
+	"BarBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BarBottom"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"zpos"			"-50"
+		"wide"			"f0"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" 	"DarkerBlack"
+	}
+
 	"bottombarblank"
 	{
-		"ControlName"		"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"9999"
-		"ypos"			"r70"
-		"tall"			"70"		// this needs to match the size of BottomBar
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"		"0"
 	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"120"
-		"wide"			"600"
+		"xpos"			"15"
+		"ypos"			"r42"
+		"wide"			"250"
 		"tall"			"18"
 		"tall_hidef"	"23"
 		"autoResize"	"0"
@@ -66,8 +76,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallishBoldOutline"
+		"textAlignment"	"west"
+		"font"			"HudFontSmall"
 	}
 	"BuyBackLabel"
 	{
@@ -90,10 +100,19 @@
 
 	"MapLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"xpos"			"9999"
-		"visible"		"0"
+		"font"			"HudFontSmallest"
+		"xpos"			"15"
+		"ypos"			"r26"
+		"wide"			"250"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"map: cp_bridge"
+		"textAlignment"	"west"
 	}
 
 	"ClassOrTeamLabel"

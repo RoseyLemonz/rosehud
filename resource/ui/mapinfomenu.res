@@ -36,7 +36,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 	"MapInfoTitleShadow"
 	{

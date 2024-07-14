@@ -199,7 +199,13 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"9999"
+		"xpos"			"cs-0.5"
+		"ypos"			"-2"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"BlueBG"
@@ -209,7 +215,7 @@
 		"xpos"			"cs-1.0"
 		"zpos"			"2"
 		"ypos"			"0"
-		"wide"			"42"
+		"wide"			"40"
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
@@ -223,7 +229,7 @@
 		"xpos"			"cs0.0"
 		"zpos"			"2"
 		"ypos"			"0"
-		"wide"			"42"
+		"wide"			"40"
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
@@ -237,7 +243,7 @@
 		"xpos"			"cs-0.5"
 		"zpos"			"2"
 		"ypos"			"9"
-		"wide"			"84"
+		"wide"			"80"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -392,18 +398,18 @@
 		"enabled"		"1"
 
 
-		"max_size"	"19"
+		"max_size"	"22"
 
 		"6v6_gap"	"4"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
-		"team1_max_expand"	"133"
+		"team1_base_x"	"c-46"
+		"team1_max_expand"	"220"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
-		"team2_max_expand"	"133"
+		"team2_base_x"	"c46"
+		"team2_max_expand"	"220"
 
 		"playerpanels_kv"
 		{

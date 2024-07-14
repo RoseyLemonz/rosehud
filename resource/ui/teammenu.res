@@ -198,7 +198,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"TeamMenuSelectShadow"
