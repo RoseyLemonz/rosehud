@@ -1,4 +1,4 @@
-![rorhudlong](https://github.com/Eerorri/rorhud/assets/97610612/d6cf187d-d07b-424b-814e-e90a18e63d9e)
+![rorhudv2long](https://github.com/user-attachments/assets/1dd0d36f-38b8-4ac1-9aab-eafe496afe18)
 # rorHUD
 Minimal TF2 HUD inspired by flawHUD and e.v.e HUD
 
