@@ -1,1 +1,1 @@
-#base "meter/huditemeffectmeter_kills.res"
+#base "meter/meter_kills.res"

@@ -1,1 +1,1 @@
-#base "meter/huditemeffectmeter_main.res"
+#base "meter/meter_secondary.res"

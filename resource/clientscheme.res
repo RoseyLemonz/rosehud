@@ -1,3 +1,5 @@
+#base "clientscheme_rose.res"
+
 //
 // TRACKER SCHEME RESOURCE FILE
 //

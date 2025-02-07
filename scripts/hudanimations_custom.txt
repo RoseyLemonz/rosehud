@@ -1,0 +1,30 @@
+
+//====================================
+
+event TeamStatus_PlayerDead
+{
+	SetVisible	respawntime	1	0
+}
+
+event TeamStatus_PlayerAlive
+{
+	SetVisible	respawntime	0	0.2
+}
+
+//====================================
+
+	//Fix chat pos
+event CompetitiveGame_LowerChatWindow { }
+
+event CompetitiveGame_RestoreChatWindow 
+{
+	//Fix stuck animations on respawn
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+}
+
+event HudTournament_MoveChatWindow { }
+
+//====================================
