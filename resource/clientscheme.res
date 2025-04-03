@@ -5856,16 +5856,5 @@ Scheme
 		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
-
-		"20"
-		{
-			"font"	"resource/fonts/frtzquad.ttf"
-			"name"	"Frtzquad"
-		}
-
-		"21"		
-		{	"font"	"resource/fonts/sazanami.ttf"
-			"name"	"Sazanami"
-		}
 	}
 }

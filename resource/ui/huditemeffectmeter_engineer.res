@@ -2,12 +2,18 @@
 
 "Resource/UI/Meter/Meter_Kills.res"
 {
+
+	HudItemEffectMeter
+	{
+		"ypos"			"c124"
+	}
+
 	"SkullIcon"
 	{
-		"xpos"			"4"
+		"xpos"			"2"
 		"ypos"			"2"
-		"wide"			"11"
-		"tall"			"11"
+		"wide"			"12"
+		"tall"			"12"
 		"drawcolor"		"235 226 202"
 		"image"			"glyph_achievements"
 	}

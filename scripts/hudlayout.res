@@ -16,8 +16,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c140"
-		"ypos"	"r82"
+		"xpos"	"c88"
+		"ypos"	"c112"
 		"wide"	"240"
 		"tall"	"160"
 	}
@@ -68,10 +68,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
+		"xpos"			"c95"
+		"ypos"			"r130"
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -813,8 +811,8 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
+		"separator_width"		"5"	// distance between the icons (including their backgrounds)
+		"separator_height"		"5"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]
 	}

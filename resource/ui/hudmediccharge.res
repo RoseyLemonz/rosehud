@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldShadow"
 	}
 
 	"IndividualChargesLabel"
@@ -27,7 +27,7 @@
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"48"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"40"
 		"autoResize"	"1"
@@ -39,7 +39,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldShadow"
 	}
 
 	"ChargeMeter"
@@ -155,16 +155,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
-		"pin_to_sibling"			"ResistPin"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"0"
 		"wide"			"32"
 		"tall"			"32"
+		"zpos"			"3"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
+
+		"pin_to_sibling"			"ResistPin"
+		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling_corner"		"0"
 	}
 }
 

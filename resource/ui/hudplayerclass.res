@@ -17,10 +17,14 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"55"
+		"ypos"			"r65"
+		"zpos"			"2"
+		"wide"			"85"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
 		"image"			"../hud/class_scoutred"
 	}
 
@@ -52,24 +56,6 @@
 		"wide"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-
-	"ClassImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ClassImage"
-		"xpos"			"45"
-		"ypos"			"r55"
-		"zpos"			"2"
-		"wide"			"85"
-		"tall"			"o2"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/characters/gman"
-
-		"teambg_2"		"replay/thumbnails/characters/gordon"
-		"teambg_3"		"replay/thumbnails/characters/gman"
 	}
 
 	"PlayerStatusSpyImage"
