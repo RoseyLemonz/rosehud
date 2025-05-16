@@ -70,24 +70,42 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"TanLight"
+		"font"			"HealthFontNormal"
+		"fgcolor"		"HudPink"
 	}
+
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"112"
 		"ypos"			"62"
-		"zpos"			"5"
+		"zpos"			"4"
 		"wide"			"120"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
+		"font"			"HealthFontNormal"
+		"fgcolor"		"0 0 0 155"
+	}
+
+	"PlayerStatusHealthValueBlur"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBlur"
+		"xpos"			"113"
+		"ypos"			"63"
+		"zpos"			"3"
+		"wide"			"120"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"west"	
+		"font"			"HealthFontShadow"
+		"fgcolor"		"TrueBlack"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

@@ -6,8 +6,8 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
-	Animate PlayerStatusHealthValue			fgcolor		"107 235 107 255" 	Linear 0.125 0.075
-
+	Animate PlayerStatusHealthValue			fgcolor		"HudTeal" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -21,6 +21,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
 }
 
 //====================================
@@ -28,16 +29,13 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
-	Animate PlayerStatusHealthImage			Alpha		"255" 				Linear 0.0 0.075
-	Animate PlayerStatusHealthImage			fgcolor		"0 0 0 0" 			Linear 0.125 0.075
+	Animate PlayerStatusHealthValue			fgcolor		"HudPurple" Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
 
-	Animate PlayerStatusHealthValue			fgcolor		"TanLight" 			Linear 0.0 0.075
-	Animate PlayerStatusHealthValue			fgcolor		"255 107 107 255" 	Linear 0.125 0.075
-
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 // call to loop HudHealthDyingPulse
@@ -50,7 +48,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"TanLight" Linear 0.0 0.0
+	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
 }
 
 //====================================
@@ -60,13 +58,13 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 
-	Animate	AmmoInClip		fgcolor		"TanLight" 			Linear 0.0 0.175
+	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.175
 	Animate	AmmoInClip		fgcolor		"255 107 107 255" 	Linear 0.150 0.1
 
-	Animate	AmmoInReserve	fgcolor		"TanLight" 			Linear 0.0 0.175
+	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.0 0.175
 	Animate	AmmoInReserve	fgcolor		"255 107 107 255" 	Linear 0.150 0.1
 
-	Animate	AmmoNoClip		fgcolor		"TanLight" 			Linear 0.0 0.175
+	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.175
 	Animate	AmmoNoClip		fgcolor		"255 107 107 255" 	Linear 0.150 0.1
 
 	RunEvent HudLowAmmoPulseLoop	0.25
@@ -83,9 +81,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate	AmmoInClip		fgcolor		"TanLight" 			Linear 0.0 0.075
-	Animate	AmmoInReserve	fgcolor		"TanLight" 			Linear 0.0 0.075
-	Animate	AmmoNoClip		fgcolor		"TanLight" 			Linear 0.0 0.075
+	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.075
+	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.0 0.075
+	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.075
 }
 
 //====================================
@@ -94,20 +92,20 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeMeter 	FgColor		"TanLight"				Linear 0.0 0.3
-	Animate	ChargeMeter 	FgColor		"TanDarker"				Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"HudPink"				Linear 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"HudPurple"				Linear 0.3 0.4
 
-	Animate	ChargeMeter1 	FgColor		"TanLight"				Linear 0.0 0.3
-	Animate	ChargeMeter1 	FgColor		"TanDarker"				Linear 0.3 0.4
+	Animate	ChargeMeter1 	FgColor		"HudPink"				Linear 0.0 0.3
+	Animate	ChargeMeter1 	FgColor		"HudPurple"				Linear 0.3 0.4
 
-	Animate	ChargeMeter2 	FgColor		"TanLight"				Linear 0.0 0.3
-	Animate	ChargeMeter2 	FgColor		"TanDarker"				Linear 0.3 0.4
+	Animate	ChargeMeter2 	FgColor		"HudPink"				Linear 0.0 0.3
+	Animate	ChargeMeter2 	FgColor		"HudPurple"				Linear 0.3 0.4
 
-	Animate	ChargeMeter3 	FgColor		"TanLight"				Linear 0.0 0.3
-	Animate	ChargeMeter3 	FgColor		"TanDarker"				Linear 0.3 0.4
+	Animate	ChargeMeter3 	FgColor		"HudPink"				Linear 0.0 0.3
+	Animate	ChargeMeter3 	FgColor		"HudPurple"				Linear 0.3 0.4
 
-	Animate	ChargeMeter4 	FgColor		"TanLight"				Linear 0.0 0.3
-	Animate	ChargeMeter4 	FgColor		"TanDarker"				Linear 0.3 0.4
+	Animate	ChargeMeter4 	FgColor		"HudPink"				Linear 0.0 0.3
+	Animate	ChargeMeter4 	FgColor		"HudPurple"				Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -123,8 +121,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"HudPink"		Linear 0.0 0.0001
 }
 
 //====================================
