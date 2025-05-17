@@ -21,7 +21,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.0 0.275
 }
 
 //====================================
@@ -49,7 +49,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.0 0.275
 }
 
 //====================================
@@ -82,9 +82,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.225 0.175
-	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.225 0.175
-	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.225 0.175
+	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.275
+	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.0 0.275
+	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.275
 }
 
 //====================================
