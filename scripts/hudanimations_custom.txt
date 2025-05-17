@@ -29,6 +29,7 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	Animate PlayerStatusHealthBonusImage	FgColor		"HudPurple"	Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
@@ -58,16 +59,16 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 
-	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.175
-	Animate	AmmoInClip		fgcolor		"255 107 107 255" 	Linear 0.150 0.1
+	Animate AmmoInClip			fgcolor		"HudPurple" Linear 0.0 0.275
+	Animate AmmoInClip			fgcolor		"HudPink" 	Linear 0.225 0.175
 
-	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.0 0.175
-	Animate	AmmoInReserve	fgcolor		"255 107 107 255" 	Linear 0.150 0.1
+	Animate AmmoInReserve		fgcolor		"HudPurple" Linear 0.0 0.275
+	Animate AmmoInReserve		fgcolor		"HudPink" 	Linear 0.225 0.175
 
-	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.175
-	Animate	AmmoNoClip		fgcolor		"255 107 107 255" 	Linear 0.150 0.1
+	Animate AmmoNoClip			fgcolor		"HudPurple" Linear 0.0 0.275
+	Animate AmmoNoClip			fgcolor		"HudPink" 	Linear 0.225 0.175
 
-	RunEvent HudLowAmmoPulseLoop	0.25
+	RunEvent HudLowAmmoPulseLoop	0.4
 }
 
 // call to loop HudLowAmmoPulse
@@ -81,9 +82,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.075
-	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.0 0.075
-	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.075
+	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.225 0.175
+	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.225 0.175
+	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.225 0.175
 }
 
 //====================================

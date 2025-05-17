@@ -21,7 +21,7 @@ Scheme
 	"Fonts"
 	{
 
-		"HealthFontNormal"
+		"HudValue"
 		{
 			"1"
 			{
@@ -30,7 +30,7 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		"HealthFontShadow"
+		"HudValueBlur"
 		{
 			"1"
 			{
@@ -38,6 +38,17 @@ Scheme
 				"tall"		"48"
 				"weight"	"500"
 				"blur"		"1"
+			}
+		}
+		"HudChalkText"
+		{
+			"1"
+			{
+				"name"		"TF2 Professor"
+				"tall"		"14"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallishBoldOutline"
@@ -58,14 +69,13 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		"HudFontGiantBoldShadow"
+
+		"HudTitleText"
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
-				"tall"			"44"
-				"tall_lodef"	"52"
-				"weight"		"500"
+				"name"		"BahnschriftBold"
+				"tall"		"56"
 			}
 		}
 
@@ -294,7 +304,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-=			}
+			}
 		}
 		"CloseCaption_Bold"
 		{
@@ -308,7 +318,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-=			}
+			}
 		}
 		"CloseCaption_Small"
 		{
@@ -634,7 +644,7 @@ Scheme
 			"1"
 			{
 				"name"		"Bahnschrift"
-=			}
+			}
 		}
 
 		//
@@ -735,6 +745,5 @@ Scheme
 				"name"		"Bahnschrift"
 			}
 		}
-	}
 	}
 }

@@ -441,5 +441,10 @@ Scheme
 		"font"	"resource/fonts/bahnschrift.ttf"
 		"name"	"Bahnschrift"	
 		}	
+		"22"
+		{
+		"font"	"resource/fonts/bahnschriftbold.ttf"
+		"name"	"BahnschriftBold"	
+		}	
 	}
 }

@@ -159,7 +159,6 @@
 		"tall"			"32"
 		"zpos"			"3"
 		"visible"		"1"
-		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	

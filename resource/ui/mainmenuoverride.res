@@ -230,18 +230,46 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}	
+		
+	"HudName"
+	{
+		"ControlName"	"CexLabel"
+		"fieldName"		"HudName"
 		"xpos"			"c-290"
 		"ypos"			"32"
 		"zpos"			"1"
-		"wide"			"256"
+		"wide"			"258"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
+		"textAlignment"	"center"
+		"labelText"		"roseHUD"
+		"font"			"HudTitleText"
+		"fgcolor"		"HudPink"
 	}	
 	
+	"HudNameShadow"
+	{
+		"ControlName"	"CexLabel"
+		"fieldName"		"HudNameShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"0"
+		"wide"			"258"
+		"tall"			"64"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"labelText"		"roseHUD"
+		"font"			"HudTitleText"
+		"fgcolor"		"Black"
+		"pin_to_sibling"	"HudName"
+	}	
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"

@@ -29,19 +29,47 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
+	"PlayerStatusHealthAdditive"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthAdditive"
+		"zpos"			"5"
+		"wide"			"51"
+		"tall"			"51"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/health_color_additive"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"	"PlayerStatusHealthImage"
+	}
+	"PlayerStatusHealthAdditiveOverlay"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthAdditiveOverlay"
+		"zpos"			"6"
+		"wide"			"51"
+		"tall"			"51"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/health_color_over"
+		"scaleImage"	"1"
+		"pin_to_sibling"	"PlayerStatusHealthImage"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"63"
-		"ypos"			"83"
+		"xpos"			"62"
+		"ypos"			"82"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"57"
+		"tall"			"57"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
+		
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -70,7 +98,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"HealthFontNormal"
+		"font"			"HudValue"
 		"fgcolor"		"HudPink"
 	}
 
@@ -87,32 +115,15 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"HealthFontNormal"
-		"fgcolor"		"0 0 0 155"
-	}
-
-	"PlayerStatusHealthValueBlur"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueBlur"
-		"xpos"			"113"
-		"ypos"			"63"
-		"zpos"			"3"
-		"wide"			"120"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"west"	
-		"font"			"HealthFontShadow"
-		"fgcolor"		"TrueBlack"
+		"font"			"HudValue"
+		"fgcolor"		"Black"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"ypos"			"20"
+		"xpos"			"112"
+		"ypos"			"45"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -120,7 +131,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"west"	
-		"font"			"DefaultSmall"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusBleedImage"

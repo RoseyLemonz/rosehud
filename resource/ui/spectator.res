@@ -70,7 +70,6 @@
 		"ypos"			"r42"
 		"wide"			"250"
 		"tall"			"18"
-		"tall_hidef"	"23"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
