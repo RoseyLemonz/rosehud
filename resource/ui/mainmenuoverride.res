@@ -242,8 +242,8 @@
 		"xpos"			"c-290"
 		"ypos"			"32"
 		"zpos"			"1"
-		"wide"			"258"
-		"tall"			"64"
+		"wide"			"256"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -256,10 +256,10 @@
 	{
 		"ControlName"	"CexLabel"
 		"fieldName"		"HudNameShadow"
-		"xpos"			"-2"
-		"ypos"			"-2"
-		"zpos"			"0"
-		"wide"			"258"
+		"xpos"			"c-290"
+		"ypos"			"32"
+		"zpos"			"1"
+		"wide"			"260"
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
@@ -267,7 +267,6 @@
 		"labelText"		"roseHUD"
 		"font"			"HudTitleText"
 		"fgcolor"		"Black"
-		"pin_to_sibling"	"HudName"
 	}	
 
 	"RankModelPanel"

@@ -16,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c88"
-		"ypos"	"c112"
-		"wide"	"240"
-		"tall"	"160"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 	
 	HudObjectiveStatus
@@ -68,8 +68,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c95"
-		"ypos"			"r130"
+		"xpos"			"c98"
+		"ypos"			"r122"
 		"wide"			"200"
 		"tall"			"100"
 	}

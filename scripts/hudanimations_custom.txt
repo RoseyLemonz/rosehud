@@ -63,7 +63,7 @@ event HudLowAmmoPulse
 	Animate AmmoInClip			fgcolor		"HudPink" 	Linear 0.225 0.175
 
 	Animate AmmoInReserve		fgcolor		"HudPurple" Linear 0.0 0.275
-	Animate AmmoInReserve		fgcolor		"HudMagenta" 	Linear 0.225 0.175
+	Animate AmmoInReserve		fgcolor		"HudLightPink" 	Linear 0.225 0.175
 
 	Animate AmmoNoClip			fgcolor		"HudPurple" Linear 0.0 0.275
 	Animate AmmoNoClip			fgcolor		"HudPink" 	Linear 0.225 0.175
@@ -83,7 +83,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 0.0
 
 	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.275
-	Animate	AmmoInReserve	fgcolor		"HudMagenta" 			Linear 0.0 0.275
+	Animate	AmmoInReserve	fgcolor		"HudLightPink" 			Linear 0.0 0.275
 	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.275
 }
 

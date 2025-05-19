@@ -436,12 +436,12 @@ Scheme
 		"19"	"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"20"	"resource/linux_fonts/FiraSans-Regular.ttf"
 
-		"21"
+		"80"
 		{
 		"font"	"resource/fonts/bahnschrift.ttf"
 		"name"	"Bahnschrift"	
 		}	
-		"22"
+		"81"
 		{
 		"font"	"resource/fonts/bahnschriftbold.ttf"
 		"name"	"BahnschriftBold"	
