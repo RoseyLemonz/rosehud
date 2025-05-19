@@ -219,7 +219,7 @@
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamSolid"
+		"fillcolor" 	"BlueTeamTransparent"
 	}
 
 	"RedBG"
@@ -233,7 +233,7 @@
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"RedTeamSolid"
+		"fillcolor" 	"RedTeamTransparent"
 	}
 
 	"BlackBG"
@@ -247,7 +247,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"Black"
+		"fillcolor" 	"TransparentBlack"
 	}
 
 	"BGFrame"

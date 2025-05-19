@@ -22,21 +22,6 @@
 		"allcaps"				"1"
 	}
 
-	"ColorModulate"
-    {
-        "ControlName"	"ImagePanel"
-        "fieldName"		"ColorModulate"
-        "zpos"			"3"
-        "wide"			"f0"
-        "tall"			"f0"
-        "visible"		"1"
-        "enabled"		"1"
-        "proportionaltoparent"		"1"
-        "image"			"replay/thumbnails/hud/modulate"
-        "scaleImage"	"1"
-        "drawcolor"		"HudPink"
-    }
-
 	"ChargeMeter"
 	{
 		"ControlName"			"ContinuousProgressBar"
@@ -91,7 +76,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/hud/ico_stickybomb"
-			"drawcolor"		"255 255 255 255"
 		}	
 		
 		"NumPipesLabel"
@@ -113,7 +97,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallishBold"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"HudPink"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -145,7 +129,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/hud/ico_stickybomb_faded"
-			"drawcolor"		"255 255 255 255"
 		}
 
 		"NumPipesLabel"
@@ -167,7 +150,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"HudFontSmallishBold"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"HudPink"
 		}
 		"NumPipesLabelDropshadow"
 		{
