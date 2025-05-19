@@ -17,15 +17,24 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"55"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}
+
+	"PlayerSakakiImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerSakakiImage"
+		"xpos"			"c-350"
 		"ypos"			"r65"
 		"zpos"			"2"
 		"wide"			"85"
-		"tall"			"o1"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"../hud/class_scoutred"
+		"image"			"replay/thumbnails/characters/sakaki"
 	}
 
 	"classmodelpanel"

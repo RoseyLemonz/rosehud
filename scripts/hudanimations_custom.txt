@@ -63,7 +63,7 @@ event HudLowAmmoPulse
 	Animate AmmoInClip			fgcolor		"HudPink" 	Linear 0.225 0.175
 
 	Animate AmmoInReserve		fgcolor		"HudPurple" Linear 0.0 0.275
-	Animate AmmoInReserve		fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate AmmoInReserve		fgcolor		"HudMagenta" 	Linear 0.225 0.175
 
 	Animate AmmoNoClip			fgcolor		"HudPurple" Linear 0.0 0.275
 	Animate AmmoNoClip			fgcolor		"HudPink" 	Linear 0.225 0.175
@@ -83,7 +83,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 0.0
 
 	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.275
-	Animate	AmmoInReserve	fgcolor		"HudPink" 			Linear 0.0 0.275
+	Animate	AmmoInReserve	fgcolor		"HudMagenta" 			Linear 0.0 0.275
 	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.275
 }
 
@@ -93,20 +93,28 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeMeter 	FgColor		"HudPink"				Linear 0.0 0.3
-	Animate	ChargeMeter 	FgColor		"HudPurple"				Linear 0.3 0.4
+	Animate ChargeColor		Alpha		"0"						Linear 0.0 0.0		
 
-	Animate	ChargeMeter1 	FgColor		"HudPink"				Linear 0.0 0.3
-	Animate	ChargeMeter1 	FgColor		"HudPurple"				Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"HudPink"				Linear 0.0 0.275
+	Animate	ChargeMeter 	FgColor		"HudTeal"				Linear 0.225 0.175
 
-	Animate	ChargeMeter2 	FgColor		"HudPink"				Linear 0.0 0.3
-	Animate	ChargeMeter2 	FgColor		"HudPurple"				Linear 0.3 0.4
+	Animate	ChargeMeter1 	FgColor		"HudPink"				Linear 0.0 0.275
+	Animate	ChargeMeter1 	FgColor		"HudTeal"				Linear 0.225 0.175
 
-	Animate	ChargeMeter3 	FgColor		"HudPink"				Linear 0.0 0.3
-	Animate	ChargeMeter3 	FgColor		"HudPurple"				Linear 0.3 0.4
+	Animate	ChargeMeter2 	FgColor		"HudPink"				Linear 0.0 0.275
+	Animate	ChargeMeter2 	FgColor		"HudTeal"				Linear 0.225 0.175
 
-	Animate	ChargeMeter4 	FgColor		"HudPink"				Linear 0.0 0.3
-	Animate	ChargeMeter4 	FgColor		"HudPurple"				Linear 0.3 0.4
+	Animate	ChargeMeter3 	FgColor		"HudPink"				Linear 0.0 0.275
+	Animate	ChargeMeter3 	FgColor		"HudTeal"				Linear 0.225 0.175
+
+	Animate	ChargeMeter4 	FgColor		"HudPink"				Linear 0.0 0.275
+	Animate	ChargeMeter4 	FgColor		"HudTeal"				Linear 0.225 0.175
+
+	Animate ChargeLabel		FgColor		"HudPink"		 		Linear 0.0 0.275
+	Animate ChargeLabel		FgColor		"HudTeal" 				Linear 0.225 0.175
+
+	Animate IndividualChargesLabel		FgColor		"HudPink" 	Linear 0.0 0.275
+	Animate IndividualChargesLabel		FgColor		"HudTeal" 	Linear 0.225 0.175
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -124,6 +132,14 @@ event HudMedicChargedStop
 
 	Animate	ChargeLabel 	FgColor		"HudPink"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate ChargeColor		Alpha		"255"			Linear 0.0 0.0001
+
+	Animate	IndividualChargesLabel 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	ChargeMeter1 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	ChargeMeter2 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	ChargeMeter3 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	ChargeMeter4 	FgColor		"HudPink"		Linear 0.0 0.0001
+
 }
 
 //====================================
@@ -178,13 +194,18 @@ event CompetitiveGame_LowerChatWindow { }
 
 event CompetitiveGame_RestoreChatWindow 
 {
-	//Fix stuck animations on respawn
-    RunEvent HudHealthDyingPulseStop 0.1
-    RunEvent HudHealthBonusPulseStop 0.1
-    RunEvent HudLowAmmoPulseStop 0.1
-    RunEvent HudMedicChargedStop 0.1
+	RunEvent ColorSet 0.0
+	//Run animations that need to be run after respawn to fix things
 }
 
 event HudTournament_MoveChatWindow { }
 
 //====================================
+
+event ColorSet
+{
+    RunEvent HudHealthDyingPulseStop 0.0
+    RunEvent HudHealthBonusPulseStop 0.0
+    RunEvent HudLowAmmoPulseStop 0.0
+    RunEvent HudMedicChargedStop 0.0
+}

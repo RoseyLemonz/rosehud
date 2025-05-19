@@ -48,6 +48,24 @@
 		"font"					"FontStoreOriginalPrice"
 	}
 
+	"MeterColor"
+    {
+        "ControlName"	"ImagePanel"
+        "fieldName"		"MeterColor"
+        "zpos"			"3"
+        "wide"			"46"
+        "tall"			"6"
+        "visible"		"1"
+        "enabled"		"1"
+        "proportionaltoparent"		"1"
+        "image"			"replay/thumbnails/hud/modulate"
+        "scaleImage"	"1"
+        "drawcolor"		"HudPink"
+		"pin_to_sibling"			"ItemEffectmeter"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+    }
+
 	"ItemEffectMeter"
 	{
 		"ControlName"			"ContinuousProgressBar"

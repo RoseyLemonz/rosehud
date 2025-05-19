@@ -37,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"ProgressOffWhite"
+		"iconColor"		"HudPink"
 	}
 	
 	"AccountValue"
@@ -59,5 +59,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontSmallBold"
+		"fgcolor"		"HudPink"
 	}
 }

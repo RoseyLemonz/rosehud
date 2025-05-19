@@ -54,6 +54,7 @@
 		"enabled"				"1"
 		"image"			"../hud/leaderboard_dead"
 		"scaleImage"	"1"
+		"drawcolor"		"HudPink"
 	}
 
 	"ItemEffectMeterCount"
@@ -74,5 +75,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmallishBold"
+		"fgcolor"				"HudPink"
 	}
 }
