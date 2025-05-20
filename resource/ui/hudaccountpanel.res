@@ -2,18 +2,18 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"10"
-		"delta_item_start_y"	"0"
-		"delta_item_end_y"		"0"
+		"delta_item_x"			"18"
+		"delta_item_start_y"	"2"
+		"delta_item_end_y"		"2"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontSmall"
+		"delta_item_font"		"HudChalk12"
 	}
 	
 	"AccountBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"AccountBG"
 		"xpos"			"0"
 		"ypos"			"14"
@@ -21,18 +21,19 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" "TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
+		"paintBackgroundType"	"2"
 	}
 	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"2"
-		"ypos"			"17"
+		"xpos"			"4"
+		"ypos"			"18"
 		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"8"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -58,7 +59,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"		"HudPink"
 	}
 }

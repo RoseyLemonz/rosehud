@@ -210,7 +210,7 @@
 
 	"BlueBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"BlueBG"
 		"xpos"			"cs-1.0"
 		"zpos"			"2"
@@ -219,12 +219,12 @@
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamTransparent"
+		"bgcolor_override"	"BlueTeamTransparent"
 	}
 
 	"RedBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"RedBG"
 		"xpos"			"cs0.0"
 		"zpos"			"2"
@@ -233,12 +233,12 @@
 		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"RedTeamTransparent"
+		"bgcolor_override"	"RedTeamTransparent"
 	}
 
 	"BlackBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"BlackBG"
 		"xpos"			"cs-0.5"
 		"zpos"			"2"
@@ -247,7 +247,9 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
+		"roundedcorners"	"12"
+		"paintBackgroundType"	"2"
 	}
 
 	"BGFrame"

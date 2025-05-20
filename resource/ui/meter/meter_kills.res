@@ -16,7 +16,7 @@
 
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -24,7 +24,8 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" "TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
+		"paintBackgroundType"	"2"
 	}
 
 	"ItemEffectMeterLabel"
@@ -45,11 +46,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SkullIcon"
-		"xpos"			"2"
-		"ypos"			"1"
+		"xpos"			"3"
+		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"14"
-		"tall"			"14"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"				"1"
 		"image"			"glyph_achievements"

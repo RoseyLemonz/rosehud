@@ -61,6 +61,8 @@
 		"font"			"HudChalk36"
 		"fgcolor"		"White"
 		"bgcolor_override"	"BlueTeamTransparent"
+		"roundedcorners"	"1"
+		"paintBackgroundType"	"2"
 		
 		"if_hybrid"
 		{
@@ -137,6 +139,8 @@
 		"font"			"HudChalk36"
 		"fgcolor"		"White"		
 		"bgcolor_override"	"RedTeamTransparent"
+		"roundedcorners"	"2"
+		"paintBackgroundType"	"2"
 
 		"if_hybrid"
 		{
@@ -201,11 +205,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
-		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
+		"xpos"			"cs-0.5"
+		"ypos"			"r46"
 		"zpos"			"9"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"40"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
@@ -291,7 +295,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-50"
+		"xpos"			"c-45"
 		"ypos"			"r58"	[$WIN32]
 		"zpos"			"10"
 		"wide"			"45"
@@ -330,7 +334,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c5"
+		"xpos"			"c0"
 		"ypos"			"r58"	[$WIN32]
 		"zpos"			"10"
 		"wide"			"45"
@@ -393,9 +397,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
 		"xpos"			"cs-0.5"
-		"ypos"			"r75"
+		"ypos"			"r82"
 		"zpos"			"6"
-		"wide"			"40"
+		"wide"			"25"
 		"tall"			"o1"
 		"visible"		"0"
 		"enabled"		"1"
@@ -408,16 +412,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PoisonTimeLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"r65"
+		"ypos"			"r80"
 		"zpos"			"6"
 		"wide"			"40"
-		"tall"			"20"
+		"tall"			"24"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"font"			"HudChalk20"
+		"fgcolor"		"White"
+		"bgcolor_override"	"TransparentBlack"
+		"paintBackgroundType"	"2"
 	}
 	
 	"SpecCarriedImage"

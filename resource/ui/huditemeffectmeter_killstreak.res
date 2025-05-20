@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-262"
-		"ypos"			"r76"
+		"xpos"			"c-156"
+		"ypos"			"r70"
 		"wide"			"41"
 		"tall"			"21"
 		"MeterFG"		"White"
@@ -29,6 +29,28 @@
 		"visible"		"0"
 	}
 
+	"ItemEffectLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectLabel"
+		"xpos"					"0"
+		"ypos"					"5"
+		"zpos"					"2"
+		"wide"					"15"
+		"tall"					"10"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_ScoreBoard_KillsLabel"
+		"textAlignment"			"east"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"FontStoreOriginalPrice"
+		"fgcolor"				"HudPink"
+	}
+
 	"ItemEffectMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -41,9 +63,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"14"
+		"xpos"					"17"
 		"ypos"					"0"
-		"wide"					"40"
+		"wide"					"25"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -54,16 +76,17 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmallBold"
+		"fgcolor"				"HudPink"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"15"
+		"xpos"					"18"
 		"ypos"					"1"
 		"zpos"					"-1"
-		"wide"					"40"
+		"wide"					"25"
 		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -76,35 +99,4 @@
 		"font"					"HudFontMediumSmallBold"
 		"fgcolor"				"black"
 	}
-
-	"Icon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Icon"
-		"xpos"			"0"
-		"ypos"			"4"
-		"zpos"			"2"
-		"wide"			"12"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"				"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
-	}
-
-	"IconShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"IconShadow"
-		"xpos"			"1"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"12"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"				"1"
-		"drawcolor"			"0 0 0"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
-	}`
 }

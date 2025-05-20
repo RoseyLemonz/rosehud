@@ -8,7 +8,7 @@ Scheme
 
 	Colors
 	{
-	"HudPink"			"254 202 218 255"
+	"HudPink"			"254 212 228 255"
 	"HudPinkTransparent"		"254 202 218 155"
 	"HudLightPink"	"255 233 255 255"
 	"HudTeal"			"56 205 155 255"

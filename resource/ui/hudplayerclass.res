@@ -26,8 +26,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerSakakiImage"
-		"xpos"			"c-350"
-		"ypos"			"r65"
+		"xpos"			"c-355"
+		"ypos"			"r70"
 		"zpos"			"2"
 		"wide"			"85"
 		"tall"			"100"

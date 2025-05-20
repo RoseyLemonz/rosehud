@@ -144,6 +144,28 @@ event HudMedicChargedStop
 
 //====================================
 
+event FlagOutlineHide
+{
+	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
+}
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-50 c10"	Linear 0.1 0.2
+	Animate OutlineImage	Size		"100 50"		Linear 0.1 0.2
+
+	Animate OutlineImage	Position	"c-20 r46"		Linear 0.7 0.2
+	Animate OutlineImage	Size		"40 20"			Linear 0.7 0.2
+	
+	Animate OutlineImage	Alpha		"0"				Linear 0.8 0.1
+}
+
+//====================================
+
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
