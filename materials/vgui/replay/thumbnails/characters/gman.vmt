@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent"	"1"
-	"$basetexture"	"vgui\replay\thumbnails\characters\gman"
+	"$basetexture"	"vgui/replay/thumbnails/characters/gman"
 	"$vertexcolor"		"1"
 	"$no_fullbright"	"1"
 	"$vertexalpha"		"1"

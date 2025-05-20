@@ -73,8 +73,6 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -91,8 +89,6 @@
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"

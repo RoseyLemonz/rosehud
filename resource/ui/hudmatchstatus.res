@@ -328,7 +328,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudChalkText"
+			"font"			"HudChalk14"
 			"fgcolor"		"TanLight"
 			"xpos"			"cs-0.5"
 			"ypos"			"9"
@@ -337,7 +337,6 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsety"	"-2"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			"proportionaltoparent"	"1"

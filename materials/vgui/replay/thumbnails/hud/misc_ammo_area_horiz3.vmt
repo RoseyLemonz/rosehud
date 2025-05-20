@@ -6,8 +6,8 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "hud\gradient_purple"
-	"$detail" "hud\misc_ammo_area_mask_horiz3"
+	"$baseTexture" "hud/gradient_purple"
+	"$detail" "hud/misc_ammo_area_mask_horiz3"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1

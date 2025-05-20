@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\hud\ico_stickybomb_faded"
+	"$baseTexture" "vgui/replay/thumbnails/hud/ico_stickybomb_faded"
 	"$vertexalpha" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

@@ -32,7 +32,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudChalkText"
+			"font"			"HudChalk14"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
 			"ypos"			"9"
@@ -72,7 +72,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudChalkText"
+			"font"			"HudChalk14"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
 			"ypos"			"9"
