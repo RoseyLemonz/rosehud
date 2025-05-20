@@ -241,10 +241,10 @@
 	{
 		"ControlName"	"CexLabel"
 		"fieldName"		"HudName"
-		"xpos"			"c-290"
+		"xpos"			"20"
 		"ypos"			"32"
 		"zpos"			"1"
-		"wide"			"256"
+		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
@@ -258,11 +258,11 @@
 	{
 		"ControlName"	"CexLabel"
 		"fieldName"		"HudNameShadow"
-		"xpos"			"c-290"
-		"ypos"			"32"
+		"xpos"			"22"
+		"ypos"			"34"
 		"zpos"			"1"
 		"wide"			"260"
-		"tall"			"64"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -271,11 +271,25 @@
 		"fgcolor"		"Black"
 	}	
 
+	"MenuBGUni"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"MenuBGUni"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"280"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentBlack"
+	}	
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-256"
+		"xpos"			"cs-0.5-188"
 		"ypos"			"cs-0.5-120"
 
 		"zpos"			"-51"
@@ -294,7 +308,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-44"
+		"xpos"			"260"
 		"ypos"			"cs-0.5-134"
 		"wide"			"15"
 		"tall"			"15"
@@ -348,8 +362,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"c-285"
-		"ypos"			"99"
+		"xpos"			"248"
+		"ypos"			"100"
 		"zpos"			"-1"
 		"wide"			"8"
 		"tall"			"8"
@@ -365,11 +379,11 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-350"
+		"xpos"			"-40"
 		"ypos"			"72"
 		"zpos"			"-52"
 		"wide"			"320"
-		"tall"			"100"
+		"tall"			"160"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -423,14 +437,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
-		"xpos"			"c-290"
+		"xpos"			"20"
 		"ypos"			"94"
 		"zpos"			"-100"
 		"wide"			"260"
-		"tall"			"60"
+		"tall"			"95"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"bgcolor_override"		"Black"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -1395,7 +1409,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"c-290"
+		"xpos"			"20"
 		"ypos"			"260"
 		"zpos"			"5"
 		"wide"			"260"
@@ -1516,345 +1530,6 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-
-	"EventPromo"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
-		"xpos"			"c-290"
-		"ypos"			"160"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"96"
-		"visible"		"1"
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"260"
-//			"tall"			"120"
-			"tall"			"96"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"12"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"0"
-				"fgcolor_override"	"235 227 203 255"
-			}
-
-//			"ViewDetailsGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewDetailsGlow"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewDetailsButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewDetailsButton"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewUpdateDetails"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_update_page"
-//					"actionsignallevel"	"4"
-//			
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//			
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "235 226 202 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//			
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"235 226 202 255"
-//				}
-//			}
-//
-//			"ViewWarButtonGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewWarButtonGlow"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"124"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewWarButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewWarButton"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewWar"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_war"
-//					"actionsignallevel"	"4"
-//			
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//			
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "235 226 202 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//			
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"235 226 202 255"
-//				}
-//			}
-			
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
-//				"ypos"					"p0.47"
-				"ypos"					"27"
-				"zpos"					"100"
-				"wide"					"f10"
-//				"tall"					"p0.5"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-
-				"bgcolor_override"		"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		"Winter 2023 Cosmetic Key"
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Winter 2023 Cosmetic Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Taunt: Cheers!"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Taunt: Mourning Mercs"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: Foul Play"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Map Token Snowtower"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Map Token Krampus"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Map Token Haarp"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Map Token Brew"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Map Token Hacksaw"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Map Token Turbine Event"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Map Token Carrier"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Map Token Galleria"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Map Token Emerge"
-						"show_market"	"0"
-					}
-					"14"
-					{
-						"item"		"Map Token Camber"
-						"show_market"	"0"
-					}
-					"15"
-					{
-						"item"		"Strange Filter: Snowtower (Community)"
-						"show_market"	"0"
-					}
-					"16"
-					{
-						"item"		"Strange Filter: Krampus (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Haarp (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Brew (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Hacksaw (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Turbine Event (Community)"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Strange Filter: Carrier (Community)"
-						"show_market"	"0"
-					}
-					"22"
-					{
-						"item"		"Strange Filter: Galleria (Community)"
-						"show_market"	"0"
-					}
-					"23"
-					{
-						"item"		"Strange Filter: Emerge (Community)"
-						"show_market"	"0"
-					}
-					"24"
-					{
-						"item"		"Strange Filter: Camber (Community)"
-						"show_market"	"0"
-					}
-				}
-			}
-
-		} // Background
-
-	} // EventPromo
 
 	"SafeMode"
 	{

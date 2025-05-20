@@ -181,11 +181,172 @@
 		}
 	}
 
+	"Stats"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Stats"
+		"xpos"			"rs1-6"
+		"ypos"			"80"
+		"wide"			"248"
+		"tall"			"30"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"0 0 0 100"
+
+		"if_mini"
+		{
+			"visible"		"0"
+		}
+
+		"Frame"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Frame"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"f0"
+			"tall"			"f0"
+			"proportionaltoparent"	"1"
+			"border"		"InnerShadowBorder"
+		}	
+
+		// First column
+		"GamesLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"GamesLabel"
+			"xpos"			"5"
+			"ypos"			"5"
+			"zpos"			"0"
+			"wide"			"80"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%stat_games%"
+			"proportionaltoparent"	"1"
+		}
+
+		"KillsLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"KillsLabel"
+			"xpos"			"85"
+			"ypos"			"5"
+			"zpos"			"0"
+			"wide"			"80"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north"
+			"labelText"		"%stat_kills%"
+			"proportionaltoparent"	"1"
+		}
+
+		"DeathsLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"DeathsLabel"
+			"xpos"			"164"
+			"ypos"			"5"
+			"zpos"			"0"
+			"wide"			"80"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-east"
+			"labelText"		"%stat_deaths%"
+			"proportionaltoparent"	"1"
+		}
+
+		// Second column
+		"DamageLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"DamageLabel"
+			"xpos"			"5"
+			"ypos"			"15"
+			"zpos"			"0"
+			"wide"			"120"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%stat_damage%"
+			"proportionaltoparent"	"1"
+		}
+
+		"HealingLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"HealingLabel"
+			"xpos"			"124"
+			"ypos"			"15"
+			"zpos"			"0"
+			"wide"			"120"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-east"
+			"labelText"		"%stat_healing%"
+			"proportionaltoparent"	"1"
+		}
+
+		"SupportLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"SupportLabel"
+			"xpos"			"c0"
+			"ypos"			"25"
+			"zpos"			"0"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"0"
+			"enabled"		"0"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%stat_support%"
+			"proportionaltoparent"	"1"
+		}
+
+		// Third column
+		"ScoreLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"ScoreLabel"
+			"xpos"			"c0"
+			"ypos"			"25"
+			"zpos"			"0"
+			"wide"			"120"
+			"tall"			"20"
+			"visible"		"0"
+			"enabled"		"0"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
+			"labelText"		"%stat_score%"
+			"proportionaltoparent"	"1"
+		}
+	}
+
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
+		"xpos"			"10"
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
@@ -416,166 +577,6 @@
 						"proportionaltoparent"	"1"
 						"border"		"InnerShadowBorderThin"
 					}
-				}
-			}
-
-			"Stats"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"Stats"
-				"xpos"			"6"
-				"ypos"			"60"
-				"wide"			"248"
-				"tall"			"30"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 100"
-
-				"if_mini"
-				{
-					"visible"		"0"
-				}
-
-				"Frame"
-				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"Frame"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"10"
-					"wide"			"f0"
-					"tall"			"f0"
-					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
-				}	
-
-				// First column
-				"GamesLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"GamesLabel"
-					"xpos"			"5"
-					"ypos"			"5"
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"15"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_games%"
-					"proportionaltoparent"	"1"
-				}
-
-				"KillsLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"KillsLabel"
-					"xpos"			"85"
-					"ypos"			"5"
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"15"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north"
-					"labelText"		"%stat_kills%"
-					"proportionaltoparent"	"1"
-				}
-
-				"DeathsLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"DeathsLabel"
-					"xpos"			"164"
-					"ypos"			"5"
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"15"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-east"
-					"labelText"		"%stat_deaths%"
-					"proportionaltoparent"	"1"
-				}
-
-				// Second column
-				"DamageLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"DamageLabel"
-					"xpos"			"5"
-					"ypos"			"15"
-					"zpos"			"0"
-					"wide"			"120"
-					"tall"			"15"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_damage%"
-					"proportionaltoparent"	"1"
-				}
-
-				"HealingLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"HealingLabel"
-					"xpos"			"124"
-					"ypos"			"15"
-					"zpos"			"0"
-					"wide"			"120"
-					"tall"			"15"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-east"
-					"labelText"		"%stat_healing%"
-					"proportionaltoparent"	"1"
-				}
-
-				"SupportLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"SupportLabel"
-					"xpos"			"c0"
-					"ypos"			"25"
-					"zpos"			"0"
-					"wide"			"100"
-					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_support%"
-					"proportionaltoparent"	"1"
-				}
-
-				// Third column
-				"ScoreLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"ScoreLabel"
-					"xpos"			"c0"
-					"ypos"			"25"
-					"zpos"			"0"
-					"wide"			"120"
-					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_score%"
-					"proportionaltoparent"	"1"
 				}
 			}
 		}
