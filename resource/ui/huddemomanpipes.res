@@ -43,7 +43,7 @@
 
 	"StickyBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"StickyBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -51,7 +51,8 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" "TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
+		"paintBackgroundType"	"2"
 	}
 
 	"PipesPresentPanel"
