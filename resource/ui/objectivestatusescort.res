@@ -412,7 +412,7 @@
 			"ypos"			"89"
 			"zpos"			"2"
 			"wide"			"8"
-			"tall"			"8"
+			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -439,5 +439,116 @@
 				"ypos"			"83"
 			}
 		}
+		"EscortTeardrop"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"			"EscortTeardrop"
+			"xpos"				"26"
+			"ypos"				"52"
+			"zpos"				"20"
+			"wide"				"30"
+			"tall"				"50"
+			"visible"			"0"
+			"enabled"			"1"
+			
+			"if_multiple_trains"
+			{
+				"xpos"			"9"
+				"ypos"			"2"			
+				"wide"			"65"			
+				"tall"			"42"			
+			}	
+						
+			"Teardrop"
+			{
+				"ControlName"		"CIconPanel"
+				"fieldName"			"Teardrop"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"0"
+				"wide"				"28"
+				"tall"				"34"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"icon"				"cappoint_progressbar_teardrop"
+				"iconColor"			"255 255 255 255"
+				
+				"if_multiple_trains"
+				{
+					"xpos"			"0"
+					"ypos"			"0"			
+					"wide"			"35"			
+					"tall"			"42"			
+				}	
+			}
+
+			"ProgressText"
+			{	
+				"ControlName"		"Label"
+				"fieldName"			"ProgressText"
+				"xpos"				"9999"
+				"wide"				"0"
+				"visible"			"0"
+			}
+
+			"Blocked"
+			{
+				"ControlName"		"CIconPanel"
+				"fieldName"			"Blocked"
+				"xpos"				"-3"
+				"ypos"				"-3"
+				"zpos"				"1"
+				"wide"				"23"
+				"tall"				"o1"
+				"visible"			"1"
+				"enabled"			"1"
+				"scaleImage"		"1"
+				"icon"				"cappoint_progressbar_blocked"
+				"iconColor"			"255 255 255 255"	
+				"pin_to_sibling"	"Teardrop"
+				
+				"if_multiple_trains"
+				{
+					"xpos"			"2"
+					"ypos"			"2"			
+					"wide"			"31"			
+					"tall"			"31"			
+				}	
+			}	
+			
+			"Capping"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"Capping"	
+				"xpos"			"-5"
+				"ypos"			"-5"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"o1"
+				"visible"		"0"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		""
+				"image"			"../hud/cart_arrow_right"
+				"scaleImage"	"1"	
+				"pin_to_sibling"	"Teardrop"
+				
+				"if_multiple_trains"
+				{
+					"xpos"			"8"
+					"ypos"			"8"			
+					"wide"			"20"			
+					"tall"			"20"			
+				}		
+			}			
+		}
+	}
+	"EscortHilightSwoop"
+	{
+		"ControlName"	"CControlPointIconSwoop"
+		"fieldName"		"EscortHilightSwoop"
+		"xpos"			"9999"
+		"alpha" 		"0"
 	}
 }
