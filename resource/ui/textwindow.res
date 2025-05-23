@@ -43,8 +43,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"TanLight" // Does not change
 	}	
@@ -63,8 +61,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"Black"
 	}
@@ -129,11 +125,8 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"wrap"			"0"
 		"command"		"okay"
-		"default"		"1"
 		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"		"TanDark"

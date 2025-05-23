@@ -16,8 +16,6 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"FontStoreOriginalPrice"
 		"allcaps"				"1"
 	}
@@ -37,8 +35,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 
 	"StickyBG"
@@ -95,8 +91,6 @@
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontSmallishBold"
 			"fgcolor"		"HudPink"
 		}
@@ -148,8 +142,6 @@
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
-			"dulltext"		"1"
-			"brighttext"	"0"
 			"font"			"HudFontSmallishBold"
 			"fgcolor"		"HudPink"
 		}

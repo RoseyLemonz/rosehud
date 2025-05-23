@@ -45,8 +45,6 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_ScoreBoard_KillsLabel"
 		"textAlignment"			"east"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"FontStoreOriginalPrice"
 		"fgcolor"				"HudPink"
 	}
@@ -73,8 +71,6 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMediumSmallBold"
 		"fgcolor"				"HudPink"
 	}
@@ -94,8 +90,6 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMediumSmallBold"
 		"fgcolor"				"black"
 	}

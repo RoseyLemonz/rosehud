@@ -255,8 +255,6 @@
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"south"
 		"textinsety"	"-5"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudChalk16"
 		"fgcolor"		"White"
 		"bgcolor_override"	"TransparentBlack"

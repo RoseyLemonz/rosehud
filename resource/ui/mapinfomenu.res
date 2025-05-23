@@ -154,10 +154,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"continue"
-		"default"		"1"
 		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"		"TanDark"
@@ -186,8 +183,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 

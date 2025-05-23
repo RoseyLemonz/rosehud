@@ -44,8 +44,6 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"FontStoreOriginalPrice"
 		"allcaps"				"1"
 	}

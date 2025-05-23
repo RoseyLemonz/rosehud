@@ -51,7 +51,6 @@
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"select 12"
-		"Default"			"1"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -141,7 +140,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -205,7 +203,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -269,7 +266,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -358,7 +354,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -420,7 +415,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -481,7 +475,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -571,7 +564,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -634,7 +626,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -697,7 +688,6 @@
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -1567,9 +1557,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
@@ -1739,9 +1726,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"

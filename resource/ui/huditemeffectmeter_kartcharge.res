@@ -45,8 +45,6 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_KART"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmall"
 	}
 
@@ -65,8 +63,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}
 	
 	"ItemEffectMeterCount"
@@ -84,8 +80,6 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
 	}
 }

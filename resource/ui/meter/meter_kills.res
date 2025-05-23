@@ -73,8 +73,6 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontSmallishBold"
 		"fgcolor"				"HudPink"
 	}
