@@ -55,9 +55,6 @@
 		"wrap"			"0"
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
 	}
 	
 	"Back"
@@ -77,9 +74,6 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
 	}
 
 	"MenuBG"

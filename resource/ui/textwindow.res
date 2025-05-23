@@ -44,7 +44,6 @@
 		"labelText"		"#TF_WELCOME"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"TanLight" // Does not change
 	}	
 	"TFMessageTitleShadow"
 	{
@@ -128,12 +127,8 @@
 		"wrap"			"0"
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
 	}
 	
-
 	"BGDarken"
 	{
 		"ControlName"	"ImagePanel"
@@ -165,7 +160,7 @@
 
 	"ChalkBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ChalkBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"115"
@@ -174,6 +169,7 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"TransparentBlack"
+		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
 	}
 }

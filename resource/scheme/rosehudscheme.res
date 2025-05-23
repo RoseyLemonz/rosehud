@@ -92,10 +92,10 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
-		Label.SelectedTextColor			"White"
+		Label.TextDullColor				"HudDarkPink"
+		Label.TextColor					"White"
+		Label.TextBrightColor			"White"
+		Label.SelectedTextColor			"HudLightPink"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
@@ -221,8 +221,12 @@ Scheme
 		"TrueBlack"				"0 0 0 255"
 		"DarkerBlack"			"26 23 22 255"
 		"RedTeamSolid"			"180 72 57 255"
+		"LightRedTeamSolid"		"200 82 67 255"
+		"DarkRedTeamSolid"		"140 52 37 255"
 		"RedTeamTransparent"	"180 72 57 155"
 		"BlueTeamSolid"			"84 104 155 255"
+		"LightBlueTeamSolid"	"94 114 175 255"
+		"DarkBlueTeamSolid"		"54 74 115 255"
 		"BlueTeamTransparent"	"84 104 155 155"
 	}
 

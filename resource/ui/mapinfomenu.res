@@ -36,7 +36,6 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"TanLight"
 	}
 	"MapInfoTitleShadow"
 	{
@@ -127,7 +126,7 @@
 
 	"ChalkBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ChalkBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"115"
@@ -136,14 +135,15 @@
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"TransparentBlack"
+		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
 	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"cs0.1"
+		"xpos"			"rs1-10"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -156,9 +156,6 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
 	}
 	
 	"MapInfoWatchIntro"
@@ -172,7 +169,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"cs-1."
+		"xpos"			"10"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -185,9 +182,6 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
 	}
 
 	"BarBottom"

@@ -78,8 +78,13 @@
 		"command"		"jointeam blue"
 		"font"			"HudFontMediumBigBold"
 
-		"armedBgColor_override"		"64 84 115 255"
-		"defaultBgColor_override"	"84 104 135 255"
+		"defaultBgColor_override" 	"BlueTeamSolid"
+		"armedBgColor_override"		"LightBlueTeamSolid"
+		"depressedBgColor_override" "DarkBlueTeamSolid"
+
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
 	}
 
 	"teambutton1"
@@ -99,8 +104,13 @@
 		"command"		"jointeam red"
 		"font"			"HudFontMediumBigBold"
 
-		"armedBgColor_override"		"140 52 37 255"
-		"defaultBgColor_override"	"160 72 57 255"
+		"defaultBgColor_override" 	"RedTeamSolid"
+		"armedBgColor_override"		"LightRedTeamSolid"
+		"depressedBgColor_override" "DarkRedTeamSolid"
+
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
 	}
 
 	"teambutton2"
@@ -120,8 +130,13 @@
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
 
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPink"
+		"depressedBgColor_override" "HudDarkPink"
+
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudLightPink"
 	}
 	
 	"teambutton3"
@@ -140,9 +155,14 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
+		
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPink"
+		"depressedBgColor_override" "HudDarkPink"
 
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudLightPink"
 	}
 	
 	"CancelButton"
@@ -163,9 +183,6 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
 	}
 	
 	"TeamMenuSelect"
@@ -184,7 +201,6 @@
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"TanLight"
 	}
 
 	"TeamMenuSelectShadow"

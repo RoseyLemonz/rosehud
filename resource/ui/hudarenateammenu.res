@@ -47,8 +47,13 @@
 		"command"		"jointeam spectate"
 		"font"			"HudFontBiggerBold"
 
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPink"
+		"depressedBgColor_override" "HudDarkPink"
+
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudLightPink"
 	}
 	
 	"teambutton3"
@@ -68,8 +73,13 @@
 		"command"		"jointeam spectatearena"
 		"font"			"HudFontMediumBold"
 
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPink"
+		"depressedBgColor_override" "HudDarkPink"
+
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudLightPink"
 	}
 	
 	"CancelButton"
@@ -91,8 +101,13 @@
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
 
-		"armedBgColor_override"		"TanDark"
-		"defaultBgColor_override"	"TanDarker"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPink"
+		"depressedBgColor_override" "HudDarkPink"
+
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudLightPink"
 	}
 		
 	"TeamMenuAuto"
