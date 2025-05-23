@@ -72,15 +72,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"-2"
-			"wide"			"p1.1"
-			"tall"			"p1"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
+			"xpos"			"9999"
+			"wide"			"0"
+			"visible"		"0"
 		}
 
 		"ToggleChatButton"
@@ -91,7 +85,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"40"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -592,7 +586,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -616,9 +610,6 @@
 
 			"armedBgColor_override"		"HudPurple"
 			"defaultBgColor_override"	"HudPurpleTransparent"
-
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -648,7 +639,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"115"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -676,6 +667,7 @@
 			"defaultBgColor_override"	"HudPurpleTransparent"
 
  			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
@@ -698,11 +690,11 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
-			"xpos"			"rs1-31-131"
+			"xpos"			"rs1-30-130"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"95"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
@@ -725,12 +717,6 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
-
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -756,11 +742,11 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"rs1-31"
+			"xpos"			"rs1-30"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"120"
-			"tall"			"f6"
+			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
