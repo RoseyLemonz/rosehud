@@ -22,21 +22,6 @@
 		"visible"		"0"
 	}
 
-	"PlayerSakakiImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerSakakiImage"
-		"xpos"			"c-355"
-		"ypos"			"r70"
-		"zpos"			"2"
-		"wide"			"85"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/characters/sakaki"
-	}
-
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

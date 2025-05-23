@@ -3,6 +3,9 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
+	Animate PlayerSakakiImage				Alpha		"0"			Linear 0.0 0.0
+	Animate PlayerSakakiImageSpin			Alpha		"255"		Linear 0.0 0.0
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
@@ -21,6 +24,8 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate PlayerSakakiImage				Alpha		"255"		Linear 0.0 0.0
+	Animate PlayerSakakiImageSpin			Alpha		"0"			Linear 0.0 0.0
 	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.0 0.275
 }
 
@@ -29,6 +34,9 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	Animate PlayerSakakiImage				Alpha		"0"			Linear 0.0 0.0
+	Animate PlayerSakakiImageHurt			Alpha		"255"		Linear 0.0 0.0
+
 	Animate PlayerStatusHealthBonusImage	FgColor		"HudPurple"	Linear 0.0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
@@ -50,6 +58,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.0 0.275
+	Animate PlayerSakakiImage				Alpha		"255"		Linear 0.0 0.0
+	Animate PlayerSakakiImageHurt			Alpha		"0"			Linear 0.0 0.0
 }
 
 //====================================

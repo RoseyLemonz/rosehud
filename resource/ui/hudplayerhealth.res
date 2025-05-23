@@ -16,6 +16,56 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+
+	"PlayerSakakiImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerSakakiImage"
+		"xpos"			"c-175"
+		"ypos"			"r70"
+		"zpos"			"2"
+		"wide"			"85"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/characters/sakaki"
+	}
+
+	"PlayerSakakiImageHurt"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerSakakiImageHurt"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"85"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"alpha"			"0"
+		"image"			"replay/thumbnails/characters/sakakihurt"
+		"pin_to_sibling"	"PlayerSakakiImage"
+	}
+
+	"PlayerSakakiImageSpin"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerSakakiImageSpin"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"85"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"alpha"			"0"
+		"image"			"replay/thumbnails/characters/sakakispin"
+		"pin_to_sibling"	"PlayerSakakiImage"
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
