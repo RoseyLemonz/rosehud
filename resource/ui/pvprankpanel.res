@@ -92,11 +92,13 @@
 				"animation"
 				{
 					"sequence"	"idle"
+					"default"	"1"
 				}
 			}
 		
 			"lights"
 			{
+				"default"
 				{
 					"name"			"directional"
 					"color"			"0.5 0.5 0.5"

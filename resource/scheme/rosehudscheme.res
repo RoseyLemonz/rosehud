@@ -1,5 +1,10 @@
 // TRACKER SCHEME RESOURCE FILE
 
+//
+// 		"image_drawcolor"	"255 255 255 255"
+//		"image_armedcolor"	"46 43 42 255"
+//
+
 Scheme
 {
 
@@ -212,6 +217,7 @@ Scheme
 		"HudDarkPink"			"184 142 158 255"
 		"HudTeal"				"56 205 155 255"
 		"HudPurple"				"125 60 140 255"
+		"HudPurpleTransparent"	"125 60 140 155"
 		"TrueBlack"				"0 0 0 255"
 		"DarkerBlack"			"26 23 22 255"
 		"RedTeamSolid"			"180 72 57 255"
