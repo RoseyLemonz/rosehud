@@ -238,7 +238,7 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-180"
+		"xpos"			"rs1"
 		"ypos"			"-80"
 		"zpos"			"-250"
 		"wide"			"600"
@@ -796,7 +796,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c5"
+		"xpos"			"rs1-5"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
