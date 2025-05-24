@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/hud/color_white"
-	"$detail" "vgui/replay/thumbnails/hud/objectives_corepanel_mask_left"
+	"$baseTexture" "vgui/replay/thumbnails/sprites/obj_icons/color_white"
+	"$detail" "vgui/replay/thumbnails/sprites/obj_icons/objectives_corepanel_mask_left"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1

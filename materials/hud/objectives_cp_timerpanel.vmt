@@ -6,8 +6,8 @@
 	}
 	
 	"$translucent" 1
-	"$baseTexture" "vgui/replay/thumbnails/hud/gradient_brown"
-	"$detail" "vgui/replay/thumbnails/hud/cp_timer_mask"
+	"$baseTexture" "vgui/replay/thumbnails/sprites/obj_icons/gradient_brown"
+	"$detail" "vgui/replay/thumbnails/sprites/obj_icons/cp_timer_mask"
 	$detailscale 1
 	$detailblendmode 8
 	$distancealphafromdetail 1

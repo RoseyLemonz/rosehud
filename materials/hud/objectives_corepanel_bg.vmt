@@ -1,5 +1,5 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/hud/objectives_corepanel_bg"
+	"$baseTexture" "vgui/replay/thumbnails/sprites/obj_icons/objectives_corepanel_bg"
 	$translucent 1
 }

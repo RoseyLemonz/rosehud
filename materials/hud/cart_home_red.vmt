@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/hud/cart_home_red"
+	"$baseTexture" "vgui/replay/thumbnails/sprites/obj_icons/cart_home_red"
 	"$translucent" 1
 	"$alpha" 1
 	"$vertexalpha" "1"

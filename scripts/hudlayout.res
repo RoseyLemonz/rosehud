@@ -178,13 +178,14 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"ypos"					"r152"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-156"
+		"ypos"					"r82"
+		"tall"  				"15"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"Blank"
+		"auto_wide_tocontents"	"1"
 	}
 	
 	CDamageAccountPanel

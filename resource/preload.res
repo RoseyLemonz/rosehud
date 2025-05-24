@@ -1,5 +1,27 @@
 "Resource/UI/MainMenuOverride.res"
 {
+
+	"CartBlue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_blue"
+	}
+	"CartBlueBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlueBottom"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_blue"
+	}
+
 	"CartBlueHome"
 	{
 		"ControlName"	"ImagePanel"
@@ -43,6 +65,28 @@
 		"enabled"		"1"
 		"image"			"../hud/cart_home_blue_square"
 	}
+
+	"CartRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartBlue"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_red"
+	}
+
+	"CartRedBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartRedBottom"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_red_bottom"
+	}
 	
 	"CartRedHome"
 	{
@@ -75,6 +119,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_home_red_square"
+	}
+
+	"CartNeutral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartNeutral"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_neutral"
+	}
+
+	"CartNeutralBottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartNeutralBottom"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_neutral_bottom"
 	}
 
 	"CartPointBlue"
