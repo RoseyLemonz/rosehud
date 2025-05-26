@@ -242,6 +242,7 @@
 
 			if_mini
 			{
+				"textAlignment"	"west"
 				"xpos"	"67"
 				"ypos"	"4"
 			}
@@ -273,6 +274,7 @@
 
 			if_mini
 			{
+				"textAlignment"	"west"
 				"xpos"	"67"
 				"ypos"	"4"
 			}

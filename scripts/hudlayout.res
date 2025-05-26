@@ -1091,10 +1091,10 @@
 		"fieldName"				"NotificationPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-320"
-		"ypos"					"300"
-		"wide"					"640"
-		"tall"					"100"
+		"xpos"					"cs-0.5"
+		"ypos"					"150"
+		"wide"					"f0"
+		"tall"					"20"
 	}
 
 	AchievementNotificationPanel	

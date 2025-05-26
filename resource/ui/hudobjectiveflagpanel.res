@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"HudChalk36"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
 		"bgcolor_override"	"BlueTeamTransparent"
 		"roundedcorners"	"1"
@@ -98,7 +98,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"HudChalk36"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 		
@@ -136,7 +136,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudChalk36"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"		
 		"bgcolor_override"	"RedTeamTransparent"
 		"roundedcorners"	"2"
@@ -176,7 +176,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudChalk36"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"Black"		
 		"pin_to_sibling"	"RedScore"
 		
@@ -255,9 +255,10 @@
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"south"
 		"textinsety"	"-5"
-		"font"			"HudChalk16"
+		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"bgcolor_override"	"TransparentBlack"
+		"use_proportional_insets"	"1"
 		
 		"if_hybrid"
 		{
