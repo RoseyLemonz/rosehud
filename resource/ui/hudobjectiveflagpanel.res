@@ -50,7 +50,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-95"
-		"ypos"			"r35"
+		"ypos"			"rs1"
 		"zpos"			"8"
 		"wide"			"45"
 		"tall"			"35"
@@ -128,7 +128,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c50"
-		"ypos"			"r35"
+		"ypos"			"rs1"
 		"zpos"			"8"
 		"wide"			"45"
 		"tall"			"35"
@@ -246,7 +246,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"cs-0.5"	[$WIN32]
-		"ypos"			"r35"	[$WIN32]
+		"ypos"			"rs1"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"100"	[$WIN32]
 		"tall"			"35"

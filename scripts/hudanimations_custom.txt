@@ -176,6 +176,20 @@ event FlagOutline
 
 //====================================
 
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"HudTeal"		Linear 0.0 0.0
+	Animate Score FgColor	"White"			Linear 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"HudTeal"		Linear 0.0 0.0
+	Animate Score FgColor	"White"			Linear 0.1 0.2
+}
+
+//====================================
+
 // Spy Disguise
 event HudSpyDisguiseChanged
 {

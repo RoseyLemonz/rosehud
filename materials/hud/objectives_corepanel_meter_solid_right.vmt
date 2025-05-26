@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/sprites/obj_icons/objectives_corepanel_meter_solid_right"
+	$translucent 1
+	"$vertexcolor" 1
+
+}

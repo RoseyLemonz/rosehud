@@ -9,6 +9,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_blue"
 	}
 	"CartBlueBottom"
@@ -19,6 +20,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_blue"
 	}
 
@@ -30,6 +32,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_blue"
 	}
 
@@ -41,6 +44,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_home_blue"
 	}
 	
@@ -52,6 +56,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_home_blue_opaque"
 	}
 	
@@ -63,6 +68,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_home_blue_square"
 	}
 
@@ -74,6 +80,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_red"
 	}
 
@@ -85,6 +92,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_red_bottom"
 	}
 	
@@ -96,6 +104,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_home_red"
 	}
 	
@@ -107,6 +116,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_home_red_opaque"
 	}
 	
@@ -118,6 +128,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_home_red_square"
 	}
 
@@ -129,6 +140,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_neutral"
 	}
 
@@ -140,6 +152,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_neutral_bottom"
 	}
 
@@ -151,6 +164,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_point_blue"
 	}
 
@@ -162,6 +176,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_point_blue_opaque"
 	}
 
@@ -173,6 +188,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_point_neutral"
 	}
 
@@ -184,6 +200,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_point_neutral_opaque"
 	}
 	
@@ -195,6 +212,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_point_red"
 	}
 	
@@ -206,6 +224,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_point_red_opaque"
 	}
 
@@ -217,6 +236,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_track"
 	}	
 
@@ -228,6 +248,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_track_blue"
 	}	
 
@@ -239,6 +260,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_track_blue_opaque"
 	}	
 
@@ -250,6 +272,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_track_neutral_opaque"
 	}	
 
@@ -261,6 +284,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_track_red"
 	}	
 
@@ -272,6 +296,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/cart_track_red_opaque"
 	}	
 
@@ -283,6 +308,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/obj_circle_blue"
 	}
 
@@ -294,6 +320,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/obj_circle_grey"
 	}
 
@@ -305,6 +332,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/obj_circle_red"
 	}
 
@@ -316,6 +344,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/obj_ellipse_blue"
 	}
 
@@ -327,6 +356,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/obj_ellipse_red"
 	}
 
@@ -338,6 +368,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_blu"
 	}
 
@@ -349,6 +380,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_locked"
 	}
 
@@ -360,6 +392,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_blu"
 	}
 	
@@ -371,6 +404,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_blu_up"
 	}
 
@@ -382,6 +416,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_red"
 	}
 
@@ -393,6 +428,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_cap_red_up"
 	}
 
@@ -404,6 +440,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral"
 	}
 
@@ -415,6 +452,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
 	}
 
@@ -426,6 +464,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_red"
 	}
 
@@ -437,6 +476,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_red_locked"
 	}
 	
@@ -448,6 +488,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
 	}
 
@@ -459,6 +500,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_blu_skull_neutral"
 	}
 	
@@ -470,6 +512,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_1_blu"
 	}
 	
@@ -481,6 +524,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
 	}
 	
@@ -492,6 +536,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_1_red"
 	}
 	
@@ -503,6 +548,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
 	}	
 	
@@ -514,6 +560,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_1_neutral"
 	}	
 	
@@ -525,6 +572,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_1_neutral_locked"
 	}
 	
@@ -536,6 +584,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_2_blu"
 	}
 	
@@ -547,6 +596,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
 	}
 	
@@ -558,6 +608,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_2_red"
 	}
 	
@@ -569,6 +620,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
 	}	
 	
@@ -580,6 +632,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_2_neutral"
 	}	
 	
@@ -591,6 +644,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_2_neutral_locked"
 	}
 	
@@ -602,6 +656,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_3_blu"
 	}
 	
@@ -613,6 +668,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
 	}
 	
@@ -624,6 +680,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_3_red"
 	}
 	
@@ -635,6 +692,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
 	}	
 	
@@ -646,6 +704,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_3_neutral"
 	}	
 	
@@ -657,6 +716,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_3_neutral_locked"
 	}
 	
@@ -668,6 +728,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_4_blu"
 	}
 	
@@ -679,6 +740,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
 	}
 	
@@ -690,6 +752,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_4_red"
 	}
 	
@@ -701,6 +764,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
 	}	
 	
@@ -712,6 +776,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral"
 	}	
 	
@@ -723,6 +788,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj4_neutral_locked"
 	}
 	
@@ -734,6 +800,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_5_blu"
 	}
 	
@@ -745,6 +812,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_5_blu_locked"
 	}
 	
@@ -756,6 +824,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_5_red"
 	}
 	
@@ -767,6 +836,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_5_red_locked"
 	}	
 	
@@ -778,6 +848,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral"
 	}	
 	
@@ -789,6 +860,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../sprites/obj_icons/icon_obj_5_neutral_locked"
 	}
 
@@ -800,6 +872,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/objectives_corepanel_bg"
 	}
 
@@ -811,6 +884,7 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/objectives_corepanel_bg_left"
 	}
 	
@@ -822,6 +896,55 @@
 		"zpos"			"9999"
 		"visible"		"1"
 		"enabled"		"1"
+		"tabposition"	"-1"
 		"image"			"../hud/objectives_corepanel_bg_right"
+	}
+
+	"ObjectiveCorePanelLeft"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ObjectiveCorePanelLeft"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabposition"	"-1"
+		"image"			"../hud/objectives_corepanel_meter"
+	}
+
+	"ObjectiveCorePanelLeft"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ObjectiveCorePanelLeft"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabposition"	"-1"
+		"image"			"../hud/objectives_corepanel_meter_solid"
+	}
+
+	"ObjectiveCorePanelRight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ObjectiveCorePanelRight"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabposition"	"-1"
+		"image"			"../hud/objectives_corepanel_meter_right"
+	}
+
+	"ObjectiveCorePanelRight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ObjectiveCorePanelRight"
+		"xpos"			"9999"
+		"zpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabposition"	"-1"
+		"image"			"../hud/objectives_corepanel_meter_solid_right"
 	}
 }
