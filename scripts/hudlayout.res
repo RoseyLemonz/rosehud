@@ -813,9 +813,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"215"
+		"ypos"					"rs1-10"
 		"wide"					"220"
-		"tall"					"300"
+		"tall"					"210"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
