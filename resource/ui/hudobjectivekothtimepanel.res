@@ -15,7 +15,7 @@
 		"xpos"				"cs-0.5-20"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"40"
+		"wide"				"100"
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
@@ -53,7 +53,7 @@
 		"xpos"				"cs-0.5+20"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"40"
+		"wide"				"100"
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
@@ -81,21 +81,15 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			"proportionaltoparent"	"1"
-		}	
+		}
 	}
 
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"9"
-		"zpos"				"1"
-		"wide"				"78"
-		"tall"				"33"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"
-		"scaleImage"		"1"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 }
