@@ -310,7 +310,7 @@
 		
 		"if_hybrid_single"
 		{
-			"xpos"		"c-80"
+			"xpos"		"cs-0.5"
 		}
 		
 		"if_hybrid_double"

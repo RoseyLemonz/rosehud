@@ -1,6 +1,5 @@
 "Resource/UI/MainMenuOverride.res"
 {
-
 	"CartBlue"
 	{
 		"ControlName"	"ImagePanel"
