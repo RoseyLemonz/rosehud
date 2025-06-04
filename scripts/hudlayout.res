@@ -448,14 +448,14 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"r640"
-		"ypos"		"18"
+		"ypos"		"24"
 		"wide"		"628"
 		"tall"		"468"
 
 		"MaxDeathNotices"	"4"
-		"IconScale"	 		"0.35"
-		"LineHeight"		"16"
-		"LineSpacing"		"4"
+		"IconScale"	 		"0.30"
+		"LineHeight"		"12"
+		"LineSpacing"		"2"
 		"CornerRadius"		"3"
 		"RightJustify"		"1"	// If 1, draw notices from the right
 		
