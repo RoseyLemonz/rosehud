@@ -66,10 +66,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c98"
-		"ypos"			"r122"
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	
 	HudDemomanCharge
@@ -178,8 +178,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-156"
-		"ypos"					"r82"
+		"xpos"					"cs-0.5-142"
+		"ypos"					"r132"
 		"tall"  				"15"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -813,7 +813,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"rs1-10"
+		"ypos"					"25"
 		"wide"					"220"
 		"tall"					"210"
 		"zpos"					"4"
@@ -990,12 +990,11 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
+		"xpos"					"cs-0.5"
+		"ypos"					"45"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"80"
 	}
-
 
 	HudTeamGoalTournament
 	{

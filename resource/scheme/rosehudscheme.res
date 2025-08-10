@@ -27,12 +27,12 @@ Scheme
 
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 
-		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Dialog.BgColor									"DarkerBlack"
+		Econ.Button.BgColor									"Black"
+		Econ.Button.FgColor									"White"
+		Econ.Button.ArmedBgColor							"HudLightPink"
+		Econ.Button.ArmedFgColor							"Black"
+		Econ.Button.DepressedBgColor						"HudPink"
 		Econ.Button.DepressedFgColor						"Black"
 
 		Econ.Button.PresetDefaultColorFg					"TanLight"
@@ -51,10 +51,10 @@ Scheme
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"Black"
 		Button.ArmedBgColor				"HudLightPink"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"HudDarkPink"
+		Button.SelectedTextColor		"Black"
+		Button.SelectedBgColor			"HudLightPink"
+		Button.DepressedTextColor		"255 255 255 255"
+		Button.DepressedBgColor			"HudPink"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -213,17 +213,31 @@ Scheme
 	{
 		"HudPink"				"254 212 228 255"
 		"HudPinkTransparent"	"254 202 218 155"
-		"HudLightPink"			"255 233 255 255"
+		"HudLightPink"			"254 232 255 255"
 		"HudDarkPink"			"184 142 158 255"
+
 		"HudTeal"				"56 205 155 255"
+		"HudTealTransparent"	"56 205 155 155"
+		"HudLightTeal"			"86 235 185 255"
+		"HudDarkTeal"			"26 175 115 255"
+
 		"HudPurple"				"125 60 140 255"
 		"HudPurpleTransparent"	"125 60 140 155"
+		"HudLightPurple"		"155 90 170 255"
+		"HudDarkPurple"			"95 30 110 255"
+
+		"HudYellow"				"255 244 180 255"
+		"HudYellowTransparent"	"255 244 180 155"
+		"HudDarkYellow"			"215 204 140 255"
+
 		"TrueBlack"				"0 0 0 255"
 		"DarkerBlack"			"26 23 22 255"
+
 		"RedTeamSolid"			"180 72 57 255"
 		"LightRedTeamSolid"		"200 82 67 255"
 		"DarkRedTeamSolid"		"140 52 37 255"
 		"RedTeamTransparent"	"180 72 57 155"
+		
 		"BlueTeamSolid"			"84 104 155 255"
 		"LightBlueTeamSolid"	"94 114 175 255"
 		"DarkBlueTeamSolid"		"54 74 115 255"
@@ -241,27 +255,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"luxi"
 				"tall"		"48"
-				"weight"	"500"
 			}
 		}
 		"HudValueSmaller"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"luxi"
 				"tall"		"42"
-				"weight"	"500"
 			}
 		}
 		"HudValueOutline"
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"luxi"
 				"tall"		"48"
-				"weight"	"500"
 				"outline"	"1"
 			}
 		}
@@ -269,18 +280,55 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"luxi"
 				"tall"		"48"
-				"weight"	"500"
 				"blur"		"1"
 			}
 		}
-		"HudTitleText"
+		"HudAmmoReserve"
 		{
 			"1"
 			{
-				"name"		"BahnschriftBold"
+				"name"		"luxi"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudHealthMax"
+		{
+			"1"
+			{
+				"name"		"luxi"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudTitle"
+		{
+			"1"
+			{
+				"name"		"bahnschriftbold"
 				"tall"		"56"
+			}
+		}
+
+		"HudTheme"
+		{
+			"1"
+			{
+				"name"		"bahnschrift"
+				"tall"		"20"
+			}
+		}
+
+		"HudMenuIco"
+		{
+			"1"
+			{
+				"name"		"tf2icons"
+				"tall"		"18"
 			}
 		}
 
@@ -290,7 +338,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -305,7 +352,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"8"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -316,7 +362,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"10"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -327,7 +372,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"12"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -338,7 +382,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"14"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -349,7 +392,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"16"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -360,7 +402,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"18"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -371,7 +412,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"20"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -382,7 +422,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"22"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -393,7 +432,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"24"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -404,7 +442,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"26"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -415,7 +452,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"28"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -426,7 +462,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"30"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -437,7 +472,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"32"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -448,7 +482,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"34"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -459,7 +492,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"36"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -470,7 +502,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"38"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -481,7 +512,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"40"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -492,7 +522,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"42"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -503,7 +532,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"44"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -514,7 +542,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"46"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -525,7 +552,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"48"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -536,7 +562,6 @@ Scheme
 			{
 				"name"		"TF2 Professor"
 				"tall"		"50"
-				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}

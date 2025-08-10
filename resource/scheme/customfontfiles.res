@@ -64,13 +64,23 @@ Scheme
 
 		"80"
 		{
-		"font"	"resource/fonts/bahnschrift.ttf"
-		"name"	"Bahnschrift"	
+		"font"	"resource/fonts/tf2icons.ttf"
+		"name"	"tf2icons"	
 		}	
 		"81"
 		{
+		"font"	"resource/fonts/bahnschrift.ttf"
+		"name"	"bahnschrift"	
+		}	
+		"82"
+		{
 		"font"	"resource/fonts/bahnschriftbold.ttf"
-		"name"	"BahnschriftBold"	
+		"name"	"bahnschriftbold"	
+		}	
+		"83"
+		{
+		"font"	"resource/fonts/luxi.ttf"
+		"name"	"luxi"	
 		}	
 	}
 }

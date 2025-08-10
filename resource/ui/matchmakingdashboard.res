@@ -66,7 +66,7 @@
 			"border"				"NoBorder"
 			"bgcolor_override"		"DarkerBlack"
 			"proportionaltoparent"	"1"
-		}
+		} 
 
 		"OuterShadow"
 		{
@@ -596,6 +596,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"armedFgColor_override"		"Gray"
 			"armedBgColor_override"		"HudPurple"
 			"defaultBgColor_override"	"HudPurpleTransparent"
 
@@ -626,7 +627,7 @@
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"115"
+			"wide"			"30"
 			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -637,7 +638,7 @@
 			"textAlignment"	"west"
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Disconnect"
+			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
@@ -659,7 +660,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
+				"xpos"			"cs-0.5"
 				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
@@ -745,15 +746,12 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"2.5"
+			"textinsety"	"2"
 			"textinsetx"	"26"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"armedBgColor_override"		"HudPink"
-			"defaultBgColor_override"	"HudDarkPink"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"

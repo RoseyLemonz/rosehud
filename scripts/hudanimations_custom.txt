@@ -37,9 +37,8 @@ event HudHealthDyingPulse
 	Animate PlayerSakakiImage				Alpha		"0"			Linear 0.0 0.0
 	Animate PlayerSakakiImageHurt			Alpha		"255"		Linear 0.0 0.0
 
-	Animate PlayerStatusHealthBonusImage	FgColor		"HudPurple"	Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.275
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.225 0.175
 
 	Animate PlayerStatusHealthValue			fgcolor		"HudPurple" Linear 0.0 0.275
 	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
@@ -69,14 +68,17 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 
-	Animate AmmoInClip			fgcolor		"HudPurple" Linear 0.0 0.275
-	Animate AmmoInClip			fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate AmmoInClip				fgcolor		"HudPurple"		Linear 0.0 0.275
+	Animate AmmoInClip				fgcolor		"HudPink" 		Linear 0.225 0.175
 
-	Animate AmmoInReserve		fgcolor		"HudPurple" Linear 0.0 0.275
-	Animate AmmoInReserve		fgcolor		"HudLightPink" 	Linear 0.225 0.175
+	Animate AmmoInReserve			fgcolor		"HudPurple" 	Linear 0.0 0.275
+	Animate AmmoInReserve			fgcolor		"HudLightPink" 	Linear 0.225 0.175
 
-	Animate AmmoNoClip			fgcolor		"HudPurple" Linear 0.0 0.275
-	Animate AmmoNoClip			fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate AmmoNoClip				fgcolor		"HudPurple"		Linear 0.0 0.275
+	Animate AmmoNoClip				fgcolor		"HudPink"		Linear 0.225 0.175
+
+	Animate	HudWeaponLowAmmoImage	Alpha		"255"			Linear 0.0 0.275
+	Animate	HudWeaponLowAmmoImage	Alpha		"0"				Linear 0.225 0.175
 
 	RunEvent HudLowAmmoPulseLoop	0.4
 }
@@ -92,9 +94,10 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate	AmmoInClip		fgcolor		"HudPink" 			Linear 0.0 0.275
-	Animate	AmmoInReserve	fgcolor		"HudLightPink" 			Linear 0.0 0.275
-	Animate	AmmoNoClip		fgcolor		"HudPink" 			Linear 0.0 0.275
+	Animate	AmmoInClip				fgcolor		"HudPink" 		Linear 0.0 0.275
+	Animate	AmmoInReserve			fgcolor		"HudLightPink" 	Linear 0.0 0.275
+	Animate	AmmoNoClip				fgcolor		"HudPink" 		Linear 0.0 0.275
+	Animate	HudWeaponLowAmmoImage 	Alpha		"0"				Linear 0.0 0.275
 }
 
 //====================================

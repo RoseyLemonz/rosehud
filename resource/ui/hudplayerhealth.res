@@ -17,14 +17,27 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 
+	"TheMeasuringStickTM"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TheMeasuringStickTM"
+		"xpos"			"cs-0.5"
+		"ypos"			"r160"
+		"wide"			"200"
+		"tall"			"5"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"255 255 255 255"
+	}	
+
 	"PlayerSakakiImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerSakakiImage"
-		"xpos"			"c-178"
-		"ypos"			"r70"
+		"xpos"			"cs-0.5-150"
+		"ypos"			"r78"
 		"zpos"			"2"
-		"wide"			"80"
+		"wide"			"100"
 		"tall"			"o1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -36,7 +49,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerSakakiImageHurt"
-		"xpos"			"0"
+		"xpos"			"-10"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"80"
@@ -53,7 +66,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerSakakiImageSpin"
-		"xpos"			"0"
+		"xpos"			"-10"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"80"
@@ -70,7 +83,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"cs-0.5-195"
+		"xpos"			"cs-0.5-215"
 		"ypos"			"r120"
 		"zpos"			"4"
 		"wide"			"35"
@@ -124,7 +137,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"cs-0.5-195"
+		"xpos"			"cs-0.5-215"
 		"ypos"			"r122"
 		"zpos"			"2"
 		"wide"			"39"
@@ -138,7 +151,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"cs-0.5-100"
+		"xpos"			"cs-0.5-120"
 		"ypos"			"r120"
 		"zpos"			"5"
 		"wide"			"120"
@@ -181,7 +194,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"west"	
-		"font"			"HudFontSmallestBold"
+		"font"			"HudHealthMax"
 		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
@@ -189,8 +202,8 @@
 	"PlayerStatusPin"
 	{
 		"ControlName"	"Panel"
-		"xpos"			"cs-0.5+12"
-		"ypos"			"r80"
+		"xpos"			"cs-0.5-27"
+		"ypos"			"r75"
 		"wide"			"0"
 		"visible"		"0"
 	}

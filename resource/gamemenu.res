@@ -10,43 +10,71 @@
 	"NewGeneralStoreButton"
 	{
 		"tooltip"	"#MMenu_Shop"
-		"label"		""
+		"label"		"A"
 		"command"	"engine open_store"
 		"subimage"	"glyph_store"
+	}
+	"ShowHUDOptionsButton"
+	{
+		"label"			"z"
+		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0; gameui_preventescape"
+		"tooltip"		"#TF_OptionCategory_HUD"
+	}
+
+	// These buttons are only shown while at the menu
+	// and also are positioned by the .res file
+
+	"MusicChangePrevButton"
+	{
+		"label"			"à"
+		"command"		"engine tfsongprev"
+		"tooltip"		"#TF_Prev"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicStopButton"
+	{
+		"label"			"ß"
+		"command"		"engine tfnomusic"
+		"tooltip"		"#rose_Menu_Pause"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicPlayButton"
+	{
+		"label"			"â"
+		"command"		"engine tfnomusic; tfsongcurrent"
+		"tooltip"		"#rose_Menu_UnPause"
+		"OnlyAtMenu"	"1"
+	}
+	"MusicChangeNextButton"
+	{
+		"label"			"á"
+		"command"		"engine tfsongnext"
+		"tooltip"		"#TF_Next"
+		"OnlyAtMenu"	"1"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"l"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"`"
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
 		"tooltip" "#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
 	}
 	"ReportPlayerButton"
 	{
-		"label"			""
+		"label"			"y"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
