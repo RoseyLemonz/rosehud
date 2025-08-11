@@ -12,10 +12,10 @@
 			"ControlName"					"CScrollableList"
 			"fieldName"						"Customizations_Scroller"
 			"xpos"							"0"
-			"ypos"							"47"
+			"ypos"							"56"
 			"zpos"							"-1"
 			"wide"							"f0"
-			"tall"							"247"
+			"tall"							"238"
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
@@ -24,7 +24,6 @@
 			
 			"Scrollbar"
 			{
-
 				"xpos"							"rs1+2"
 				"ypos"							"0"
 				"wide"							"4"

@@ -251,23 +251,6 @@
 		"scaleImage"	"1"
 	}
 
-	"Reminder"
-	{
-		"ControlName"	"CexLabel"
-		"fieldName"		"Reminder"
-		"xpos"			"cs-0.5+20"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-		"labelText"		"reminder: REPLACE COLOR SCHEME WITH CATPUCCIN STUFF!!!!!!!!"
-		"font"			"HudTheme"
-		"fgcolor"		"HudPink"
-	}	
-
 	"FakeHudName"
 	{
 		"ControlName"	"Button"
@@ -282,6 +265,7 @@
 		"sound_depressed"	"ui/piano.mp3"
 		"paintbackground"	"0"
 		"paintborder"		"0"
+		"command"			"engine toggleconsole"
 	}
 
 	"HudName"
@@ -728,7 +712,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"J"
+			"labelText"		"X"
 			"font"			"HudMenuIco"
 			"textAlignment"	"center"
 			"Command"		"noti_show"

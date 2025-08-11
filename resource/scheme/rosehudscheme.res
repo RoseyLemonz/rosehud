@@ -255,7 +255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"luxi"
+				"name"		"TF2 Build"
 				"tall"		"48"
 			}
 		}
@@ -263,7 +263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"luxi"
+				"name"		"TF2 Build"
 				"tall"		"42"
 			}
 		}
@@ -271,7 +271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"luxi"
+				"name"		"TF2 Build"
 				"tall"		"48"
 				"outline"	"1"
 			}
@@ -280,7 +280,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"luxi"
+				"name"		"TF2 Build"
 				"tall"		"48"
 				"blur"		"1"
 			}
@@ -289,7 +289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"luxi"
+				"name"		"TF2 Build"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -299,8 +299,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"luxi"
-				"tall"		"11"
+				"name"		"TF2 Build"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -320,6 +320,39 @@ Scheme
 			{
 				"name"		"bahnschrift"
 				"tall"		"20"
+			}
+		}
+
+		"Customization_Font_TF"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Luxi"
+		{
+			"1"
+			{
+				"name"		"luxi"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Bahn"
+		{
+			"1"
+			{
+				"name"		"bahnscrift"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 

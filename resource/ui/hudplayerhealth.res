@@ -30,10 +30,10 @@
 		"fillcolor"		"255 255 255 255"
 	}	
 
-	"PlayerSakakiImage"
+	"PlayerCharaiImage"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerSakakiImage"
+		"fieldName"		"PlayerCharaImage"
 		"xpos"			"cs-0.5-150"
 		"ypos"			"r78"
 		"zpos"			"2"
@@ -45,13 +45,13 @@
 		"image"			"replay/thumbnails/characters/sakaki"
 	}
 
-	"PlayerSakakiImageHurt"
+	"PlayerCharaImageHurt"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerSakakiImageHurt"
+		"fieldName"		"PlayerCharaImageHurt"
 		"xpos"			"-10"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"o1"
 		"visible"		"1"
@@ -59,16 +59,16 @@
 		"scaleImage"	"1"
 		"alpha"			"0"
 		"image"			"replay/thumbnails/characters/sakakihurt"
-		"pin_to_sibling"	"PlayerSakakiImage"
+		"pin_to_sibling"	"PlayerCharaImage"
 	}
 
-	"PlayerSakakiImageSpin"
+	"PlayerCharaImageSpin"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerSakakiImageSpin"
+		"fieldName"		"PlayerCharaImageSpin"
 		"xpos"			"-10"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"o1"
 		"visible"		"1"
@@ -76,7 +76,7 @@
 		"scaleImage"	"1"
 		"alpha"			"0"
 		"image"			"replay/thumbnails/characters/sakakispin"
-		"pin_to_sibling"	"PlayerSakakiImage"
+		"pin_to_sibling"	"PlayerCharaImage"
 	}
 
 	"PlayerStatusHealthImage"
@@ -181,11 +181,29 @@
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
+
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"-4"
+		"xpos"			"0"
+		"ypos"			"16"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"west"	
+		"font"			"HudHealthMax"
+		"fgcolor"		"HudDarkPink"
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"-1"
 		"ypos"			"15"
 		"zpos"			"6"
 		"wide"			"50"
@@ -195,7 +213,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"west"	
 		"font"			"HudHealthMax"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 

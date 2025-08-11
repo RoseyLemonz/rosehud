@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-156"
-		"ypos"			"r70"
+		"xpos"			"c-160"
+		"ypos"			"r75"
 		"wide"			"41"
 		"tall"			"21"
 		"MeterFG"		"White"
@@ -47,6 +47,26 @@
 		"textAlignment"			"east"
 		"font"					"FontStoreOriginalPrice"
 		"fgcolor"				"HudPink"
+	}
+
+	"ItemEffectLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectLabel"
+		"xpos"					"1"
+		"ypos"					"6"
+		"zpos"					"1"
+		"wide"					"15"
+		"tall"					"10"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_ScoreBoard_KillsLabel"
+		"textAlignment"			"east"
+		"font"					"FontStoreOriginalPrice"
+		"fgcolor"				"HudBlack"
 	}
 
 	"ItemEffectMeter"

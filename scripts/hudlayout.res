@@ -167,9 +167,9 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"cs-0.5"
-		"ypos"					"c92"
+		"ypos"					"c80"
 		"wide"					"40"
-		"tall"  				"45"
+		"tall"  				"58"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -178,14 +178,14 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"cs-0.5-142"
-		"ypos"					"r132"
-		"tall"  				"15"
+		"xpos"					"cs-0.5-48"
+		"ypos"					"r150"
+		"wide"					"200"
+		"tall"  				"35"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"Blank"
-		"auto_wide_tocontents"	"1"
 	}
 	
 	CDamageAccountPanel
@@ -813,9 +813,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"25"
+		"ypos"					"0"
 		"wide"					"220"
-		"tall"					"210"
+		"tall"					"f0"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}

@@ -69,7 +69,7 @@
 			"fieldName"		"BottomBGHighlight"
 			"xpos"			"0"
 			"ypos"			"2"
-			"zpos"			"50"
+			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"2"
 			"visible"		"1"
@@ -186,10 +186,10 @@
 		{
 			"ControlName"					"CExButton"
 			"fieldname"						"ApplyButton"
-			"xpos"							"0"
-			"ypos"							"25"
+			"xpos"							"6"
+			"ypos"							"29"
 			"zpos"							"20"
-			"wide"							"75"
+			"wide"							"72"
 			"tall"							"22"
 			"visible"						"1"
 			"enabled"						"1"
@@ -201,14 +201,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudLightTeal"
-			"armedBgColor_override"			"HudTeal"
-			"depressedBgColor_override"		"HudTeal"
-
-			"defaultFgColor_override"		"Black"
-			"armedFgColor_override"			"Black"
-			"depressedFgColor_override"		"Black"
+			"defaultBgColor_override"		"Black"
 
 			"roundedcorners"				"0"
 		}
@@ -220,7 +213,7 @@
 			"xpos"							"0"
 			"ypos"							"0"
 			"zpos"							"21"
-			"wide"							"75"
+			"wide"							"72"
 			"tall"							"22"
 			"visible"						"1"
 			"enabled"						"1"
@@ -232,14 +225,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"		"HudYellow"
-			"armedBgColor_override"			"HudDarkYellow"
-			"depressedBgColor_override"		"HudDarkYellow"
-
-			"defaultFgColor_override"		"Black"
-			"armedFgColor_override"			"Black"
-			"depressedFgColor_override"		"Black"
+			"defaultBgColor_override"		"Black"
 
 			"roundedcorners"				"0"
 
@@ -257,7 +243,7 @@
 			"xpos"							"-1"
 			"ypos"							"0"
 			"zpos"							"22"
-			"wide"							"76"
+			"wide"							"73"
 			"tall"							"22"
 			"visible"						"1"
 			"enabled"						"1"
@@ -269,14 +255,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudLightPurple"
-			"armedBgColor_override"			"HudPurple"
-			"depressedBgColor_override"		"HudPurple"
-
-			"defaultFgColor_override"		"Black"
-			"armedFgColor_override"			"Black"
-			"depressedFgColor_override"		"Black"
+			"defaultBgColor_override"		"Black"
 
 			"roundedcorners"				"0"
 
@@ -294,7 +273,7 @@
 			"xpos"							"0"
 			"ypos"							"0"
 			"zpos"							"21"
-			"wide"							"75"
+			"wide"							"72"
 			"tall"							"22"
 			"visible"						"1"
 			"enabled"						"1"
@@ -306,14 +285,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"HudPink"
-			"armedBgColor_override"			"HudDarkPink"
-			"depressedBgColor_override"		"HudDarkPink"
-
-			"defaultFgColor_override"		"Black"
-			"armedFgColor_override"			"Black"
-			"depressedFgColor_override"		"Black"
+			"defaultBgColor_override"		"Black"
 
 			"roundedcorners"				"0"
 
