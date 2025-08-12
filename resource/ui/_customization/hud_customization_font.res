@@ -432,7 +432,7 @@
 						"visible"							"1"
 						"enabled"							"1"
 						"proportionaltoparent"				"1"
-						"labelText"							"1234..."						
+						"labelText"							"0123"						
 						"font"								"Customization_Font_Wing"
 						"textAlignment"						"center"
 						"command"							"engine"
