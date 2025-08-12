@@ -62,25 +62,56 @@ Scheme
 		"19"	"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"20"	"resource/linux_fonts/FiraSans-Regular.ttf"
 
-		"80"
+		"40"
 		{
-		"font"	"resource/fonts/tf2icons.ttf"
+		"font"	"resource/fonts/tf2icons_linux.ttf"	[$LINUX]
+		"font"	"resource/fonts/tf2icons.ttf"		[$WINDOWS]
 		"name"	"tf2icons"	
 		}	
-		"81"
+		"41"
 		{
 		"font"	"resource/fonts/bahnschrift.ttf"
 		"name"	"bahnschrift"	
 		}	
-		"82"
+		"42"
 		{
 		"font"	"resource/fonts/bahnschriftbold.ttf"
 		"name"	"bahnschriftbold"	
 		}	
-		"83"
+		"43"
 		{
 		"font"	"resource/fonts/luxi.ttf"
 		"name"	"luxi"	
+		"range"	"0x0020 0x007F"
+		}	
+		"44"
+		{
+		"font"	"resource/fonts/gordinregular.ttf"
+		"name"	"gordinregular"	
+		"range"	"0x0020 0x007F"
+		}	
+		"45"
+		{
+		"font"	"resource/fonts/uwing.ttf"
+		"name"	"uwing"
+		"range"	"0x0020 0x007F"
+		}	
+		"46"
+		{
+		"font"	"resource/fonts/usans.ttf"
+		"name"	"usans"	
+		"range"	"0x0020 0x007F"
+		}	
+		"47"
+		{
+		"font"	"resource/fonts/upapaya.ttf"
+		"name"	"upapaya"	
+		"range"	"0x0020 0x007F"
+		}	
+		"48"
+		{
+		"font"	"resource/fonts/iosevka.ttf"
+		"name"	"iosevka"	
 		}	
 	}
 }

@@ -2,4 +2,4 @@
 
 Team Fortress 2 HUD featuring various characters across different media.
 
-Currently highly WIP. Only tested on Arch Linux and a 1440p resolution so this will most likely look quite bad for anyone else.
+Currently highly WIP.
