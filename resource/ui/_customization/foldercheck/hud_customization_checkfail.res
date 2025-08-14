@@ -35,7 +35,7 @@
 				"labelText"								"#rose_Foldercheck_Warning"
 				"font"									"HudfontBiggerBold"
 				"textAlignment"							"center"
-				"fgcolor"								"HudLightTeal"
+				"fgcolor"								"HudBonusLight"
 			}
 			"Text"
 			{

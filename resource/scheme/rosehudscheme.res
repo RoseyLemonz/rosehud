@@ -1,5 +1,4 @@
 // TRACKER SCHEME RESOURCE FILE
-
 //
 // 		"image_drawcolor"	"255 255 255 255"
 //		"image_armedcolor"	"46 43 42 255"
@@ -30,9 +29,9 @@ Scheme
 		Econ.Dialog.BgColor									"DarkerBlack"
 		Econ.Button.BgColor									"Black"
 		Econ.Button.FgColor									"White"
-		Econ.Button.ArmedBgColor							"HudLightPink"
+		Econ.Button.ArmedBgColor							"HudPrimaryLight"
 		Econ.Button.ArmedFgColor							"Black"
-		Econ.Button.DepressedBgColor						"HudPink"
+		Econ.Button.DepressedBgColor						"HudPrimary"
 		Econ.Button.DepressedFgColor						"Black"
 
 		Econ.Button.PresetDefaultColorFg					"TanLight"
@@ -50,11 +49,11 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"Black"
 		Button.ArmedTextColor			"Black"
-		Button.ArmedBgColor				"HudLightPink"
+		Button.ArmedBgColor				"HudPrimaryLight"
 		Button.SelectedTextColor		"Black"
-		Button.SelectedBgColor			"HudLightPink"
+		Button.SelectedBgColor			"HudPrimaryLight"
 		Button.DepressedTextColor		"255 255 255 255"
-		Button.DepressedBgColor			"HudPink"
+		Button.DepressedBgColor			"HudPrimary"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -92,10 +91,10 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"HudDarkPink"
+		Label.TextDullColor				"HudPrimaryDark"
 		Label.TextColor					"White"
 		Label.TextBrightColor			"White"
-		Label.SelectedTextColor			"HudLightPink"
+		Label.SelectedTextColor			"HudPrimaryLight"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
@@ -211,37 +210,37 @@ Scheme
 
 	Colors
 	{
-		"HudPink"				"254 212 228 255"
-		"HudPinkTransparent"	"254 202 218 155"
-		"HudLightPink"			"254 232 255 255"
-		"HudDarkPink"			"184 142 158 255"
+		"HudPrimary"				"254 212 228 255"
+		"HudPrimaryTransparent"		"254 202 218 155"
+		"HudPrimaryLight"			"254 232 255 255"
+		"HudPrimaryDark"			"184 142 158 255"
 
-		"HudTeal"				"56 205 155 255"
-		"HudTealTransparent"	"56 205 155 155"
-		"HudLightTeal"			"86 235 185 255"
-		"HudDarkTeal"			"26 175 115 255"
+		"HudBonus"					"56 205 155 255"
+		"HudBonusTransparent"		"56 205 155 155"
+		"HudBonusLight"				"86 235 185 255"
+		"HudBonusDark"				"26 175 115 255"
 
-		"HudPurple"				"125 60 140 255"
-		"HudPurpleTransparent"	"125 60 140 155"
-		"HudLightPurple"		"155 90 170 255"
-		"HudDarkPurple"			"95 30 110 255"
+		"HudNegat"					"125 60 140 255"
+		"HudNegatTransparent"		"125 60 140 155"
+		"HudNegatLight"				"155 90 170 255"
+		"HudNegatDark"				"95 30 110 255"
 
-		"HudYellow"				"255 244 180 255"
-		"HudYellowTransparent"	"255 244 180 155"
-		"HudDarkYellow"			"215 204 140 255"
+		"HudTertiary"				"255 244 180 255"
+		"HudTertiaryTransparent"	"255 244 180 155"
+		"HudTertiaryDark"			"215 204 140 255"
 
-		"TrueBlack"				"0 0 0 255"
-		"DarkerBlack"			"26 23 22 255"
+		"TrueBlack"					"0 0 0 255"
+		"DarkerBlack"				"26 23 22 255"
 
-		"RedTeamSolid"			"180 72 57 255"
-		"LightRedTeamSolid"		"200 82 67 255"
-		"DarkRedTeamSolid"		"140 52 37 255"
-		"RedTeamTransparent"	"180 72 57 155"
+		"RedTeamSolid"				"180 72 57 255"
+		"LightRedTeamSolid"			"200 82 67 255"
+		"DarkRedTeamSolid"			"140 52 37 255"
+		"RedTeamTransparent"		"180 72 57 155"
 		
-		"BlueTeamSolid"			"84 104 155 255"
-		"LightBlueTeamSolid"	"94 114 175 255"
-		"DarkBlueTeamSolid"		"54 74 115 255"
-		"BlueTeamTransparent"	"84 104 155 155"
+		"BlueTeamSolid"				"84 104 155 255"
+		"LightBlueTeamSolid"		"94 114 175 255"
+		"DarkBlueTeamSolid"			"54 74 115 255"
+		"BlueTeamTransparent"		"84 104 155 155"
 	}
 
 	//////////////////

@@ -41,7 +41,7 @@
 					"paintbackground"					"1"
 					"paintBackgroundType"				"2"
 					"roundedcorners"					"0"
-					"bgcolor_override"					"HudPink"
+					"bgcolor_override"					"HudPrimary"
 				}
 
 				"FontTF"

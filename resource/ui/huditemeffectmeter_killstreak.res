@@ -46,7 +46,7 @@
 		"labelText"				"#TF_ScoreBoard_KillsLabel"
 		"textAlignment"			"east"
 		"font"					"FontStoreOriginalPrice"
-		"fgcolor"				"HudPink"
+		"fgcolor"				"HudPrimary"
 	}
 
 	"ItemEffectLabelShadow"
@@ -92,7 +92,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 		"font"					"HudFontMediumSmallBold"
-		"fgcolor"				"HudPink"
+		"fgcolor"				"HudPrimary"
 	}
 
 	"ItemEffectMeterCountShadow"

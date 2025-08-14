@@ -1,7 +1,10 @@
+//CHARACTER THEME
+
+#base "ui/_customization/theme/ellep/resource/ellepscheme.res"
+
 // CUSTOM THINGS
 
 #base "scheme/rosehudscheme.res"
-#base "scheme/streamerscheme.res"
 
 // BASE
 

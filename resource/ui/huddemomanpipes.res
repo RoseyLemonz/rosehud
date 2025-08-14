@@ -92,7 +92,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
 			"font"			"HudFontSmallishBold"
-			"fgcolor"		"HudPink"
+			"fgcolor"		"HudPrimary"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -143,7 +143,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
 			"font"			"HudFontSmallishBold"
-			"fgcolor"		"HudPink"
+			"fgcolor"		"HudPrimary"
 		}
 		"NumPipesLabelDropshadow"
 		{

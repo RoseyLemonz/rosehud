@@ -184,7 +184,7 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"HudTeal"
+			"bgcolor_override"	"HudBonus"
 		}
 
 		"TeamLeaderImage"

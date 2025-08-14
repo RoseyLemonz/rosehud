@@ -597,8 +597,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"armedFgColor_override"		"Gray"
-			"armedBgColor_override"		"HudPurple"
-			"defaultBgColor_override"	"HudPurpleTransparent"
+			"armedBgColor_override"		"HudNegat"
+			"defaultBgColor_override"	"HudNegatTransparent"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -650,8 +650,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"HudPurple"
-			"defaultBgColor_override"	"HudPurpleTransparent"
+			"armedBgColor_override"		"HudNegat"
+			"defaultBgColor_override"	"HudNegatTransparent"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"

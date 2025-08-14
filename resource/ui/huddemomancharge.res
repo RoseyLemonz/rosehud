@@ -12,7 +12,7 @@
         "proportionaltoparent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPink"
+        "drawcolor"		"HudPrimary"
 		"pin_to_sibling"			"Chargemeter"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"0"

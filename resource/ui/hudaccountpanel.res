@@ -5,7 +5,7 @@
 		"delta_item_x"			"8"
 		"delta_item_start_y"	"12"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"HudLightTeal"
+		"PositiveColor"			"HudBonusLight"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudHealthMax"
@@ -39,7 +39,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"HudPink"
+		"iconColor"		"HudPrimary"
 	}
 	
 	"AccountValue"
@@ -59,6 +59,6 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"HudPink"
+		"fgcolor"		"HudPrimary"
 	}
 }

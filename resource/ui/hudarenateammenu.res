@@ -48,12 +48,12 @@
 		"font"			"HudFontBiggerBold"
 
 		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPink"
-		"depressedBgColor_override" "HudDarkPink"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedBgColor_override" "HudPrimaryDark"
 
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudLightPink"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
@@ -74,12 +74,12 @@
 		"font"			"HudFontMediumBold"
 
 		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPink"
-		"depressedBgColor_override" "HudDarkPink"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedBgColor_override" "HudPrimaryDark"
 
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudLightPink"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"CancelButton"
@@ -102,12 +102,12 @@
 		"font"			"HudFontSmallBold"
 
 		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPink"
-		"depressedBgColor_override" "HudDarkPink"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedBgColor_override" "HudPrimaryDark"
 
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudLightPink"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 		
 	"TeamMenuAuto"

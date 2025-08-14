@@ -52,7 +52,7 @@
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"use_proportional_insets"		"1"
-			"labelText"						"roseHUD v0.1"
+			"labelText"						"roseHUD v0.2"
 			"font"							"DefaultMedium"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
@@ -74,7 +74,7 @@
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"HudPink"
+			"bgcolor_override"	"HudPrimary"
 			"pin_to_sibling"	"Footer"
 		}
 

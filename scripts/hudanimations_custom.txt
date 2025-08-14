@@ -8,8 +8,8 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
-	Animate PlayerStatusHealthValue			fgcolor		"HudTeal" 	Linear 0.0 0.275
-	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate PlayerStatusHealthValue			fgcolor		"HudBonus" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudPrimary" 	Linear 0.225 0.175
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -24,7 +24,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 	Animate PlayerCharaImageSpin			Alpha		"0"			Linear 0.0 0.05
-	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudPrimary" 	Linear 0.0 0.275
 }
 
 //====================================
@@ -37,8 +37,8 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.275
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.225 0.175
 
-	Animate PlayerStatusHealthValue			fgcolor		"HudPurple" Linear 0.0 0.275
-	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.225 0.175
+	Animate PlayerStatusHealthValue			fgcolor		"HudNegat" Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudPrimary" 	Linear 0.225 0.175
 
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -53,7 +53,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthValue			fgcolor		"HudPink" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudPrimary" 	Linear 0.0 0.275
 	Animate PlayerCharaImageHurt			Alpha		"0"			Linear 0.0 0.05
 }
 
@@ -64,14 +64,14 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 
-	Animate AmmoInClip				fgcolor		"HudPurple"		Linear 0.0 0.275
-	Animate AmmoInClip				fgcolor		"HudPink" 		Linear 0.225 0.175
+	Animate AmmoInClip				fgcolor		"HudNegat"		Linear 0.0 0.275
+	Animate AmmoInClip				fgcolor		"HudPrimary" 		Linear 0.225 0.175
 
-	Animate AmmoInReserve			fgcolor		"HudPurple" 	Linear 0.0 0.275
-	Animate AmmoInReserve			fgcolor		"HudLightPink" 	Linear 0.225 0.175
+	Animate AmmoInReserve			fgcolor		"HudNegat" 	Linear 0.0 0.275
+	Animate AmmoInReserve			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
 
-	Animate AmmoNoClip				fgcolor		"HudPurple"		Linear 0.0 0.275
-	Animate AmmoNoClip				fgcolor		"HudPink"		Linear 0.225 0.175
+	Animate AmmoNoClip				fgcolor		"HudNegat"		Linear 0.0 0.275
+	Animate AmmoNoClip				fgcolor		"HudPrimary"		Linear 0.225 0.175
 
 	Animate	HudWeaponLowAmmoImage	Alpha		"255"			Linear 0.0 0.275
 	Animate	HudWeaponLowAmmoImage	Alpha		"0"				Linear 0.225 0.175
@@ -90,9 +90,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate	AmmoInClip				fgcolor		"HudPink" 		Linear 0.0 0.275
-	Animate	AmmoInReserve			fgcolor		"HudLightPink" 	Linear 0.0 0.275
-	Animate	AmmoNoClip				fgcolor		"HudPink" 		Linear 0.0 0.275
+	Animate	AmmoInClip				fgcolor		"HudPrimary" 		Linear 0.0 0.275
+	Animate	AmmoInReserve			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate	AmmoNoClip				fgcolor		"HudPrimary" 		Linear 0.0 0.275
 	Animate	HudWeaponLowAmmoImage 	Alpha		"0"				Linear 0.0 0.275
 }
 
@@ -104,26 +104,26 @@ event HudMedicCharged
 {
 	Animate ChargeColor		Alpha		"0"						Linear 0.0 0.0		
 
-	Animate	ChargeMeter 	FgColor		"HudPink"				Linear 0.0 0.275
-	Animate	ChargeMeter 	FgColor		"HudTeal"				Linear 0.225 0.175
+	Animate	ChargeMeter 	FgColor		"HudPrimary"				Linear 0.0 0.275
+	Animate	ChargeMeter 	FgColor		"HudBonus"				Linear 0.225 0.175
 
-	Animate	ChargeMeter1 	FgColor		"HudPink"				Linear 0.0 0.275
-	Animate	ChargeMeter1 	FgColor		"HudTeal"				Linear 0.225 0.175
+	Animate	ChargeMeter1 	FgColor		"HudPrimary"				Linear 0.0 0.275
+	Animate	ChargeMeter1 	FgColor		"HudBonus"				Linear 0.225 0.175
 
-	Animate	ChargeMeter2 	FgColor		"HudPink"				Linear 0.0 0.275
-	Animate	ChargeMeter2 	FgColor		"HudTeal"				Linear 0.225 0.175
+	Animate	ChargeMeter2 	FgColor		"HudPrimary"				Linear 0.0 0.275
+	Animate	ChargeMeter2 	FgColor		"HudBonus"				Linear 0.225 0.175
 
-	Animate	ChargeMeter3 	FgColor		"HudPink"				Linear 0.0 0.275
-	Animate	ChargeMeter3 	FgColor		"HudTeal"				Linear 0.225 0.175
+	Animate	ChargeMeter3 	FgColor		"HudPrimary"				Linear 0.0 0.275
+	Animate	ChargeMeter3 	FgColor		"HudBonus"				Linear 0.225 0.175
 
-	Animate	ChargeMeter4 	FgColor		"HudPink"				Linear 0.0 0.275
-	Animate	ChargeMeter4 	FgColor		"HudTeal"				Linear 0.225 0.175
+	Animate	ChargeMeter4 	FgColor		"HudPrimary"				Linear 0.0 0.275
+	Animate	ChargeMeter4 	FgColor		"HudBonus"				Linear 0.225 0.175
 
-	Animate ChargeLabel		FgColor		"HudPink"		 		Linear 0.0 0.275
-	Animate ChargeLabel		FgColor		"HudTeal" 				Linear 0.225 0.175
+	Animate ChargeLabel		FgColor		"HudPrimary"		 		Linear 0.0 0.275
+	Animate ChargeLabel		FgColor		"HudBonus" 				Linear 0.225 0.175
 
-	Animate IndividualChargesLabel		FgColor		"HudPink" 	Linear 0.0 0.275
-	Animate IndividualChargesLabel		FgColor		"HudTeal" 	Linear 0.225 0.175
+	Animate IndividualChargesLabel		FgColor		"HudPrimary" 	Linear 0.0 0.275
+	Animate IndividualChargesLabel		FgColor		"HudBonus" 	Linear 0.225 0.175
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -139,15 +139,15 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 
-	Animate	ChargeLabel 	FgColor		"HudPink"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"HudPrimary"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"HudPrimary"		Linear 0.0 0.0001
 	Animate ChargeColor		Alpha		"255"			Linear 0.0 0.0001
 
-	Animate	IndividualChargesLabel 	FgColor		"HudPink"		Linear 0.0 0.0001
-	Animate	ChargeMeter1 	FgColor		"HudPink"		Linear 0.0 0.0001
-	Animate	ChargeMeter2 	FgColor		"HudPink"		Linear 0.0 0.0001
-	Animate	ChargeMeter3 	FgColor		"HudPink"		Linear 0.0 0.0001
-	Animate	ChargeMeter4 	FgColor		"HudPink"		Linear 0.0 0.0001
+	Animate	IndividualChargesLabel 	FgColor		"HudPrimary"		Linear 0.0 0.0001
+	Animate	ChargeMeter1 	FgColor		"HudPrimary"		Linear 0.0 0.0001
+	Animate	ChargeMeter2 	FgColor		"HudPrimary"		Linear 0.0 0.0001
+	Animate	ChargeMeter3 	FgColor		"HudPrimary"		Linear 0.0 0.0001
+	Animate	ChargeMeter4 	FgColor		"HudPrimary"		Linear 0.0 0.0001
 
 }
 
@@ -177,13 +177,13 @@ event FlagOutline
 
 event RDPositiveScorePulse
 {
-	Animate Score FgColor	"HudTeal"		Linear 0.0 0.0
+	Animate Score FgColor	"HudBonus"		Linear 0.0 0.0
 	Animate Score FgColor	"White"			Linear 0.1 0.2
 }
 
 event RDNegativeScorePulse
 {
-	Animate Score FgColor	"HudTeal"		Linear 0.0 0.0
+	Animate Score FgColor	"HudBonus"		Linear 0.0 0.0
 	Animate Score FgColor	"White"			Linear 0.1 0.2
 }
 

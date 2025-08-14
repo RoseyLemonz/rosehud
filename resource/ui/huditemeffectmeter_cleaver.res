@@ -61,7 +61,7 @@
         "proportionaltoparent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPink"
+        "drawcolor"		"HudPrimary"
 		"proportionaltoparent"	"1"
     }
 

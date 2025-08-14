@@ -55,7 +55,7 @@
 		"enabled"				"1"
 		"image"			"glyph_achievements"
 		"scaleImage"	"1"
-		"drawcolor"		"HudPink"
+		"drawcolor"		"HudPrimary"
 	}
 
 	"ItemEffectMeterCount"
@@ -74,6 +74,6 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"HudFontSmallishBold"
-		"fgcolor"				"HudPink"
+		"fgcolor"				"HudPrimary"
 	}
 }

@@ -49,7 +49,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"HudPink"
+		"fgcolor"		"HudPrimary"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

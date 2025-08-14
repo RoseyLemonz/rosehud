@@ -277,7 +277,7 @@
 		"textAlignment"	"center"
 		"labelText"		"roseHUD"
 		"font"			"HudTitle"
-		"fgcolor"		"HudPink"
+		"fgcolor"		"HudPrimary"
 	}	
 	
 	"HudNameShadow"
@@ -312,7 +312,7 @@
 		"textAlignment"	"center"
 		"labelText"		"sakaki theme"
 		"font"			"HudTheme"
-		"fgcolor"		"HudPink"
+		"fgcolor"		"HudPrimary"
 	}	
 	
 	"HudThemeShadow"
@@ -536,7 +536,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
-			"xpos"			"10"
+			"xpos"			"14"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"140"
@@ -794,7 +794,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override" "DarkerBlack"
-			"defaultBgColor_override" "HudPink"
+			"defaultBgColor_override" "HudPrimary"
 			
 			"SubImage"
 			{
@@ -832,7 +832,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultFgColor_override" "DarkerBlack"
-			"defaultBgColor_override" "HudPink"
+			"defaultBgColor_override" "HudPrimary"
 		}	
 
 		"MOTD_HeaderIcon"
@@ -874,7 +874,7 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"HudPink"
+			"fgcolor"		"HudPrimary"
 			"proportionaltoparent"	"1"
 		}
 		
@@ -889,7 +889,7 @@
 			"tall"			"120"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"HudTeal"
+			"bgcolor_override"	"HudBonus"
 			"paintBackgroundType"	"2"
 			"proportionaltoparent"	"1"
 		}
@@ -1109,7 +1109,6 @@
 			"paintbackground"	"0"
 			
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	`
 
 			"SubImage"
 			{
@@ -2260,7 +2259,7 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudPink"
+		"bgcolor_override"	"HudPrimary"
 		"pin_to_sibling"	"BottomBG"
 	}
 
