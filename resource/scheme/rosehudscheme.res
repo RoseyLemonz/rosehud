@@ -443,7 +443,9 @@ Scheme
 			}
 		}
 
-		// Chalk text below
+		//
+		// The chalk zone
+		//
 
 		"HudChalk8"
 		{
