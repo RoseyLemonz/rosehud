@@ -260,7 +260,7 @@
 		"sound_depressed"	"ui/piano.mp3"
 		"paintbackground"	"0"
 		"paintborder"		"0"
-		"command"			"engine toggleconsole"
+		"command"			"engine toggleconsole; exec rosehud_echo"
 	}
 
 	"HudName"

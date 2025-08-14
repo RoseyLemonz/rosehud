@@ -210,24 +210,25 @@ Scheme
 
 	Colors
 	{
-		"HudPrimary"				"254 212 228 255"
-		"HudPrimaryTransparent"		"254 202 218 155"
-		"HudPrimaryLight"			"254 232 255 255"
-		"HudPrimaryDark"			"184 142 158 255"
+		"HudPrimary"				"254 189 230 255"
+		"HudPrimaryTransparent"		"254 189 230 155"
+		"HudPrimaryLight"			"254 219 255 255"
+		"HudPrimaryDark"			"224 159 200 255"
 
-		"HudBonus"					"56 205 155 255"
-		"HudBonusTransparent"		"56 205 155 155"
-		"HudBonusLight"				"86 235 185 255"
-		"HudBonusDark"				"26 175 115 255"
+		"HudBonus"					"139 213 202 255"
+		"HudBonusTransparent"		"139 213 202 155"
+		"HudBonusLight"				"169 243 232 255"
+		"HudBonusDark"				"109 183 172 255"
 
-		"HudNegat"					"125 60 140 255"
-		"HudNegatTransparent"		"125 60 140 155"
-		"HudNegatLight"				"155 90 170 255"
-		"HudNegatDark"				"95 30 110 255"
+		"HudNegat"					"198 160 246 255"
+		"HudNegatTransparent"		"198 160 246 155"
+		"HudNegatLight"				"228 190 255 255"
+		"HudNegatDark"				"168 130 216 255"
 
-		"HudTertiary"				"255 244 180 255"
-		"HudTertiaryTransparent"	"255 244 180 155"
-		"HudTertiaryDark"			"215 204 140 255"
+		"HudTertiary"				"238 212 159 255"
+		"HudTertiaryTransparent"	"238 212 159 155"
+		"HudTertiaryLight"			"255 242 189 255"
+		"HudTertiaryDark"			"208 182 129 255"
 
 		"TrueBlack"					"0 0 0 255"
 		"DarkerBlack"				"26 23 22 255"

@@ -114,6 +114,33 @@
 						}
 					}
 				}
+				
+				"NotYetEllepButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetEllepButton"
+					"xpos"							"4"
+					"ypos"							"16"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"pin_to_sibling"				"CharacterTheme_Sakaki"
+					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
+
+					"defaultFgColor_override"		"RedSolid"
+					"armedFgColor_override"			"RedSolid"
+					"depressedFgColor_override"		"RedSolid"
+					"SelectedFgColor_override"		"RedSolid"
+				}
 
 				"CharacterTheme_Ellep"
 				{

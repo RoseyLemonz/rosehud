@@ -2,23 +2,24 @@ Scheme
 {
 	Colors
 	{
-		"HudPrimary"				"220 220 255 255"
-		"HudPrimaryTransparent"		"160 160 255 155"
-		"HudPrimaryLight"			"240 240 255 255"
-		"HudPrimaryDark"			"190 190 225 255"
+		"HudPrimary"				"183 189 248 255"
+		"HudPrimaryTransparent"		"183 189 248 155"
+		"HudPrimaryLight"			"213 219 255 255"
+		"HudPrimaryDark"			"153 159 218 255"
 
-		"HudBonus"					"56 205 155 255"
-		"HudBonusTransparent"		"56 205 155 155"
-		"HudBonusLight"				"86 235 185 255"
-		"HudBonusDark"				"26 175 115 255"
+		"HudBonus"					"139 213 202 255"
+		"HudBonusTransparent"		"139 213 202 155"
+		"HudBonusLight"				"169 243 232 255"
+		"HudBonusDark"				"109 183 172 255"
 
-		"HudNegat"					"125 60 140 255"
-		"HudNegatTransparent"		"125 60 140 155"
-		"HudNegatLight"				"155 90 170 255"
-		"HudNegatDark"				"95 30 110 255"
+		"HudNegat"					"198 160 246 255"
+		"HudNegatTransparent"		"198 160 246 155"
+		"HudNegatLight"				"228 190 255 255"
+		"HudNegatDark"				"168 130 216 255"
 
-		"HudTertiary"				"255 244 180 255"
-		"HudTertiaryTransparent"	"255 244 180 155"
-		"HudTertiaryDark"			"215 204 140 255"
+		"HudTertiary"				"238 212 159 255"
+		"HudTertiaryTransparent"	"238 212 159 155"
+		"HudTertiaryLight"			"255 242 189 255"
+		"HudTertiaryDark"			"208 182 129 255"
 	}
 }
