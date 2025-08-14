@@ -241,14 +241,9 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"rs1"
-		"ypos"			"-80"
-		"zpos"			"-250"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 
 	"FakeHudName"

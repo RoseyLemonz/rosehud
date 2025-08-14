@@ -1,0 +1,12 @@
+"chapters"
+{
+	1	"background_2fort"
+	2	"background_gravelpit"
+	3	"background_upward"
+}
+"BackgroundMaps"
+{
+	1	"background_2fort"
+	2	"background_gravelpit"
+	3	"background_upward"
+}
