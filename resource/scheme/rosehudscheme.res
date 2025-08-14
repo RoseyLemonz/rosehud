@@ -242,6 +242,17 @@ Scheme
 		"LightBlueTeamSolid"		"94 114 175 255"
 		"DarkBlueTeamSolid"			"54 74 115 255"
 		"BlueTeamTransparent"		"84 104 155 155"
+
+		//
+		//	DEFAULT HUD COLOR OVERRIDES
+		//
+
+		"PartyMember1"	"137 180 250 255"
+		"PartyMember2"	"166 227 161 255"
+		"PartyMember3"	"249 226 175 255"
+		"PartyMember4"	"250 179 135 255"
+		"PartyMember5"	"243 139 168 255"
+		"PartyMember6"	"203 166 247 255"
 	}
 
 	//////////////////
@@ -655,6 +666,10 @@ Scheme
 			}
 		}
 
+		//
+		//	DEFAULT HUD FONT OVERRIDES
+		//
+
 		"Default"
 		{
 			"1"
@@ -912,6 +927,11 @@ Scheme
 
 	Borders
 	{
+
+		//
+		//	DEFAULT HUD BORDER OVERRIDES
+		//
+
 		MainMenuSubButtonBorder
 		{
 			"inset" "0 0 1 0"
