@@ -461,7 +461,6 @@
 		"mouseinputenabled"	"0"
 		"centerwrap"			"1"
 		"font"			"HudFontSmallestBold"
-		"fgcolor_override"	"TanLight"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"use_proportional_insets"	"1"
 	}
@@ -1074,10 +1073,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
 		"xpos"			"296"
-		"ypos"			"126"
+		"ypos"			"94"
 		"zpos"			"10"
 		"wide"			"210"
-		"tall"			"80"
+		"tall"			"95"
 		"visible"		"0"
 		"bgcolor_override"	"Black"
 		"PaintBackgroundType"	"2"
@@ -1087,7 +1086,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
 			"xpos"			"186"
-			"ypos"			"8"
+			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -1108,7 +1107,8 @@
 
 			"paintbackground"	"0"
 			
-			"image_drawcolor"	"255 255 255 255"
+ 			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"125 125 125 255"
 
 			"SubImage"
 			{
@@ -1134,7 +1134,7 @@
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
-			"ypos"			"8"
+			"ypos"			"6"
 			"wide"			"250"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -1152,7 +1152,7 @@
 			"xpos"			"8"
 			"ypos"			"25"
 			"wide"			"210"
-			"tall"			"135"
+			"tall"			"56"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"White"
 			

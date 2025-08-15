@@ -7,11 +7,11 @@
 
 	"PlayerCharaImageHurt"
 	{
-		"image"			"replay/thumbnails/characters/sakakihurt"
+		"image"			"replay/thumbnails/characters/ellephurt"
 	}
 
 	"PlayerCharaImageSpin"
 	{
-		"image"			"replay/thumbnails/characters/sakakispin"
+		"image"			"replay/thumbnails/characters/ellepdance"
 	}
 }

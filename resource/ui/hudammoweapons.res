@@ -71,7 +71,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudAmmoReserve"
 		"xpos"			"cs-0.5+170"
-		"ypos"			"r129"
+		"ypos"			"r130"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"45"

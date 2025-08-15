@@ -3,12 +3,13 @@
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate PlayerCharaImageSpin			Alpha		"255"		Linear 0.0 0.05
+	Animate PlayerCharaImage				Alpha		"0"			Linear 0.0 0.00
+	Animate PlayerCharaImageSpin			Alpha		"255"		Linear 0.0 0.00
 
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
-	Animate PlayerStatusHealthValue			fgcolor		"HudBonus" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudBonus" 			Linear 0.0 0.275
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -23,7 +24,8 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerCharaImageSpin			Alpha		"0"			Linear 0.0 0.05
+	Animate PlayerCharaImageSpin			Alpha		"0"					Linear 0.0 0.00
+	Animate PlayerCharaImage				Alpha		"255"				Linear 0.0 0.00
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
 }
 
@@ -32,12 +34,13 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate PlayerCharaImageHurt			Alpha		"255"		Linear 0.0 0.05
+	Animate PlayerCharaImage				Alpha		"0"			Linear 0.0 0.00
+	Animate PlayerCharaImageHurt			Alpha		"255"		Linear 0.0 0.00
 
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.275
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.225 0.175
 
-	Animate PlayerStatusHealthValue			fgcolor		"HudNegat" Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgcolor		"HudNegat" 			Linear 0.0 0.275
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
 
 	RunEvent HudHealthDyingPulseLoop	0.4
@@ -53,8 +56,9 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	Animate PlayerCharaImageHurt			Alpha		"0"					Linear 0.0 0.00
+	Animate PlayerCharaImage				Alpha		"255"				Linear 0.0 0.00
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
-	Animate PlayerCharaImageHurt			Alpha		"0"			Linear 0.0 0.05
 }
 
 //====================================
