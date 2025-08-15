@@ -1572,7 +1572,8 @@
 			"tabPosition"	"0"
 			"textAlignment"	"center"
 			"font"			"HudMenuIco"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"		"1"
+			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1595,7 +1596,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ShowHUDOptionsButton"
-		"xpos"			"-3"
+		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"29"

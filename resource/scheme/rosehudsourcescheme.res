@@ -92,19 +92,4 @@ Scheme
 		TextEntry.DisabledTextColor	        "TFTextMedium"
 		TextEntry.SelectedBgColor	        "TFOrangeBright"
 	}
-
-	Fonts
-	{
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name"		"iosevka"
-				"tall"		"11" [$OSX]
-				"tall"		"13" [$LINUX]
-				"tall"		"12"
-				"antialias"	"1"
-			}
-		}
-	}
 }
