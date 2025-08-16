@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent"	"1"
-	"$basetexture"	"vgui/replay/thumbnails/hud/ammoiconsakaki.vtf"
-	"$vertexalpha" 1
-	"$ignorez" 1
-}

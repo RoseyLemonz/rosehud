@@ -52,7 +52,7 @@
 	"ItemEffectLabelShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectLabel"
+		"fieldName"				"ItemEffectLabelShadow"
 		"xpos"					"1"
 		"ypos"					"6"
 		"zpos"					"1"
@@ -70,7 +70,6 @@
 		"pin_to_sibling"		"ItemEffectLabel"
 	}
 	
-
 	"ItemEffectMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -89,7 +88,7 @@
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
-		"enabled"				"1"
+		"enabled"		"1"
 		"image"			"../hud/leaderboard_dead"
 		"scaleImage"	"1"
 		"drawcolor"		"HudPrimary"

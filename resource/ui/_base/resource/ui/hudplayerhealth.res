@@ -1,5 +1,3 @@
-#base "_customization/theme/ellep/resource/ui/hudplayerhealth.res"
-#base "_base/resource/ui/hudplayerhealth.res"
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
@@ -25,11 +23,28 @@
 		"fieldName"		"TheMeasuringStickTM"
 		"xpos"			"cs-0.5"
 		"ypos"			"r160"
-		"wide"			"200"
+		"wide"			"450"
 		"tall"			"5"
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
+	}	
+
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1"
+		"zpos"			"500"
+		"wide"			"f0"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tileHorizontally"	"1"
+		"teambg_1"			"../hud/cart_track"
+		"teambg_2"			"../hud/cart_track_red"
+		"teambg_3"			"../hud/cart_track_blue"
 	}	
 
 	"PlayerCharaImage"
@@ -117,6 +132,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/health_color_over"
+		"drawcolor"		"HudPrimaryDark"
 		"scaleImage"	"1"
 		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}

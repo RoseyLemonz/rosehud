@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/ammo/ammo_icon_bonus"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$translucent" 1
+}
+
