@@ -464,9 +464,9 @@
 		"TeamBlue"		"BlueTeamSolid"
 		"TeamRed"		"RedTeamSolid"
 		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
+		"LocalPlayerColor"	"DarkerBlack"
 
-		"BaseBackgroundColor"	"Black"
+		"BaseBackgroundColor"	"DarkerBlack"
 		"LocalBackgroundColor"	"White"
 	}
 

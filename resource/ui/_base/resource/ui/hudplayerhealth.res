@@ -38,7 +38,7 @@
 		"ypos"			"rs1"
 		"zpos"			"500"
 		"wide"			"f0"
-		"tall"			"3"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tileHorizontally"	"1"
