@@ -44,27 +44,9 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"font"					"FontStoreOriginalPrice"
+		"font"					"HudMeterLabel"
 		"allcaps"				"1"
 	}
-
-	"MeterColor"
-    {
-        "ControlName"	"ImagePanel"
-        "fieldName"		"MeterColor"
-		"xpos"			"cs-0.5"
-		"ypos"			"2"
-        "zpos"			"3"
-        "wide"			"38"
-        "tall"			"4"
-        "visible"		"1"
-        "enabled"		"1"
-        "proportionaltoparent"		"1"
-        "image"			"replay/thumbnails/hud/modulate"
-        "scaleImage"	"1"
-        "drawcolor"		"HudPrimary"
-		"proportionaltoparent"	"1"
-    }
 
 	"ItemEffectMeter"
 	{
@@ -80,7 +62,25 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
 		"proportionaltoparent"	"1"
 	}
+
+	"MeterColor"
+    {
+        "ControlName"	"ImagePanel"
+        "fieldName"		"MeterColor"
+		"xpos"			"0"
+		"ypos"			"0"
+        "zpos"			"3"
+        "wide"			"38"
+        "tall"			"4"
+        "visible"		"1"
+        "enabled"		"1"
+        "proportionaltoparent"		"1"
+        "image"			"replay/thumbnails/hud/modulate"
+        "scaleImage"	"1"
+        "drawcolor"		"HudPrimary"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"ItemEffectMeter"
+    }		
 }

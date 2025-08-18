@@ -5,7 +5,7 @@
         "ControlName"	"ImagePanel"
         "fieldName"		"MeterColor"
         "zpos"			"3"
-        "wide"			"40"
+        "wide"			"60"
         "tall"			"4"
         "visible"		"1"
         "enabled"		"1"
@@ -14,8 +14,6 @@
         "scaleImage"	"1"
         "drawcolor"		"HudPrimary"
 		"pin_to_sibling"			"Chargemeter"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
     }
 
 	"ChargeMeter"
@@ -23,14 +21,15 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5+200"
+		"ypos"			"rs1-76"
 		"zpos"			"2"
-		"wide"			"40"
+		"wide"			"60"
 		"tall"			"4"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "255 255 255 255"
 	}					
 }

@@ -1,9 +1,9 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"HudWeaponAmmoBG"
+	"HudAmmoIco"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudAmmoIco"
 		"xpos"			"cs-0.5+215"
 		"ypos"			"r122"
 		"zpos"			"2"
@@ -14,10 +14,10 @@
 		"image"			"replay/thumbnails/ammo/ammo_icon"
 		"scaleImage"	"1"			
 	}
-	"HudWeaponAmmoBGOverlay"
+	"HudAmmoIcoOverlay"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponAmmoBGOverlay"
+		"fieldName"		"HudAmmoIcoOverlay"
 		"zpos"			"3"
 		"wide"			"38"
 		"tall"			"38"
@@ -26,13 +26,13 @@
 		"image"			"replay/thumbnails/ammo/ammo_icon_over"
 		"drawcolor"		"HudPrimaryDark"
 		"scaleImage"	"1"			
-		"pin_to_sibling"	"HudWeaponAmmoBG"
+		"pin_to_sibling"	"HudAmmoIco"
 	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"cs-0.5+205"
+		"xpos"			"cs-0.5+215"
 		"ypos"			"r123"
 		"zpos"			"2"
 		"wide"			"40"
@@ -50,7 +50,7 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"HudValue"
 		"xpos"			"cs-0.5+115"
-		"ypos"			"r126"
+		"ypos"			"r127"
 		"zpos"			"5"
 		"wide"			"95"
 		"tall"			"45"
@@ -85,7 +85,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudAmmoReserve"
 		"xpos"			"cs-0.5+185"
-		"ypos"			"r130"
+		"ypos"			"r131"
 		"zpos"			"7"
 		"wide"			"40"
 		"tall"			"45"
@@ -93,7 +93,7 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor_override"	"HudPrimaryDark"
+		"fgcolor_override"	"HudPrimaryTransparent"
 	}		
 	"AmmoInReserveShadow"
 	{
@@ -110,7 +110,7 @@
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 		"pin_to_sibling"	"AmmoInReserve"
-		"fgcolor_override"	"Black"
+		"fgcolor_override"	"TransparentBlack"
 	}									
 	"AmmoNoClip"
 	{
@@ -118,7 +118,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudValue"
 		"xpos"			"cs-0.5+125"
-		"ypos"			"r126"
+		"ypos"			"r127"
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"45"

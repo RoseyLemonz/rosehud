@@ -62,7 +62,7 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"north"
 		"centerwrap"			"1"
-		"font"					"TFFontSmall"
+		"font"					"HudMeterLabel"
 	}
 
 	"ItemEffectMeter"

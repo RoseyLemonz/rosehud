@@ -316,6 +316,57 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudMeterLabel"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudMeterLabelLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudMeterLabelLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudMeterCount"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudMeterCountLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		"HudTitle"
 		{
 			"1"
@@ -428,6 +479,14 @@ Scheme
 			{
 				"name"		"tf2icons"
 				"tall"		"18"
+			}
+		}
+		"HudInGameIco"
+		{
+			"1"
+			{
+				"name"		"tf2charactericons"
+				"tall"		"22"
 			}
 		}
 

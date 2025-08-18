@@ -54,9 +54,9 @@
 		"image_armed"		"class_sel_sm_random_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -131,10 +131,10 @@
 		"image_armed"		"class_sel_sm_scout_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
+		"selectedfgcolor_override" "TanDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -189,10 +189,10 @@
 		"image_armed"		"class_sel_sm_soldier_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
+		"selectedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -247,9 +247,9 @@
 		"image_armed"		"class_sel_sm_pyro_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -324,9 +324,9 @@
 		"image_armed"		"class_sel_sm_demo_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -381,9 +381,9 @@
 		"image_armed"		"class_sel_sm_heavy_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -438,9 +438,9 @@
 		"image_armed"		"class_sel_sm_engineer_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -515,9 +515,9 @@
 		"image_armed"		"class_sel_sm_medic_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -572,9 +572,9 @@
 		"image_armed"		"class_sel_sm_sniper_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -629,9 +629,9 @@
 		"image_armed"		"class_sel_sm_spy_inactive"
 		
 		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"defaultfgcolor_override" "TanDark"
+		"armedfgcolor_override" "TanDark"
+		"depressedfgcolor_override" "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1479,9 +1479,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultfgcolor_override" "46 43 42 255"
+			"armedfgcolor_override" "200 80 60 255"
+			"depressedfgcolor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1664,9 +1664,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultfgcolor_override" "46 43 42 255"
+			"armedfgcolor_override" "235 226 202 255"
+			"depressedfgcolor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"

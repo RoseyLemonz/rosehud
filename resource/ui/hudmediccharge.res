@@ -6,7 +6,7 @@
 		"fieldName"		"ChargeLabel"
 		"font"			"HudValue"
 		"fgcolor"		"HudPrimary"
-		"xpos"			"cs-0.5+160"
+		"xpos"			"cs-0.5+165"
 		"ypos"			"r120"
 		"zpos"			"5"
 		"wide"			"120"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"cs-0.5+160"
+		"xpos"			"cs-0.5+165"
 		"ypos"			"r120"
 		"zpos"			"3"
 		"wide"			"105"
@@ -52,8 +52,8 @@
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"east"
 		"textinsetx"	"15"
-		"FgColor"		"HudPrimary"	
-		"BgColor_override"	"Black"
+		"fgcolor"		"HudPrimary"	
+		"bgcolor_override"	"Black"
 		"paintBackgroundType"	"2"
 		"font"			"HudValueSmaller"
 	}
@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"xpos"			"cs-0.5+160"
+		"xpos"			"cs-0.5+165"
 		"ypos"			"r76"
 		"zpos"			"2"
 		"wide"			"95"
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"ChargeBG"
-		"xpos"			"cs-0.5+160"
+		"xpos"			"cs-0.5+165"
 		"ypos"			"r80"
 		"zpos"			"1"
 		"wide"			"105"
@@ -94,7 +94,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
-		"xpos"			"cs-0.5+122"
+		"xpos"			"cs-0.5+127"
 		"ypos"			"r76"
 		"zpos"			"2"
 		"wide"			"21"
@@ -171,7 +171,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"			"ResistPin"
-		"xpos"				"cs-0.5+160"
+		"xpos"				"cs-0.5+165	"
 		"ypos"				"r118"
 		"zpos"				"0"
 		"wide"				"100"

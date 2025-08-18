@@ -77,11 +77,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c40"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"40"
-		"tall"			"4"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}		
@@ -166,10 +166,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"cs-0.5"
-		"ypos"					"c80"
-		"wide"					"40"
-		"tall"  				"58"
+		"xpos"					"cs-0.5+202"
+		"ypos"					"rs1-36"
+		"wide"					"60"
+		"tall"  				"42"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -979,10 +979,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c140"
-		"wide"			"40"
-		"tall"			"16"
+		"wide"			"f0"
+		"tall"			"f0"
 	}		
 
 	HudTeamGoal

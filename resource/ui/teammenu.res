@@ -78,13 +78,13 @@
 		"command"		"jointeam blue"
 		"font"			"HudFontMediumBigBold"
 
-		"defaultBgColor_override" 	"BlueTeamSolid"
-		"armedBgColor_override"		"LightBlueTeamSolid"
-		"depressedBgColor_override" "DarkBlueTeamSolid"
+		"defaultbgcolor_override" 	"BlueTeamSolid"
+		"armedbgcolor_override"		"LightBlueTeamSolid"
+		"depressedbgcolor_override" "DarkBlueTeamSolid"
 
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		"defaultfgcolor_override" 	"White"
+		"armedfgcolor_override"		"White"
+		"depressedfgcolor_override" "White"
 	}
 
 	"teambutton1"
@@ -104,13 +104,13 @@
 		"command"		"jointeam red"
 		"font"			"HudFontMediumBigBold"
 
-		"defaultBgColor_override" 	"RedTeamSolid"
-		"armedBgColor_override"		"LightRedTeamSolid"
-		"depressedBgColor_override" "DarkRedTeamSolid"
+		"defaultbgcolor_override" 	"RedTeamSolid"
+		"armedbgcolor_override"		"LightRedTeamSolid"
+		"depressedbgcolor_override" "DarkRedTeamSolid"
 
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"White"
-		"depressedFgColor_override" "White"
+		"defaultfgcolor_override" 	"White"
+		"armedfgcolor_override"		"White"
+		"depressedfgcolor_override" "White"
 	}
 
 	"teambutton2"
@@ -130,13 +130,13 @@
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
 
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPrimary"
-		"depressedBgColor_override" "HudPrimaryDark"
+		"defaultbgcolor_override" 	"Black"
+		"armedbgcolor_override"		"HudPrimary"
+		"depressedbgcolor_override" "HudPrimaryDark"
 
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudPrimaryLight"
+		"defaultfgcolor_override" 	"White"
+		"armedfgcolor_override"		"Black"
+		"depressedfgcolor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
@@ -156,13 +156,13 @@
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
 		
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPrimary"
-		"depressedBgColor_override" "HudPrimaryDark"
+		"defaultbgcolor_override" 	"Black"
+		"armedbgcolor_override"		"HudPrimary"
+		"depressedbgcolor_override" "HudPrimaryDark"
 
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudPrimaryLight"
+		"defaultfgcolor_override" 	"White"
+		"armedfgcolor_override"		"Black"
+		"depressedfgcolor_override" "HudPrimaryLight"
 	}
 	
 	"CancelButton"

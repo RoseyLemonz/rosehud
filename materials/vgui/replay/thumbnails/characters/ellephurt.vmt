@@ -13,7 +13,7 @@
 		{
 			"animatedTextureVar" "$basetexture"
 			"animatedTextureFrameNumVar" "$frame"
-			"animatedTextureFrameRate" "22"
+			"animatedTextureFrameRate" "20"
 		}
 	}
 }

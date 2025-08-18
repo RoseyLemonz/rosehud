@@ -96,7 +96,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
@@ -136,10 +136,10 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Ellep"
@@ -198,7 +198,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
@@ -238,10 +238,10 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Susie"
@@ -300,7 +300,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
@@ -340,10 +340,10 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Sybil"
@@ -402,7 +402,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{

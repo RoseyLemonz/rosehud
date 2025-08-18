@@ -124,7 +124,7 @@
 			"tall"					"f0"
 			"scaleimage"			"0"
 			"visible"				"0"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		}
 
 		"FlagValue"
@@ -142,7 +142,7 @@
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontSmallestBold"
 			"fgcolor"		"Black"	
-			"proportionalToParent"	"1"	
+			"proportionaltoparent"	"1"	
 			"use_proportional_insets"	"1"
 		}	
 
@@ -228,7 +228,7 @@
 			"tall"					"80"
 			"visible"				"1"
 			"enabled"				"1"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		
 			"ScoreOutline"
 			{
@@ -247,7 +247,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"paintBackgroundType"	"2"
 				"roundedcorners"		"3"
 				"bgcolor_override"		"BlueTeamTransparent"
@@ -266,7 +266,7 @@
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowBlueBG"
 			}
 
@@ -284,7 +284,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowBlueBG"
 			}
 			"EscrowBlueShadow"
@@ -302,7 +302,7 @@
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
 				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowBlue"
 			}
 
@@ -317,7 +317,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"paintBackgroundType"	"2"
 				"roundedcorners"		"3"
 				"bgcolor_override"		"RedTeamTransparent"
@@ -336,7 +336,7 @@
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowRedBG"
 			}
 
@@ -354,7 +354,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowRedBG"
 			}
 
@@ -373,7 +373,7 @@
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"	
 				"fgcolor"		"Black"	
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowRed"
 			}
 
@@ -388,7 +388,7 @@
 				"tall"					"35"
 				"visible"				"0"
 				"enabled"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 
 				"VictoryLabel"
 				{
@@ -422,7 +422,7 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"	
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 				}
 
 				"VictoryLabelTimeShadow"
@@ -440,7 +440,7 @@
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"
 					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 
 					"pin_to_sibling"               "VictoryLabelTime"
 				}
@@ -457,7 +457,7 @@
 				"tall"					"35"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"		
 				"bgcolor_override"		"TransparentBlack"
 			}
@@ -473,7 +473,7 @@
 				"tall"					"35"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"		
 				"bgcolor_override"		"White"
 			}
@@ -489,7 +489,7 @@
 				"tall"					"60"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"
 				"Image"					"../hud/objectives_corepanel_meter_solid"
 
@@ -513,7 +513,7 @@
 				"tall"					"60"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"	
 				"Image"					"../hud/objectives_corepanel_meter"
 
@@ -537,7 +537,7 @@
 				"tall"					"35"
 				"visible"				"0"
 				"enabled"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 
 				"VictoryLabel"
 				{
@@ -571,7 +571,7 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"		
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 				}
 
 				"VictoryLabelTimeShadow"
@@ -589,7 +589,7 @@
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"		
 					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 
 					"pin_to_sibling"               "VictoryLabelTime"
 				}
@@ -607,7 +607,7 @@
 				"scaleimage"			"0"
 				"positionImage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"Image"					"../hud/objectives_corepanel_meter_solid_right"
 
 				"left_offset"			"0"
@@ -631,7 +631,7 @@
 				"scaleimage"			"0"
 				"positionImage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"Image"					"../hud/objectives_corepanel_meter_right"
 
 				"left_offset"			"0"
@@ -656,7 +656,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"bgcolor_override"		"0 0 0 0"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 
 			"Score"
 			{
@@ -672,7 +672,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 			}	
 		
 			"ScoreShadow"
@@ -690,7 +690,7 @@
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 
@@ -706,7 +706,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"bgcolor_override"		"0 0 0 0"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 
 			"Score"
 			{
@@ -722,7 +722,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"proportionalToParent"	"1"	
+				"proportionaltoparent"	"1"	
 			}	
 		
 			"ScoreShadow"
@@ -740,7 +740,7 @@
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 		"BlueStolenContainer"
@@ -801,7 +801,7 @@
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
 			"scaleImage"		"1"	
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		}
 		
 		"CountdownLabelTime"
@@ -818,7 +818,7 @@
 			"textAlignment"	"east"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumSmallBold"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		}
 
 		"CountdownLabelTimeShadow"
@@ -836,7 +836,7 @@
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"Black"		
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 			"pin_to_sibling"	"CountdownLabelTime"
 		}
 	}

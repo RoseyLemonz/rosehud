@@ -398,9 +398,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultfgcolor_override" "46 43 42 255"
+				"armedfgcolor_override" "235 226 202 255"
+				"depressedfgcolor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -446,9 +446,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultfgcolor_override" "46 43 42 255"
+				"armedfgcolor_override" "235 226 202 255"
+				"depressedfgcolor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -560,8 +560,8 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"armedbgcolor_override"		"CreditsGreen"
+				"defaultbgcolor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -596,9 +596,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override"		"Gray"
-			"armedBgColor_override"		"HudNegat"
-			"defaultBgColor_override"	"HudNegatTransparent"
+			"armedfgcolor_override"		"Gray"
+			"armedbgcolor_override"		"HudNegat"
+			"defaultbgcolor_override"	"HudNegatTransparent"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -650,8 +650,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"HudNegat"
-			"defaultBgColor_override"	"HudNegatTransparent"
+			"armedbgcolor_override"		"HudNegat"
+			"defaultbgcolor_override"	"HudNegatTransparent"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"

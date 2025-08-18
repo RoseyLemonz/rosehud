@@ -56,9 +56,9 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 				
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultfgcolor_override" "46 43 42 255"
+				"armedfgcolor_override" "235 226 202 255"
+				"depressedfgcolor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"
@@ -792,8 +792,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "DarkerBlack"
-			"defaultBgColor_override" "HudPrimary"
+			"defaultfgcolor_override" "DarkerBlack"
+			"defaultbgcolor_override" "HudPrimary"
 			
 			"SubImage"
 			{
@@ -830,8 +830,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "DarkerBlack"
-			"defaultBgColor_override" "HudPrimary"
+			"defaultfgcolor_override" "DarkerBlack"
+			"defaultbgcolor_override" "HudPrimary"
 		}	
 
 		"MOTD_HeaderIcon"
@@ -1220,9 +1220,9 @@
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultfgcolor_override" "46 43 42 255"
+			"armedfgcolor_override" "235 226 202 255"
+			"depressedfgcolor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -1406,9 +1406,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultfgcolor_override" "46 43 42 255"
+		"armedfgcolor_override" "235 226 202 255"
+		"depressedfgcolor_override" "46 43 42 255"
 	}
 
 	"StoreHasNewItemsImage"

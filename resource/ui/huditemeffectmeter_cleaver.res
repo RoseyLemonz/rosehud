@@ -44,7 +44,7 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"font"					"FontStoreOriginalPrice"
+		"font"					"HudMeterLabel"
 	}
 
 	"MeterColor"

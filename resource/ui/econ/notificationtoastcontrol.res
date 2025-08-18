@@ -41,7 +41,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"delete"
 
-		"defaultBgColor_override"	"HudPrimaryDark"
+		"defaultbgcolor_override"	"HudPrimaryDark"
 
  		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"46 43 42 255"
@@ -91,7 +91,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"trigger"
 
-		"defaultBgColor_override"	"HudPrimaryDark"
+		"defaultbgcolor_override"	"HudPrimaryDark"
 
  		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"46 43 42 255"
@@ -145,10 +145,10 @@
 		"border_armed"		"MainMenuMiniButtonArmed"
 		"paintbackground"	"0"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultbgcolor_override"	"100 90 85 255"
+		"defaultfgcolor_override"	"255 255 255 255"
+		"armedfgcolor_override" "235 226 202 255"
+		"depressedfgcolor_override" "46 43 42 255"
 
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"200 80 60 255"
@@ -196,10 +196,10 @@
 		"border_armed"		"MainMenuMiniButtonArmed"
 		"paintbackground"	"0"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultbgcolor_override"	"100 90 85 255"
+		"defaultfgcolor_override" "46 43 42 255"
+		"armedfgcolor_override" "235 226 202 255"
+		"depressedfgcolor_override" "46 43 42 255"
 
 		"image_drawcolor"	"238 54 36 255"
 		"image_armedcolor"	"200 80 60 255"

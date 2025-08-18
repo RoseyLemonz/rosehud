@@ -101,13 +101,13 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"TrueBlack"
-			"armedBgColor_override"			"White"
-			"depressedBgColor_override"		"White"
+			"defaultbgcolor_override"		"TrueBlack"
+			"armedbgcolor_override"			"White"
+			"depressedbgcolor_override"		"White"
 
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"TrueBlack"
-			"depressedFgColor_override"		"255 255 255 255"
+			"defaultfgcolor_override"		"White"
+			"armedfgcolor_override"			"TrueBlack"
+			"depressedfgcolor_override"		"255 255 255 255"
 
 			"roundedcorners"				"4"
 
@@ -153,13 +153,13 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"88 101 242 255"
-			"armedBgColor_override"			"224 227 255 255"
-			"depressedBgColor_override"		"224 227 255 255"
+			"defaultbgcolor_override"		"88 101 242 255"
+			"armedbgcolor_override"			"224 227 255 255"
+			"depressedbgcolor_override"		"224 227 255 255"
 
-			"defaultFgColor_override"		"224 227 255 255"
-			"armedFgColor_override"			"TrueBlack"
-			"depressedFgColor_override"		"255 255 255 255"
+			"defaultfgcolor_override"		"224 227 255 255"
+			"armedfgcolor_override"			"TrueBlack"
+			"depressedfgcolor_override"		"255 255 255 255"
 
 			"roundedcorners"				"8"
 
@@ -202,7 +202,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"Black"
+			"defaultbgcolor_override"		"Black"
 
 			"roundedcorners"				"0"
 		}
@@ -226,7 +226,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"Black"
+			"defaultbgcolor_override"		"Black"
 
 			"roundedcorners"				"0"
 
@@ -256,7 +256,7 @@
 			"actionsignallevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"Black"
+			"defaultbgcolor_override"		"Black"
 
 			"roundedcorners"				"0"
 
@@ -288,11 +288,11 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Black"
-			"armedFgColor_override"			"HudPrimary"
-			"armedBgColor_override"			"Black"
-			"depressedFgColor_override"		"HudPrimaryLight"
-			"depressedBgColor_override"		"Black"
+			"defaultbgcolor_override"		"Black"
+			"armedfgcolor_override"			"HudPrimary"
+			"armedbgcolor_override"			"Black"
+			"depressedfgcolor_override"		"HudPrimaryLight"
+			"depressedbgcolor_override"		"Black"
 
 			"roundedcorners"				"0"
 		}

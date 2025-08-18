@@ -70,45 +70,55 @@ Scheme
 		}	
 		"41"
 		{
+		"font"	"resource/fonts/tf2charactericons.ttf"
+		"name"	"tf2charactericons"	
+		}	
+		"42"
+		{
 		"font"	"resource/fonts/bahnschrift.ttf"
 		"name"	"bahnschrift"	
 		}	
-		"42"
+		"43"
 		{
 		"font"	"resource/fonts/bahnschriftbold.ttf"
 		"name"	"bahnschriftbold"	
 		}	
-		"43"
+
+		//
+		//	Customization fonts below
+		//
+
+		"60"
 		{
 		"font"	"resource/fonts/luxi.ttf"
 		"name"	"luxi"	
 		"range"	"0x0020 0x007F"
 		}	
-		"44"
+		"61"
 		{
 		"font"	"resource/fonts/gordinregular.ttf"
 		"name"	"gordinregular"	
 		"range"	"0x0020 0x007F"
 		}	
-		"45"
+		"62"
 		{
 		"font"	"resource/fonts/uwing.ttf"
 		"name"	"uwing"
 		"range"	"0x0020 0x007F"
 		}	
-		"46"
+		"63"
 		{
 		"font"	"resource/fonts/usans.ttf"
 		"name"	"usans"	
 		"range"	"0x0020 0x007F"
 		}	
-		"47"
+		"64"
 		{
 		"font"	"resource/fonts/upapaya.ttf"
 		"name"	"upapaya"	
 		"range"	"0x0020 0x007F"
 		}	
-		"48"
+		"65"
 		{
 		"font"	"resource/fonts/iosevka.ttf"
 		"name"	"iosevka"	

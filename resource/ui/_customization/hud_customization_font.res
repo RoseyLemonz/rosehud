@@ -94,37 +94,11 @@
 						"labelText"							"1234..."						
 						"font"								"Customization_Font_TF"
 						"textAlignment"						"center"
-						"command"							"engine"
+						"command"							"engine hud_font_tf"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
-				}
-
-
-				"NotYetBahnButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetBahnButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontBahn"
-
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
 				}
 
 				"FontBahn"
@@ -181,10 +155,10 @@
 						"labelText"							"1234..."						
 						"font"								"Customization_Font_Bahn"
 						"textAlignment"						"center"
-						"command"							"engine"
+						"command"							"engine hud_font_bahn"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
@@ -207,10 +181,10 @@
 
 					"pin_to_sibling"				"FontLuxi"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontLuxi"
@@ -270,7 +244,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
@@ -293,10 +267,10 @@
 
 					"pin_to_sibling"				"FontGordin"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontGordin"
@@ -356,7 +330,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
@@ -379,10 +353,10 @@
 
 					"pin_to_sibling"				"FontWing"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontWing"
@@ -438,7 +412,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
@@ -461,10 +435,10 @@
 
 					"pin_to_sibling"				"FontSans"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontSans"
@@ -524,7 +498,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
@@ -547,10 +521,10 @@
 
 					"pin_to_sibling"				"FontPapaya"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontPapaya"
@@ -610,7 +584,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
@@ -633,10 +607,10 @@
 
 					"pin_to_sibling"				"FontIosevka"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedFgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontIosevka"
@@ -696,7 +670,7 @@
 						"command"							"engine"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 			}
