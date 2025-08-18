@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/7aQgT77.png" width="60%">
 
-Team Fortress 2 HUD featuring various characters across different media.
+Minimal Team Fortress 2 HUD featuring various characters across different media.
 
 Currently highly WIP.
 
