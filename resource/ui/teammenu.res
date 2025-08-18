@@ -52,7 +52,7 @@
 		"xpos"			"c-310"
 		"ypos"			"50"
 		"wide"			"90"
-		"tall"			"24"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -201,25 +201,6 @@
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-	}
-
-	"TeamMenuSelectShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSelectShadow"
-		"xpos"			"2"
-		"ypos"			"52"
-		"zpos"			"6"
-		"wide"			"f0"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_SelectATeam"
-		"textAlignment"	"center"
-		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
 	}
 
 	"TeamMenuRed"

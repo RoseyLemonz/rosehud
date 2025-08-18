@@ -268,6 +268,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"48"
+				"antialias"	"1"
 			}
 		}
 		"HudValueSmaller"
@@ -276,6 +277,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"42"
+				"antialias"	"1"
 			}
 		}
 		"HudValueOutline"
@@ -285,6 +287,7 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"48"
 				"outline"	"1"
+				"antialias"	"1"
 			}
 		}
 		"HudValueBlur"
@@ -294,6 +297,7 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"48"
 				"blur"		"1"
+				"antialias"	"1"
 			}
 		}
 		"HudAmmoReserve"
@@ -373,6 +377,7 @@ Scheme
 			{
 				"name"		"bahnschriftbold"
 				"tall"		"56"
+				"antialias"	"1"
 			}
 		}
 
@@ -382,6 +387,7 @@ Scheme
 			{
 				"name"		"bahnschrift"
 				"tall"		"20"
+				"antialias"	"1"
 			}
 		}
 
@@ -479,6 +485,7 @@ Scheme
 			{
 				"name"		"tf2icons"
 				"tall"		"18"
+				"antialias"	"1"
 			}
 		}
 		"HudInGameIco"
@@ -487,6 +494,16 @@ Scheme
 			{
 				"name"		"tf2charactericons"
 				"tall"		"22"
+				"antialias"	"1"
+			}
+		}
+		"HudClassSelect"
+		{
+			"1"
+			{
+				"name"		"tf2charactericons"
+				"tall"		"48"
+				"antialias"	"1"
 			}
 		}
 

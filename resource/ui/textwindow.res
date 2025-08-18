@@ -36,7 +36,7 @@
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"24"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -45,24 +45,6 @@
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
 	}	
-	"TFMessageTitleShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TFMessageTitleShadow"
-		"xpos"			"2"
-		"ypos"			"52"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_WELCOME"
-		"textAlignment"	"center"
-		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
-	}
 
 	"TextMessage"
 	{

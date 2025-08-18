@@ -28,7 +28,7 @@
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"24"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -36,23 +36,6 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
-	}
-	"MapInfoTitleShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoTitleShadow"
-		"xpos"			"2"
-		"ypos"			"52"
-		"wide"			"f0"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%mapname%"
-		"textAlignment"	"center"
-		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
 	}
 	"MapInfoType"
 	{
