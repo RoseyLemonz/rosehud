@@ -70,8 +70,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -112,8 +112,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -155,8 +155,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -199,8 +199,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -241,8 +241,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -285,8 +285,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -329,8 +329,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -372,8 +372,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -415,8 +415,8 @@
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
-		"armedfgcolor_override"		"HudPrimaryLight"
-		"depressedfgcolor_override"	"HudPrimaryDark"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -448,8 +448,8 @@
 		"xpos"				"cs-0.5+25"
 		"ypos"				"cs-0.5-30"
 		"zpos"				"7"
-		"wide"				"55"
-		"tall"				"o1"
+		"wide"				"40"
+		"tall"				"55"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
@@ -461,7 +461,7 @@
 		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"HudPrimaryDark"
 		"depressedfgcolor_override"	"HudPrimaryLight"
-		"selectedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -485,8 +485,8 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"6"
-		"wide"				"55"
-		"tall"				"o1"
+		"wide"				"40"
+		"tall"				"55"
 		"visible"			"1"
 		"enabled"			"0"
 		"tabPosition"		"0"
@@ -507,8 +507,8 @@
 		"xpos"				"-3"
 		"ypos"				"0"
 		"zpos"				"6"
-		"wide"				"55"
-		"tall"				"o1"
+		"wide"				"40"
+		"tall"				"55"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
@@ -520,7 +520,7 @@
 		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"HudPrimaryDark"
 		"depressedfgcolor_override"	"HudPrimaryLight"
-		"selectedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
