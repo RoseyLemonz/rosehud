@@ -11,7 +11,7 @@
 //==============================================================
 // FOLDERCHECK
 //==============================================================
-#base "../../../../rosehud/resource/ui/_customization/foldercheck/hud_customization_checkpass.res"
+#base "../../rosehud/_customization/foldercheck/hud_customization_checkpass.res"
 #base "foldercheck/hud_customization_checkfail.res"
 
 //==============================================================
