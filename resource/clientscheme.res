@@ -8,9 +8,8 @@
 
 // HUD CUSTOM THINGS
 
-#base "scheme/rosehudscheme.res"
+#base "scheme/rosescheme/rosescheme_point.res"
 
 // BASE
 
-#base "scheme/customfontfiles.res"
-#base "scheme/clientscheme.res"
+#base "scheme/clientscheme/clientscheme_point.res"
