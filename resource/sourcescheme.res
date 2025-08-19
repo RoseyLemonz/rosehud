@@ -1,6 +1,6 @@
 // CUSTOM CHARACTER THEME
 
-#base "ui/_customization/theme/ellep/resource/ellepscheme.res"
+#base "../../../cfg/rosehud/hud_charascheme.txt"
 
 // CUSTOM THINGS
 

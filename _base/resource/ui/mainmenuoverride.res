@@ -1078,7 +1078,7 @@
 		"wide"			"210"
 		"tall"			"95"
 		"visible"		"0"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"DarkerBlack"
 		"PaintBackgroundType"	"2"
 		
 		"Notifications_CloseButton"

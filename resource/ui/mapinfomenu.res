@@ -1,3 +1,4 @@
+#base "textpanel_base.res"
 "Resource/UI/MapInfoMenu.res"
 {
 	"mapinfo"
@@ -58,7 +59,7 @@
 	"MapInfoTypeShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoType"
+		"fieldName"		"MapInfoTypeShadow"
 		"xpos"			"1"
 		"ypos"			"76"
 		"wide"			"f0"
@@ -107,38 +108,24 @@
 		"scaleImage"	"1"		
 	}
 
-	"ChalkBG"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"ChalkBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"115"
-		"zpos"			"1"
-		"wide"			"430"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintBackgroundType"	"2"
-		"bgcolor_override"		"TransparentBlack"
-	}
-
 	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"cs0.1"
-		"ypos"			"r40"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"p0.5"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"#rose_Continue"
 		"textAlignment"	"center"
 		"command"		"continue"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"MapInfoWatchIntro"
@@ -152,31 +139,26 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"cs-1"
-		"ypos"			"r40"
+		"xpos"			"0"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"p0.5"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"#rose_Back"
 		"textAlignment"	"center"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 
-	"BarBottom"
+	"BGDarken"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarBottom"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"DarkerBlack"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 }

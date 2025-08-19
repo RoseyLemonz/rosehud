@@ -46,10 +46,10 @@
 		"ControlName"	"Panel"
 		"fieldName"		"BarBottom"
 		"xpos"			"0"
-		"ypos"			"r50"
+		"ypos"			"rs1"
 		"zpos"			"-50"
 		"wide"			"200"
-		"tall"			"50"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"DarkerBlack"
@@ -70,8 +70,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"15"
-		"ypos"			"r42"
+		"xpos"			"10"
+		"ypos"			"rs1-12"
 		"wide"			"170"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -106,10 +106,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmallest"
-		"xpos"			"15"
-		"ypos"			"r26"
+		"xpos"			"10"
+		"ypos"			"rs1"
 		"wide"			"170"
-		"tall"			"20"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -190,4 +190,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}		
+
+	HudInspectPanel
+	{
+		"xpos"	"105"
+	}
 }

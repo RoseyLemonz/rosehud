@@ -1,3 +1,4 @@
+#base "textpanel_base.res"
 "Resource/UI/ClassSelection.res"
 {
 	"class"
@@ -439,12 +440,39 @@
 			"visible"		"0"
 		}								
 	}	
+	
+	"FakeLoadoutButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"FakeLoadoutButton"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"6"
+		"wide"				"55"
+		"tall"				"o1"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"@  "
+		"textAlignment"		"center"
+		"font"				"HudClassSelect"
+		
+		"defaultfgcolor_override"	"Gray"
+		"armedfgcolor_override"		"Gray"
+		"depressedfgcolor_override"	"Gray"
+		"selectedfgcolor_override"	"Gray"
+		
+		"paintbackground"	"0"
+		
+		"keyboardinputenabled"	"0"
+		"pin_to_sibling"	"EditLoadoutButton"
+	}	
 
 	"EditLoadoutButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"EditLoadoutButton"
-		"xpos"				"cs-0.5+15"
+		"xpos"				"cs-0.5+25"
 		"ypos"				"cs-0.5-30"
 		"zpos"				"7"
 		"wide"				"55"
@@ -453,7 +481,6 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"@&e"
-		"textinsetx"		"24"
 		"textAlignment"		"center"
 		"Command"			"openloadout"
 		"font"				"HudClassSelect"
@@ -477,39 +504,12 @@
 
 		"use_proportional_insets"	"1"
 	}
-	
-	"FakeLoadoutButton"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FakeLoadoutButton"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"55"
-		"tall"				"o1"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"@"
-		"textAlignment"		"center"
-		"font"				"HudClassSelect"
-		
-		"defaultfgcolor_override"	"Gray"
-		"armedfgcolor_override"		"Gray"
-		"depressedfgcolor_override"	"Gray"
-		"selectedfgcolor_override"	"Gray"
-		
-		"paintbackground"	"0"
-		
-		"keyboardinputenabled"	"0"
-		"pin_to_sibling"	"EditLoadoutButton"
-	}	
 
 	"random"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"0"
+		"xpos"				"8"
 		"ypos"				"0"
 		"zpos"				"6"
 		"wide"				"55"
@@ -553,21 +553,30 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"cs-0.5f"
-		"ypos"			"r40"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}	
+
+	"NewCancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NewCancelButton"
+		"xpos"			"0"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"f0"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Cancel"
+		"labelText"		"#rose_Cancel"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
-		"fgcolor_override" "200 80 60 255"
+		"roundedcorners"	"0"
 	}	
 
 	"ResetButton" 
@@ -643,51 +652,6 @@
 		"font"			"HudFontMediumSmallSecondary"
 		"fgcolor"		"HudTrainingHint"
 	}
-
-	"BGDarken"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"TransparentBlack"
-	}
-
-	"ChalkBG"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"ChalkBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"1"
-		"wide"			"500"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintBackgroundType"	"2"
-		"bgcolor_override"		"TransparentBlack"
-	}
-
-	"BarBottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarBottom"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"DarkerBlack"
-	}
-
 	"localPlayerImage"
 	{
 		"fieldName"		"localPlayerImage"
@@ -1427,5 +1391,14 @@
 				"scaleImage"	"1"
 			}				
 		}
-	}		
+	}	
+
+	"ChalkBG"	
+	{
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"1"
+		"wide"			"500"
+		"tall"			"260"
+	}
 }

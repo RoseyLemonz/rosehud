@@ -1,3 +1,4 @@
+#base "textpanel_base.res"
 "Resource/UI/TeamMenu.res"
 {
 	"team"
@@ -169,20 +170,30 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"r40"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}
+
+	"NewCancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NewCancelButton"
+		"xpos"			"0"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"f0"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
+		"labelText"		"#rose_Cancel"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
 	}
 	
 	"TeamMenuSelect"
@@ -550,17 +561,18 @@
 		"image"			"../HUD/arrow_big_down"
 		"scaleImage"	"1"	
 	}
-	"BarBottom"
+
+	"BGDarken"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarBottom"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"DarkerBlack"
+		"xpos"		"9999"
+		"wide"		"0"
+		"visible"	"0"
+	}
+	"ChalkBG"
+	{
+		"xpos"		"9999"
+		"wide"		"0"
+		"visible"	"0"
 	}
 }
 

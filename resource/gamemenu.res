@@ -17,7 +17,7 @@
 	"ShowHUDOptionsButton"
 	{
 		"label"			"z"
-		"command"		"engine cl_mainmenu_safemode 1; mat_queue_mode 0; gameui_preventescape"
+		"command"		"engine cl_mainmenu_safemode 1; mat_queue_mode 0"
 		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 
