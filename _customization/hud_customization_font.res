@@ -8,8 +8,8 @@
 			{
 				"ControlName"					"EditablePanel"
 				"fieldName"						"UIFont"
-				"xpos"							"6"
-				"ypos"							"78"
+				"xpos"							"7"
+				"ypos"							"134"
 				"zpos"							"0"
 				"wide"							"286"
 				"tall"							"95"
@@ -162,31 +162,6 @@
 					}
 				}
 
-				"NotYetLuxiButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetLuxiButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontLuxi"
-
-					"defaultfgcolor_override"		"RedSolid"
-					"armedfgcolor_override"			"RedSolid"
-					"depressedfgcolor_override"		"RedSolid"
-					"Selectedfgcolor_override"		"RedSolid"
-				}
-
 				"FontLuxi"
 				{
 					"ControlName"						"EditablePanel"
@@ -246,31 +221,6 @@
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultbgcolor_override"			"DarkerBlack"
 					}
-				}
-
-				"NotYetGordinButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetGordinButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontGordin"
-
-					"defaultfgcolor_override"		"RedSolid"
-					"armedfgcolor_override"			"RedSolid"
-					"depressedfgcolor_override"		"RedSolid"
-					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontGordin"
@@ -334,31 +284,6 @@
 					}
 				}
 
-				"NotYetWingButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetWingButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontWing"
-
-					"defaultfgcolor_override"		"RedSolid"
-					"armedfgcolor_override"			"RedSolid"
-					"depressedfgcolor_override"		"RedSolid"
-					"Selectedfgcolor_override"		"RedSolid"
-				}
-
 				"FontWing"
 				{
 					"ControlName"						"EditablePanel"
@@ -414,31 +339,6 @@
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultbgcolor_override"			"DarkerBlack"
 					}
-				}
-
-				"NotYetSansButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetSansButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontSans"
-
-					"defaultfgcolor_override"		"RedSolid"
-					"armedfgcolor_override"			"RedSolid"
-					"depressedfgcolor_override"		"RedSolid"
-					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontSans"
@@ -502,31 +402,6 @@
 					}
 				}
 
-				"NotYetPapayaButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetPapayaButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontPapaya"
-
-					"defaultfgcolor_override"		"RedSolid"
-					"armedfgcolor_override"			"RedSolid"
-					"depressedfgcolor_override"		"RedSolid"
-					"Selectedfgcolor_override"		"RedSolid"
-				}
-
 				"FontPapaya"
 				{
 					"ControlName"						"EditablePanel"
@@ -586,31 +461,6 @@
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultbgcolor_override"			"DarkerBlack"
 					}
-				}
-
-				"NotYetIosevkaButton"
-				{
-					"ControlName"					"CExButton"
-					"fieldName"						"NotYetIosevkaButton"
-					"xpos"							"0"
-					"ypos"							"12"
-					"zpos"							"21"
-					"wide"							"65"
-					"tall"							"65"
-					"visible"						"1"
-					"enabled"						"1"
-					"proportionaltoparent"			"1"
-					"labelText"						"X"
-					"font"							"HudFontGiantBold"
-					"textAlignment"					"center"
-					"paintBackground"				"0"
-
-					"pin_to_sibling"				"FontIosevka"
-
-					"defaultfgcolor_override"		"RedSolid"
-					"armedfgcolor_override"			"RedSolid"
-					"depressedfgcolor_override"		"RedSolid"
-					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"FontIosevka"

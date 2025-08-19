@@ -1,0 +1,123 @@
+"resource/ui/#customizations/hud_customization_health.res"
+{
+	"SafeMode"
+	{
+		"Customizations_Scroller"
+		{
+			"ChatPos"
+			{
+				"ControlName"					"EditablePanel"
+				"fieldName"						"ChatPos"
+				"xpos"							"7"
+				"ypos"							"232"
+				"zpos"							"0"
+				"wide"							"286"
+				"tall"							"48"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionaltoparent"			"1"
+				"paintBackground"				"1"
+				"paintBackgroundType"			"2"
+				"roundedcorners"				"0"
+				"bgcolor_override"				"Black"
+
+				"Title"
+				{
+					"ControlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"0"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f0"
+					"tall"								"14"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"use_proportional_insets"			"1"
+					"labelText"							"Chat Position"
+					"font"								"ItemFontNameSmallest"
+					"centerwrap"						"1"
+					"fgcolor"							"Black"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"2"
+					"roundedcorners"					"0"
+					"bgcolor_override"					"HudPrimary"
+				}
+
+				"ChatPosTop"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"ChatPosTop"
+					"xpos"								"7"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"130"
+					"tall"								"35"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"0"
+
+					"ChatTop_Button"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"ChatTop_Button"
+						"xpos"								"cs-0.5"
+						"ypos"								"0"
+						"zpos"								"5"
+						"wide"								"f0"
+						"tall"								"f12"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							"Top Left"						
+						"font"								"Customization_Font_TF"
+						"textAlignment"						"center"
+						"command"							"engine hud_chatpos_top"
+						"actionsignallevel"					"5"
+						"sound_depressed"					"UI/buttonclick.wav"
+						"defaultbgcolor_override"			"DarkerBlack"
+					}
+				}
+
+				"ChatPosBottom"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"ChatPosBottom"
+					"xpos"								"rs1-7"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"130"
+					"tall"								"35"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"0"
+
+					"ChatBottom_Button"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"ChatBottom_Button"
+						"xpos"								"cs-0.5"
+						"ypos"								"0"
+						"zpos"								"5"
+						"wide"								"f0"
+						"tall"								"f12"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							"Bottom Left"						
+						"font"								"Customization_Font_TF"
+						"textAlignment"						"center"
+						"command"							"engine hud_chatpos_bottom"
+						"actionsignallevel"					"5"
+						"sound_depressed"					"UI/buttonclick.wav"
+						"defaultbgcolor_override"			"DarkerBlack"
+					}
+				}
+			}
+		}
+	}
+}

@@ -310,7 +310,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"sakaki theme"
+		"labelText"		"SakakiTheme"
 		"font"			"HudTheme"
 		"fgcolor"		"HudPrimary"
 	}	
@@ -327,7 +327,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"sakaki theme"
+		"labelText"		"SakakiTheme"
 		"font"			"HudTheme"
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"HudTheme"

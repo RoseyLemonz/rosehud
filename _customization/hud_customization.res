@@ -9,6 +9,11 @@
 #base "hud_customization_font.res"
 
 //==============================================================
+// CHAT POSITION
+//==============================================================
+#base "hud_customization_chatpos.res"
+
+//==============================================================
 // FOLDERCHECK
 //==============================================================
 #base "../../rosehud/_customization/foldercheck/hud_customization_checkpass.res"
