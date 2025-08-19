@@ -71,7 +71,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"10"
-		"ypos"			"rs1-12"
+		"ypos"			"rs1-13"
+		"zpos"			"1"
 		"wide"			"170"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -80,8 +81,31 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"west"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallest"
+		"paintBackground"	"1"
+		"bgcolor_override"	"DarkerBlack"
 	}
+
+	"SpectatingLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SpectatingLabel"
+		"xpos"			"10"
+		"ypos"			"rs1-13"
+		"zpos"			"0"
+		"wide"			"170"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Spectator_Spectating"
+		"textAlignment"	"west"
+		"font"			"HudFontSmallest"
+		"paintBackground"	"1"
+		"bgcolor_override"	"DarkerBlack"
+	}
+
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
