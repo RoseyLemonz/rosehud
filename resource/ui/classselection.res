@@ -440,33 +440,6 @@
 			"visible"		"0"
 		}								
 	}	
-	
-	"FakeLoadoutButton"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"FakeLoadoutButton"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"6"
-		"wide"				"55"
-		"tall"				"o1"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"@  "
-		"textAlignment"		"center"
-		"font"				"HudClassSelect"
-		
-		"defaultfgcolor_override"	"Gray"
-		"armedfgcolor_override"		"Gray"
-		"depressedfgcolor_override"	"Gray"
-		"selectedfgcolor_override"	"Gray"
-		
-		"paintbackground"	"0"
-		
-		"keyboardinputenabled"	"0"
-		"pin_to_sibling"	"EditLoadoutButton"
-	}	
 
 	"EditLoadoutButton"
 	{
@@ -481,7 +454,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"@&e"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"Command"			"openloadout"
 		"font"				"HudClassSelect"
 		
@@ -504,12 +477,34 @@
 
 		"use_proportional_insets"	"1"
 	}
+	
+	"FakeLoadoutButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"FakeLoadoutButton"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"6"
+		"wide"				"55"
+		"tall"				"o1"
+		"visible"			"1"
+		"enabled"			"0"
+		"tabPosition"		"0"
+		"labelText"			"@&e"
+		"textAlignment"		"west"
+		"font"				"HudClassSelect"
+
+		"paintbackground"	"0"
+		
+		"keyboardinputenabled"	"0"
+		"pin_to_sibling"	"EditLoadoutButton"
+	}	
 
 	"random"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"8"
+		"xpos"				"-3"
 		"ypos"				"0"
 		"zpos"				"6"
 		"wide"				"55"
@@ -518,11 +513,11 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"?"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"Command"			"select 12"
 		"font"				"HudClassSelect"
 		
-		"defaultfgcolor_override"	"Gray"
+		"defaultfgcolor_override"	"White"
 		"armedfgcolor_override"		"HudPrimaryDark"
 		"depressedfgcolor_override"	"HudPrimaryLight"
 		"selectedfgcolor_override"	"HudPrimaryLight"
