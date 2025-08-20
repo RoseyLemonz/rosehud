@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
+				"name"		"caslonantique"
 				"tall"		"50"
 			}
 		}
@@ -15,7 +15,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
+				"name"		"caslonantique"
 				"tall"		"46"
 			}
 		}
@@ -23,7 +23,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
+				"name"		"caslonantique"
 				"tall"		"50"
 				"outline"	"1"
 			}
@@ -32,7 +32,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
+				"name"		"caslonantique"
 				"tall"		"50"
 				"blur"		"1"
 			}
@@ -41,7 +41,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
+				"name"		"caslonantique"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -51,7 +51,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
+				"name"		"caslonantique"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -61,18 +61,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
+				"name"		"caslonantique"
 				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudMeterLabelLarge"
-		{
-			"1"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -81,7 +71,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
+				"name"		"caslonantique"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudMeterLabelLarge"
+		{
+			"1"
+			{
+				"name"		"caslonantique"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -91,7 +91,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
+				"name"		"caslonantique"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -101,7 +101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
+				"name"		"caslonantique"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"

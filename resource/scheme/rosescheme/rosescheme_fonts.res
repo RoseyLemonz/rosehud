@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"48"
 				"antialias"	"1"
 			}
@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"42"
 				"antialias"	"1"
 			}
@@ -25,7 +25,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"48"
 				"outline"	"1"
 				"antialias"	"1"
@@ -35,7 +35,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"48"
 				"blur"		"1"
 				"antialias"	"1"
@@ -45,7 +45,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -55,7 +55,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -65,7 +65,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -75,7 +75,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -85,7 +85,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -95,7 +95,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -105,7 +105,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -136,7 +136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2build"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -165,12 +165,12 @@ Scheme
 			}
 		}
 
-		"Customization_Font_Gordin"
+		"Customization_Font_Caslon"
 		{
 			"1"
 			{
-				"name"		"gordinregular"
-				"tall"		"18"
+				"name"		"caslonantique"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -181,7 +181,7 @@ Scheme
 			"1"
 			{
 				"name"		"uwing"
-				"tall"		"16"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -191,7 +191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"usans"
+				"name"		"comicsans"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -202,7 +202,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"upapaya"
+				"name"		"papyrus"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -225,7 +225,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2icons"
-				"tall"		"18"
+				"tall"		"21"
 				"antialias"	"1"
 			}
 		}
@@ -252,7 +252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -268,7 +268,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -278,7 +278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -288,7 +288,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -298,7 +298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -308,7 +308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -318,7 +318,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -328,7 +328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -338,7 +338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -348,7 +348,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -358,7 +358,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -368,7 +368,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -378,7 +378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -388,7 +388,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -398,7 +398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -408,7 +408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" "1"
@@ -418,7 +418,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"38"
 				"additive"	"0"
 				"antialias" "1"
@@ -428,7 +428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -438,7 +438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"42"
 				"additive"	"0"
 				"antialias" "1"
@@ -448,7 +448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"44"
 				"additive"	"0"
 				"antialias" "1"
@@ -458,7 +458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"46"
 				"additive"	"0"
 				"antialias" "1"
@@ -468,7 +468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"48"
 				"additive"	"0"
 				"antialias" "1"
@@ -478,7 +478,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"tf2professor"
 				"tall"		"50"
 				"additive"	"0"
 				"antialias" "1"

@@ -17,65 +17,74 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-		"font" "resource/fonts/tf2_linux.ttf"	[$LINUX]
-		"font" "resource/fonts/tf2.ttf"			[$WINDOWS]
-		"name" "TF2"
+		"font" "resource/fonts/lin/tf2.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/tf2.ttf" [$WINDOWS]
+		"name" "tf2"
 		}
 		"4" 
 		{
-		"font" "resource/fonts/tf2secondary.ttf"
-		"name" "TF2 Secondary"
+		"font" "resource/fonts/lin/tf2secondary.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/tf2secondary.ttf" [$WINDOWS]
+		"name" "tf2secondary"
 		}
 		"5" 
 		{
-		"font" "resource/fonts/tf2professor.ttf"
-		"name" "TF2 Professor"
+		"font" "resource/fonts/lin/tf2professor.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/tf2professor.ttf" [$WINDOWS]
+		"name" "tf2professor"
 		}
 		"6" 
 		{
-		"font" "resource/fonts/tf2build.ttf"
-		"name" "TF2 Build"
+		"font" "resource/fonts/lin/tf2build.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/tf2build.ttf" [$WINDOWS]
+		"name" "tf2build"
 		}
 		"7" 
 		{
-		"font"	"resource/fonts/ocra.ttf"
+		"font" "resource/fonts/lin/ocra.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/ocra.ttf" [$WINDOWS]
 		"name" "ocra"	
 		}
 
-		"10"	"resource/HALFLIFE2.ttf"
-		"11"	"resource/HL2EP2.ttf"
-		"12"	"resource/marlett.ttf"
+		"10" "resource/HALFLIFE2.ttf"
+		"11" "resource/HL2EP2.ttf"
+		"12" "resource/marlett.ttf"
 
-		"13"	"resource/linux_fonts/DejaVuSans.ttf"
-		"14"	"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"15"	"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"16"	"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"17"	"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"18"	"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"19"	"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"20"	"resource/linux_fonts/FiraSans-Regular.ttf"
+		"13" "resource/linux_fonts/DejaVuSans.ttf"
+		"14" "resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"15" "resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"16" "resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"17" "resource/linux_fonts/LiberationSans-Regular.ttf"
+		"18" "resource/linux_fonts/LiberationSans-Bold.ttf"
+		"19" "resource/linux_fonts/LiberationMono-Regular.ttf"
+		"20" "resource/linux_fonts/FiraSans-Regular.ttf"
 
 		"40"
 		{
-		"font"	"resource/fonts/tf2icons_linux.ttf"	[$LINUX]
-		"font"	"resource/fonts/tf2icons.ttf"		[$WINDOWS]
-		"name"	"tf2icons"	
+		"font" "resource/fonts/lin/tf2icons.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/tf2icons.ttf" [$WINDOWS]
+		"name" "tf2icons"
 		}	
 		"41"
 		{
-		"font"	"resource/fonts/tf2charactericons.ttf"
-		"name"	"tf2charactericons"	
+		"font" "resource/fonts/lin/tf2charactericons.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/tf2charactericons.ttf" [$WINDOWS]
+		"name" "tf2charactericons"	
 		}	
 		"42"
 		{
-		"font"	"resource/fonts/bahnschrift.ttf"
-		"name"	"bahnschrift"	
-		}	
+		"font" "resource/fonts/lin/bahnschrift.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/bahnschrift.ttf" [$WINDOWS]
+		"name" "bahnschrift"	
+		"range" "0x0020 0x007F"
+		}
 		"43"
 		{
-		"font"	"resource/fonts/bahnschriftbold.ttf"
-		"name"	"bahnschriftbold"	
-		}	
+		"font" "resource/fonts/lin/bahnschriftbold.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/bahnschriftbold.ttf" [$WINDOWS]
+		"name" "bahnschriftbold"	
+		"range" "0x0020 0x007F"
+		}
 
 		//
 		//	Customization fonts below
@@ -83,38 +92,44 @@ Scheme
 
 		"60"
 		{
-		"font"	"resource/fonts/luxi.ttf"
-		"name"	"luxi"	
-		"range"	"0x0020 0x007F"
+		"font" "resource/fonts/lin/luxi.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/luxi.ttf" [$WINDOWS]
+		"name" "luxi"	
+		"range" "0x0020 0x007F"
 		}	
 		"61"
 		{
-		"font"	"resource/fonts/gordinregular.ttf"
-		"name"	"gordinregular"	
-		"range"	"0x0020 0x007F"
+		"font" "resource/fonts/lin/caslonantique.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/caslonantique.ttf" [$WINDOWS]
+		"name" "caslonantique"	
+		"range" "0x0020 0x007F"
 		}	
 		"62"
 		{
-		"font"	"resource/fonts/uwing.ttf"
-		"name"	"uwing"
-		"range"	"0x0020 0x007F"
+		"font" "resource/fonts/uwing.ttf"
+		"name" "uwing"
+		"range" "0x0020 0x007F"
 		}	
 		"63"
 		{
-		"font"	"resource/fonts/usans.ttf"
-		"name"	"usans"	
-		"range"	"0x0020 0x007F"
+		"font" "resource/fonts/lin/comicsans.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/comicsans.ttf" [$WINDOWS]
+		"name" "comicsans"	
+		"range" "0x0020 0x007F"
 		}	
 		"64"
 		{
-		"font"	"resource/fonts/upapaya.ttf"
-		"name"	"upapaya"	
-		"range"	"0x0020 0x007F"
+		"font" "resource/fonts/lin/papyrus.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/papyrus.ttf" [$WINDOWS]
+		"name" "papyrus"	
+		"range" "0x0020 0x007F"
 		}	
 		"65"
 		{
-		"font"	"resource/fonts/iosevka.ttf"
-		"name"	"iosevka"	
+		"font" "resource/fonts/lin/iosevka.otf" [!$WINDOWS]
+		"font" "resource/fonts/win/iosevka.ttf" [$WINDOWS]
+		"name" "iosevka"	
+		"range" "0x0020 0x007F"
 		}	
 	}
 }

@@ -26,28 +26,28 @@
 
 	"MusicChangePrevButton"
 	{
-		"label"			"à"
+		"label"			"!"
 		"command"		"engine tfsongprev"
 		"tooltip"		"#TF_Prev"
 		"OnlyAtMenu"	"1"
 	}
 	"MusicStopButton"
 	{
-		"label"			"ß"
+		"label"			"#"
 		"command"		"engine tfnomusic"
 		"tooltip"		"#rose_Menu_Pause"
 		"OnlyAtMenu"	"1"
 	}
 	"MusicPlayButton"
 	{
-		"label"			"â"
+		"label"			"$"
 		"command"		"engine tfnomusic; tfsongcurrent"
 		"tooltip"		"#rose_Menu_UnPause"
 		"OnlyAtMenu"	"1"
 	}
 	"MusicChangeNextButton"
 	{
-		"label"			"á"
+		"label"			"%"
 		"command"		"engine tfsongnext"
 		"tooltip"		"#TF_Next"
 		"OnlyAtMenu"	"1"

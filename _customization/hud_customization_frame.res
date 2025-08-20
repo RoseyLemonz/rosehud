@@ -278,7 +278,7 @@
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"use_proportional_insets"		"1"
-			"labelText"						"%"
+			"labelText"						"("
 			"font"							"HudMenuIco"
 			"textAlignment"					"center"
 			"textinsetx"					"0"

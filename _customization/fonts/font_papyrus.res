@@ -7,24 +7,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"50"
+				"name"		"papyrus"
+				"tall"		"64"
 			}
 		}
 		"HudValueSmaller"
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"46"
+				"name"		"papyrus"
+				"tall"		"58"
 			}
 		}
 		"HudValueOutline"
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"50"
+				"name"		"papyrus"
+				"tall"		"64"
 				"outline"	"1"
 			}
 		}
@@ -32,8 +32,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"50"
+				"name"		"papyrus"
+				"tall"		"64"
 				"blur"		"1"
 			}
 		}
@@ -41,8 +41,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
-				"tall"		"20"
+				"name"		"papyrus"
+				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -51,8 +51,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
-				"tall"		"16"
+				"name"		"papyrus"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -61,7 +61,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
+				"name"		"papyrus"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -71,8 +71,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"12"
+				"name"		"papyrus"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -81,8 +81,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"14"
+				"name"		"papyrus"
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -91,8 +91,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschriftbold"
-				"tall"		"18"
+				"name"		"papyrus"
+				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -101,8 +101,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"bahnschrift"
-				"tall"		"24"
+				"name"		"papyrus"
+				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
 			}

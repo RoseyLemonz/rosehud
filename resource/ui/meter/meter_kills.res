@@ -73,7 +73,7 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"HudFontSmallishBold"
+		"font"					"HudMeterCount"
 		"fgcolor"				"HudPrimary"
 	}
 }
