@@ -18,10 +18,10 @@ Scheme
 		"HudBonusLight"				"169 243 232 255"
 		"HudBonusDark"				"109 183 172 255"
 
-		"HudNegat"					"198 160 246 255"
-		"HudNegatTransparent"		"198 160 246 155"
-		"HudNegatLight"				"228 190 255 255"
-		"HudNegatDark"				"168 130 216 255"
+		"HudNegat"					"238 153 160 255"
+		"HudNegatTransparent"		"238 153 160 155"
+		"HudNegatLight"				"255 183 190 255"
+		"HudNegatDark"				"208 123 130 255"
 
 		"HudTertiary"				"238 212 159 255"
 		"HudTertiaryTransparent"	"238 212 159 155"

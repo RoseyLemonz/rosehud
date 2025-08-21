@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 	}	
-
+	
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -79,10 +79,10 @@
 		"pin_to_sibling"	"PlayerCharaImage"
 	}
 
-	"PlayerCharaImageSpin"
+	"PlayerCharaImageBonus"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerCharaImageSpin"
+		"fieldName"		"PlayerCharaImageBonus"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"

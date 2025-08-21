@@ -447,7 +447,7 @@
 		"fieldName" "HudDeathNotice"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"r640"
+		"xpos"		"rs1-10"
 		"ypos"		"24"
 		"wide"		"628"
 		"tall"		"468"
@@ -456,7 +456,7 @@
 		"IconScale"	 		"0.30"
 		"LineHeight"		"12"
 		"LineSpacing"		"2"
-		"CornerRadius"		"3"
+		"CornerRadius"		"2"
 		"RightJustify"		"1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"

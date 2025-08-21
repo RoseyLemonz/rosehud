@@ -261,6 +261,260 @@ Scheme
 		}
 
 		//
+		// Default font "replacement"
+		//
+
+		"DefaultBahn"
+		{
+			"1"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"yres"	"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"bahnschrift"
+				"tall"		"13"
+				"yres"	"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"bahnschrift"
+				"tall"		"14"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"bahnschrift"
+				"tall"		"20"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"bahnschrift"
+				"tall"		"9"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+			"7"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+
+
+		"DefaultBahnMedium"
+		{
+			"1"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"16"
+				"yres"	"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"17"
+				"yres"	"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"18"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"24"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"13"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+			"7"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
+
+		"DefaultBahnUnderline"
+		{
+			"1"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"underline" "1"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"bahnschrift"
+				"tall"		"11"
+				"antialias"	"1"
+				"underline" "1"
+			}
+		}
+		"DefaultBahnSmall"
+		{
+			"1"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"yres"	"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"bahnschrift"
+				"tall"		"13"
+				"yres"	"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"bahnschrift"
+				"tall"		"14"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"bahnschrift"
+				"tall"		"20"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"bahnschrift"
+				"tall"		"9"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+
+
+		"DefaultBahnVerySmall"
+		{
+			"1"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"yres"	"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"yres"	"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"bahnschrift"
+				"tall"		"12"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"bahnschrift"
+				"tall"		"14"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"bahnschrift"
+				"tall"		"9"
+				"antialias"	"1"
+			}
+		}
+		DefaultBahnLarge
+		{
+			"1"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"18"
+				"yres"		"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"21"
+				"yres"		"600 767"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"22"
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"28"
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+			"7"
+			{
+				"name"		"bahnschriftbold"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+
+		//
 		// The chalk zone
 		//
 
@@ -488,255 +742,5 @@ Scheme
 		//
 		//	DEFAULT HUD FONT OVERRIDES
 		//
-
-		"Default"
-		{
-			"1"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"yres"	"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"bahnschrift"
-				"tall"		"13"
-				"yres"	"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"bahnschrift"
-				"tall"		"14"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"bahnschrift"
-				"tall"		"20"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"bahnschrift"
-				"tall"		"9"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"antialias"	"1"
-			}
-			"7"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"antialias"	"1"
-			}
-		}
-
-
-		"DefaultMedium"
-		{
-			"1"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"16"
-				"yres"	"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"17"
-				"yres"	"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"18"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"24"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"13"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"16"
-				"antialias"	"1"
-			}
-			"7"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"16"
-				"antialias"	"1"
-			}
-		}
-
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"underline" "1"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"bahnschrift"
-				"tall"		"11"
-				"antialias"	"1"
-				"underline" "1"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"yres"	"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"bahnschrift"
-				"tall"		"13"
-				"yres"	"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"bahnschrift"
-				"tall"		"14"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"bahnschrift"
-				"tall"		"20"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"bahnschrift"
-				"tall"		"9"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"antialias"	"1"
-			}
-		}
-
-
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"yres"	"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"yres"	"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"bahnschrift"
-				"tall"		"12"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"bahnschrift"
-				"tall"		"14"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"bahnschrift"
-				"tall"		"9"
-				"antialias"	"1"
-			}
-		}
-		DefaultLarge
-		{
-			"1"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"18"
-				"yres"		"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"21"
-				"yres"		"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"22"
-				"yres"		"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"28"
-				"yres"		"1024 1199"
-				"antialias"	"1"
-			}
-			"5" // Misyl: Proportional
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"18"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"20"
-				"antialias"	"1"
-			}
-			"7"
-			{
-				"name"		"bahnschriftbold"
-				"tall"		"20"
-				"antialias"	"1"
-			}
-		}
 	}
 }

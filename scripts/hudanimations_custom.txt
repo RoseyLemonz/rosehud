@@ -4,7 +4,7 @@
 event HudHealthBonusPulse
 {
 	Animate PlayerCharaImage				alpha		"0"					Linear 0.0 0.00
-	Animate PlayerCharaImageSpin			alpha		"255"				Linear 0.0 0.00
+	Animate PlayerCharaImageBonus			alpha		"255"				Linear 0.0 0.00
 
 	Animate	PlayerStatusHealthBonusImage 	alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	alpha		"0"					Linear 0.2 0.4
@@ -24,7 +24,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 			0.0
 	StopEvent HudHealthBonusPulseLoop 		0.0
-	Animate PlayerCharaImageSpin			alpha		"0"					Linear 0.0 0.00
+	Animate PlayerCharaImageBonus			alpha		"0"					Linear 0.0 0.00
 	Animate PlayerCharaImage				alpha		"255"				Linear 0.0 0.00
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
 }
@@ -240,8 +240,10 @@ event CompetitiveGame_LowerChatWindow 	{ }
 
 event CompetitiveGame_RestoreChatWindow 
 {
-	RunEvent ColorSet 0.3
 	//Run animations that need to be run after respawn to fix things
+	RunEventChild HudPlayerHealth HudHealthDyingPulseStop 0.1
+	RunEventChild HudPlayerHealth HudHealthBonusPulseStop 0.1
+	RunEvent ColorSet 0.1
 }
 
 event HudTournament_MoveChatWindow { }
@@ -250,8 +252,7 @@ event HudTournament_MoveChatWindow { }
 
 event ColorSet
 {
-    RunEvent HudHealthDyingPulseStop 0.0
-    RunEvent HudHealthBonusPulseStop 0.0
     RunEvent HudLowAmmoPulseStop 0.0
     RunEvent HudMedicChargedStop 0.0
+	RunEvent HudSpyDisguiseFadeOut 0.0
 }

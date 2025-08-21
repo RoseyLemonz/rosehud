@@ -14,6 +14,11 @@
 #base "hud_customization_chatpos.res"
 
 //==============================================================
+// CUSTOM SHADERS
+//==============================================================
+#base "hud_customization_shaders.res"
+
+//==============================================================
 // FOLDERCHECK
 //==============================================================
 #base "../../rosehud/_customization/foldercheck/hud_customization_checkpass.res"

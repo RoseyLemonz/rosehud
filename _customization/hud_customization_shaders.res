@@ -1,0 +1,123 @@
+"resource/ui/#customizations/hud_customization_health.res"
+{
+	"SafeMode"
+	{
+		"Customizations_Scroller"
+		{
+			"Shaders"
+			{
+				"ControlName"					"EditablePanel"
+				"fieldName"						"Shaders"
+				"xpos"							"7"
+				"ypos"							"284"
+				"zpos"							"0"
+				"wide"							"286"
+				"tall"							"48"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionaltoparent"			"1"
+				"paintBackground"				"1"
+				"paintBackgroundType"			"2"
+				"roundedcorners"				"0"
+				"bgcolor_override"				"Black"
+
+				"Title"
+				{
+					"ControlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"0"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f0"
+					"tall"								"14"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"use_proportional_insets"			"1"
+					"labelText"							"Custom Shaders"
+					"font"								"ItemFontNameSmallest"
+					"centerwrap"						"1"
+					"fgcolor"							"Black"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"2"
+					"roundedcorners"					"0"
+					"bgcolor_override"					"HudPrimary"
+				}
+
+				"ShdrEnabled"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"ShdrEnabled"
+					"xpos"								"7"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"130"
+					"tall"								"35"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"0"
+
+					"ShdrEnabledButton"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"ShdrEnabledButton"
+						"xpos"								"cs-0.5"
+						"ypos"								"0"
+						"zpos"								"5"
+						"wide"								"f0"
+						"tall"								"f12"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							"Enabled"						
+						"font"								"Customization_Font_TF"
+						"textAlignment"						"center"
+						"command"							"engine"
+						"actionsignallevel"					"5"
+						"sound_depressed"					"UI/buttonclick.wav"
+						"defaultbgcolor_override"			"DarkerBlack"
+					}
+				}
+
+				"ShdrDisabled"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"ShdrDisabled"
+					"xpos"								"rs1-7"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"130"
+					"tall"								"35"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionaltoparent"				"1"
+					"paintbackground"					"1"
+					"paintBackgroundType"				"0"
+
+					"ShdrDisabledButton"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"ShdrDisabledButton"
+						"xpos"								"cs-0.5"
+						"ypos"								"0"
+						"zpos"								"5"
+						"wide"								"f0"
+						"tall"								"f12"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionaltoparent"				"1"
+						"labelText"							"Disabled"						
+						"font"								"Customization_Font_TF"
+						"textAlignment"						"center"
+						"command"							"engine"
+						"actionsignallevel"					"5"
+						"sound_depressed"					"UI/buttonclick.wav"
+						"defaultbgcolor_override"			"DarkerBlack"
+					}
+				}
+			}
+		}
+	}
+}
