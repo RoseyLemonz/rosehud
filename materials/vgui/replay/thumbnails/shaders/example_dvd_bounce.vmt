@@ -2,7 +2,7 @@ screenspace_general
 {
 	$pixshader "dvd_bounce_ps20"
 	
-	$basetexture "vgui/replay/thumbnails/blank.vmt"
+	$basetexture "vgui/replay/thumbnails/blank"
 	$texture1    "vgui/replay/thumbnails/shaders/dvd_white.vtf"
 
 	$x360appchooser 1
