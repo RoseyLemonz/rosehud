@@ -29,5 +29,129 @@ Scheme
 				}
 			}
 		}
+
+
+		TFThinLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_black"
+			//"image"					"../hud/color_panel_browner"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blackopaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_black"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderRedBGOpaque_Store
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaque"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
+		}
+		TFFatLineBorderRedBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_red"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaquemore"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderBlueBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blue"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blueopaquemore"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blueopaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blackopaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		}
 	}
 }

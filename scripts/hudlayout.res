@@ -308,9 +308,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
-		"wide"				"100"
+		"xpos"				"cs-0.5-156"
+		"ypos"				"r101"
+		"zpos"				"1"
+		"wide"				"60"
 		"tall"				"100"
 		"visible" 			"0"
 		"enabled" 			"1"

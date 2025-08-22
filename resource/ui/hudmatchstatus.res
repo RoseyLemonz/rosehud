@@ -215,9 +215,14 @@
 		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"9"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"BlueTeamTransparent"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"RedBG"
@@ -229,9 +234,14 @@
 		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"9"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"RedTeamTransparent"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"BlackBG"
@@ -243,11 +253,16 @@
 		"ypos"			"9"
 		"wide"			"80"
 		"tall"			"16"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
 		"roundedcorners"	"12"
 		"paintBackgroundType"	"2"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"BGFrame"
