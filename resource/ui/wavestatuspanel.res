@@ -2,7 +2,7 @@
 {
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
 		"ypos"			"2"
@@ -13,7 +13,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_blackopaque"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+		"drawcolor"		"DarkerBlack"
+		"alpha"			"155"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

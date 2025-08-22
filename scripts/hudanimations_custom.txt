@@ -235,6 +235,29 @@ event TeamStatus_PlayerAlive
 
 //====================================
 
+event HudReadyPulse
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"White"			Spline 0.0 0.8
+	Animate	TournamentInstructionsLabel 	FgColor		"HudNegat"		Spline 0.8 1.8
+
+	RunEvent HudReadyPulseLoop	2.2
+}
+
+event HudReadyPulseLoop
+{
+	RunEvent HudReadyPulse			0.0
+}
+
+event HudReadyPulseEnd
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
+
+	StopEvent HudReadyPulse			0.0
+	StopEvent HudReadyPulseLoop		0.0
+}
+
+//====================================
+
 	//Fix chat pos
 event CompetitiveGame_LowerChatWindow 	{ }
 
