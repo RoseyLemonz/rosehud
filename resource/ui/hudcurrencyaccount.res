@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"57"
 		"zpos"			"3"
