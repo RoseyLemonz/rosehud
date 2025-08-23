@@ -17,31 +17,31 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-		"font" "resource/fonts/lin/tf2.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/tf2.otf" [$LINUX]
 		"font" "resource/fonts/win/tf2.ttf" [$WINDOWS]
 		"name" "tf2"
 		}
 		"4" 
 		{
-		"font" "resource/fonts/lin/tf2secondary.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/tf2secondary.otf" [$LINUX]
 		"font" "resource/fonts/win/tf2secondary.ttf" [$WINDOWS]
 		"name" "tf2secondary"
 		}
 		"5" 
 		{
-		"font" "resource/fonts/lin/tf2professor.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/tf2professor.otf" [$LINUX]
 		"font" "resource/fonts/win/tf2professor.ttf" [$WINDOWS]
 		"name" "tf2professor"
 		}
 		"6" 
 		{
-		"font" "resource/fonts/lin/tf2build.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/tf2build.otf" [$LINUX]
 		"font" "resource/fonts/win/tf2build.ttf" [$WINDOWS]
 		"name" "tf2build"
 		}
 		"7" 
 		{
-		"font" "resource/fonts/lin/ocra.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/ocra.otf" [$LINUX]
 		"font" "resource/fonts/win/ocra.ttf" [$WINDOWS]
 		"name" "ocra"	
 		}
@@ -61,26 +61,28 @@ Scheme
 
 		"40"
 		{
-		"font" "resource/fonts/lin/tf2icons.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/tf2icons.otf" [$LINUX]
 		"font" "resource/fonts/win/tf2icons.ttf" [$WINDOWS]
 		"name" "tf2icons"
+		"range" "0x0021 0x007E"
 		}	
 		"41"
 		{
-		"font" "resource/fonts/lin/tf2charactericons.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/tf2charactericons.otf" [$LINUX]
 		"font" "resource/fonts/win/tf2charactericons.ttf" [$WINDOWS]
 		"name" "tf2charactericons"	
+		"range" "0x0030 0x0040"
 		}	
 		"42"
 		{
-		"font" "resource/fonts/lin/bahnschrift.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/bahnschrift.otf" [$LINUX]
 		"font" "resource/fonts/win/bahnschrift.ttf" [$WINDOWS]
 		"name" "bahnschrift"	
 		"range" "0x0020 0x007F"
 		}
 		"43"
 		{
-		"font" "resource/fonts/lin/bahnschriftbold.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/bahnschriftbold.otf" [$LINUX]
 		"font" "resource/fonts/win/bahnschriftbold.ttf" [$WINDOWS]
 		"name" "bahnschriftbold"	
 		"range" "0x0020 0x007F"
@@ -92,14 +94,14 @@ Scheme
 
 		"60"
 		{
-		"font" "resource/fonts/lin/luxi.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/luxi.otf" [$LINUX]
 		"font" "resource/fonts/win/luxi.ttf" [$WINDOWS]
 		"name" "luxi"	
 		"range" "0x0020 0x007F"
 		}	
 		"61"
 		{
-		"font" "resource/fonts/lin/caslonantique.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/caslonantique.otf" [$LINUX]
 		"font" "resource/fonts/win/caslonantique.ttf" [$WINDOWS]
 		"name" "caslonantique"	
 		"range" "0x0020 0x007F"
@@ -112,21 +114,21 @@ Scheme
 		}	
 		"63"
 		{
-		"font" "resource/fonts/lin/comicsans.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/comicsans.otf" [$LINUX]
 		"font" "resource/fonts/win/comicsans.ttf" [$WINDOWS]
 		"name" "comicsans"	
 		"range" "0x0020 0x007F"
 		}	
 		"64"
 		{
-		"font" "resource/fonts/lin/papyrus.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/papyrus.otf" [$LINUX]
 		"font" "resource/fonts/win/papyrus.ttf" [$WINDOWS]
 		"name" "papyrus"	
 		"range" "0x0020 0x007F"
 		}	
 		"65"
 		{
-		"font" "resource/fonts/lin/iosevka.otf" [!$WINDOWS]
+		"font" "resource/fonts/lin/iosevka.otf" [$LINUX]
 		"font" "resource/fonts/win/iosevka.ttf" [$WINDOWS]
 		"name" "iosevka"	
 		"range" "0x0020 0x007F"
