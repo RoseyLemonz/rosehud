@@ -107,5 +107,29 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"HudDamageOver"
+		{
+			"1"
+			{
+				"name"		"papyrus"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
+		"HudDamageOverLarge"
+		{
+			"1"
+			{
+				"name"		"papyrus"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 	}
 }

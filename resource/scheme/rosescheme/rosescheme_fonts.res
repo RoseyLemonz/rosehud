@@ -66,7 +66,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2secondary"
-				"tall"		"10"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -76,7 +76,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2secondary"
-				"tall"		"14"
+				"tall"		"13"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -109,6 +109,42 @@ Scheme
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+
+		"HudDamageOver"
+		{
+			"1"
+			{
+				"name"		"tf2build"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
+		"HudDamageOverLarge"
+		{
+			"1"
+			{
+				"name"		"tf2build"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
+		"HudMatchRespawn"
+		{
+			"1"
+			{
+				"name"		"tf2secondary"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
 			}
 		}
 

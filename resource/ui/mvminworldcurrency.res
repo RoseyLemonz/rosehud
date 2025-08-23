@@ -8,12 +8,10 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"46"
-		"tall"			"25"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"White"
-		"roundedcorners"	"3"
+		"bgcolor_override"	"Black"
 	}	
 	
 	"BackgroundGood"
@@ -24,12 +22,10 @@
 		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"44"
-		"tall"			"25"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"HudTertiary"
-		"roundedcorners"	"3"
 	}
 	
 	"MoneyImagePanel"

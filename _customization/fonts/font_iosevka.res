@@ -107,5 +107,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudDamageOver"
+		{
+			"1"
+			{
+				"name"		"iosevka"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+
+		"HudDamageOverLarge"
+		{
+			"1"
+			{
+				"name"		"iosevka"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 	}
 }

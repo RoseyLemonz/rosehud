@@ -232,7 +232,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r142"
+			"ypos"		"r60"
 		}
 		
 		"if_specialdelivery"
@@ -305,7 +305,7 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 		
 		"if_hybrid_single"
@@ -344,7 +344,7 @@
 		"if_hybrid"
 		{
 			"visible"	"0"
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 		
 		"if_hybrid_single"
@@ -382,7 +382,7 @@
 		
 		"if_hybrid"
 		{
-			"ypos"		"r100"
+			"ypos"		"r70"
 		}
 		
 		"if_specialdelivery"

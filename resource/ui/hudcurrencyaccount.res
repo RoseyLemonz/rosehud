@@ -45,9 +45,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"TanLight"
-		"roundedcorners"	"11"
+		"bgcolor_override"	"Black"
 
 	}	
 	
@@ -62,7 +60,6 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"HudBonusDark"
 	}
 }

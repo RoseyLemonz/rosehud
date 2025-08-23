@@ -537,7 +537,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallest"
+				"font"			"HudMatchRespawn"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"

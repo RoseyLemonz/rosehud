@@ -29,7 +29,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"PlayerStatusClassImageBG"
@@ -39,7 +38,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"classmodelpanelBG"
@@ -49,24 +47,15 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"	
 	}	
 	"PlayerStatusSpyOutlineImage"
 	{

@@ -206,10 +206,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"wide"		"500"
-		"tall"		"200"
+		"xpos"		"5"
+		"ypos"		"rs1-5"
+		"wide"		"140"
+		"tall"	 	"22"
 	}
 
 	CMainTargetID
@@ -218,9 +218,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"292"
+		"wide"		"250"
+		"tall"	 	"28"
 		"priority"	"40"
 
 		if_vr
@@ -236,13 +236,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"322"
+		"wide"		"250"
+		"tall"	 	"28"
 		"priority"	"40"
-		
-		"x_offset" "20"
-		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
@@ -251,9 +248,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"322"
+		"wide"		"250"
+		"tall"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -309,8 +306,8 @@
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"c-235"
-		"ypos"				"r101"
-		"zpos"				"1"
+		"ypos"				"r231"
+		"zpos"				"5"
 		"wide"				"60"
 		"tall"				"100"
 		"visible" 			"0"

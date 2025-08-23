@@ -3,25 +3,16 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c140"
-		"tall"			"48"
+		"ypos"			"c130"
 	}
 
 	"ItemEffectIcon"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"cs-0.5+2"
-		"ypos"			"18"
-		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/pyro_jetpack_off2"
-		"scaleImage"	"1"	
-		"drawcolor"		"HudPrimary"
-		"proportionaltoparent"	"1"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	
 	"ItemEffectMeter"

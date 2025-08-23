@@ -1,3 +1,4 @@
+#base "playingto_base.res"
 "Resource/UI/HudObjectivePlayerDestruction.res"
 {	
 	"ObjectiveStatusRobotDestruction"
@@ -43,60 +44,13 @@
 			"skip_autoresize" "1"
 		}
 	}	
-	
-	"PlayingTo"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"cs-0.5"	[$WIN32]
-		"ypos"			"rs1"	[$WIN32]
-		"zpos"			"4"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"White"
-		"bgcolor_override"	"TransparentBlack"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}	
-
-	"PlayingToBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}	
 
 	"CarriedContainer"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
 		"xpos"				"cs-0.5-215"
-		"ypos"				"r82"
+		"ypos"				"r145"
 		"zpos"				"1"
 		"wide"				"35"
 		"tall"				"15"
@@ -178,8 +132,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"2"
-			"wide"			"f5"
-			"tall"			"f5"
+			"wide"			"f2"
+			"tall"			"f2"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
@@ -209,7 +163,7 @@
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"cs-0.5"
-		"ypos"					"r129"
+		"ypos"					"r126"
 		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"120"
@@ -257,11 +211,11 @@
 			{
 				"ControlName"	"CTFImagePanel"
 				"fieldName"		"FlagImageBlue"
-				"xpos"			"-2"
-				"ypos"			"-2"
+				"xpos"			"-4"
+				"ypos"			"-3"
 				"zpos"			"4"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
@@ -327,11 +281,11 @@
 			{
 				"ControlName"	"CTFImagePanel"
 				"fieldName"		"FlagImageRed"
-				"xpos"			"-30"
-				"ypos"			"-2"
+				"xpos"			"-32"
+				"ypos"			"-3"
 				"zpos"			"4"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
@@ -458,8 +412,10 @@
 				"scaleimage"			"0"
 				"visible"				"1"
 				"proportionaltoparent"	"1"
-				"positionImage"			"0"		
+				"positionImage"			"0"	
+				"paintBackgroundType"	"2"	
 				"bgcolor_override"		"TransparentBlack"
+				"roundedcorners"		"12"
 			}
 
 			"ProgressBarSplit"
@@ -766,10 +722,10 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CountdownContainer"
 		"xpos"					"cs-0.5"
-		"ypos"					"r81"
+		"ypos"					"r74"
 		"zpos"					"1"
 		"wide"					"70"
-		"tall"					"22"
+		"tall"					"18"
 		"visible"				"0"
 		"enabled"				"1"
 
@@ -780,12 +736,13 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"70"
-			"tall"			"22"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"TransparentBlack"
 			"paintBackgroundType"	"2"
+			"proportionaltoparent"	"1"
 		}
 
 		"CountdownImage"
@@ -795,8 +752,8 @@
 			"xpos"			"2"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"22"
-			"tall"			"22"
+			"wide"			"o1"
+			"tall"			"f0"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
@@ -812,7 +769,7 @@
 			"ypos"			"0"
 			"zpos"			"8"
 			"wide"			"35"
-			"tall"			"22"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"east"	
@@ -829,7 +786,7 @@
 			"ypos"			"-1"
 			"zpos"			"7"
 			"wide"			"35"
-			"tall"			"22"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"east"	
