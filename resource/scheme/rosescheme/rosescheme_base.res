@@ -52,8 +52,8 @@ Scheme
 		CheckButton.Check					"Yellow"		// color of the check itself
 		CheckButton.HighlightFgColor		"Yellow"
 
-		ComboBoxButton.ArrowColor			"TanLight"
-		ComboBoxButton.ArmedArrowColor		"TanLight"
+		ComboBoxButton.ArrowColor			"White"
+		ComboBoxButton.ArmedArrowColor		"White"
 		ComboBoxButton.BgColor				"Blank"
 		ComboBoxButton.DisabledBgColor		"Blank"
 
