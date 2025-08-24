@@ -7,7 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"7"
 		"zpos"			"2"
-		"wide"			"52"
+		"wide"			"35"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"

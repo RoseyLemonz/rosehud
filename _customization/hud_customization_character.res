@@ -190,6 +190,34 @@
 					}
 				}
 
+
+				"NotYetSusieButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetSusieButton"
+					"xpos"							"4"
+					"ypos"							"16"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"pin_to_sibling"				"CharacterTheme_Ellep"
+					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
+
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
+				}
+
 				"CharacterTheme_Susie"
 				{
 					"ControlName"						"EditablePanel"
@@ -263,6 +291,33 @@
 							"proportionaltoparent"	"1"
 						}
 					}
+				}
+
+				"NotYetSybilButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetSybilButton"
+					"xpos"							"4"
+					"ypos"							"16"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"pin_to_sibling"				"CharacterTheme_Susie"
+					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
+
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Sybil"
@@ -339,6 +394,30 @@
 						}
 					}
 				}
+
+				"NotYetLambdaButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetLambdaButton"
+					"xpos"							"8"
+					"ypos"							"72"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
+				}
+
 				"CharacterTheme_Lambda"
 				{
 					"ControlName"						"EditablePanel"
@@ -408,6 +487,33 @@
 							"proportionaltoparent"	"1"
 						}
 					}
+				}
+
+				"NotYetShadowButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetShadowButton"
+					"xpos"							"4"
+					"ypos"							"16"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"pin_to_sibling"				"CharacterTheme_Lambda"
+					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
+
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Shadow"
@@ -484,6 +590,34 @@
 						}
 					}
 				}
+
+				"NotYetTestButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetTestButton"
+					"xpos"							"4"
+					"ypos"							"16"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"pin_to_sibling"				"CharacterTheme_Shadow"
+					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
+
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
+				}
+
 				"CharacterTheme_Testament"
 				{
 					"ControlName"						"EditablePanel"
@@ -558,6 +692,34 @@
 						}
 					}
 				}
+				
+				"NotYetAngelaButton"
+				{
+					"ControlName"					"CExButton"
+					"fieldName"						"NotYetAngelaButton"
+					"xpos"							"4"
+					"ypos"							"16"
+					"zpos"							"21"
+					"wide"							"65"
+					"tall"							"65"
+					"visible"						"1"
+					"enabled"						"1"
+					"proportionaltoparent"			"1"
+					"labelText"						"X"
+					"font"							"HudFontGiantBold"
+					"textAlignment"					"center"
+					"paintBackground"				"0"
+
+					"pin_to_sibling"				"CharacterTheme_Testament"
+					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
+
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
+				}
+
 				"CharacterTheme_Angela"
 				{
 					"ControlName"						"EditablePanel"

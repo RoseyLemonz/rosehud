@@ -47,7 +47,7 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_blueopaque"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_blue"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -67,7 +67,7 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaque"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_red"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -90,6 +90,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
+		"fgcolor"		"White"
 	}
 
 	"TargetDataLabel"
@@ -106,13 +107,14 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"	"west"
+		"fgcolor"		"White"
 	}
 
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"30"
@@ -141,10 +143,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillstreakIconAnchor"
-		"xpos"			"cs-0.5+87"
-		"xpos_minmode"	"cs-0.5+82"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
+		"xpos"			"cs-0.5+82"
+		"ypos"			"17"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"

@@ -42,7 +42,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudHealthMax"
-		"fgcolor"		"White"
+		"fgcolor"		"HudPrimary"
 		"proportionaltoparent"	"1"
 	}
 	"PlayerStatusHealthValueShadow"
