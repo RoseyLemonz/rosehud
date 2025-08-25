@@ -13,7 +13,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"paintbackground"	"0"
 	}
 
@@ -34,7 +33,6 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"tabPosition"		"0"
 	}
 
 	"Skip"
@@ -50,7 +48,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#rose_Skip"
 		"textAlignment"	"center"
 		"wrap"			"0"

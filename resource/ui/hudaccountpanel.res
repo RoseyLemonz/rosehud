@@ -56,7 +56,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"%metal%"
 		"textAlignment"	"east"
 		"textinsetx"	"5"

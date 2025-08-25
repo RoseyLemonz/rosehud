@@ -12,7 +12,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 
 	"SysMenu"
@@ -27,7 +26,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
 	}
 
 	"teambutton2"
@@ -95,7 +93,6 @@
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"

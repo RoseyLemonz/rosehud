@@ -13,7 +13,6 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
 
@@ -87,7 +86,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
 	
@@ -104,7 +102,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#rose_Continue"
 		"textAlignment"	"center"
 		"wrap"			"0"

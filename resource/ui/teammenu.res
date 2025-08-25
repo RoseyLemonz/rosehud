@@ -13,7 +13,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 
 	"SysMenu"
@@ -28,7 +27,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
 	}
 
 	"MapInfo"
@@ -43,7 +41,6 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
 	}
 
 	"mapname"
@@ -188,7 +185,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#rose_Cancel"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"

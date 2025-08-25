@@ -11,7 +11,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 	}
 	"specgui"
 	{
@@ -38,7 +37,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"0"
-		"tabPosition"		"0"
 	}
 
 	"BarBottom"
