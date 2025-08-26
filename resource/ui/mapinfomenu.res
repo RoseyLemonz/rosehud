@@ -108,10 +108,10 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue"
+	"NewMapInfoContinue"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
+		"fieldName"		"NewMapInfoContinue"
 		"xpos"			"rs1"
 		"ypos"			"rs1"
 		"zpos"			"6"
@@ -126,6 +126,15 @@
 		"command"		"continue"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+	}
+
+	"MapInfoContinue"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	
 	"MapInfoWatchIntro"

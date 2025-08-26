@@ -2,7 +2,7 @@
 
 #base "../../../cfg/rosehud/hud_charascheme.txt"
 
-// CUSTOM THINGS
+// SCHEME OVERRIDE
 
 #base "scheme/rosescheme/rosesourcescheme_base.res"
 #base "scheme/rosescheme/rosescheme_colors.res"

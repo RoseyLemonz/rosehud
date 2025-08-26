@@ -1,3 +1,5 @@
+// Simply just the "Playing to" counter from pd, put into its own file to use in other gamemodes
+
 x
 {	
 	"PlayingTo"

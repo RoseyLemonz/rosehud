@@ -109,6 +109,7 @@ event HudMedicCharged
 	Animate	ChargeMeter 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
 	Animate	ChargeMeter 				fgcolor		"HudBonus"			Linear 0.225 0.175
 
+	// Vaccinator
 	Animate	ChargeMeter1 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
 	Animate	ChargeMeter1 				fgcolor		"HudBonus"			Linear 0.225 0.175
 
@@ -144,12 +145,12 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
 	Animate	ChargeMeter 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
 
+	// Vaccinator
 	Animate	IndividualChargesLabel 		fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
 	Animate	ChargeMeter1 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
 	Animate	ChargeMeter2 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
 	Animate	ChargeMeter3 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
 	Animate	ChargeMeter4 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
-
 }
 
 //====================================
@@ -264,6 +265,7 @@ event CompetitiveGame_LowerChatWindow 	{ }
 event CompetitiveGame_RestoreChatWindow 
 {
 	//Run animations that need to be run after respawn to fix things
+	//RunEventChild because RunEvent didnt consistently work
 	RunEventChild HudPlayerHealth HudHealthDyingPulseStop 0.1
 	RunEventChild HudPlayerHealth HudHealthBonusPulseStop 0.1
 	RunEvent ColorSet 0.1

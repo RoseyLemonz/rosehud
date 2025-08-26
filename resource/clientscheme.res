@@ -6,7 +6,7 @@
 
 #base "../../../cfg/rosehud/hud_font.txt"
 
-// HUD CUSTOM THINGS
+// SCHEME OVERRIDE
 
 #base "scheme/rosescheme/rosescheme_point.res"
 

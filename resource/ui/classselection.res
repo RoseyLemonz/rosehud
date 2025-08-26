@@ -534,15 +534,6 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}	
-
-	"NewCancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"NewCancelButton"
 		"xpos"			"0"
 		"ypos"			"rs1"
 		"zpos"			"6"
