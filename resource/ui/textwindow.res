@@ -108,5 +108,6 @@
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		"default"			"1"
 	}
 }

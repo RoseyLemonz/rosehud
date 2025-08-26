@@ -126,6 +126,7 @@
 		"command"		"continue"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		"default"			"1"
 	}
 
 	"MapInfoContinue"

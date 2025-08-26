@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudMeterLabelLarge"
+		"font"			"HudTargetIDName"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -102,7 +102,7 @@
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"10"
+		"tall"			"13"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
