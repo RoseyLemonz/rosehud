@@ -1738,7 +1738,7 @@
 	}
 	"NextTipButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
 		"xpos"			"c113"
 		"ypos"			"319"
@@ -1751,38 +1751,32 @@
 		"textAlignment"	"center"
 		"Command"		"nexttip"
 
-		"defaultBgcolor_override"	"DarkerBlack"
+		"defaultBgcolor_override"	"TransparentBlack"
 	}
+
 	"ResetStatsButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c236"
+		"xpos"			"c225"
 		"ypos"			"319"
 		"zpos"			"6"
 		"wide"			"65"
-		"tall"			"30"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_ResetStats"
 		"textAlignment"	"center"
 		"Command"		"resetstatsbutton"
 
-		"defaultBgcolor_override"	"DarkerBlack"
+		"defaultBgcolor_override"	"TransparentBlack"
 	}
 	"CloseButton"
 	{
-		"ControlName"		"Button"
+		"ControlName"	"Button"
 		"fieldName"		"CloseButton"
-		"xpos"			"r190"
-		"ypos"			"r50"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"xpos"			"9999"
+		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Close"
-		"textAlignment"	"center"
-		"Command"		"vguicancel"
 	}
 }

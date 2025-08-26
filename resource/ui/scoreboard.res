@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.5+10"
 		"ypos"			"31"
-		"wide"			"500"
-		"tall"			"334"
+		"wide"			"498"
+		"tall"			"344"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -164,14 +164,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"80"
-		"ypos"			"21"
+		"xpos"			"74"
+		"ypos"			"20"
 		"zpos"			"20"
-		"wide"			"160"
-		"tall"			"23"
+		"wide"			"80"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -245,7 +245,7 @@
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"west"
 		"xpos"			"74"
-		"ypos"			"48"
+		"ypos"			"42"
 		"zpos"			"25"
 		"wide"			"160"
 		"tall"			"15"
@@ -263,18 +263,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"401"
-		"ypos"			"21"
+		"xpos"			"rs1-74"
+		"ypos"			"20"
 		"zpos"			"20"
-		"wide"			"160"
-		"tall"			"23"
+		"wide"			"80"
+		"tall"			"24"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		
 		if_mvm
 		{
@@ -344,7 +345,7 @@
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"rs1-74"
-		"ypos"			"48"
+		"ypos"			"42"
 		"zpos"			"25"
 		"wide"			"160"
 		"tall"			"15"
@@ -360,130 +361,6 @@
 			"ypos"			"265"
 		}
 	}
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"			"11"
-		"xpos_hidef"	"31"
-		"ypos"			"60"
-		"ypos_lodef"	"62"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"visible"		"1"
-		}
-	}
-	"TimerBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"TimerBG"
-		"xpos"			"rs1"
-		"ypos"			"252"
-		"zpos"			"-1"
-		"wide"			"85"
-		"tall"			"82"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"ServerTimeLeftInsetBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerTimeLeftInsetBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}
-	"ServerTimeLeftLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"#Scoreboard_TimeLeftLabel"
-		"textAlignment"	"center"
-		"xpos"			"rs1"
-		"ypos"			"270"
-		"zpos"			"2"
-		"wide"			"85"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"ServerTimeLeftValue"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeftValue"
-		"font"			"ScoreboardMediumSmall"
-		"labelText"		"%servertime%"
-		"textAlignment"	"center"
-		"xpos"			"rs1"
-		"ypos"			"295"
-		"zpos"			"2"
-		"wide"			"85"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"BrightYellow"
-		"centerwrap"	"1"
-		"proportionaltoparent"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"ServerTimeLeft"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeft"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%servertimeleft%"
-		"textAlignment"		"east"
-		"xpos"			"305"
-		"ypos"			"60"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"visible"		"1"
-		}
-	}							
 	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -558,16 +435,17 @@
 		"fieldName"		"Spectators"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%spectators%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"357"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"rs1"
 		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
+		"wide"			"488"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"proportionaltoparent"	"1"
 		
 		if_mvm
 		{
@@ -578,23 +456,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"348"
-		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}							
 	"ShadedBar"
 	{
@@ -789,11 +653,11 @@
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
-		"xpos"			"cs-0.5"
-		"ypos"			"257"
-		"zpos"			"3"
-		"wide"			"470"
-		"tall"			"20"
+		"xpos"			"4"
+		"ypos"			"254"
+		"zpos"			"10"
+		"wide"			"230"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -805,42 +669,19 @@
 			"visible"		"1"
 			"wide"			"175"
 		}
-	}
+	}		
 	"ServerLabelNew"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabelNew"
-		"font"			"ScoreboardVerySmall"
+		"font"			"ScoreboardSmall"
 		"labelText"		"%server%"
 		"textAlignment"	"east"
- 		"xpos"			"135"
-		"ypos"			"257"
+ 		"xpos"			"245"
+		"ypos"			"254"
 		"zpos"			"3"
-		"wide"			"265"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"MapName"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%mapname%"
-		"textAlignment"	"east"
- 		"xpos"			"135"
-		"ypos"			"265"
-		"zpos"			"3"
-		"wide"			"265"
-		"tall"			"12"
+		"wide"			"155"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -852,6 +693,157 @@
 			"visible"		"0"
 		}
 	}
+
+	"ServerLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabel"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%server%"
+		"xpos"			"11"
+		"ypos"			"60"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"centerwrap"	"1"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+			"visible"		"1"
+		}
+	}
+	"TimerBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"TimerBG"
+		"xpos"			"rs1"
+		"ypos"			"252"
+		"zpos"			"-1"
+		"wide"			"82"
+		"tall"			"82"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"TransparentBlack"
+		"paintBackgroundType"	"2"
+		"proportionaltoparent"	"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeftInsetBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ServerTimeLeftInsetBG"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}		
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"ScoreboardSmall"
+		"labelText"		"%mapname%"
+ 		"xpos"			"rs1-5"
+		"ypos"			"257"
+		"zpos"			"3"
+		"wide"			"72"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"centerwrap"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeft"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeft"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%servertimeleft%"
+		"xpos"			"rs1"
+		"ypos"			"120"
+		"wide"			"82"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"centerwrap"	"1"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+			"visible"		"1"
+		}
+	}	
+	"ServerTimeLeftLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLeftLabel"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"#Scoreboard_TimeLeftLabel"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"MapName"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeftValue"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftValue"
+		"font"			"ScoreboardMediumSmall"
+		"labelText"		"%servertime%"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"BrightYellow"
+		"centerwrap"	"1"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"ServerTimeLeftLabel"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}		
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -1152,7 +1144,7 @@
 			"labelText"		"%kills%"
 			"textAlignment"	"center"
 			"xpos"			"10"
-			"ypos"			"12"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"15"
@@ -1186,7 +1178,7 @@
 			"labelText"		"%deaths%"
 			"textAlignment"	"center"
 			"xpos"			"50"
-			"ypos"			"12"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"15"
@@ -1220,7 +1212,7 @@
 			"labelText"		"%assists%"
 			"textAlignment"	"center"
 			"xpos"			"90"
-			"ypos"			"12"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"15"
@@ -1237,7 +1229,7 @@
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"	"center"
 			"xpos"			"10"
-			"ypos"			"25"
+			"ypos"			"24"
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"15"
@@ -1254,7 +1246,7 @@
 			"labelText"		"%healing%"
 			"textAlignment"	"center"
 			"xpos"			"10"
-			"ypos"			"40"
+			"ypos"			"36"
 			"zpos"			"3"
 			"wide"			"40"
 			"autoResize"	"0"
@@ -1270,7 +1262,7 @@
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"center"
 			"xpos"			"90"
-			"ypos"			"25"
+			"ypos"			"24"
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"15"
@@ -1287,7 +1279,7 @@
 			"labelText"		"%damage%"
 			"textAlignment"	"center"
 			"xpos"			"90"
-			"ypos"			"40"
+			"ypos"			"36"
 			"zpos"			"3"
 			"wide"			"40"
 			"autoResize"	"0"
