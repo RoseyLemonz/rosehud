@@ -1,8 +1,3 @@
-#base "vguipreload.res"
-#base "../preload.res"
-
-#base "_customization/hud_customization.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -259,7 +254,7 @@
 		"sound_depressed"	"ui/piano.mp3"
 		"paintbackground"	"0"
 		"paintborder"		"0"
-		"command"			"engine toggleconsole; exec rosehud_echo"
+		"command"			"engine toggleconsole; echo ------------; rosehud_version; echo ------------"
 	}
 
 	"HudName"
@@ -274,7 +269,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"roseHUD"
+		"labelText"		"#rose_HudName"
 		"font"			"HudTitle"
 		"fgcolor"		"HudPrimary"
 	}	
@@ -291,7 +286,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"labelText"		"roseHUD"
+		"labelText"		"#rose_HudName"
 		"font"			"HudTitle"
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"HudName"

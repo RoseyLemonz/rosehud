@@ -53,7 +53,7 @@
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
 			"use_proportional_insets"		"1"
-			"labelText"						"roseHUD v0.2"
+			"labelText"						"#rose_HudNameVersion"
 			"font"							"DefaultBahnMedium"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
