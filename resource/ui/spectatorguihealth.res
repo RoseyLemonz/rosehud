@@ -41,7 +41,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudHealthMax"
+		"font"			"HudSpecGuiHealth"
 		"fgcolor"		"HudPrimary"
 		"proportionaltoparent"	"1"
 	}
@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"HudHealthMax"
+		"font"			"HudSpecGuiHealth"
 		"fgcolor"		"Black"
 	}
 	"PlayerStatusPlayerLevel"

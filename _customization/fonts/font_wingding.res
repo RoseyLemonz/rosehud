@@ -7,7 +7,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"40"	[$LINUX]
 				"tall"		"50"
 			}
 		}
@@ -15,7 +16,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"37"	[$LINUX]
 				"tall"		"46"
 			}
 		}
@@ -23,99 +25,90 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"40"	[$LINUX]
 				"tall"		"50"
-				"outline"	"1"
 			}
 		}
 		"HudValueBlur"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"40"	[$LINUX]
 				"tall"		"50"
-				"blur"		"1"
 			}
 		}
 		"HudAmmoReserve"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"16"	[$LINUX]
 				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudHealthMax"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"13"	[$LINUX]
 				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabel"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"8"		[$LINUX]
 				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"HudMeterLabelLarger"
-		{
-			"1"
-			{
-				"name"		"uwing"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabelLarge"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"10"	[$LINUX]
+				"tall"		"12"
+			}
+		}
+		"HudMeterLabelLarger"
+		{
+			"1"
+			{
+				"name"		"wingdings"
+				"tall"		"11"	[$LINUX]
 				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterCount"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"15"	[$LINUX]
 				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterCountLarge"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"19"	[$LINUX]
 				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudDamageOver"
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"15"	[$LINUX]
 				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 
@@ -123,11 +116,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
+				"tall"		"16"	[$LINUX]
 				"tall"		"22"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 	}

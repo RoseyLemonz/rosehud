@@ -399,7 +399,7 @@
 				{
 					"ControlName"					"CExButton"
 					"fieldName"						"NotYetLambdaButton"
-					"xpos"							"7"
+					"xpos"							"8"
 					"ypos"							"72"
 					"zpos"							"21"
 					"wide"							"65"

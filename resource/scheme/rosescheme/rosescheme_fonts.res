@@ -141,6 +141,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"45"	[$LINUX]
 				"tall"		"56"
 				"antialias"	"1"
 			}
@@ -151,96 +152,9 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschrift"
+				"tall"		"16"	[$LINUX]
 				"tall"		"20"
 				"antialias"	"1"
-			}
-		}
-
-		"Customization_Font_TF"
-		{
-			"1"
-			{
-				"name"		"tf2build"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Bahn"
-		{
-			"1"
-			{
-				"name"		"bahnschrift"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Luxi"
-		{
-			"1"
-			{
-				"name"		"luxi"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Caslon"
-		{
-			"1"
-			{
-				"name"		"caslonantique"
-				"tall"		"22"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Wing"
-		{
-			"1"
-			{
-				"name"		"uwing"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Sans"
-		{
-			"1"
-			{
-				"name"		"comicsans"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Papaya"
-		{
-			"1"
-			{
-				"name"		"papyrus"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-
-		"Customization_Font_Iosevka"
-		{
-			"1"
-			{
-				"name"		"iosevka"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 
@@ -249,6 +163,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2icons"
+				"tall"		"17"	[$LINUX]
 				"tall"		"21"
 				"antialias"	"1"
 			}
@@ -258,6 +173,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2charactericons"
+				"tall"		"18"	[$LINUX]
 				"tall"		"22"
 				"antialias"	"1"
 			}
@@ -267,8 +183,20 @@ Scheme
 			"1"
 			{
 				"name"		"tf2charactericons"
+				"tall"		"37"	[$LINUX]
 				"tall"		"48"
 				"antialias"	"1"
+			}
+		}
+
+		"HudSpecGuiHealth"
+		{
+			"1"
+			{
+				"name"		"tf2build"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -318,6 +246,101 @@ Scheme
 			}
 		}
 
+		"Customization_Font_TF"
+		{
+			"1"
+			{
+				"name"		"tf2build"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Bahn"
+		{
+			"1"
+			{
+				"name"		"bahnschrift"
+				"tall"		"15"	[$LINUX]
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Luxi"
+		{
+			"1"
+			{
+				"name"		"luxi"
+				"tall"		"12"	[$LINUX]
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Caslon"
+		{
+			"1"
+			{
+				"name"		"caslonantique"
+				"tall"		"18"	[$LINUX]
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Wing"
+		{
+			"1"
+			{
+				"name"		"uwing"
+				"tall"		"15"	[$LINUX]
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Sans"
+		{
+			"1"
+			{
+				"name"		"comicsans"
+				"tall"		"15"	[$LINUX]
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Papaya"
+		{
+			"1"
+			{
+				"name"		"papyrus"
+				"tall"		"20"	[$LINUX]
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Customization_Font_Iosevka"
+		{
+			"1"
+			{
+				"name"		"iosevka"
+				"tall"		"15"	[$LINUX]
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		//
 		// Default font "replacement"
 		//
@@ -327,6 +350,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias"	"1"
@@ -334,6 +358,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschrift"
+				"tall"		"11"	[$LINUX]
 				"tall"		"13"
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -341,6 +366,7 @@ Scheme
 			"3"
 			{
 				"name"		"bahnschrift"
+				"tall"		"12"	[$LINUX]
 				"tall"		"14"
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -348,6 +374,7 @@ Scheme
 			"4"
 			{
 				"name"		"bahnschrift"
+				"tall"		"17"	[$LINUX]
 				"tall"		"20"
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -355,18 +382,21 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"bahnschrift"
+				"tall"		"8"	[$LINUX]
 				"tall"		"9"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"bahnschrift"
+				"tall"		"11"	[$LINUX]
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"7"
 			{
 				"name"		"bahnschrift"
+				"tall"		"11"	[$LINUX]
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -378,6 +408,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"13"	[$LINUX]
 				"tall"		"16"
 				"yres"	"480 599"
 				"antialias"	"1"
@@ -385,6 +416,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"14"	[$LINUX]
 				"tall"		"17"
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -392,6 +424,7 @@ Scheme
 			"3"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"15"	[$LINUX]
 				"tall"		"18"
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -399,6 +432,7 @@ Scheme
 			"4"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"19"	[$LINUX]
 				"tall"		"24"
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -406,18 +440,21 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"10"	[$LINUX]
 				"tall"		"13"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"13"	[$LINUX]
 				"tall"		"16"
 				"antialias"	"1"
 			}
 			"7"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"13"	[$LINUX]
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -428,6 +465,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschrift"
+				"tall"		"11"	[$LINUX]
 				"tall"		"12"
 				"underline" "1"
 				"antialias"	"1"
@@ -435,6 +473,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"11"
 				"antialias"	"1"
 				"underline" "1"
@@ -445,6 +484,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias"	"1"
@@ -452,6 +492,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschrift"
+				"tall"		"11"	[$LINUX]
 				"tall"		"13"
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -459,6 +500,7 @@ Scheme
 			"3"
 			{
 				"name"		"bahnschrift"
+				"tall"		"12"	[$LINUX]
 				"tall"		"14"
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -466,6 +508,7 @@ Scheme
 			"4"
 			{
 				"name"		"bahnschrift"
+				"tall"		"16"	[$LINUX]
 				"tall"		"20"
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -473,12 +516,14 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"bahnschrift"
+				"tall"		"7"		[$LINUX]
 				"tall"		"9"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"antialias"	"1"
 			}
@@ -490,6 +535,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias"	"1"
@@ -497,6 +543,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -504,6 +551,7 @@ Scheme
 			"3"
 			{
 				"name"		"bahnschrift"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -511,6 +559,7 @@ Scheme
 			"4"
 			{
 				"name"		"bahnschrift"
+				"tall"		"11"	[$LINUX]
 				"tall"		"14"
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -518,6 +567,7 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"bahnschrift"
+				"tall"		"7"		[$LINUX]
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -527,6 +577,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"15"		[$LINUX]
 				"tall"		"18"
 				"yres"		"480 599"
 				"antialias"	"1"
@@ -534,6 +585,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"17"		[$LINUX]
 				"tall"		"21"
 				"yres"		"600 767"
 				"antialias"	"1"
@@ -541,6 +593,7 @@ Scheme
 			"3"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"18"		[$LINUX]
 				"tall"		"22"
 				"yres"		"768 1023"
 				"antialias"	"1"
@@ -548,6 +601,7 @@ Scheme
 			"4"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"22"		[$LINUX]
 				"tall"		"28"
 				"yres"		"1024 1199"
 				"antialias"	"1"
@@ -555,18 +609,21 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"14"		[$LINUX]
 				"tall"		"18"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"16"		[$LINUX]
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"7"
 			{
 				"name"		"bahnschriftbold"
+				"tall"		"16"		[$LINUX]
 				"tall"		"20"
 				"antialias"	"1"
 			}

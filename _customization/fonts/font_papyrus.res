@@ -8,6 +8,7 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"51"	[$LINUX]
 				"tall"		"64"
 			}
 		}
@@ -16,6 +17,7 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"47"	[$LINUX]
 				"tall"		"58"
 			}
 		}
@@ -24,8 +26,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"51"	[$LINUX]
 				"tall"		"64"
-				"outline"	"1"
 			}
 		}
 		"HudValueBlur"
@@ -33,8 +35,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"51"	[$LINUX]
 				"tall"		"64"
-				"blur"		"1"
 			}
 		}
 		"HudAmmoReserve"
@@ -42,9 +44,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"23"	[$LINUX]
 				"tall"		"28"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudHealthMax"
@@ -52,9 +53,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"19"	[$LINUX]
 				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabel"
@@ -62,9 +62,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"8"		[$LINUX]
 				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabelLarge"
@@ -72,9 +71,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"11"	[$LINUX]
 				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabelLarger"
@@ -82,9 +80,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"15"	[$LINUX]
 				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterCount"
@@ -92,9 +89,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"21"	[$LINUX]
 				"tall"		"26"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterCountLarge"
@@ -102,9 +98,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"28"	[$LINUX]
 				"tall"		"34"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 
@@ -113,10 +108,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"19"	[$LINUX]
 				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 
@@ -125,10 +118,8 @@ Scheme
 			"1"
 			{
 				"name"		"papyrus"
+				"tall"		"23"	[$LINUX]
 				"tall"		"28"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 	}

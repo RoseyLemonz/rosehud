@@ -273,6 +273,7 @@
 						"tall"								"f12"
 						"visible"							"1"
 						"enabled"							"1"
+						"use_proportional_insets"			"1"
 						"proportionaltoparent"				"1"
 						"labelText"							"1234..."						
 						"font"								"Customization_Font_Caslon"

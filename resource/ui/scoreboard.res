@@ -676,6 +676,7 @@
 		"fieldName"		"ServerLabelNew"
 		"font"			"ScoreboardSmall"
 		"labelText"		"%server%"
+		"textAlignment"	"east"
  		"xpos"			"245"
 		"ypos"			"254"
 		"zpos"			"3"
@@ -685,7 +686,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"centerwrap"	"1"
 		"proportionaltoparent"	"1"
 
 		if_mvm

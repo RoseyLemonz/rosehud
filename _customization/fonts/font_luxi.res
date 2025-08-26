@@ -8,6 +8,7 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"40"	[$LINUX]
 				"tall"		"50"
 			}
 		}
@@ -16,6 +17,7 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"37"	[$LINUX]
 				"tall"		"46"
 			}
 		}
@@ -24,8 +26,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"40"	[$LINUX]
 				"tall"		"50"
-				"outline"	"1"
 			}
 		}
 		"HudValueBlur"
@@ -33,8 +35,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"40"	[$LINUX]
 				"tall"		"50"
-				"blur"		"1"
 			}
 		}
 		"HudAmmoReserve"
@@ -42,9 +44,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"16"	[$LINUX]
 				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudHealthMax"
@@ -52,9 +53,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"13"	[$LINUX]
 				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabel"
@@ -62,9 +62,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"8"		[$LINUX]
 				"tall"		"10"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabelLarge"
@@ -72,9 +71,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterLabelLarger"
@@ -82,9 +80,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"11"	[$LINUX]
 				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterCount"
@@ -92,9 +89,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"15"	[$LINUX]
 				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudMeterCountLarge"
@@ -102,9 +98,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"19"	[$LINUX]
 				"tall"		"24"
-				"additive"	"0"
-				"antialias" "1"
 			}
 		}
 		"HudDamageOver"
@@ -112,10 +107,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"15"	[$LINUX]
 				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 
@@ -124,10 +117,8 @@ Scheme
 			"1"
 			{
 				"name"		"luxi"
+				"tall"		"16"	[$LINUX]
 				"tall"		"22"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 	}
