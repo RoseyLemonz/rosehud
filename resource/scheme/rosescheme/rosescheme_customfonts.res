@@ -133,5 +133,17 @@ Scheme
 		"name" "iosevka"	
 		"range" "0x0020 0x007F"
 		}	
+
+		//
+		//	Uber Icon Font
+		//
+
+		// TODO: Swap out the font for this
+		"80"
+		{
+			"Font"		"resource/fonts/surface_uber_icons.ttf"
+			"name"		"surface_uber_icons"
+			"range"		"0x0000 0xFFFFF"
+		}
 	}
 }

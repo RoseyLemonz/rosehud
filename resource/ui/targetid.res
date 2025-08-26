@@ -97,7 +97,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"HudMeterLabel"
+		"font"			"HudTargetIDIcons"
 		"xpos"			"15"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -128,15 +128,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"38"
-		"ypos"			"17"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"xpos"			"9999"
+		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
-		"scaleImage"	"1"
 	}
 
 	"KillstreakIconAnchor"

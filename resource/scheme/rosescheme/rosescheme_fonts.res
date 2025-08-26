@@ -141,7 +141,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2secondary"
-				"tall"		"11"
+				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -283,7 +283,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		"HudTargetIDIcons"
+		{
+			"1"
+			{
+				"name"			"surface_uber_icons"
+				"Tall"			"11"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
 		"NotificationText"
 		{
 			"1"

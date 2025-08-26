@@ -46,6 +46,23 @@
 		"teambg_2"			"../hud/cart_track_red"
 		"teambg_3"			"../hud/cart_track_blue"
 	}	
+	"RandomTextTestLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"RandomTextTestLabel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"100"
+		"wide"			"p0.5"
+		"tall"			"p0.5"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"⁠Medi Gun  Vaccinator  Kritzkrieg  Quick-Fix"
+		"textAlignment"	"center"	
+		"font"			"HudTargetIDIcons"
+		"fgcolor"		"HudPrimaryLight"
+	}
+
 
 	"PlayerCharaImage"
 	{
