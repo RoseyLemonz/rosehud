@@ -1,3 +1,4 @@
+#base "textpanel_base.res"
 "Resource/UI/ArenaTeamMenu.res"
 {
 	"team"
@@ -33,19 +34,19 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"cs-0.5"
-		"ypos"			"160"
-		"wide"			"80"
+		"ypos"			"150"
+		"wide"			"220"
 		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&1"
+		"labelText"		"( &1 )"
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontBiggerBold"
-
-		"defaultbgcolor_override" 	"Black"
+		
+		"defaultbgcolor_override" 	"TransparentBlack"
 		"armedbgcolor_override"		"HudPrimary"
 		"depressedbgcolor_override" "HudPrimaryDark"
 
@@ -60,18 +61,18 @@
 		"fieldName"		"teambutton3"
 		"xpos"			"cs-0.5"
 		"ypos"			"300"
-		"wide"			"80"
+		"wide"			"160"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&2"
+		"labelText"		"( &2 )"
 		"textAlignment"	"center"
 		"command"		"jointeam spectatearena"
 		"font"			"HudFontMediumBold"
-
-		"defaultbgcolor_override" 	"Black"
+		
+		"defaultbgcolor_override" 	"TransparentBlack"
 		"armedbgcolor_override"		"HudPrimary"
 		"depressedbgcolor_override" "HudPrimaryDark"
 
@@ -84,27 +85,19 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"r40"
+		"xpos"			"0"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"f0"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Cancel"
+		"labelText"		"#rose_Cancel"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-
-		"defaultbgcolor_override" 	"Black"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
 	}
 		
 	"TeamMenuAuto"
@@ -112,7 +105,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"0"
-		"ypos"			"125"
+		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
@@ -130,8 +123,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAutoShadow"
-		"xpos"			"2"
-		"ypos"			"127"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
@@ -144,6 +137,7 @@
 		"wrap"			"0"
 		"font"			"HudFontBiggerBold"
 		"fgcolor"		"Black"
+		"pin_to_sibling"	"TeamMenuAuto"
 	}
 	
 	"TeamMenuSpectate"
@@ -151,7 +145,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"0"
-		"ypos"			"260"
+		"ypos"			"255"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
@@ -170,8 +164,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectateShadow"
-		"xpos"			"2"
-		"ypos"			"262"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
@@ -184,19 +178,25 @@
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"Black"
+		"pin_to_sibling"	"TeamMenuSpectate"
 	}
 
-	"BarBottom"
+	"BGDarken"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarBottom"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"DarkerBlack"
+		"ControlName"	"Panel"
+		"fieldName"		"BGDarken"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
+	}
+
+	"ChalkBG"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"ChalkBG"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 }
 

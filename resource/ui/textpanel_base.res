@@ -1,5 +1,4 @@
 // This file is used to carry over universal elements in mapinfomenu, textwindow, mapintro and others
-
 x
 {
 	"BGDarken"

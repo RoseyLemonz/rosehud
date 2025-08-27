@@ -37,32 +37,16 @@
 		"xpos"			"0"
 		"ypos"			"rs1"
 		"zpos"			"500"
-		"wide"			"92"
+		"wide"			"70"
 		"tall"			"o1"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"teambg_1"		"replay/thumbnails/blank"
-		"teambg_2"		replay/thumbnails/hud/redcorner"
-		"teambg_2"		replay/thumbnails/hud/blucorner"
-	}	
+		"teambg_2"		"replay/thumbnails/hud/redcorner"
+		"teambg_3"		"replay/thumbnails/hud/blucorner"
+	}
 
-	"TeamIndicatorR"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamIndicatorR"
-		"xpos"			"rs1"
-		"ypos"			"rs1"
-		"zpos"			"500"
-		"wide"			"80"
-		"tall"			"o1"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"teambg_1"		"replay/thumbnails/blank"
-		"teambg_2"		replay/thumbnails/hud/redrightcorner"
-		"teambg_2"		replay/thumbnails/hud/blurightcorner"
-	}	
 	"RandomTextTestLabel"
 	{
 		"ControlName"	"Label"
@@ -79,7 +63,6 @@
 		"font"			"HudTargetIDIcons"
 		"fgcolor"		"HudPrimaryLight"
 	}
-
 
 	"PlayerCharaImage"
 	{

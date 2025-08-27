@@ -64,7 +64,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
 		"xpos"			"cs0"
-		"ypos"			"170"
+		"ypos"			"160"
 		"wide"			"220"
 		"tall"			"60"
 		"autoResize"	"0"
@@ -76,10 +76,12 @@
 		"command"		"jointeam blue"
 		"font"			"HudFontMediumBigBold"
 		"paintBackgroundType"		"2"
-		"bgcolor_override"			"BlueTeamSolid"
 		"roundedcorners"			"10"
 		"use_proportional_insets"	"1"
 		"proportionaltoparent"		"1"
+		"defaultbgcolor_override"	"BlueTeamTransparent"
+		"armedbgcolor_override"		"BlueTeamSolid"
+		"depressedbgcolor_override"	"DarkBlueTeamSolid"
 	}
 
 	"teambutton1"
@@ -87,7 +89,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
 		"xpos"			"cs-1"
-		"ypos"			"170"
+		"ypos"			"160"
 		"zpos"			"1"
 		"wide"			"220"
 		"tall"			"60"
@@ -100,10 +102,12 @@
 		"command"		"jointeam red"
 		"font"			"HudFontMediumBigBold"
 		"paintBackgroundType"		"2"
-		"bgcolor_override"			"RedTeamSolid"
 		"roundedcorners"			"5"
 		"use_proportional_insets"	"1"
 		"proportionaltoparent"		"1"
+		"defaultbgcolor_override"	"RedTeamTransparent"
+		"armedbgcolor_override"		"RedTeamSolid"
+		"depressedbgcolor_override"	"DarkRedTeamSolid"
 	}
 
 	"teambutton2"
@@ -111,7 +115,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"cs-1.1"
-		"ypos"			"298"
+		"ypos"			"292"
 		"wide"			"180"
 		"tall"			"50"
 		"autoResize"	"0"
@@ -123,7 +127,7 @@
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
 
-		"defaultbgcolor_override" 	"Black"
+		"defaultbgcolor_override" 	"TransparentBlack"
 		"armedbgcolor_override"		"HudPrimary"
 		"depressedbgcolor_override" "HudPrimaryDark"
 
@@ -137,7 +141,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"cs0.1"
-		"ypos"			"298"
+		"ypos"			"292"
 		"wide"			"180"
 		"tall"			"50"
 		"autoResize"	"0"
@@ -149,7 +153,7 @@
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
 		
-		"defaultbgcolor_override" 	"Black"
+		"defaultbgcolor_override" 	"TransparentBlack"
 		"armedbgcolor_override"		"HudPrimary"
 		"depressedbgcolor_override" "HudPrimaryDark"
 
@@ -175,7 +179,6 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
 	}
 	
 	"TeamMenuSelect"
@@ -237,7 +240,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueCountBG"
 		"xpos"			"c18"
-		"ypos"			"c12"
+		"ypos"			"c5"
 		"zpos"			"-2"
 		"wide"			"58"
 		"tall"			"22"
@@ -265,10 +268,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"0"
+		"xpos"			"-13"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"54"
+		"wide"			"41"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -281,12 +284,32 @@
 		"pin_to_sibling"	"BlueCountBg2"
 	}	
 
+	"BlueCountImage"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueCountImage"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"15"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"P"
+		"textAlignment"	"center"
+		"font"			"HudMenuIco"
+		"fgcolor"		"White"
+		"pin_to_sibling"	"BlueCountBg2"
+	}	
+
 	"RedCountBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedCountBG"
 		"xpos"			"c-76"
-		"ypos"			"c12"
+		"ypos"			"c5"
 		"zpos"			"-2"
 		"wide"			"58"
 		"tall"			"22"
@@ -317,7 +340,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"54"
+		"wide"			"41"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -328,6 +351,28 @@
 		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling"	"RedCountBg2"
+	}	
+
+	"RedCountImage"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedCountImage"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"15"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"P"
+		"textAlignment"	"center"
+		"font"			"HudMenuIco"
+		"fgcolor"		"White"
+		"pin_to_sibling"	"RedCountBg2"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 	}	
 	
 	"HighlanderLabel"

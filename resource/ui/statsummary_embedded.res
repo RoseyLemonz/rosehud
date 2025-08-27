@@ -1758,18 +1758,9 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c225"
-		"ypos"			"319"
-		"zpos"			"6"
-		"wide"			"65"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_ResetStats"
-		"textAlignment"	"center"
-		"Command"		"resetstatsbutton"
-
-		"defaultBgcolor_override"	"TransparentBlack"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	"CloseButton"
 	{

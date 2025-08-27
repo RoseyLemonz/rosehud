@@ -50,7 +50,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
 		"xpos"				"c-237"
-		"ypos"				"r144"
+		"ypos"				"r146"
 		"zpos"				"1"
 		"wide"				"46"
 		"tall"				"18"
@@ -132,8 +132,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"2"
-			"wide"			"f3"
-			"tall"			"f3"
+			"wide"			"f2"
+			"tall"			"f2"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
@@ -413,8 +413,9 @@
 				"visible"				"1"
 				"proportionaltoparent"	"1"
 				"positionImage"			"0"	
-				"paintBackgroundType"	"0"	
+				"paintBackgroundType"	"2"	
 				"bgcolor_override"		"TransparentBlack"
+				"roundedcorners"		"12"
 			}
 
 			"ProgressBarSplit"
@@ -448,7 +449,7 @@
 				"positionImage"			"0"
 				"Image"					"../hud/objectives_corepanel_meter_solid"
 
-				"left_offset"			"0"
+				"left_offset"			"5"
 				"right_offset"			"0"
 				"standard_color"		"BlueTeamSolid"
 				"bright_color"			"LightBlueTeamSolid"
@@ -472,7 +473,7 @@
 				"positionImage"			"0"	
 				"Image"					"../hud/objectives_corepanel_meter"
 
-				"left_offset"			"0"
+				"left_offset"			"5"
 				"right_offset"			"0"
 				"standard_color"		"84  111 127 255"
 				"bright_color"			"110 159 189 255"
@@ -566,7 +567,7 @@
 				"Image"					"../hud/objectives_corepanel_meter_solid_right"
 
 				"left_offset"			"0"
-				"right_offset"			"0"
+				"right_offset"			"5"
 				"standard_color"		"RedTeamSolid"
 				"bright_color"			"LightRedTeamSolid"
 				"left_to_right"			"1"
@@ -590,7 +591,7 @@
 				"Image"					"../hud/objectives_corepanel_meter_right"
 
 				"left_offset"			"0"
-				"right_offset"			"0"
+				"right_offset"			"5"
 				"standard_color"		"171 59 59 255"
 				"bright_color"			"222 65 65 255"
 				"left_to_right"			"1"

@@ -107,7 +107,6 @@
 		"wrap"			"0"
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
 		"default"			"1"
 	}
 }

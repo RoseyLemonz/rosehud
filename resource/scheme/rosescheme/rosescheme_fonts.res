@@ -183,7 +183,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2charactericons"
-				"tall"		"37"	[$LINUX]
+				"tall"		"36"	[$LINUX]
 				"tall"		"48"
 				"antialias"	"1"
 			}

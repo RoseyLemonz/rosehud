@@ -102,7 +102,7 @@
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"13"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"

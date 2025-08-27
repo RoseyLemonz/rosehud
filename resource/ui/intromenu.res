@@ -53,7 +53,6 @@
 		"wrap"			"0"
 		"command"		"skip"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"	
 	}
 	
 	"Back"
@@ -73,7 +72,6 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
 	}
 
 	"MenuBG"

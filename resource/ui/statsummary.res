@@ -219,7 +219,7 @@
 
     "StatData"
 	{
-		"ypos"		"-40"
+		"ypos"		"-50"
     }
 	"TipBG"
 	{
