@@ -205,28 +205,10 @@
 		"visible"		"0"
 	}
 
-	"TeamMenuRedShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuRedShadow"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}
-
 	"TeamMenuBlue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuBlue"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}
-
-	"TeamMenuBlueShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuBlueShadow"
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
@@ -236,90 +218,58 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"cs-1.1"
-		"ypos"			"275"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Random"
-		"textAlignment"	"center"
-		"wrap"			"0"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"White"
-	}
-
-	"TeamMenuAutoShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuAutoShadow"
-		"xpos"			"cs-1.1+1"
-		"ypos"			"276"
-		"wide"			"80"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Random"
-		"textAlignment"	"center"
-		"wrap"			"0"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"Black"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
-		"xpos"			"cs0.1"
-		"ypos"			"275"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectate"
-		"textAlignment"	"center"
-		"wrap"			"0"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"white"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"
 	}
 
-	"TeamMenuSpectateShadow"
+	"BlueCountBG"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSpectateShadow"
-		"xpos"			"cs0.1+1"
-		"ypos"			"276"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueCountBG"
+		"xpos"			"c78"
+		"ypos"			"c-28"
+		"zpos"			"-2"
+		"wide"			"58"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Spectate"
-		"textAlignment"	"center"
-		"wrap"			"0"
-		"font"			"HudFontSmallBold"
-		"fgcolor"		"black"
+		"fillcolor" 	"BlueTeamTransparent"
 	}
-	
+
+	"BlueCountBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueCountBG2"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-1"
+		"wide"			"54"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" 	"BlueTeamSolid"
+		"pin_to_sibling"	"BlueCountBG"
+	}
+
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"c28"
-		"ypos"			"248"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"16"
+		"wide"			"54"
+		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -328,45 +278,47 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
-	}
+		"pin_to_sibling"	"BlueCountBg2"
+	}	
 
-	"BlueCountBG"
+	"RedCountBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueCountBG"
-		"xpos"			"c28"
-		"ypos"			"248"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"BlueTeamSolid"
-	}
-
-	"BlueCountBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueCountBG2"
-		"xpos"			"c26"
-		"ypos"			"246"
+		"fieldName"		"RedCountBG"
+		"xpos"			"c-138"
+		"ypos"			"c-28"
 		"zpos"			"-2"
-		"wide"			"44"
-		"tall"			"20"
+		"wide"			"58"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamTransparent"
+		"fillcolor" 	"RedTeamTransparent"
 	}
-	
+
+	"RedCountBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedCountBG2"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-1"
+		"wide"			"54"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor" 	"RedTeamSolid"
+		"pin_to_sibling"	"RedCountBG"
+	}
+
 	"RedCount"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"c-68"
-		"ypos"			"248"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"16"
+		"wide"			"54"
+		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -375,35 +327,8 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
+		"pin_to_sibling"	"RedCountBg2"
 	}	
-
-	"RedCountBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedCountBG"
-		"xpos"			"c-68"
-		"ypos"			"248"
-		"zpos"			"-1"
-		"wide"			"40"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"RedTeamSolid"
-	}
-
-	"RedCountBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedCountBG2"
-		"xpos"			"c-70"
-		"ypos"			"246"
-		"zpos"			"-2"
-		"wide"			"44"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"RedTeamTransparent"
-	}
 	
 	"HighlanderLabel"
 	{
