@@ -108,5 +108,7 @@
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
 		"default"			"1"
+		"roundedcorners"	"0"
+		"defaultBgColor_override"	"DarkerBlack"
 	}
 }

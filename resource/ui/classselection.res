@@ -547,6 +547,8 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
+		"defaultBgColor_override"	"DarkerBlack"
 	}	
 
 	"ResetButton" 

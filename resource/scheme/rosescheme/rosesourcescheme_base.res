@@ -1,5 +1,3 @@
-// TRACKER SCHEME RESOURCE FILE
-
 Scheme
 {
 	BaseSettings

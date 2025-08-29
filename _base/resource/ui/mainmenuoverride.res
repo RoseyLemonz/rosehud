@@ -71,49 +71,8 @@
 				}				
 			}		
 		}
-		
 		"SaxxySettings"
-		{
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-101"		
-			"wide"			"f0"
-			"tall"			"480"
-			
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"flashbounds_x"	"50"
-			"flashbounds_y"	"65"
-			"flashbounds_w"	"250"
-			"flashbounds_h"	"120"
-			
-			"flashstartsize_min"	"8"
-			"flashstartsize_max"	"12"
-			
-			"flash_maxscale"		"4"
-			
-			"flash_lifelength_min"	".1"
-			"flash_lifelength_max"	".2"
-			
-			"curtain_anim_duration"		"4.0"
-			"curtain_open_time"		"2.8"
-			"flash_start_time"		"4.0"
-			
-			"initial_freakout_duration"		"15.0"
-			"clap_sound_duration"	"10.0"
-			
-			"CameraFlashSettings"
-			{
-				"visible"		"1"
-				"enabled"		"1"
-				"tileImage"		"0"
-				"scaleImage"	"1"
-				"zpos"			"9"
-			}
-		}
+		{ "xpos" "9999" "visible" "0" }
 	}	
 
 	"mouseoveritempanel"
@@ -221,7 +180,29 @@
 			"image"		"../console/background_xmas2023_widescreen"
 		}
 	}
-					
+
+	"HolidayConditional"
+	{
+		"ControlName"	"CExImageButton"
+		"visible"		"0"
+		"command"	    "soundentry rose.main_menu"
+
+		"if_halloween"
+		{
+			"command"	"soundentry rose.main_menu_halloween"
+		}
+		"if_soldier"
+		{
+			"command"	"soundentry rose.main_menu_rickmay"
+		}
+		"SubImage"
+		{
+			"fieldName"	"MessageRelay"
+			"visible"	"0"
+			"actionsignallevel"	"1"
+		}
+	}
+
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -244,8 +225,8 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"FakeHudName"
-		"xpos"			"20"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"260"
 		"tall"			"60"
@@ -255,13 +236,14 @@
 		"paintbackground"	"0"
 		"paintborder"		"0"
 		"command"			"engine toggleconsole; echo ------------; rosehud_version; echo ------------"
+		"pin_to_sibling"	"HudName"
 	}
 
 	"HudName"
 	{
 		"ControlName"	"CexLabel"
 		"fieldName"		"HudName"
-		"xpos"			"20"
+		"xpos"			"35"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"260"
@@ -296,7 +278,7 @@
 	{
 		"ControlName"	"CexLabel"
 		"fieldName"		"HudTheme"
-		"xpos"			"20"
+		"xpos"			"35"
 		"ypos"			"48"
 		"zpos"			"1"
 		"wide"			"260"
@@ -331,7 +313,7 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"MenuBGUni"
-		"xpos"			"10"
+		"xpos"			"25"
 		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"280"
@@ -345,70 +327,45 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-9999"
-		"ypos"			"cs-0.5-120"
-
-		"zpos"			"-51"
-		"wide"			"1000"
-		"tall"			"1000"
+		"xpos"			"9999"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_progress"	"0"
 	}
 
 	"CycleRankTypeButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"260"
-		"ypos"			"cs-0.5-134"
+		"xpos"			"272"
+		"ypos"			"c-146"
 		"zpos"			"2"
-		"wide"			"15"
-		"tall"			"15"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"25"
-		"labelText"		""
-		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"labelText"		"|"
+		"font"			"HudMenuIco"
 		"command"		"open_rank_type_menu"
-		"textAlignment"	"west"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"vo/null.mp3"
+		"textAlignment"	"center"
 		"actionsignallevel" "1"
 		"proportionaltoparent"	"1"
+
+		"armedBgColor_override"	"HudPrimaryLight"
+		"depressedbgcolor_override"	"HudPrimary"
 				
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"paintbackground"	"0"
 		"paintborder"		"0"
-
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"255 233 255 255"
 
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"f2"
-			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
+			"xpos"			"9999"
+			"visible"		"0"
 		}		
 	}
 
@@ -425,7 +382,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-40"
+		"xpos"			"-25"
 		"ypos"			"72"
 		"zpos"			"-52"
 		"wide"			"320"
@@ -444,7 +401,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"35"
+		"xpos"			"50"
 		"ypos"			"100"
 		"zpos"			"-99"
 		"wide"			"180"
@@ -462,7 +419,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"215"
+		"xpos"			"230"
 		"ypos"			"116"
 		"zpos"			"-99"
 		"wide"			"50"
@@ -478,7 +435,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
-		"xpos"			"20"
+		"xpos"			"35"
 		"ypos"			"94"
 		"zpos"			"-100"
 		"wide"			"260"
@@ -555,7 +512,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"296"
+		"xpos"			"314"
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"32"
@@ -599,7 +556,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"296"
+		"xpos"			"314"
 		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"32"
@@ -643,7 +600,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"296"
+		"xpos"			"314"
 		"ypos"			"94"
 		"zpos"			"10"
 		"wide"			"32"
@@ -726,7 +683,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"296"
+		"xpos"			"314"
 		"ypos"			"94"
 		"zpos"			"50"
 		"wide"			"300"
@@ -1061,7 +1018,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"296"
+		"xpos"			"314"
 		"ypos"			"94"
 		"zpos"			"10"
 		"wide"			"210"
@@ -1175,14 +1132,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"VRModeButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
+		"xpos"			"314"
+		"ypos"			"354"
 		"zpos"			"-60"
-		"wide"			"270"
-		"tall"			"36"
+		"wide"			"200"
+		"tall"			"26"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
 
 		"SubButton"
 		{
@@ -1190,29 +1146,25 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"east"
+			"textinsetx"	"15"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
+			"use_proportional_insets"	"1"
 			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultfgcolor_override" "46 43 42 255"
-			"armedfgcolor_override" "235 226 202 255"
-			"depressedfgcolor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultBgColor_override"	"DarkerBlack"
+				
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1245,7 +1197,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"20"
+		"xpos"			"35"
 		"ypos"			"200"
 		"zpos"			"5"
 		"wide"			"260"
@@ -1372,10 +1324,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c30"
-		"ypos"			"385"
+		"xpos"			"314"
+		"ypos"			"384"
 		"zpos"			"5"
-		"wide"			"250"
+		"wide"			"200"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1387,14 +1339,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"showpromocodes"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultfgcolor_override" "46 43 42 255"
-		"armedfgcolor_override" "235 226 202 255"
-		"depressedfgcolor_override" "46 43 42 255"
+		"defaultBgColor_override"	"DarkerBlack"
 	}
 
 	"StoreHasNewItemsImage"
@@ -1410,7 +1355,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"20"
+		"xpos"			"36"
 		"ypos"			"rs1-18"
 		"zpos"			"0"
 		"wide"			"120"
@@ -1434,6 +1379,11 @@
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"46 43 42 255"
 		
+		"if_taller"	
+		{
+			"xpos"		"25"
+		}
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

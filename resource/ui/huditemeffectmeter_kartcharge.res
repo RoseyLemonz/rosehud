@@ -25,7 +25,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/misc_ammo_area_horiz2"
+		"image"			"../hud/misc_ammo_area_horiz2"
 		"scaleImage"	"1"				
 	}
 	

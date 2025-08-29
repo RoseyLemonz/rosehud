@@ -125,8 +125,9 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
 		"default"			"1"
+		"roundedcorners"	"0"
+		"defaultBgColor_override"	"DarkerBlack"
 	}
 
 	"MapInfoContinue"
@@ -163,6 +164,7 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		"roundedcorners"	"0"
+		"defaultBgColor_override"	"DarkerBlack"
 	}
 
 	"BGDarken"

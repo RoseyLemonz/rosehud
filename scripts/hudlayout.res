@@ -1,3 +1,8 @@
+
+// DIMMER FIX
+
+#base "../_base/dimmer_fix.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus

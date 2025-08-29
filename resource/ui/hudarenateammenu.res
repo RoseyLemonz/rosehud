@@ -98,6 +98,8 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
+		"roundedcorners"	"0"
+		"defaultBgColor_override"	"DarkerBlack"
 	}
 		
 	"TeamMenuAuto"

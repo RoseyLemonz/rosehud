@@ -216,7 +216,8 @@ Scheme
 			"1"
 			{
 				"name"		"tf2_uber_icons"
-				"tall"		"9"
+				"tall"		"9"		[$LINUX]
+				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow""	1"

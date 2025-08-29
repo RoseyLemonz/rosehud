@@ -24,8 +24,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"35"
+		"wide"			"f25"
+		"tall"			"28"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -34,22 +34,11 @@
 
 		"Gradient"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"p0.5"
-			"tall"		"f6"
-			"zpos"	"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"rotation"		"2"
-			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
-			"mouseinputenabled"	"0"
-			"alpha"		"100"
-
-			"image"		"gradient_pure_black"
+			"xpos"			"0"
+			"wide"			"0"
+			"visible"		"0"
 		}
 
 		"BGPanel"
@@ -59,11 +48,11 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"p1.1"
-			"tall"			"f5"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
+			"roundedcorners"		"12"
 			"bgcolor_override"		"DarkerBlack"
 			"proportionaltoparent"	"1"
 		} 
@@ -82,23 +71,28 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"40"
-			"tall"			"f5"
+			"wide"			"30"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"center"
+			"font"			"HudMenuIco"
+			"labeltext"		"R"
+			"textAlignment"	"south"
+			"textinsety"	"-2"
 			"Command"		"toggle_chat"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
+
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
-			"roundedcorners"	"0"
+			"actionsignallevel"		"2"
+
+			"proportionaltoparent"		"1"
+			"use_proportional_insets"	"1"
+
+			"roundedcorners"	"4"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -110,16 +104,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-2"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
+				"xpos"			"9999"
+				"visible"		"0"
 			}
 		}
 
@@ -127,11 +113,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"40"
-			"ypos"			"rs1-6"
+			"xpos"			"30"
+			"ypos"			"rs1"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -139,6 +125,8 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+
+			"bgcolor_override"		"HudBlack"
 
 			"party_slot"	"0"
 		}
@@ -147,11 +135,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -159,6 +147,11 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+
+			"bgcolor_override"		"HudBlack"
+
+			"pin_to_sibling"		"PartySlot0"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			"party_slot"	"1"
 		}
@@ -167,11 +160,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -179,6 +172,11 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+
+			"bgcolor_override"		"HudBlack"
+
+			"pin_to_sibling"		"PartySlot1"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			"party_slot"	"2"
 		}
@@ -187,11 +185,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -199,6 +197,11 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+
+			"bgcolor_override"		"HudBlack"
+
+			"pin_to_sibling"		"PartySlot2"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			"party_slot"	"3"
 		}
@@ -207,11 +210,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -219,6 +222,11 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+
+			"bgcolor_override"		"HudBlack"
+
+			"pin_to_sibling"		"PartySlot3"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			"party_slot"	"4"
 		}
@@ -227,11 +235,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
-			"ypos"			"rs1-6"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"24"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -239,6 +247,11 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+
+			"bgcolor_override"		"HudBlack"
+
+			"pin_to_sibling"		"PartySlot4"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			"party_slot"	"5"
 		}
@@ -560,30 +573,34 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"QuitButton"
 			"xpos"			"rs1"
-			"ypos"			"0"
+			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"f5"
+			"wide"			"28"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"textinsetx"	"0"
+			"font"			"HudMenuIco"
+			"labeltext"		"b"
+			"textAlignment"	"south"
+			"textinsety"	"-2"
 			"Command"		"quit"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
+
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
+			"actionsignallevel"		"2"
+
+			"proportionaltoparent"		"1"
+			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedfgcolor_override"		"Gray"
-			"armedbgcolor_override"		"HudNegat"
-			"defaultbgcolor_override"	"HudNegatTransparent"
+			"roundedcorners"			"8"
+			"defaultbgcolor_override"	"HudNegatDark"
+			"armedbgcolor_override"		"HudNegatLight"
+			"depressedbgcolor_override"	"HudNegat"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -592,16 +609,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
+				"xpos"			"9999"
+				"visible"		"0"
 			}
 		}
 
@@ -610,29 +619,34 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
 			"xpos"			"rs1"
-			"ypos"			"0"
+			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"f5"
+			"wide"			"28"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"font"			"HudMenuIco"
+			"labeltext"		"b"
+			"textAlignment"	"south"
+			"textinsety"	"-2"
 			"Command"		"quit"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
+
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
+			"actionsignallevel"		"2"
+
+			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedbgcolor_override"		"HudNegat"
-			"defaultbgcolor_override"	"HudNegatTransparent"
+			"roundedcorners"			"8"
+			"defaultbgcolor_override"	"HudNegatDark"
+			"armedbgcolor_override"		"HudNegatLight"
+			"depressedbgcolor_override"	"HudNegat"
 
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -641,16 +655,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_disconnect"
+				"xpos"			"9999"
+				"visible"		"0"
 			}
 		}
 
@@ -658,24 +664,29 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
-			"xpos"			"rs1-30-130"
-			"ypos"			"0"
+			"xpos"			"0"
+			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"f5"
+			"wide"			"28"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"font"			"HudMenuIco"
+			"labeltext"		"/"
+			"textAlignment"	"south"
+			"textinsety"	"-2"
 			"Command"		"resume_game"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
+
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
+			"actionsignallevel"		"2"
+
+			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
+
+			"roundedcorners"			"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -687,16 +698,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"icon_resume"
+				"xpos"			"9999"
+				"visible"		"0"
 			}
 		}
 
@@ -704,24 +707,32 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"rs1-30"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"f5"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"50"
+			"wide"			"28"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"font"			"HudMenuIco"
+			"labeltext"		"c"
+			"textAlignment"	"south"
+			"textinsety"	"-2"
 			"Command"		"find_game"
-			"proportionaltoparent"	"1"
-			"labeltext"		""
-			"mouseinputenabled"	"1"
+
+			"mouseinputenabled"		"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
+			"actionsignallevel"		"2"
+			
+			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
+
+			"roundedcorners"			"0"
+			"defaultbgcolor_override"	"HudBonusDark"
+			"armedbgcolor_override"		"HudBonusLight"
+			"depressedbgcolor_override"	"HudBonus"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -733,16 +744,8 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_multiplayer"
+				"xpos"			"9999"
+				"visible"		"0"
 			}
 		}
 	}

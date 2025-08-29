@@ -63,6 +63,6 @@ x
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"1"
-		"bgcolor_override"	"Black"
+		"bgcolor_override"	"DarkerBlack"
 	}	
 }

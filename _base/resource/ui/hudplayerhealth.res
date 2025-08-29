@@ -39,7 +39,7 @@
 		"zpos"			"500"
 		"wide"			"70"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"teambg_1"		"replay/thumbnails/blank"
