@@ -19,6 +19,11 @@
 //#base "hud_customization_shaders.res"
 
 //==============================================================
+// TEAM INDICATOR
+//==============================================================
+#base "hud_customization_teamindicator.res"
+
+//==============================================================
 // FOLDERCHECK
 //==============================================================
 #base "../../rosehud/_customization/foldercheck/hud_customization_checkpass.res"

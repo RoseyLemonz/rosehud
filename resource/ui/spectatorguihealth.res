@@ -28,10 +28,10 @@
 		"ypos"			"9999"
 		"visible"		"0"
 	}
-	"PlayerStatusHealthValue"
+	"TargetStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
+		"fieldName"		"TargetStatusHealthValue"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -42,15 +42,15 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"HudSpecGuiHealth"
-		"fgcolor"		"HudPrimary"
+		"fgcolor"		"HudPrimaryLight"
 		"proportionaltoparent"	"1"
 	}
-	"PlayerStatusHealthValueShadow"
+	"TargetStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"1"
-		"ypos"			"1"
+		"fieldName"		"TargetStatusHealthValueShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -60,6 +60,10 @@
 		"textAlignment"	"center"
 		"font"			"HudSpecGuiHealth"
 		"fgcolor"		"Black"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling"		"TargetStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"PlayerStatusPlayerLevel"
 	{

@@ -112,7 +112,7 @@
 
 	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"5"
 		"ypos"			"0"
@@ -128,16 +128,22 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"9999"
-		"wide"			"0"
+		"xpos"			"27"
+		"ypos"			"16"
+		"zpos"			"12"
+		"wide"			"9"
+		"tall"			"9"
 		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/hud_obj_status_ammo_64"
+		"scaleImage"	"1"
 	}
 
 	"KillstreakIconAnchor"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"KillstreakIconAnchor"
-		"xpos"			"cs-0.5+82"
+		"xpos"			"cs-0.5+72"
 		"ypos"			"17"
 		"wide"			"f0"
 		"tall"			"f0"

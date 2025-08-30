@@ -11,6 +11,9 @@ event HudHealthBonusPulse
 
 	Animate PlayerStatusHealthValue			fgcolor		"HudBonus" 			Linear 0.0 0.275
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
+
+	Animate TargetStatusHealthValue			fgcolor		"HudBonus" 			Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
 	RunEvent HudHealthBonusPulseLoop		0.4
 }
 
@@ -27,6 +30,7 @@ event HudHealthBonusPulseStop
 	Animate PlayerCharaImageBonus			alpha		"0"					Linear 0.0 0.00
 	Animate PlayerCharaImage				alpha		"255"				Linear 0.0 0.00
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
 }
 
 //====================================
@@ -42,6 +46,9 @@ event HudHealthDyingPulse
 
 	Animate PlayerStatusHealthValue			fgcolor		"HudNegat" 			Linear 0.0 0.275
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
+
+	Animate TargetStatusHealthValue			fgcolor		"HudNegat" 			Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
 
 	RunEvent HudHealthDyingPulseLoop		0.4
 }
@@ -59,6 +66,7 @@ event HudHealthDyingPulseStop
 	Animate PlayerCharaImageHurt			alpha		"0"					Linear 0.0 0.00
 	Animate PlayerCharaImage				alpha		"255"				Linear 0.0 0.00
 	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
 }
 
 //====================================
