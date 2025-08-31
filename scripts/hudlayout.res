@@ -211,7 +211,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"5"
+		"xpos"		"c100"
 		"ypos"		"rs1-5"
 		"wide"		"140"
 		"tall"	 	"22"

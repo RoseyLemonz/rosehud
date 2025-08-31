@@ -8,7 +8,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"c148"
 		"wide"			"48"
-		"tall"			"18"
+		"tall"			"16"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,12 +19,13 @@
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"48"
-		"tall"			"16"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
 		"paintBackgroundType"	"2"
+		"proportionaltoparent"	"1"
 	}
 
 	"ItemEffectMeterLabel"

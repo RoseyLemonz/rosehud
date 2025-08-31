@@ -7,7 +7,7 @@ Scheme
 			"1"
 			{
 				"name"			"tf2secondary"
-				"tall"			"24"
+				"tall"			"22"
 				"antialias"		"1"
  				"additive"		"1"
 				"dropshadow"	"1"
@@ -16,7 +16,7 @@ Scheme
 			"2" // misyl: Proportional
 			{
 				"name"			"tf2secondary"
-				"tall"			"16"
+				"tall"			"14"
 				"antialias"		"1"
 				"additive"		"1"
 				"dropshadow"	"1"
@@ -28,7 +28,7 @@ Scheme
 			"1"
 			{
 				"name"			"tf2secondary"
-				"tall"			"20"
+				"tall"			"18"
 				"antialias"		"1"
 				"additive"		"1"
 				"dropshadow"	"1"
@@ -40,7 +40,7 @@ Scheme
 			"1"
 			{
 				"name"			"tf2secondary"
-				"tall"			"18"
+				"tall"			"16"
 				"antialias"		"1"
 				"additive"		"1"
 				"dropshadow"	"1"

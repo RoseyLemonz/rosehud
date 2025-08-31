@@ -82,7 +82,8 @@
 			"font"			"HudMenuIco"
 			"labeltext"		"R"
 			"textAlignment"	"south"
-			"textinsety"	"-2"
+			"textinsety"	"-3" [$LINUX]
+			"textinsety"	"-2" 
 			"Command"		"toggle_chat"
 
 			"mouseinputenabled"		"1"
@@ -584,6 +585,7 @@
 			"font"			"HudMenuIco"
 			"labeltext"		"b"
 			"textAlignment"	"south"
+			"textinsety"	"-3" [$LINUX]
 			"textinsety"	"-2"
 			"Command"		"quit"
 
@@ -630,6 +632,7 @@
 			"font"			"HudMenuIco"
 			"labeltext"		"b"
 			"textAlignment"	"south"
+			"textinsety"	"-3" [$LINUX]
 			"textinsety"	"-2"
 			"Command"		"quit"
 
@@ -676,6 +679,7 @@
 			"font"			"HudMenuIco"
 			"labeltext"		"/"
 			"textAlignment"	"south"
+			"textinsety"	"-3" [$LINUX]
 			"textinsety"	"-2"
 			"Command"		"resume_game"
 
@@ -719,6 +723,7 @@
 			"font"			"HudMenuIco"
 			"labeltext"		"c"
 			"textAlignment"	"south"
+			"textinsety"	"-3" [$LINUX]
 			"textinsety"	"-2"
 			"Command"		"find_game"
 

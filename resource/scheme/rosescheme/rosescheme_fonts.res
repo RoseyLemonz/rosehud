@@ -216,7 +216,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2_uber_icons"
-				"tall"		"9"		[$LINUX]
+				"tall"		"8"		[$LINUX]
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -351,7 +351,7 @@ Scheme
 			"1"
 			{
 				"name"		"bahnschrift"
-				"tall"		"10"	[$LINUX]
+				"tall"		"9"	[$LINUX]
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias"	"1"
@@ -359,7 +359,7 @@ Scheme
 			"2"
 			{
 				"name"		"bahnschrift"
-				"tall"		"11"	[$LINUX]
+				"tall"		"10"	[$LINUX]
 				"tall"		"13"
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -367,7 +367,7 @@ Scheme
 			"3"
 			{
 				"name"		"bahnschrift"
-				"tall"		"12"	[$LINUX]
+				"tall"		"11"	[$LINUX]
 				"tall"		"14"
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -375,7 +375,7 @@ Scheme
 			"4"
 			{
 				"name"		"bahnschrift"
-				"tall"		"17"	[$LINUX]
+				"tall"		"16"	[$LINUX]
 				"tall"		"20"
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -383,21 +383,21 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"bahnschrift"
-				"tall"		"8"	[$LINUX]
+				"tall"		"7"	[$LINUX]
 				"tall"		"9"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"bahnschrift"
-				"tall"		"11"	[$LINUX]
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"7"
 			{
 				"name"		"bahnschrift"
-				"tall"		"11"	[$LINUX]
+				"tall"		"10"	[$LINUX]
 				"tall"		"12"
 				"antialias"	"1"
 			}
