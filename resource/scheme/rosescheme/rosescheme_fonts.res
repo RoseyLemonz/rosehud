@@ -229,7 +229,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2secondary"
-				"tall"		"12"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"

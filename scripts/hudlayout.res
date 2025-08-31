@@ -562,10 +562,11 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c120"
-		"ypos"		"rs1-10"
-		"wide"		"120"
-		"tall"		"70"
+		"xpos"		"c130"
+		"ypos"		"rs1-12"
+		"zpos"		"1"
+		"wide"		"112"
+		"tall"		"55"
 
 		"BgAlpha"	"196"
 
@@ -1192,10 +1193,10 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r200"
-		"ypos"					"rs1"
+		"xpos"					"rs1-12"
+		"ypos"					"rs1-12"
 		"zpos"					"10"
-		"wide"					"190"
+		"wide"					"130"
 		"tall"					"f0"
 	}
 	

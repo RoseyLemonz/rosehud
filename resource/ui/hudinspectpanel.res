@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"150"
-		"tall"			"100"
+		"wide"			"130"
+		"tall"			"f0"
 		"visible"		"0"
 		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"2"
@@ -22,13 +22,14 @@
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
-		"text_wide"		"130"
+		"text_wide"		"110"
 		"text_center"	"1"
 		
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
+		"proportionaltoparent"	"1"
 		
 		"itemmodelpanel"
 		{
@@ -45,7 +46,7 @@
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"130"
+			"wide"			"110"
 			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"

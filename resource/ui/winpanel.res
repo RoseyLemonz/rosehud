@@ -211,7 +211,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"NewWinPanelBGBorder"
 		"xpos"			"cs-0.5"
-		"ypos"			"rs1-13"
+		"ypos"			"rs1-12"
 		"zpos"			"0"
 		"wide"			"210"	
 		"tall"			"155"
