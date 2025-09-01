@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/no1mrMr.png" width="75%">
+<img src="https://i.imgur.com/no1mrMr.png" width="50%">
 
 Minimal Team Fortress 2 HUD featuring various characters across different media.
 
