@@ -1685,34 +1685,39 @@
 		"pin_to_sibling_corner" "1"
 	}	
 
-	"ReportBugButton"
+	"FixAllButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ReportBugButton"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FixAllButton"
 		"xpos"			"-3"
 		"ypos"			"0"
-		"zpos"			"7"
+		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"26"
 		"visible"		"1"
-		"enabled"		"1"
-		"textinsetx"	"5.5"
-		"labelText"		"9"
-		"font"			"HudMenuIco"
-		"textAlignment"	"east"
-		"Command"		"engine bug"
-
-		"proportionaltoparent"		"1"
-		"use_proportional_insets"	"1"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"46 43 42 255"
-
 		"pin_to_sibling"	"NewUserForumsButton"
-		"pin_to_sibling_corner" "1"			
+		"pin_to_sibling_corner"	"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"6"
+			"font"			"HudMenuIco"
+			"textAlignment"	"east"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"proportionaltoparent"		"1"
+			"use_proportional_insets"	"1"
+		}		
 	}	
 
 	"MusicChangePrevButton"
@@ -1725,7 +1730,7 @@
 		"wide"			"30"
 		"tall"			"26"
 		"visible"		"1"
-		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling"	"FixAllButton"
 		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
@@ -1909,7 +1914,7 @@
 		"wide"			"30"
 		"tall"			"26"
 		"visible"		"1"
-		"pin_to_sibling"	"ReportBugButton"
+		"pin_to_sibling"	"FixAllButton"
 		"pin_to_sibling_corner"	"1"
 
 		"SubButton"
