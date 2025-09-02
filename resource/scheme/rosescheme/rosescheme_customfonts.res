@@ -101,15 +101,16 @@ Scheme
 		}	
 		"61"
 		{
-			"font" "resource/fonts/lin/caslonantique.otf" [$LINUX]
-			"font" "resource/fonts/win/caslonantique.ttf" [$WINDOWS]
-			"name" "caslonantique"	
+			"font" "resource/fonts/lin/impressbt.otf" [$LINUX]
+			"font" "resource/fonts/win/impressbt.ttf" [$WINDOWS]
+			"name" "impressbt"	
 			"range" "0x0020 0x007F"
 		}	
 		"62"
 		{
-			"font" "resource/fonts/uwing.ttf"
-			"name" "uwing"
+			"font" "resource/fonts/lin/wingdings.otf" [$LINUX]
+			"font" "resource/fonts/win/wingdings.ttf" [$WINDOWS]
+			"name" "wingdings"
 			"range" "0x0020 0x007F"
 		}	
 		"63"
@@ -141,9 +142,9 @@ Scheme
 		// TODO: Swap out the font for this
 		"80"
 		{
-			"font"		"resource/fonts/lin/tf2_uber_icons.otf"	[$LINUX]
-			"font"		"resource/fonts/win/tf2_uber_icons.ttf"	[$WINDOWS]
-			"name"		"tf2_uber_icons"
+			"font"		"resource/fonts/lin/tf2ubericons.otf"	[$LINUX]
+			"font"		"resource/fonts/win/tf2ubericons.ttf"	[$WINDOWS]
+			"name"		"tf2ubericons"
 			"arabic"
 			{
 				"range" "0x0000 0xFFFF"

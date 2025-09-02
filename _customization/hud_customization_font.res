@@ -223,10 +223,10 @@
 					}
 				}
 
-				"FontCaslon"
+				"FontImpress"
 				{
 					"ControlName"						"EditablePanel"
-					"fieldName"							"FontCaslon"
+					"fieldName"							"FontImpress"
 					"xpos"								"4"
 					"ypos"								"0"
 					"zpos"								"20"
@@ -242,10 +242,10 @@
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"				"PIN_BOTTOMRIGHT"
 
-					"FontCaslon_Name"
+					"FontImpress_Name"
 					{
 						"ControlName"						"CExLabel"
-						"fieldName"							"FontCaslon_Name"
+						"fieldName"							"FontImpress_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"1"
@@ -256,16 +256,16 @@
 						"mouseinputenabled"					"0"
 						"proportionaltoparent"				"1"
 						"font"								"ItemFontNameSmallest"
-						"labeltext"							"Caslon"
+						"labeltext"							"Impress BT"
 						"textAlignment"						"center"
 						"fgcolor"							"White"
 						"paintbackground"					"0"
 						"paintbackgroundtype"				"0"
 					}
-					"FontCaslon_Button"
+					"FontImpress_Button"
 					{
 						"ControlName"						"CExButton"
-						"fieldName"							"FontCaslon_Button"
+						"fieldName"							"FontImpress_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
 						"zpos"								"5"
@@ -273,13 +273,11 @@
 						"tall"								"f12"
 						"visible"							"1"
 						"enabled"							"1"
-						"use_proportional_insets"			"1"
 						"proportionaltoparent"				"1"
 						"labelText"							"1234..."						
-						"font"								"Customization_Font_Caslon"
+						"font"								"Customization_Font_Impress"
 						"textAlignment"						"center"
-						"textinsety"						"2"
-						"command"							"engine hud_font_caslon"
+						"command"							"engine hud_font_impress"
 						"actionsignallevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultbgcolor_override"			"DarkerBlack"

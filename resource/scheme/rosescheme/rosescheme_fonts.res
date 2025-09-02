@@ -215,7 +215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"tf2_uber_icons"
+				"name"		"tf2ubericons"
 				"tall"		"8"		[$LINUX]
 				"tall"		"12"
 				"additive"	"0"
@@ -282,13 +282,13 @@ Scheme
 			}
 		}
 
-		"Customization_Font_Caslon"
+		"Customization_Font_Impress"
 		{
 			"1"
 			{
-				"name"		"caslonantique"
-				"tall"		"18"	[$LINUX]
-				"tall"		"22"
+				"name"		"impressbt"
+				"tall"		"15"	[$LINUX]
+				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -298,7 +298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"uwing"
+				"name"		"wingdings"
 				"tall"		"15"	[$LINUX]
 				"tall"		"18"
 				"additive"	"0"
