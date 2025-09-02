@@ -163,7 +163,7 @@ Scheme
 			"1"
 			{
 				"name"		"tf2icons"
-				"tall"		"17"	[$LINUX]
+				"tall"		"16"	[$LINUX]
 				"tall"		"21"
 				"antialias"	"1"
 			}
