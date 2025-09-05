@@ -139,7 +139,6 @@ Scheme
 		//	Uber Icon Font
 		//
 
-		// TODO: Swap out the font for this
 		"80"
 		{
 			"font"		"resource/fonts/lin/tf2ubericons.otf"	[$LINUX]
