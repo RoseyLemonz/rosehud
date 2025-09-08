@@ -25,7 +25,7 @@
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/misc_ammo_area_horiz2"
+		"image"			"../hud/misc_ammo_area_horiz2"
 		"scaleImage"	"1"				
 	}
 	
@@ -42,7 +42,6 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_KART"
 		"textAlignment"			"center"
 		"font"					"HudFontSmall"
@@ -77,7 +76,6 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"HudFontMediumSmall"

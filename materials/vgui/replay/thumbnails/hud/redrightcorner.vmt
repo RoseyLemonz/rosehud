@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture"		"vgui/replay/thumbnails/hud/redrightcorner"
+	"$vertexalpha"		"1"
+}

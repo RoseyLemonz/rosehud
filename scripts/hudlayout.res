@@ -1,3 +1,8 @@
+
+// DIMMER FIX
+
+#base "../_base/dimmer_fix.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -66,10 +71,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c98"
-		"ypos"			"r122"
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	
 	HudDemomanCharge
@@ -77,11 +82,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c40"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"40"
-		"tall"			"4"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}		
@@ -166,10 +171,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"cs-0.5"
-		"ypos"					"c92"
-		"wide"					"40"
-		"tall"  				"45"
+		"xpos"					"cs-0.5+202"
+		"ypos"					"rs1-36"
+		"wide"					"60"
+		"tall"  				"42"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -178,14 +183,14 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-156"
-		"ypos"					"r82"
-		"tall"  				"15"
+		"xpos"					"cs-0.5-48"
+		"ypos"					"r150"
+		"wide"					"200"
+		"tall"  				"35"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"Blank"
-		"auto_wide_tocontents"	"1"
 	}
 	
 	CDamageAccountPanel
@@ -206,10 +211,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"wide"		"500"
-		"tall"		"200"
+		"xpos"		"c100"
+		"ypos"		"rs1-5"
+		"wide"		"140"
+		"tall"	 	"22"
 	}
 
 	CMainTargetID
@@ -218,9 +223,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"292"
+		"wide"		"250"
+		"tall"	 	"28"
 		"priority"	"40"
 
 		if_vr
@@ -236,13 +241,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"322"
+		"wide"		"250"
+		"tall"	 	"28"
 		"priority"	"40"
-		
-		"x_offset" "20"
-		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
@@ -251,9 +253,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"ypos"		"322"
+		"wide"		"250"
+		"tall"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -308,10 +310,11 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
-		"wide"				"100"
-		"tall"				"100"
+		"xpos"				"c-235"
+		"ypos"				"r167"
+		"zpos"				"5"
+		"wide"				"60"
+		"tall"				"18"
 		"visible" 			"0"
 		"enabled" 			"1"
 		
@@ -447,7 +450,7 @@
 		"fieldName" "HudDeathNotice"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"r640"
+		"xpos"		"rs1-10"
 		"ypos"		"24"
 		"wide"		"628"
 		"tall"		"468"
@@ -456,7 +459,7 @@
 		"IconScale"	 		"0.30"
 		"LineHeight"		"12"
 		"LineSpacing"		"2"
-		"CornerRadius"		"3"
+		"CornerRadius"		"2"
 		"RightJustify"		"1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
@@ -464,9 +467,9 @@
 		"TeamBlue"		"BlueTeamSolid"
 		"TeamRed"		"RedTeamSolid"
 		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
+		"LocalPlayerColor"	"DarkerBlack"
 
-		"BaseBackgroundColor"	"Black"
+		"BaseBackgroundColor"	"DarkerBlack"
 		"LocalBackgroundColor"	"White"
 	}
 
@@ -559,12 +562,13 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
+		"xpos"		"c130"
+		"ypos"		"rs1-12"
+		"zpos"		"1"
+		"wide"		"112"
+		"tall"		"55"
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"196"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -813,9 +817,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"rs1-10"
+		"ypos"					"0"
 		"wide"					"220"
-		"tall"					"210"
+		"tall"					"f0"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}
@@ -979,10 +983,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c140"
-		"wide"			"40"
-		"tall"			"16"
+		"wide"			"f0"
+		"tall"			"f0"
 	}		
 
 	HudTeamGoal
@@ -990,12 +992,11 @@
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
+		"xpos"					"cs-0.5"
+		"ypos"					"45"
 		"wide"					"320"
-		"tall"					"100"
+		"tall"					"80"
 	}
-
 
 	HudTeamGoalTournament
 	{
@@ -1192,10 +1193,10 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r200"
-		"ypos"					"rs1"
+		"xpos"					"rs1-12"
+		"ypos"					"rs1-12"
 		"zpos"					"10"
-		"wide"					"190"
+		"wide"					"130"
 		"tall"					"f0"
 	}
 	

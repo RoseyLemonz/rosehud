@@ -1,3 +1,4 @@
+#base "playingto_base.res"
 "Resource/UI/HudObjectivePlayerDestruction.res"
 {	
 	"ObjectiveStatusRobotDestruction"
@@ -43,63 +44,16 @@
 			"skip_autoresize" "1"
 		}
 	}	
-	
-	"PlayingTo"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"cs-0.5"	[$WIN32]
-		"ypos"			"rs1"	[$WIN32]
-		"zpos"			"4"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"White"
-		"bgcolor_override"	"TransparentBlack"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}	
-
-	"PlayingToBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayingToBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}	
 
 	"CarriedContainer"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"c-215"
-		"ypos"				"r82"
+		"xpos"				"c-237"
+		"ypos"				"r146"
 		"zpos"				"1"
-		"wide"				"88"
-		"tall"				"32"
+		"wide"				"46"
+		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"1"
 		"bgcolor_override"		"0 0 0 0"
@@ -124,25 +78,25 @@
 			"tall"					"f0"
 			"scaleimage"			"0"
 			"visible"				"0"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		}
 
 		"FlagValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValue"
-			"xpos"			"1"
-			"ypos"			"2"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"4"
-			"wide"			"38"
-			"tall"			"16"
+			"wide"			"f3"
+			"tall"			"f3"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontSmallBold"
 			"fgcolor"		"Black"	
-			"proportionalToParent"	"1"	
+			"proportionaltoparent"	"1"	
 			"use_proportional_insets"	"1"
 		}	
 
@@ -162,38 +116,40 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"42"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
+			"proportionaltoparent"	"1"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"Black"
 		}	
 	
-		"PinkBG"
+		"TealBG"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"PinkBG"
-			"xpos"			"2"
-			"ypos"			"2"
+			"fieldName"		"TealBG"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"2"
-			"wide"			"38"
-			"tall"			"16"
+			"wide"			"f2"
+			"tall"			"f2"
 			"visible"		"1"
 			"enabled"		"1"
+			"proportionaltoparent"	"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"HudLightPink"
+			"bgcolor_override"	"HudBonusDark"
 		}
 
 		"TeamLeaderImage"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TeamLeaderImage"
-			"xpos"			"rs1"
-			"ypos"			"rs1"
+			"xpos"			"rs1-1"
+			"ypos"			"1"
 			"zpos"			"12"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"importtool_goldstar"
@@ -207,7 +163,7 @@
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"cs-0.5"
-		"ypos"					"r129"
+		"ypos"					"r126"
 		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"120"
@@ -226,7 +182,7 @@
 			"tall"					"80"
 			"visible"				"1"
 			"enabled"				"1"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		
 			"ScoreOutline"
 			{
@@ -245,7 +201,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"paintBackgroundType"	"2"
 				"roundedcorners"		"3"
 				"bgcolor_override"		"BlueTeamTransparent"
@@ -255,16 +211,16 @@
 			{
 				"ControlName"	"CTFImagePanel"
 				"fieldName"		"FlagImageBlue"
-				"xpos"			"-2"
-				"ypos"			"-2"
+				"xpos"			"-4"
+				"ypos"			"-3"
 				"zpos"			"4"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowBlueBG"
 			}
 
@@ -282,7 +238,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowBlueBG"
 			}
 			"EscrowBlueShadow"
@@ -300,7 +256,7 @@
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
 				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowBlue"
 			}
 
@@ -315,7 +271,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"paintBackgroundType"	"2"
 				"roundedcorners"		"3"
 				"bgcolor_override"		"RedTeamTransparent"
@@ -325,16 +281,16 @@
 			{
 				"ControlName"	"CTFImagePanel"
 				"fieldName"		"FlagImageRed"
-				"xpos"			"-30"
-				"ypos"			"-2"
+				"xpos"			"-32"
+				"ypos"			"-3"
 				"zpos"			"4"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"14"
+				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowRedBG"
 			}
 
@@ -352,7 +308,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowRedBG"
 			}
 
@@ -371,7 +327,7 @@
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"	
 				"fgcolor"		"Black"	
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"pin_to_sibling"	"EscrowRed"
 			}
 
@@ -386,7 +342,7 @@
 				"tall"					"35"
 				"visible"				"0"
 				"enabled"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 
 				"VictoryLabel"
 				{
@@ -420,7 +376,7 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"	
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 				}
 
 				"VictoryLabelTimeShadow"
@@ -438,7 +394,7 @@
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"
 					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 
 					"pin_to_sibling"               "VictoryLabelTime"
 				}
@@ -455,9 +411,11 @@
 				"tall"					"35"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
-				"positionImage"			"0"		
+				"proportionaltoparent"	"1"
+				"positionImage"			"0"	
+				"paintBackgroundType"	"2"	
 				"bgcolor_override"		"TransparentBlack"
+				"roundedcorners"		"12"
 			}
 
 			"ProgressBarSplit"
@@ -471,7 +429,7 @@
 				"tall"					"35"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"		
 				"bgcolor_override"		"White"
 			}
@@ -487,11 +445,11 @@
 				"tall"					"60"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"
 				"Image"					"../hud/objectives_corepanel_meter_solid"
 
-				"left_offset"			"0"
+				"left_offset"			"5"
 				"right_offset"			"0"
 				"standard_color"		"BlueTeamSolid"
 				"bright_color"			"LightBlueTeamSolid"
@@ -511,11 +469,11 @@
 				"tall"					"60"
 				"scaleimage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"positionImage"			"0"	
 				"Image"					"../hud/objectives_corepanel_meter"
 
-				"left_offset"			"0"
+				"left_offset"			"5"
 				"right_offset"			"0"
 				"standard_color"		"84  111 127 255"
 				"bright_color"			"110 159 189 255"
@@ -535,7 +493,7 @@
 				"tall"					"35"
 				"visible"				"0"
 				"enabled"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 
 				"VictoryLabel"
 				{
@@ -569,7 +527,7 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"		
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 				}
 
 				"VictoryLabelTimeShadow"
@@ -587,7 +545,7 @@
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"		
 					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+					"proportionaltoparent"	"1"
 
 					"pin_to_sibling"               "VictoryLabelTime"
 				}
@@ -605,11 +563,11 @@
 				"scaleimage"			"0"
 				"positionImage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"Image"					"../hud/objectives_corepanel_meter_solid_right"
 
 				"left_offset"			"0"
-				"right_offset"			"0"
+				"right_offset"			"5"
 				"standard_color"		"RedTeamSolid"
 				"bright_color"			"LightRedTeamSolid"
 				"left_to_right"			"1"
@@ -629,11 +587,11 @@
 				"scaleimage"			"0"
 				"positionImage"			"0"
 				"visible"				"1"
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 				"Image"					"../hud/objectives_corepanel_meter_right"
 
 				"left_offset"			"0"
-				"right_offset"			"0"
+				"right_offset"			"5"
 				"standard_color"		"171 59 59 255"
 				"bright_color"			"222 65 65 255"
 				"left_to_right"			"1"
@@ -654,7 +612,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"bgcolor_override"		"0 0 0 0"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 
 			"Score"
 			{
@@ -670,7 +628,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 			}	
 		
 			"ScoreShadow"
@@ -688,7 +646,7 @@
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 
@@ -704,7 +662,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"bgcolor_override"		"0 0 0 0"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 
 			"Score"
 			{
@@ -720,7 +678,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"proportionalToParent"	"1"	
+				"proportionaltoparent"	"1"	
 			}	
 		
 			"ScoreShadow"
@@ -738,7 +696,7 @@
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
 				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"proportionaltoparent"	"1"
 			}
 		}
 		"BlueStolenContainer"
@@ -764,10 +722,10 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CountdownContainer"
 		"xpos"					"cs-0.5"
-		"ypos"					"r81"
+		"ypos"					"r74"
 		"zpos"					"1"
 		"wide"					"70"
-		"tall"					"22"
+		"tall"					"18"
 		"visible"				"0"
 		"enabled"				"1"
 
@@ -778,12 +736,13 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"70"
-			"tall"			"22"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"TransparentBlack"
 			"paintBackgroundType"	"2"
+			"proportionaltoparent"	"1"
 		}
 
 		"CountdownImage"
@@ -793,13 +752,13 @@
 			"xpos"			"2"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"22"
-			"tall"			"22"
+			"wide"			"o1"
+			"tall"			"f0"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
 			"scaleImage"		"1"	
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		}
 		
 		"CountdownLabelTime"
@@ -810,13 +769,13 @@
 			"ypos"			"0"
 			"zpos"			"8"
 			"wide"			"35"
-			"tall"			"22"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"east"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumSmallBold"
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 		}
 
 		"CountdownLabelTimeShadow"
@@ -827,14 +786,14 @@
 			"ypos"			"-1"
 			"zpos"			"7"
 			"wide"			"35"
-			"tall"			"22"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"east"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"Black"		
-			"proportionalToParent"	"1"
+			"proportionaltoparent"	"1"
 			"pin_to_sibling"	"CountdownLabelTime"
 		}
 	}

@@ -1,3 +1,4 @@
+#base "textpanel_base.res"
 "Resource/UI/TextWindow.res"
 {
 	"info"
@@ -12,7 +13,6 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
 
@@ -36,7 +36,7 @@
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"24"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -45,24 +45,6 @@
 		"textAlignment"	"center"
 		"font"			"HudFontBiggerBold"
 	}	
-	"TFMessageTitleShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TFMessageTitleShadow"
-		"xpos"			"2"
-		"ypos"			"52"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"24"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_WELCOME"
-		"textAlignment"	"center"
-		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
-	}
 
 	"TextMessage"
 	{
@@ -104,7 +86,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
 	
@@ -113,63 +94,21 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"cs-0.5"
-		"ypos"			"r40"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
+		"wide"			"f0"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Continue"
+		"labelText"		"#rose_Continue"
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
-	}
-	
-	"BGDarken"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"TransparentBlack"
-	}
-
-	"BarBottom"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarBottom"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"wide"			"f0"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"DarkerBlack"
-	}
-
-	"ChalkBG"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"ChalkBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"115"
-		"zpos"			"1"
-		"wide"			"430"
-		"tall"			"260"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintBackgroundType"	"2"
-		"bgcolor_override"		"TransparentBlack"
+		"default"			"1"
+		"roundedcorners"	"0"
+		"defaultBgColor_override"	"DarkerBlack"
 	}
 }

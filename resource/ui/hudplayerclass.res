@@ -29,7 +29,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"PlayerStatusClassImageBG"
@@ -39,7 +38,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"classmodelpanelBG"
@@ -49,24 +47,15 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"visible"		"0"
-		"enabled"		"0"
 	}
 
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"	
 	}	
 	"PlayerStatusSpyOutlineImage"
 	{
@@ -85,99 +74,10 @@
 
 	"CarryingWeapon"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"CarryingWeapon"
-		"xpos"					"20"
-		"ypos"					"r27"
-		"zpos"					"100"
-		"wide"					"500"
-		"tall"	 				"28"
-
-		"CarryingBackground"
-		{
-			"ControlName"			"CTFImagePanel"
-			"fieldName"				"CarryingBackground"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"0"
-			"wide"					"p1"
-			"tall"	 				"f0"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"image"					"../hud/color_panel_brown"
-			"scaleImage"			"1"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/color_panel_red"
-			"teambg_3"				"../hud/color_panel_blu"
-			"proportionaltoparent"	"1"
-		
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
-
-		"CarryingLabel"
-		{	
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"5"
-			"ypos"				"3"
-			"zpos"				"1"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-			"labelText"			"%carrying%"
-		}
-
-		"CarryingLabelDropShadow"
-		{	
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
-			"xpos"				"p0.011"
-			"ypos"				"p0.12"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-			"fgcolor_override"	"Black"
-			"labelText"			"%carrying%"
-		}
-
-		"OwnerLabel"
-		{	
-			"ControlName"		"Label"
-			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
-			"xpos"				"5"
-			"ypos"				"12"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-		}
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CarryingWeapon"
+		"xpos"			"9999"
+		"wide"			"0"
+		"visible"		"0"	
 	}
 }

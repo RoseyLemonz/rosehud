@@ -1,9 +1,15 @@
-// CUSTOM THINGS
+// CUSTOM CHARACTER THEME
 
-#base "scheme/rosehudscheme.res"
-#base "scheme/streamerscheme.res"
+#base "../../../cfg/rosehud/hud_charascheme.txt"
+
+// CUSTOM FONT
+
+#base "../../../cfg/rosehud/hud_font.txt"
+
+// SCHEME OVERRIDE
+
+#base "scheme/rosescheme/rosescheme_point.res"
 
 // BASE
 
-#base "scheme/customfontfiles.res"
-#base "scheme/clientscheme.res"
+#base "scheme/clientscheme/clientscheme_point.res"

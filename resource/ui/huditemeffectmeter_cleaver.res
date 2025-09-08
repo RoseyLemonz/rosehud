@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"0"
 		"xpos"			"cs-0.5"
-		"ypos"			"c122"
+		"ypos"			"c148"
 		"wide"			"48"
 		"tall"			"18"
 		"MeterFG"		"White"
@@ -41,10 +41,9 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"font"					"FontStoreOriginalPrice"
+		"font"					"HudMeterLabel"
 	}
 
 	"MeterColor"
@@ -61,7 +60,7 @@
         "proportionaltoparent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPink"
+        "drawcolor"		"HudPrimary"
 		"proportionaltoparent"	"1"
     }
 

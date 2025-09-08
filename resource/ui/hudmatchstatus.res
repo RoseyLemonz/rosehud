@@ -215,9 +215,14 @@
 		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"9"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"BlueTeamTransparent"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"RedBG"
@@ -229,9 +234,14 @@
 		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"9"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"RedTeamTransparent"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"BlackBG"
@@ -243,11 +253,16 @@
 		"ypos"			"9"
 		"wide"			"80"
 		"tall"			"16"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
 		"roundedcorners"	"12"
 		"paintBackgroundType"	"2"
+
+		if_match
+		{
+			"visible"		"1"
+		}
 	}
 
 	"BGFrame"
@@ -378,10 +393,10 @@
 			"color_portrait_bg_blue"	"62 81 101 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
+			"color_bar_health_high"	"HudBonus"
+			"color_bar_health_med"	"HudTertiary"
 			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
+			"color_bar_health_low"	"HudNegat"
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
@@ -438,7 +453,7 @@
 				"ypos"					"19"
 				"zpos"					"5"
 				"wide"					"f0"
-				"tall"					"5"				
+				"tall"					"2"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -456,7 +471,7 @@
 				"ypos"					"19"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"5"				
+				"tall"					"2"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -522,7 +537,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"HudFontSmallest"
+				"font"			"HudMatchRespawn"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -706,7 +721,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"autoresize"	"3"
 			"linespacing"	"26"
 			"linegap"		"4"
@@ -844,7 +858,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"autoresize"	"3"
 			"linespacing"	"26"
 			"linegap"		"4"

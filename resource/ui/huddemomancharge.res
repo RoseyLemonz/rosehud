@@ -12,10 +12,8 @@
         "proportionaltoparent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPink"
+        "drawcolor"		"HudPrimary"
 		"pin_to_sibling"			"Chargemeter"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
     }
 
 	"ChargeMeter"
@@ -23,8 +21,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+45"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"4"
@@ -32,5 +30,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "255 255 255 255"
 	}					
 }

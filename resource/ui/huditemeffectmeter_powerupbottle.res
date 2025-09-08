@@ -58,11 +58,10 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"north"
 		"centerwrap"			"1"
-		"font"					"TFFontSmall"
+		"font"					"HudMeterLabel"
 	}
 
 	"ItemEffectMeter"
@@ -94,7 +93,6 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
 		"font"					"HudFontMedium"

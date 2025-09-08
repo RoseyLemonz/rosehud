@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "vgui/replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaquemore"
+	"$vertexcolor" 1
+    "$vertexalpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}
+

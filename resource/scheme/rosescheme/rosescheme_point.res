@@ -1,0 +1,5 @@
+#base "rosescheme_base.res"
+#base "rosescheme_colors.res"
+#base "rosescheme_fonts.res"
+#base "rosescheme_border.res"
+#base "rosescheme_customfonts.res"

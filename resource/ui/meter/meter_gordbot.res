@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c140"
+		"ypos"			"c148"
 		"wide"			"48"
-		"tall"			"18"
+		"tall"			"16"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -19,12 +19,13 @@
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"48"
-		"tall"			"16"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
 		"paintBackgroundType"	"2"
+		"proportionaltoparent"	"1"
 	}
 
 	"ItemEffectMeterLabel"
@@ -40,10 +41,9 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"font"					"FontStoreOriginalPrice"
+		"font"					"HudMeterLabel"
 	}
 
 	"MeterColor"
@@ -60,7 +60,7 @@
         "proportionaltoparent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPink"
+        "drawcolor"		"HudPrimary"
 		"proportionaltoparent"	"1"
     }
 
