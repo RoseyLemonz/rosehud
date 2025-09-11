@@ -129,7 +129,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"30"
-		"ypos"			"17"
+		"ypos"			"s2.1"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -137,6 +137,7 @@
 		"enabled"		"1"
 		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
 	}
 
 	"KillstreakIconAnchor"
@@ -207,7 +208,7 @@
 		{
 			"ControlName"	"Panel"
 			"fieldName"		"MoveableIconPin"
-			"xpos"			"14"
+			"xpos"			"15"
 			"ypos"			"-4"
 			"enabled"		"1"
 		}
