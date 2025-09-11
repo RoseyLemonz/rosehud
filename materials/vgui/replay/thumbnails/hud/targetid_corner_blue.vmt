@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture"		"vgui/replay/thumbnails/hud/targetid_corner_blue.vtf"
+	"$vertexalpha"		"1"
+}
