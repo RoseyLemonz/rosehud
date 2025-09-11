@@ -14,8 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
-		"drawcolor"		"DarkerBlack"
-		"alpha"			"155"
+		"drawcolor"		"TransparentBlack"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
