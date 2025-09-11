@@ -47,7 +47,7 @@
 		"tall"	 		"o1"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 		"teambg_1"		"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 		"teambg_2"		"replay/thumbnails/hud/targetid_corner_red"
@@ -159,7 +159,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"30"
-		"ypos"			"s2.1"
+		"ypos"			"rs1.45"
 		"zpos"			"6"
 		"wide"			"8"
 		"tall"			"8"
