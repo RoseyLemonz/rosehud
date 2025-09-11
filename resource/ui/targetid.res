@@ -47,13 +47,15 @@
 		"tall"	 		"o1"
 		"visible"		"1"
 		"enabled"		"1"
+		
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+		"teambg_1"		"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+		"teambg_2"		"replay/thumbnails/hud/targetid_corner_red"
+		"teambg_3"		"replay/thumbnails/hud/targetid_corner_blue"
+
+		"scaleImage"			"1"
+		"alpha"					"255"
 		"proportionaltoparent"	"1"
-		"image"				"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
-		"teambg_1"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
-		"teambg_2"			"replay/thumbnails/hud/targetid_corner_red"
-		"teambg_3"			"replay/thumbnails/hud/targetid_corner_blue"
-		"scaleImage"		"1"
-		"alpha"				"255"
 
 		"pin_to_sibling"		"TargetIDBG"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
