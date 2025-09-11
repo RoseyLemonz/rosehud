@@ -7,7 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"wide"			"p0.5"
-		"tall"			"16"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"	
 	}
@@ -20,7 +20,7 @@
 		"visible"		"1"
 		"enabled"		"1"		
 		"proportionaltoparent"	"1"
-		
+
 		"TargetStatusHealthValue"
 		{
 			"wide"			"f0"

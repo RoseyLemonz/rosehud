@@ -47,7 +47,9 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_blue"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -67,7 +69,9 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_red"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
