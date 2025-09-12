@@ -1,3 +1,7 @@
+// HEALTH CROSS
+
+#base "../../../../cfg/rosehud/hud_healthicon.txt"
+
 // CHARACTER CUSTOMIZATION
 
 #base "../../../../cfg/rosehud/hud_charaimage.txt"

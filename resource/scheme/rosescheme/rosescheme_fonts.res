@@ -91,6 +91,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudMeterCountSmall"
+		{
+			"1"
+			{
+				"name"		"tf2build"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudMeterCount"
 		{
 			"1"
@@ -175,6 +185,16 @@ Scheme
 				"name"		"tf2charactericons"
 				"tall"		"18"	[$LINUX]
 				"tall"		"22"
+				"antialias"	"1"
+			}
+		}
+		"HudInGameIcoSmall"
+		{
+			"1"
+			{
+				"name"		"tf2charactericons"
+				"tall"		"15"	[$LINUX]
+				"tall"		"16"
 				"antialias"	"1"
 			}
 		}

@@ -28,8 +28,22 @@ x
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"2"
 		"bgcolor_override"		"TransparentBlack"
+	}
+	
+	"AsciiBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AsciiBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/shaders/textwindowascii"
 	}
 
 	"ButtonHighLight"

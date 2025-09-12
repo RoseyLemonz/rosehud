@@ -40,10 +40,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBGTeamTriangle"
-		"xpos"			"s-0.06"
-		"ypos"			"s-0.06"
+		"xpos"			"s-0.05"
+		"ypos"			"s-0.04"
 		"zpos"			"2"
-		"wide"			"15"
+		"wide"			"14"
 		"tall"	 		"o1"
 		"visible"		"1"
 		"enabled"		"1"
