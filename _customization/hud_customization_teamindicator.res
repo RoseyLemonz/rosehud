@@ -17,8 +17,7 @@
 				"enabled"						"1"
 				"proportionaltoparent"			"1"
 				"paintBackground"				"1"
-				"paintBackgroundType"			"2"
-				"roundedcorners"				"0"
+				"paintBackgroundType"			"0"
 				"bgcolor_override"				"Black"
 
 				"Title"
@@ -39,8 +38,7 @@
 					"centerwrap"						"1"
 					"fgcolor"							"Black"
 					"paintbackground"					"1"
-					"paintBackgroundType"				"2"
-					"roundedcorners"					"0"
+					"paintBackgroundType"				"0"
 					"bgcolor_override"					"HudPrimary"
 				}
 

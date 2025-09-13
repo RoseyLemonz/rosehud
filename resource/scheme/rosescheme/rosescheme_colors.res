@@ -51,5 +51,12 @@ Scheme
 		"PartyMember4"	"250 179 135 255"
 		"PartyMember5"	"243 139 168 255"
 		"PartyMember6"	"203 166 247 255"
+
+		"TanLight"		"255 255 255 255"
+		"TanDark"		"180 180 180 255"
+		"TanDarker"		"120 120 120 255"
+
+		"Yellow"				"255 255 255 255"
+		"TransparentYellow"		"255 255 255 196"
 	}
 }

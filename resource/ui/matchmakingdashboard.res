@@ -125,8 +125,6 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 
-			"bgcolor_override"		"HudBlack"
-
 			"party_slot"	"0"
 		}
 
@@ -146,8 +144,6 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-
-			"bgcolor_override"		"HudBlack"
 
 			"pin_to_sibling"		"PartySlot0"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -172,8 +168,6 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 
-			"bgcolor_override"		"HudBlack"
-
 			"pin_to_sibling"		"PartySlot1"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
@@ -196,8 +190,6 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-
-			"bgcolor_override"		"HudBlack"
 
 			"pin_to_sibling"		"PartySlot2"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -222,8 +214,6 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 
-			"bgcolor_override"		"HudBlack"
-
 			"pin_to_sibling"		"PartySlot3"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
@@ -247,8 +237,6 @@
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 
-			"bgcolor_override"		"HudBlack"
-
 			"pin_to_sibling"		"PartySlot4"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
@@ -271,15 +259,9 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"border"		"OuterShadowBorderThin"
+				"xpos"			"9999"
+				"wide"			"0"
+				"visible"		"0"
 			}
 
 			"BGPanel"
@@ -289,23 +271,23 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"0"
-				"wide"			"f4"
-				"tall"			"f4"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-
-				"border"		"ReplayDefaultBorder"
+				"paintBackgroundType"	"0"
+				"bgcolor_override"		"Black"
 			}
 
 			"QueueLogoButton"
 			{
 				"ControlName"	"Button"
 				"fieldName"		"QueueLogoButton"
-				"xpos"			"0"
-				"ypos"			"1"
+				"xpos"			"5"
+				"ypos"			"8"
 				"zpos"			"10"
 				"wide"			"o1"
-				"tall"			"f0"
+				"tall"			"f12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -326,11 +308,11 @@
 			{
 				"ControlName"	"CTFLogoPanel"
 				"fieldname"		"CTFLogoPanel"
-				"xpos"			"0"
-				"ypos"			"1"
+				"xpos"			"5"
+				"ypos"			"8"
 				"zpos"			"5"
 				"wide"			"o1"
-				"tall"			"f0"
+				"tall"			"f12"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -344,8 +326,8 @@
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"33"
-				"ypos"			"1"
+				"xpos"			"28"
+				"ypos"			"2"
 				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
@@ -426,7 +408,7 @@
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
 				"xpos"			"rs1-6"
-				"ypos"			"11"
+				"ypos"			"10"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -446,12 +428,8 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultfgcolor_override" "46 43 42 255"
-				"armedfgcolor_override" "235 226 202 255"
-				"depressedfgcolor_override" "46 43 42 255"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+		 		"image_drawcolor"	"255 255 255 255"
+				"image_armedcolor"	"237 135 150 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"

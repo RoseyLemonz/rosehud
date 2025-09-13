@@ -23,9 +23,9 @@ Scheme
 		Econ.Button.DepressedBgColor		"HudPrimary"
 		Econ.Button.DepressedFgColor		"Black"
 
-		Econ.Button.PresetDefaultColorFg		"TanLight"
-		Econ.Button.PresetArmedColorFg			"TanLight"
-		Econ.Button.PresetDepressedColorFg		"TanLight"
+		Econ.Button.PresetDefaultColorFg		"White"
+		Econ.Button.PresetArmedColorFg			"White"
+		Econ.Button.PresetDepressedColorFg		"White"
 
 		Econ.Button.PresetDefaultColorBg		"LighterRed"
 		Econ.Button.PresetArmedColorBg			"LightRed"
@@ -95,10 +95,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
+		Menu.TextColor					"White"
 		Menu.BgColor					"TransparentBlack"
 		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.ArmedBgColor				"White"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"
@@ -161,7 +161,7 @@ Scheme
 		TextEntry.CursorColor					"Gray"
 		TextEntry.DisabledTextColor				"Gray"
 		TextEntry.DisabledBgColor				"Blank"
-		TextEntry.SelectedTextColor				"TanLight"
+		TextEntry.SelectedTextColor				"White"
 		TextEntry.SelectedBgColor				"Gray"
 		TextEntry.OutOfFocusSelectedBgColor		"Blank"
 		TextEntry.FocusEdgeColor				"Blank"
@@ -189,6 +189,6 @@ Scheme
 		HudCaptureIcon.Active			"HudProgressBarActive"
 		HudCaptureIcon.InActive			"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
-		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
+		HudCaptureProgressBar.InActive	"HudProgressBarInActive"		
 	}
 }
