@@ -6,6 +6,7 @@ x
 		{
 			"ControlName"				"CDimmerButton"
 			"tall"						"f60"
+			"zpos"						"999"
 			"paintbackground"			"1"
 			"button_activation_type"	"1"
 			"defaultBgColor_override"	"0 0 0 222"
