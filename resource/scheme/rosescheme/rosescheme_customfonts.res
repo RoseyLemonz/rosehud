@@ -19,31 +19,431 @@ Scheme
 		{
 			"font" "resource/fonts/lin/tf2.otf" [$LINUX]
 			"font" "resource/fonts/win/tf2.ttf" [$WINDOWS]
-			"name" "tf2"
+			"name" "tf2"	
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
 		}
 		"4" 
 		{
 			"font" "resource/fonts/lin/tf2secondary.otf" [$LINUX]
 			"font" "resource/fonts/win/tf2secondary.ttf" [$WINDOWS]
 			"name" "tf2secondary"
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
 		}
 		"5" 
 		{
 			"font" "resource/fonts/lin/tf2professor.otf" [$LINUX]
 			"font" "resource/fonts/win/tf2professor.ttf" [$WINDOWS]
 			"name" "tf2professor"
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
 		}
 		"6" 
 		{
 			"font" "resource/fonts/lin/tf2build.otf" [$LINUX]
 			"font" "resource/fonts/win/tf2build.ttf" [$WINDOWS]
 			"name" "tf2build"
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
 		}
 		"7" 
 		{
 			"font" "resource/fonts/lin/ocra.otf" [$LINUX]
 			"font" "resource/fonts/win/ocra.ttf" [$WINDOWS]
 			"name" "ocra"	
+
+			// Cyrillic
+			"russian"
+			{
+				"range" "0x0020 0x0491"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x0491"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x0491"
+			}
+
+			// Latin extended
+			"czech"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x021b"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x021b"	
+			}
+			"polish"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x021b"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x021b"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x021b"
+			}
 		}
 
 		"10" "resource/HALFLIFE2.ttf"
