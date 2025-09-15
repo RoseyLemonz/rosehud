@@ -3,7 +3,7 @@ x
 {
 	"BGDarken"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"BGDarken"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -14,12 +14,12 @@ x
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"TransparentBlack"
+		"bgColor_override"		"TransparentBlack"
 	}
 
 	"ChalkBG"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"ChalkBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"115"
@@ -28,12 +28,12 @@ x
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"TransparentBlack"
+		"bgColor_override"		"TransparentBlack"
 	}
 	
 	"AsciiBG"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"AsciiBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -48,7 +48,7 @@ x
 
 	"ButtonHighLight"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"ButtonHighLight"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1-35"
@@ -60,12 +60,12 @@ x
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"1"
-		"bgcolor_override"	"HudPrimaryLight"
+		"bgColor_override"	"HudPrimaryLight"
 	}	
 
 	"HiddenButtonBG"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"HiddenButtonBG"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -77,6 +77,6 @@ x
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"1"
-		"bgcolor_override"	"DarkerBlack"
+		"bgColor_override"	"DarkerBlack"
 	}	
 }

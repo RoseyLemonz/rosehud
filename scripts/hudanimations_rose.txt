@@ -9,11 +9,11 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	alpha		"255"				Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	alpha		"0"					Linear 0.2 0.4
 
-	Animate PlayerStatusHealthValue			fgcolor		"HudBonus" 			Linear 0.0 0.275
-	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
+	Animate PlayerStatusHealthValue			fgColor		"HudBonus" 			Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.225 0.175
 
-	Animate TargetStatusHealthValue			fgcolor		"HudBonus" 			Linear 0.0 0.275
-	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
+	Animate TargetStatusHealthValue			fgColor		"HudBonus" 			Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.225 0.175
 	RunEvent HudHealthBonusPulseLoop		0.4
 }
 
@@ -29,8 +29,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 		0.0
 	Animate PlayerCharaImageBonus			alpha		"0"					Linear 0.0 0.00
 	Animate PlayerCharaImage				alpha		"255"				Linear 0.0 0.00
-	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
-	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
 }
 
 //====================================
@@ -44,11 +44,11 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	alpha		"255"		Linear 0.0 0.275
 	Animate	PlayerStatusHealthBonusImage 	alpha		"0"			Linear 0.225 0.175
 
-	Animate PlayerStatusHealthValue			fgcolor		"HudNegat" 			Linear 0.0 0.275
-	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
+	Animate PlayerStatusHealthValue			fgColor		"HudNegat" 			Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.225 0.175
 
-	Animate TargetStatusHealthValue			fgcolor		"HudNegat" 			Linear 0.0 0.275
-	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.225 0.175
+	Animate TargetStatusHealthValue			fgColor		"HudNegat" 			Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.225 0.175
 
 	RunEvent HudHealthDyingPulseLoop		0.4
 }
@@ -65,8 +65,8 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop		0.0
 	Animate PlayerCharaImageHurt			alpha		"0"					Linear 0.0 0.00
 	Animate PlayerCharaImage				alpha		"255"				Linear 0.0 0.00
-	Animate PlayerStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
-	Animate TargetStatusHealthValue			fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate PlayerStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate TargetStatusHealthValue			fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
 }
 
 //====================================
@@ -76,14 +76,14 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 
-	Animate AmmoInClip					fgcolor		"HudNegat"				Linear 0.0 0.275
-	Animate AmmoInClip					fgcolor		"HudPrimaryLight" 		Linear 0.225 0.175
+	Animate AmmoInClip					fgColor		"HudNegat"				Linear 0.0 0.275
+	Animate AmmoInClip					fgColor		"HudPrimaryLight" 		Linear 0.225 0.175
 
-	Animate AmmoInReserve				fgcolor		"HudNegat" 				Linear 0.0 0.275
-	Animate AmmoInReserve				fgcolor		"HudPrimaryDark" 		Linear 0.225 0.175
+	Animate AmmoInReserve				fgColor		"HudNegat" 				Linear 0.0 0.275
+	Animate AmmoInReserve				fgColor		"HudPrimaryDark" 		Linear 0.225 0.175
 
-	Animate AmmoNoClip					fgcolor		"HudNegat"				Linear 0.0 0.275
-	Animate AmmoNoClip					fgcolor		"HudPrimaryLight"		Linear 0.225 0.175
+	Animate AmmoNoClip					fgColor		"HudNegat"				Linear 0.0 0.275
+	Animate AmmoNoClip					fgColor		"HudPrimaryLight"		Linear 0.225 0.175
 
 	Animate	HudWeaponLowAmmoImage		alpha		"255"					Linear 0.0 0.275
 	Animate	HudWeaponLowAmmoImage		alpha		"0"						Linear 0.225 0.175
@@ -102,9 +102,9 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse			0.0
 	StopEvent HudLowAmmoPulseLoop		0.0
 
-	Animate	AmmoInClip					fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
-	Animate	AmmoInReserve				fgcolor		"HudPrimaryDark" 	Linear 0.0 0.275
-	Animate	AmmoNoClip					fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate	AmmoInClip					fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate	AmmoInReserve				fgColor		"HudPrimaryDark" 	Linear 0.0 0.275
+	Animate	AmmoNoClip					fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
 	Animate	HudWeaponLowAmmoImage 		alpha		"0"					Linear 0.0 0.275
 }
 
@@ -114,27 +114,27 @@ event HudLowAmmoPulseStop
 
 event HudMedicCharged
 {
-	Animate	ChargeMeter 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
-	Animate	ChargeMeter 				fgcolor		"HudBonus"			Linear 0.225 0.175
+	Animate	ChargeMeter 				fgColor		"HudPrimaryLight"	Linear 0.0 0.275
+	Animate	ChargeMeter 				fgColor		"HudBonus"			Linear 0.225 0.175
 
 	// Vaccinator
-	Animate	ChargeMeter1 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
-	Animate	ChargeMeter1 				fgcolor		"HudBonus"			Linear 0.225 0.175
+	Animate	ChargeMeter1 				fgColor		"HudPrimaryLight"	Linear 0.0 0.275
+	Animate	ChargeMeter1 				fgColor		"HudBonus"			Linear 0.225 0.175
 
-	Animate	ChargeMeter2 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
-	Animate	ChargeMeter2 				fgcolor		"HudBonus"			Linear 0.225 0.175
+	Animate	ChargeMeter2 				fgColor		"HudPrimaryLight"	Linear 0.0 0.275
+	Animate	ChargeMeter2 				fgColor		"HudBonus"			Linear 0.225 0.175
 
-	Animate	ChargeMeter3 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
-	Animate	ChargeMeter3 				fgcolor		"HudBonus"			Linear 0.225 0.175
+	Animate	ChargeMeter3 				fgColor		"HudPrimaryLight"	Linear 0.0 0.275
+	Animate	ChargeMeter3 				fgColor		"HudBonus"			Linear 0.225 0.175
 
-	Animate	ChargeMeter4 				fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
-	Animate	ChargeMeter4 				fgcolor		"HudBonus"			Linear 0.225 0.175
+	Animate	ChargeMeter4 				fgColor		"HudPrimaryLight"	Linear 0.0 0.275
+	Animate	ChargeMeter4 				fgColor		"HudBonus"			Linear 0.225 0.175
 
-	Animate ChargeLabel					fgcolor		"HudPrimaryLight"	Linear 0.0 0.275
-	Animate ChargeLabel					fgcolor		"HudBonus" 			Linear 0.225 0.175
+	Animate ChargeLabel					fgColor		"HudPrimaryLight"	Linear 0.0 0.275
+	Animate ChargeLabel					fgColor		"HudBonus" 			Linear 0.225 0.175
 
-	Animate IndividualChargesLabel		fgcolor		"HudPrimaryLight" 	Linear 0.0 0.275
-	Animate IndividualChargesLabel		fgcolor		"HudBonus" 			Linear 0.225 0.175
+	Animate IndividualChargesLabel		fgColor		"HudPrimaryLight" 	Linear 0.0 0.275
+	Animate IndividualChargesLabel		fgColor		"HudBonus" 			Linear 0.225 0.175
 
 	RunEvent HudMedicChargedLoop		0.6
 }
@@ -150,15 +150,15 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged			0.0
 	StopEvent HudMedicChargedLoop		0.0
 
-	Animate	ChargeLabel 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 				fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 				fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
 
 	// Vaccinator
-	Animate	IndividualChargesLabel 		fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter1 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter2 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter3 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter4 				fgcolor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	IndividualChargesLabel 		fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter1 				fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter2 				fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter3 				fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter4 				fgColor		"HudPrimaryLight"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -187,14 +187,14 @@ event FlagOutline
 
 event RDPositiveScorePulse
 {
-	Animate Score fgcolor	"HudBonus"	Linear 0.0 0.0
-	Animate Score fgcolor	"White"		Linear 0.1 0.2
+	Animate Score fgColor	"HudBonus"	Linear 0.0 0.0
+	Animate Score fgColor	"White"		Linear 0.1 0.2
 }
 
 event RDNegativeScorePulse
 {
-	Animate Score fgcolor	"HudBonus"	Linear 0.0 0.0
-	Animate Score fgcolor	"White"		Linear 0.1 0.2
+	Animate Score fgColor	"HudBonus"	Linear 0.0 0.0
+	Animate Score fgColor	"White"		Linear 0.1 0.2
 }
 
 //====================================
@@ -246,8 +246,8 @@ event TeamStatus_PlayerAlive
 
 event HudReadyPulse
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"White"			Spline 0.0 0.8
-	Animate	TournamentInstructionsLabel 	FgColor		"HudNegat"		Spline 0.8 1.8
+	Animate	TournamentInstructionsLabel 	fgColor		"White"			Spline 0.0 0.8
+	Animate	TournamentInstructionsLabel 	fgColor		"HudNegat"		Spline 0.8 1.8
 
 	RunEvent HudReadyPulseLoop	2.2
 }
@@ -259,7 +259,7 @@ event HudReadyPulseLoop
 
 event HudReadyPulseEnd
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel 	fgColor		"White"		Linear 0.0 0.1
 
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0

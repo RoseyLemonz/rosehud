@@ -3,7 +3,7 @@
 	// player class data
 	"HudPlayerClass"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"c-260"
 		"ypos"			"0"
@@ -15,7 +15,7 @@
 	}
 	"PlayerStatusClassImage"
 	{
-		"ControlName"	"CTFClassImage"
+		"controlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -24,7 +24,7 @@
 
 	"classmodelpanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
+		"controlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -33,7 +33,7 @@
 
 	"PlayerStatusClassImageBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -42,7 +42,7 @@
 
 	"classmodelpanelBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -51,7 +51,7 @@
 
 	"PlayerStatusSpyImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -59,7 +59,7 @@
 	}	
 	"PlayerStatusSpyOutlineImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
@@ -74,7 +74,7 @@
 
 	"CarryingWeapon"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"CarryingWeapon"
 		"xpos"			"9999"
 		"wide"			"0"

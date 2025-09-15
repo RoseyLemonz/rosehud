@@ -16,7 +16,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"-30"
 		"ypos"			"28"
@@ -31,7 +31,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"15"
 		"ypos"					"75"
@@ -49,7 +49,7 @@
 
 	"ItemEffectMeter"
 	{	
-		"ControlName"			"ContinuousProgressBar"
+		"controlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"20"
@@ -66,7 +66,7 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"18"
 		"ypos"					"45"

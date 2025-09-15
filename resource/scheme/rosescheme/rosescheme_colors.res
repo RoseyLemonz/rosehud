@@ -4,8 +4,8 @@ Scheme
 	{
 
 		//
-		// 	"image_drawcolor"	"255 255 255 255"
-		//	"image_armedcolor"	"46 43 42 255"
+		// 	"image_drawColor"	"255 255 255 255"
+		//	"image_armedColor"	"46 43 42 255"
 		//
 
 		"HudPrimary"				"254 189 230 255"

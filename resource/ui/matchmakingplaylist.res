@@ -2,26 +2,26 @@
 {
 	"EventEntry"
 	{
-		"ControlName"	"CEventPlayListEntry"
+		"controlName"	"CEventPlayListEntry"
 		"fieldName"		"EventEntry"
 		"xpos"			"0"
 		"ypos"			"3"
 		"tall"			"45"
 		"wide"			"255"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"button_command"	"play_event"
 	}
 
 	"CasualEntry"
 	{
-		"ControlName"			"CPlayListEntry"
+		"controlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
 		"xpos"					"10"
 		"ypos"					"13"
 		"tall"					"35"
 		"wide"					"204"
-		"proportionaltoparent"	"0"
+		"proportionalToParent"	"0"
 		"image_name"			"main_menu/main_menu_button_casual"
 		"button_token"			"#MMenu_PlayList_Casual_Button"
 		"button_command"		"play_casual"
@@ -31,13 +31,13 @@
 
 	"MvMEntry"
 	{
-		"ControlName"			"CPlayListEntry"
+		"controlName"			"CPlayListEntry"
 		"fieldName"				"MvMEntry"
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"35"
 		"wide"					"204"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"image_name"			"main_menu/main_menu_button_mvm"
 		"button_token"			"#MMenu_PlayList_MvM_Button"
 		"button_command"		"play_mvm"
@@ -49,13 +49,13 @@
 
 	"ServerBrowserEntry"
 	{
-		"ControlName"			"CPlayListEntry"
+		"controlName"			"CPlayListEntry"
 		"fieldName"				"ServerBrowserEntry"
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"35"
 		"wide"					"204"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"image_name"			"main_menu/main_menu_button_community_server"
 		"button_token"			"#MMenu_PlayList_ServerBrowser_Button"
 		"button_command"		"play_community"
@@ -66,13 +66,13 @@
 
 	"CompetitiveEntry"
 	{
-		"ControlName"			"CPlayListEntry"
+		"controlName"			"CPlayListEntry"
 		"fieldName"				"CompetitiveEntry"
 		"xpos"					"9999"
 		"ypos"					"32"
 		"tall"					"25"
 		"wide"					"210"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"image_name"			"main_menu/main_menu_button_competitive"
 		"button_token"			"#MMenu_PlayList_Competitive_Button"
@@ -82,13 +82,13 @@
 	}
 	"TrainingEntry"
 	{
-		"ControlName"			"CPlayListEntry"
+		"controlName"			"CPlayListEntry"
 		"fieldName"				"TrainingEntry"
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"25"
 		"wide"					"210"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"image_name"			"main_menu/main_menu_button_training"
 		"button_token"			"#MMenu_PlayList_Training_Button"
 		"button_command"		"play_training"
@@ -99,13 +99,13 @@
 
 	"CreateServerEntry"
 	{
-		"ControlName"			"CPlayListEntry"
+		"controlName"			"CPlayListEntry"
 		"fieldName"				"CreateServerEntry"
 		"xpos"					"5"
 		"ypos"					"0"
 		"tall"					"25"
 		"wide"					"210"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"image_name"			"main_menu/main_menu_button_custom_server"
 		"button_token"			"#MMenu_PlayList_CreateServer_Button"
 		"button_command"		"create_server"
@@ -116,32 +116,32 @@
 
 	"ScrollBar"
 	{
-		"ControlName"	"ScrollBar"
-		"FieldName"		"ScrollBar"
+		"controlName"	"ScrollBar"
+		"fieldName"		"ScrollBar"
 		"xpos"			"rs1-1"
 		"ypos"			"0"
 		"tall"			"f0"
 		"wide"			"5" // This gets slammed from client schme.  GG.
 		"zpos"			"1000"
 		"nobuttons"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"Slider"
 		{
-			"fgcolor_override"	"TanDark"
+			"fgColor_override"	"TanDark"
 		}
 		
 		"UpButton"
 		{
-			"ControlName"	"Button"
-			"FieldName"		"UpButton"
+			"controlName"	"Button"
+			"fieldName"		"UpButton"
 			"visible"		"0"
 		}
 		
 		"DownButton"
 		{
-			"ControlName"	"Button"
-			"FieldName"		"DownButton"
+			"controlName"	"Button"
+			"fieldName"		"DownButton"
 			"visible"		"0"
 		}
 	}

@@ -11,12 +11,12 @@
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	
 	"playlist"
 	{
-	//	"ControlName"	"CTFPlaylistPanel"
+	//	"controlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -24,12 +24,12 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"PlayListDropShadow"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -66,12 +66,12 @@
 
 	"BGPanel"
 	{
-		"roundedcorners"		"0"
+		"roundedCorners"		"0"
 	}
 
 	"BottomBGHighlight"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"BottomBGHighlight"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -80,6 +80,6 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudPrimary"
+		"bgColor_override"	"HudPrimary"
 	}
 }

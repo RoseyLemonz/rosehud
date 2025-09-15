@@ -4,20 +4,20 @@
 {
 	"FreezePanel"
 	{
-		"ControlName"	"CTFFreezePanel"
+		"controlName"	"CTFFreezePanel"
 		"fieldName"		"FreezePanel"
 	}
 
 	"itempanel"
 	{
-		"ControlName"	"CItemModelPanel"
+		"controlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"rs1-15"
 	}
 	
 	"FreezePanelBase"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"15"
 		"ypos"			"rs1-15"
@@ -28,7 +28,7 @@
 	
 		"FreezePanelBG"
 		{
-			"ControlName"		"Panel"
+			"controlName"		"Panel"
 			"fieldName"			"FreezePanelBG"
 			"xpos"				"0"
 			"ypos"				"0"
@@ -38,13 +38,13 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"paintBackgroundType"	"2"
-			"bgcolor_override"		"TransparentBlack"	
-			"proportionaltoparent"	"1"	
+			"bgColor_override"		"TransparentBlack"	
+			"proportionalToParent"	"1"	
 		}
 
 		"FreezePanelHealth"
 		{
-			"ControlName"		"CTFFreezePanelHealth"
+			"controlName"		"CTFFreezePanelHealth"
 			"fieldName"			"FreezePanelHealth"
 			"xpos"				"0"
 			"ypos"				"0"
@@ -53,11 +53,11 @@
 			"tall"				"30"
 			"visible"			"1"
 			"enabled"			"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}	
 		"FreezeLabel"
 		{	
-			"ControlName"		"Label"
+			"controlName"		"Label"
 			"fieldName"			"FreezeLabel"
 			"font"				"ScoreboardSmall"
 			"xpos"				"65"
@@ -73,7 +73,7 @@
 		
 		"FreezeLabelKiller"
 		{	
-			"ControlName"		"Label"
+			"controlName"		"Label"
 			"fieldName"			"FreezeLabelKiller"
 			"xpos"				"9999"
 			"wide"				"0"
@@ -82,7 +82,7 @@
 		}		
 		"FreezeLabelKiller2"
 		{	
-			"ControlName"		"CExLabel"
+			"controlName"		"CExLabel"
 			"fieldName"			"FreezeLabelKiller2"
 			"font"				"HudFontSmallestbold"
 			"xpos"				"66"
@@ -94,11 +94,11 @@
 			"enabled"			"1"
 			"labelText"			"%killername%"
 			"textAlignment"		"Left"
-			"fgcolor"			"white"
+			"fgColor"			"white"
 		}
 		"AvatarBG"
 		{
-			"ControlName"			"ImagePanel"
+			"controlName"			"ImagePanel"
 			"fieldName"				"AvatarBG"
 			"xpos"					"9999"
 			"wide"					"0"
@@ -106,7 +106,7 @@
 		}
 		"AvatarImage"
 		{
-			"ControlName"		"CAvatarImagePanel"
+			"controlName"		"CAvatarImagePanel"
 			"fieldName"			"AvatarImage"
 			"xpos"				"40"
 			"ypos"				"6"
@@ -120,7 +120,7 @@
 		}
 		"AvatarQuestionMark"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"AvatarQuestionMark"
 			"font"			"HudFontsmall"
 			"labelText"		"?"
@@ -132,12 +132,12 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"
+			"fgColor"		"255 255 255 255"
 		}		
 		
 		"NemesisSubPanel"
 		{
-			"ControlName"		"EditablePanel"
+			"controlName"		"EditablePanel"
 			"fieldName"			"NemesisSubPanel"
 			"xpos"				"9999"
 			"ypos"				"0"
@@ -148,7 +148,7 @@
 	
 	"ScreenshotPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
 		"xpos"			"5"
 		"ypos"			"-13"
@@ -160,7 +160,7 @@
 		
 		"ScreenshotPanelBG"
 		{
-			"ControlName"		"Panel"
+			"controlName"		"Panel"
 			"fieldName"			"ScreenshotPanelBG"
 			"xpos"				"0"
 			"ypos"				"18"
@@ -170,12 +170,12 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"paintBackgroundType"	"2"
-			"bgcolor_override"		"TransparentBlack"	
-			"proportionaltoparent"	"1"	
+			"bgColor_override"		"TransparentBlack"	
+			"proportionalToParent"	"1"	
 		}
 		"ScreenshotIcon"
 		{
-			"ControlName"		"ImagePanel"
+			"controlName"		"ImagePanel"
 			"fieldName"			"ScreenshotIcon"
 			"xpos"				"5"
 			"ypos"				"20"
@@ -189,7 +189,7 @@
 		}		
 		"ScreenshotLabel"
 		{	
-			"ControlName"		"CExLabel"
+			"controlName"		"CExLabel"
 			"fieldName"			"ScreenshotLabel"
 			"font"				"HudFontMediumSmallestbold"
 			"xpos"				"25"
@@ -201,7 +201,7 @@
 			"enabled"			"1"
 			"labelText"			"%text%"
 			"textAlignment"		"west"
-			"fgcolor"			"white"
+			"fgColor"			"white"
 		}
 	}	
 }

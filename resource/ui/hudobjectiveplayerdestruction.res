@@ -3,7 +3,7 @@
 {	
 	"ObjectiveStatusRobotDestruction"
 	{
-		"ControlName"		"EditablePanel"
+		"controlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusRobotDestruction"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -31,23 +31,23 @@
 
 		"robot_kv"
 		{
-			"ControlName"	"CTFHudRobotDestruction_RobotIndicator"
+			"controlName"	"CTFHudRobotDestruction_RobotIndicator"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
-			"PaintBackgroundType"	"0"
-			"paintborder"	"0"
-			"AutoResize" "0"
-			"skip_autoresize" "1"
+			"bgColor_override"		"0 0 0 0"
+			"paintBackgroundType"	"0"
+			"paintBorder"	"0"
+			"autoResize" "0"
+			"skip_autoResize" "1"
 		}
 	}	
 
 	"CarriedContainer"
 	{
-		"ControlName"		"EditablePanel"
+		"controlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
 		"xpos"				"c-237"
 		"ypos"				"r146"
@@ -56,11 +56,11 @@
 		"tall"				"18"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgColor_override"		"0 0 0 0"
 	
 		"CarriedImage"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"CarriedImage"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -70,20 +70,20 @@
 		"CarriedProgressBar"
 		{
 			"fieldName"				"CarriedProgressBar"
-			"ControlName"			"ImagePanel"
+			"controlName"			"ImagePanel"
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"0"
 			"wide"					"f0"
 			"tall"					"f0"
-			"scaleimage"			"0"
+			"scaleImage"			"0"
 			"visible"				"0"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 
 		"FlagValue"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"FlagValue"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -95,14 +95,14 @@
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontSmallBold"
-			"fgcolor"		"Black"	
-			"proportionaltoparent"	"1"	
+			"fgColor"		"Black"	
+			"proportionalToParent"	"1"	
 			"use_proportional_insets"	"1"
 		}	
 
 		"FlagValueShadow"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"FlagValueShadow"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -111,7 +111,7 @@
 
 		"BlackBG"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"BlackBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -120,14 +120,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"Black"
+			"proportionalToParent"	"1"
+			"paintBackgroundType"	"0"
+			"bgColor_override"	"Black"
 		}	
 	
 		"TealBG"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"TealBG"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -136,14 +136,14 @@
 			"tall"			"f2"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"HudBonusDark"
+			"proportionalToParent"	"1"
+			"paintBackgroundType"	"0"
+			"bgColor_override"	"HudBonusDark"
 		}
 
 		"TeamLeaderImage"
 		{
-			"ControlName"	"CTFImagePanel"
+			"controlName"	"CTFImagePanel"
 			"fieldName"		"TeamLeaderImage"
 			"xpos"			"rs1-1"
 			"ypos"			"1"
@@ -154,27 +154,27 @@
 			"enabled"		"1"
 			"image"			"importtool_goldstar"
 			"scaleImage"	"1"	
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 	}
 
 	"ScoreContainer"
 	{
 		"fieldName"				"ScoreContainer"
-		"ControlName"			"EditablePanel"
+		"controlName"			"EditablePanel"
 		"xpos"					"cs-0.5"
 		"ypos"					"r126"
 		"zpos"					"0"
 		"wide"					"200"
 		"tall"					"120"
-		"scaleimage"			"0"
+		"scaleImage"			"0"
 		"visible"				"1"
 		"enabled"				"1"
 
 		"ProgressBarContainer"
 		{	
 			"fieldName"				"ProgressBarContainer"
-			"ControlName"			"EditablePanel"
+			"controlName"			"EditablePanel"
 			"xpos"					"cs-0.5"
 			"ypos"					"rs1"
 			"zpos"					"1"
@@ -182,17 +182,17 @@
 			"tall"					"80"
 			"visible"				"1"
 			"enabled"				"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		
 			"ScoreOutline"
 			{
 				"fieldName"				"ScoreOutline"
-				"ControlName"			"ImagePanel"
+				"controlName"			"ImagePanel"
 			}
 
 			"EscrowBlueBG"
 			{
-				"ControlName"	"Panel"
+				"controlName"	"Panel"
 				"fieldName"		"EscrowBlueBG"
 				"xpos"			"3"
 				"ypos"			"12"
@@ -201,15 +201,15 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"paintBackgroundType"	"2"
-				"roundedcorners"		"3"
-				"bgcolor_override"		"BlueTeamTransparent"
+				"roundedCorners"		"3"
+				"bgColor_override"		"BlueTeamTransparent"
 			}
 
 			"FlagImageBlue"
 			{
-				"ControlName"	"CTFImagePanel"
+				"controlName"	"CTFImagePanel"
 				"fieldName"		"FlagImageBlue"
 				"xpos"			"-4"
 				"ypos"			"-3"
@@ -220,13 +220,13 @@
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"pin_to_sibling"	"EscrowBlueBG"
 			}
 
 			"EscrowBlue"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"EscrowBlue"
 				"xpos"			"-20"
 				"ypos"			"0"
@@ -238,12 +238,12 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"		
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"pin_to_sibling"	"EscrowBlueBG"
 			}
 			"EscrowBlueShadow"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"EscrowBlueShadow"
 				"xpos"			"-1"
 				"ypos"			"-1"
@@ -255,14 +255,14 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"Black"		
-				"proportionaltoparent"	"1"
+				"fgColor"		"Black"		
+				"proportionalToParent"	"1"
 				"pin_to_sibling"	"EscrowBlue"
 			}
 
 			"EscrowRedBG"
 			{
-				"ControlName"	"Panel"
+				"controlName"	"Panel"
 				"fieldName"		"EscrowRedBG"
 				"xpos"			"rs1-3"
 				"ypos"			"12"
@@ -271,15 +271,15 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"paintBackgroundType"	"2"
-				"roundedcorners"		"3"
-				"bgcolor_override"		"RedTeamTransparent"
+				"roundedCorners"		"3"
+				"bgColor_override"		"RedTeamTransparent"
 			}
 
 			"FlagImageRed"
 			{
-				"ControlName"	"CTFImagePanel"
+				"controlName"	"CTFImagePanel"
 				"fieldName"		"FlagImageRed"
 				"xpos"			"-32"
 				"ypos"			"-3"
@@ -290,13 +290,13 @@
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"pin_to_sibling"	"EscrowRedBG"
 			}
 
 			"EscrowRed"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"EscrowRed"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -308,13 +308,13 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"		
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"pin_to_sibling"	"EscrowRedBG"
 			}
 
 			"EscrowRedShadow"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"EscrowRedShadow"
 				"xpos"			"-1"
 				"ypos"			"-1"
@@ -326,15 +326,15 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"HudFontMediumSmallBold"	
-				"fgcolor"		"Black"	
-				"proportionaltoparent"	"1"
+				"fgColor"		"Black"	
+				"proportionalToParent"	"1"
 				"pin_to_sibling"	"EscrowRed"
 			}
 
 			"BlueVictoryContainer"
 			{
 				"fieldName"				"BlueVictoryContainer"
-				"ControlName"			"EditablePanel"
+				"controlName"			"EditablePanel"
 				"xpos"					"4"
 				"ypos"					"32"
 				"zpos"					"5"
@@ -342,11 +342,11 @@
 				"tall"					"35"
 				"visible"				"0"
 				"enabled"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 
 				"VictoryLabel"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabel"
 					"xpos"			"9999"
 					"wide"			"0"
@@ -355,7 +355,7 @@
 
 				"VictoryLabelShadow"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
 					"xpos"			"9999"
 					"wide"			"0"
@@ -364,7 +364,7 @@
 
 				"VictoryLabelTime"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTime"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -376,12 +376,12 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"	
-					"proportionaltoparent"	"1"
+					"proportionalToParent"	"1"
 				}
 
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
 					"xpos"			"-1"
 					"ypos"			"-1"
@@ -393,8 +393,8 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"
-					"fgcolor"		"Black"		
-					"proportionaltoparent"	"1"
+					"fgColor"		"Black"		
+					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabelTime"
 				}
@@ -403,49 +403,49 @@
 			"ProgressBarBG"
 			{
 				"fieldName"				"ProgressBarBG"
-				"ControlName"			"Panel"
+				"controlName"			"Panel"
 				"xpos"					"3"
 				"ypos"					"32"
 				"zpos"					"0"
 				"wide"					"174"
 				"tall"					"35"
-				"scaleimage"			"0"
+				"scaleImage"			"0"
 				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"positionImage"			"0"	
 				"paintBackgroundType"	"2"	
-				"bgcolor_override"		"TransparentBlack"
-				"roundedcorners"		"12"
+				"bgColor_override"		"TransparentBlack"
+				"roundedCorners"		"12"
 			}
 
 			"ProgressBarSplit"
 			{
 				"fieldName"				"ProgressBarSplit"
-				"ControlName"			"Panel"
+				"controlName"			"Panel"
 				"xpos"					"cs-0.5"
 				"ypos"					"32"
 				"zpos"					"3"
 				"wide"					"2"
 				"tall"					"35"
-				"scaleimage"			"0"
+				"scaleImage"			"0"
 				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"positionImage"			"0"		
-				"bgcolor_override"		"White"
+				"bgColor_override"		"White"
 			}
 
 			"BlueProgressBarFill"
 			{
 				"fieldName"				"BlueProgressBarFill"
-				"ControlName"			"ImagePanel"
+				"controlName"			"ImagePanel"
 				"xpos"					"0"
 				"ypos"					"5"
 				"zpos"					"2"
 				"wide"					"90"
 				"tall"					"60"
-				"scaleimage"			"0"
+				"scaleImage"			"0"
 				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"positionImage"			"0"
 				"Image"					"../hud/objectives_corepanel_meter_solid"
 
@@ -461,15 +461,15 @@
 			"BlueProgressBarEscrow"
 			{
 				"fieldName"				"BlueProgressBarEscrow"
-				"ControlName"			"ImagePanel"
+				"controlName"			"ImagePanel"
 				"xpos"					"0"
 				"ypos"					"5"
 				"zpos"					"1"
 				"wide"					"90"
 				"tall"					"60"
-				"scaleimage"			"0"
+				"scaleImage"			"0"
 				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"positionImage"			"0"	
 				"Image"					"../hud/objectives_corepanel_meter"
 
@@ -485,7 +485,7 @@
 			"RedVictoryContainer"
 			{
 				"fieldName"				"RedVictoryContainer"
-				"ControlName"			"EditablePanel"
+				"controlName"			"EditablePanel"
 				"xpos"					"c0"
 				"ypos"					"32"
 				"zpos"					"5"
@@ -493,11 +493,11 @@
 				"tall"					"35"
 				"visible"				"0"
 				"enabled"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 
 				"VictoryLabel"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabel"
 					"xpos"			"9999"
 					"wide"			"0"
@@ -506,7 +506,7 @@
 
 				"VictoryLabelShadow"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
 					"xpos"			"9999"
 					"wide"			"0"
@@ -515,7 +515,7 @@
 
 				"VictoryLabelTime"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTime"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -527,12 +527,12 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"		
-					"proportionaltoparent"	"1"
+					"proportionalToParent"	"1"
 				}
 
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName"	"CExLabel"
+					"controlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
 					"xpos"			"-1"
 					"ypos"			"-1"
@@ -544,8 +544,8 @@
 					"textAlignment"	"center"	
 					"labelText"		"%victorytime%"
 					"font"			"HudFontMediumBold"		
-					"fgcolor"		"Black"		
-					"proportionaltoparent"	"1"
+					"fgColor"		"Black"		
+					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabelTime"
 				}
@@ -554,16 +554,16 @@
 			"RedProgressBarFill"
 			{
 				"fieldName"				"RedProgressBarFill"
-				"ControlName"			"ImagePanel"
+				"controlName"			"ImagePanel"
 				"xpos"					"rs1"
 				"ypos"					"5"
 				"zpos"					"2"
 				"wide"					"90"
 				"tall"					"60"
-				"scaleimage"			"0"
+				"scaleImage"			"0"
 				"positionImage"			"0"
 				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"Image"					"../hud/objectives_corepanel_meter_solid_right"
 
 				"left_offset"			"0"
@@ -578,16 +578,16 @@
 			"RedProgressBarEscrow"
 			{
 				"fieldName"				"RedProgressBarEscrow"
-				"ControlName"			"ImagePanel"
+				"controlName"			"ImagePanel"
 				"xpos"					"rs1"
 				"ypos"					"5"
 				"zpos"					"1"
 				"wide"					"90"
 				"tall"					"60"
-				"scaleimage"			"0"
+				"scaleImage"			"0"
 				"positionImage"			"0"
 				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"Image"					"../hud/objectives_corepanel_meter_right"
 
 				"left_offset"			"0"
@@ -602,7 +602,7 @@
 
 		"BlueScoreValueContainer"
 		{
-			"ControlName"		"EditablePanel"
+			"controlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
 			"xpos"				"70"
 			"ypos"				"r58"
@@ -611,12 +611,12 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
-			"proportionaltoparent"	"1"
+			"bgColor_override"		"0 0 0 0"
+			"proportionalToParent"	"1"
 
 			"Score"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"Score"
 				"xpos"			"c-27"
 				"ypos"			"c-20"
@@ -628,12 +628,12 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"		
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 			}	
 		
 			"ScoreShadow"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
 				"xpos"			"c-26"
 				"ypos"			"c-19"
@@ -645,14 +645,14 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"fgcolor"		"Black"		
-				"proportionaltoparent"	"1"
+				"fgColor"		"Black"		
+				"proportionalToParent"	"1"
 			}
 		}
 
 		"RedScoreValueContainer"
 		{
-			"ControlName"		"EditablePanel"
+			"controlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
 			"xpos"				"r130"
 			"ypos"				"r58"
@@ -661,12 +661,12 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
-			"proportionaltoparent"	"1"
+			"bgColor_override"		"0 0 0 0"
+			"proportionalToParent"	"1"
 
 			"Score"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"Score"
 				"xpos"			"c-27"
 				"ypos"			"c-20"
@@ -678,12 +678,12 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"proportionaltoparent"	"1"	
+				"proportionalToParent"	"1"	
 			}	
 		
 			"ScoreShadow"
 			{
-				"ControlName"	"CExLabel"
+				"controlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
 				"xpos"			"c-26"
 				"ypos"			"c-19"
@@ -695,13 +695,13 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"HudFontMediumBold"
-				"fgcolor"		"Black"		
-				"proportionaltoparent"	"1"
+				"fgColor"		"Black"		
+				"proportionalToParent"	"1"
 			}
 		}
 		"BlueStolenContainer"
 		{
-			"ControlName"		"EditablePanel"
+			"controlName"		"EditablePanel"
 			"fieldName"			"BlueStolenContainer"
 			"xpos"				"9999"
 			"wide"				"0"
@@ -709,7 +709,7 @@
 		}
 		"RedStolenContainer"
 		{
-			"ControlName"		"EditablePanel"
+			"controlName"		"EditablePanel"
 			"fieldName"			"RedStolenContainer"
 			"xpos"				"9999"
 			"wide"				"0"
@@ -719,7 +719,7 @@
 
 	"CountdownContainer"
 	{
-		"ControlName"			"EditablePanel"
+		"controlName"			"EditablePanel"
 		"fieldName"				"CountdownContainer"
 		"xpos"					"cs-0.5"
 		"ypos"					"r74"
@@ -731,7 +731,7 @@
 
 		"Background"
 		{
-			"ControlName"	"Panel"
+			"controlName"	"Panel"
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -740,14 +740,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"TransparentBlack"
+			"bgColor_override"	"TransparentBlack"
 			"paintBackgroundType"	"2"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 
 		"CountdownImage"
 		{
-			"ControlName"		"ImagePanel"
+			"controlName"		"ImagePanel"
 			"fieldName"		"CountdownImage"
 			"xpos"			"2"
 			"ypos"			"0"
@@ -758,12 +758,12 @@
 			"enabled"		"1"
 			"image"			"../hud/arrow_big_down"
 			"scaleImage"		"1"	
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 		
 		"CountdownLabelTime"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTime"
 			"xpos"			"30"
 			"ypos"			"0"
@@ -775,12 +775,12 @@
 			"textAlignment"	"east"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumSmallBold"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 
 		"CountdownLabelTimeShadow"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"CountdownLabelTimeShadow"
 			"xpos"			"-1"
 			"ypos"			"-1"
@@ -792,8 +792,8 @@
 			"textAlignment"	"east"	
 			"labelText"		"%countdowntime%"
 			"font"			"HudFontMediumSmallBold"
-			"fgcolor"		"Black"		
-			"proportionaltoparent"	"1"
+			"fgColor"		"Black"		
+			"proportionalToParent"	"1"
 			"pin_to_sibling"	"CountdownLabelTime"
 		}
 	}

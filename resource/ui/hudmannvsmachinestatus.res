@@ -2,7 +2,7 @@
 {	
 	"WaveStatusPanel"
 	{
-		"ControlName"		"CWaveStatusPanel"
+		"controlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
 		"ypos"				"0"
@@ -15,7 +15,7 @@
 	
 	"WaveCompleteSummaryPanel"
 	{
-		"ControlName"		"CWaveCompleteSummaryPanel"
+		"controlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"			"WaveCompleteSummaryPanel"
 		"xpos"				"c-125"
 		"ypos"				"120"
@@ -28,7 +28,7 @@
 	
 	"BossStatusPanel"
 	{
-		"ControlName"		"CMvMBossStatusPanel"
+		"controlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -45,7 +45,7 @@
 	
 	"InWorldCurrencyPanel"
 	{
-		"ControlName"		"CInWorldCurrencyStatus"
+		"controlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"c-235"
 		"ypos"				"r150"
@@ -57,7 +57,7 @@
 
 	"WarningSwoop"
 	{
-		"ControlName"	"CWarningSwoop"
+		"controlName"	"CWarningSwoop"
 		"fieldName"		"WarningSwoop"
 		"xpos"			"c-12"
 		"ypos"			"0"
@@ -73,7 +73,7 @@
 	
 	"UpgradeLevelContainer"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -83,7 +83,7 @@
 					
 		"UpgradeProgressTrack"
 		{
-			"ControlName"	"CMvMBombCarrierProgress"
+			"controlName"	"CMvMBombCarrierProgress"
 			"fieldName"		"UpgradeProgressTrack"
 			"xpos"			"c-50"
 			"ypos"			"r35"
@@ -94,7 +94,7 @@
 		
 		"UpgradeLevel1" 
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel1"
 			"xpos"			"c32"
 			"ypos"			"r24"
@@ -110,7 +110,7 @@
 		
 		"UpgradeLevel2" 
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel2"
 			"xpos"			"c32"
 			"ypos"			"r42"
@@ -126,7 +126,7 @@
 		
 		"UpgradeLevel3" 
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel3"
 			"xpos"			"c32"
 			"ypos"			"r60"
@@ -142,7 +142,7 @@
 
 		"UpgradeLevelBoss" 
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevelBoss"
 			"xpos"			"c32"
 			"ypos"			"r46"
@@ -159,7 +159,7 @@
 	
 	"VictorySplash"
 	{
-		"ControlName"		"CVictorySplash"
+		"controlName"		"CVictorySplash"
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -172,7 +172,7 @@
 	
 	"VictoryPanelContainer"
 	{
-		"ControlName"	"CMvMVictoryPanelContainer"
+		"controlName"	"CMvMVictoryPanelContainer"
 		"fieldName"		"VictoryPanelContainer"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -183,7 +183,7 @@
 	
 	"WaveLossPanel"
 	{
-		"ControlName"	"CMvMWaveLossPanel"
+		"controlName"	"CMvMWaveLossPanel"
 		"fieldName"		"WaveLossPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -194,7 +194,7 @@
 	
 	"ServerChangeMessage"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"ServerChangeMessage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -204,7 +204,7 @@
 		
 		"Background"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"controlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
 			"ypos"			"400"
@@ -225,7 +225,7 @@
 	
 		"ServerChangeLabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
 			"font"			"HudFontSmall"
 			"textAlignment"	"center"
@@ -236,7 +236,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgColor"		"tanlight"		
 		}
 	}
 	

@@ -2,7 +2,7 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"7"
@@ -12,10 +12,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"bgcolor_override"		"TransparentBlack"
+		"bgColor_override"		"TransparentBlack"
 		"paintBackgroundType"	"2"
 
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		if_match
 		{
 			"visible"	"0"
@@ -23,7 +23,7 @@
 	}
 	"TimePanelProgressBar"
 	{
-		"ControlName"			"CTFProgressBar"
+		"controlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -31,7 +31,7 @@
 	}
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
+		"controlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -41,15 +41,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStoreOriginalPrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_WaitingForPlayers"
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"controlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -57,7 +57,7 @@
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"controlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -67,15 +67,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStorePrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_Overtime"
 	}			
 	"OvertimeBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"controlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -83,7 +83,7 @@
 	}
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CExLabel"
+		"controlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -93,15 +93,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStorePrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_SuddenDeath"
 	}			
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"controlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -109,7 +109,7 @@
 	}	
 	"SetupLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -119,15 +119,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStoreOriginalPrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_Setup"
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"controlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -135,7 +135,7 @@
 	}
 	"ServerTimeLimitLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"0"
 		"ypos"			"35"
@@ -145,15 +145,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStorePrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"%servertimeleft%"
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"controlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"
 		"wide"			"0"

@@ -2,10 +2,10 @@
 {	
 	"ChargeLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"font"			"HudValue"
-		"fgcolor"		"HudPrimaryLight"
+		"fgColor"		"HudPrimaryLight"
 		"xpos"			"cs-0.5+184"
 		"ypos"			"r127"
 		"zpos"			"5"
@@ -19,9 +19,9 @@
 
 	"ChargeLabelShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"fgcolor"		"Black"
+		"fgColor"		"Black"
 		"font"			"HudValue"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -37,7 +37,7 @@
 
 	"IndividualChargesLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"cs-0.5+184"
 		"ypos"			"r120"
@@ -50,16 +50,16 @@
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"east"
-		"textinsetx"	"15"
-		"fgcolor"		"HudPrimaryLight"
-		"bgcolor_override"	"Black"
+		"textinsetX"	"15"
+		"fgColor"		"HudPrimaryLight"
+		"bgColor_override"	"Black"
 		"paintBackgroundType"	"2"
 		"font"			"HudValueSmaller"
 	}
 
 	"ChargeMeter"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"xpos"			"cs-0.5+185"
 		"ypos"			"r80"
@@ -70,13 +70,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"HudPrimary"
-		"bgcolor_override"	"DarkerBlack"
+		"fgColor_override"	"HudPrimary"
+		"bgColor_override"	"DarkerBlack"
 	}		
 
 	"ChargeBG"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"ChargeBG"
 		"xpos"			"cs-0.5+185"
 		"ypos"			"r84"
@@ -86,12 +86,12 @@
 		"visible"		"1"
 		"enabled"		"1"		
 		"paintBackgroundType"	"2"
-		"bgcolor_override"	"Black"
+		"bgColor_override"	"Black"
 	}
 
 	"ChargeMeter1"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"xpos"			"cs-0.5+147"
 		"ypos"			"r80"
@@ -102,13 +102,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"HudPrimary"
-		"bgcolor_override"	"DarkerBlack"
+		"fgColor_override"	"HudPrimary"
+		"bgColor_override"	"DarkerBlack"
 	}
 
 	"ChargeMeter2"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
 		"xpos"			"4"
@@ -120,15 +120,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"HudPrimary"
-		"bgcolor_override"	"DarkerBlack"
+		"fgColor_override"	"HudPrimary"
+		"bgColor_override"	"DarkerBlack"
 		"pin_to_sibling"	"ChargeMeter1"
 		"pin_to_sibling_corner"	"1"
 	}
 
 	"ChargeMeter3"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
 		"xpos"			"4"
@@ -140,15 +140,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"HudPrimary"
-		"bgcolor_override"	"DarkerBlack"
+		"fgColor_override"	"HudPrimary"
+		"bgColor_override"	"DarkerBlack"
 		"pin_to_sibling"	"ChargeMeter2"
 		"pin_to_sibling_corner"	"1"
 	}
 
 	"ChargeMeter4"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
 		"xpos"			"4"
@@ -160,15 +160,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"HudPrimary"
-		"bgcolor_override"	"DarkerBlack"
+		"fgColor_override"	"HudPrimary"
+		"bgColor_override"	"DarkerBlack"
 		"pin_to_sibling"	"ChargeMeter3"
 		"pin_to_sibling_corner"	"1"
 	}
 
 	"ResistPin"
 	{
-		"ControlName"		"Label"
+		"controlName"		"Label"
 		"fieldName"			"ResistPin"
 		"xpos"				"cs-0.5+183"
 		"ypos"				"r120"
@@ -177,12 +177,12 @@
 		"tall"				"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgColor_override"	"0 0 0 0"
 	}
 
 	"ResistIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"ResistIcon"
 		"wide"			"34"
 		"tall"			"34"

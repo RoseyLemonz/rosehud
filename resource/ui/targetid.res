@@ -2,7 +2,7 @@
 {
 	"TargetBG"
 	{
-		"ControlName"		"ImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"			"TargetBG"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -11,12 +11,12 @@
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"Black"
+		"fillColor"			"Black"
 	}
 
 	"TargetIDBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawcolor"		"HudPrimaryDark"
+		"drawColor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -38,7 +38,7 @@
 
 	"TargetIDBGTeamTriangle"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBGTeamTriangle"
 		"xpos"			"s-0.05"
 		"ypos"			"s-0.04"
@@ -55,7 +55,7 @@
 
 		"scaleImage"			"1"
 		"alpha"					"255"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"pin_to_sibling"		"TargetIDBG"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
@@ -64,7 +64,7 @@
 
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"controlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawcolor"		"HudPrimaryDark"
+		"drawColor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -86,7 +86,7 @@
 
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"controlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -97,7 +97,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawcolor"		"HudPrimaryDark"
+		"drawColor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -108,7 +108,7 @@
 
 	"TargetNameLabel"
 	{
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudTargetIDName"
 		"xpos"			"8"
@@ -120,12 +120,12 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 	}
 
 	"TargetDataLabel"
 	{
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"HudTargetIDIcons"
 		"xpos"			"15"
@@ -137,12 +137,12 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"	"west"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 	}
 
 	"SpectatorGUIHealth"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"5"
 		"ypos"			"0"
@@ -151,12 +151,12 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"	
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"AmmoIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"30"
 		"ypos"			"rs1.45"
@@ -167,12 +167,12 @@
 		"enabled"		"1"
 		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"KillstreakIconAnchor"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"KillstreakIconAnchor"
 		"xpos"			"cs-0.5+72"
 		"ypos"			"16"
@@ -184,7 +184,7 @@
 
 	"KillStreakIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -201,7 +201,7 @@
 
 	"MoveableSubPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -211,7 +211,7 @@
 
 		"MoveableIconBG"
 		{
-			"ControlName"	"CIconPanel"
+			"controlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
 			"xpos"			"9999"
 			"ypos"			"9999"
@@ -227,7 +227,7 @@
 
 		"MoveableIcon"
 		{
-			"ControlName"	"CIconPanel"
+			"controlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -236,7 +236,7 @@
 
 		"MoveableIconPin"
 		{
-			"ControlName"	"Panel"
+			"controlName"	"Panel"
 			"fieldName"		"MoveableIconPin"
 			"xpos"			"15"
 			"ypos"			"-4"
@@ -245,7 +245,7 @@
 
 		"MoveableSymbolIcon"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"MoveableSymbolIcon"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -262,7 +262,7 @@
 
 		"MoveableKeyLabel"
 		{	
-			"ControlName"	"Label"
+			"controlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"xpos"			"0"
 			"wide"			"0"
@@ -273,7 +273,7 @@
 
 	"AvatarImage"
 	{
-		"ControlName"	"CAvatarImagePanel"
+		"controlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
 		"xpos_minmode"	"6"

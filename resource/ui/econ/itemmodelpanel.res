@@ -18,7 +18,7 @@
 	
 	"LoadingSpinner"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"LoadingSpinner"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -29,25 +29,25 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"paintborder"	"0"
+		"paintBorder"	"0"
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}
 
 	"MainContentsContainer"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"MainContentsContainer"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgColor_override"		"0 0 0 0"
 
 		"itemmodelpanel"
 		{
-			"ControlName"		"CEmbeddedItemModelPanel"
+			"controlName"		"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
 	
 			"xpos"			"0"
@@ -81,7 +81,7 @@
 	
 		"namelabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"namelabel"
 			"font"			"ItemFontNameLarge"
 			"xpos"			"0"
@@ -95,12 +95,12 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"center"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
+			"fgColor"		"235 226 202 255"
+			"centerWrap"	"1"
 		}
 		"attriblabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"attriblabel"
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
@@ -114,13 +114,13 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
+			"fgColor"		"117 107 94 255"
+			"centerWrap"	"1"
 		}
 		
 		"equippedlabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"37"
@@ -134,14 +134,14 @@
 			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"fgColor"		"200 80 60 255"
+			"bgColor_override"		"0 0 0 255"
+			"paintBackgroundType"	"2"
 		}
 	
 		"paint_icon"
 		{
-			"ControlName"	"CItemMaterialCustomizationIconPanel"
+			"controlName"	"CItemMaterialCustomizationIconPanel"
 			"fieldName"		"paint_icon"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -155,7 +155,7 @@
 
 		"quantitylabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
@@ -169,14 +169,14 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"fgColor"		"200 80 60 255"
+			"bgColor_override"		"0 0 0 255"
+			"paintBackgroundType"	"2"
 		}
 
 		"serieslabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"serieslabel"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
@@ -190,14 +190,14 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"fgColor"		"200 180 60 255"
+			"bgColor_override"		"0 40 30 255"
+			"paintBackgroundType"	"2"
 		}
 
 		"matcheslabel"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
@@ -211,14 +211,14 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"fgColor"		"200 180 60 255"
+			"bgColor_override"		"0 40 30 255"
+			"paintBackgroundType"	"2"
 		}
 
 		"vision_restriction_icon"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"vision_restriction_icon"
 			"xpos"			"4"
 			"ypos"			"4"
@@ -233,7 +233,7 @@
 		}
 		"is_strange_icon"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"is_strange_icon"
 			"xpos"			"4"
 			"ypos"			"4"
@@ -248,7 +248,7 @@
 		}
 		"is_unusual_icon"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"is_unusual_icon"
 			"xpos"			"4"
 			"ypos"			"4"
@@ -264,7 +264,7 @@
 
 		"is_loaner_icon"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"is_loaner_icon"
 			"xpos"			"4"
 			"ypos"			"4"
@@ -280,17 +280,17 @@
 		
 		"contained_item_panel"
 		{
-			"ControlName"	"CItemModelPanel"
+			"controlName"	"CItemModelPanel"
 			"xpos"			"32"
 			"ypos"			"20"
 			"zpos"			"4"
 			"wide"			"18"
 			"tall"			"18"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 200"
+			"bgColor_override"		"0 0 0 200"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
+			"paintBackgroundType"	"2"
+			"paintBorder"	"0"
 			"useparentbg"	"0"
 		
 			"enabled"		"1"

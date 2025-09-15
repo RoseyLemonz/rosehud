@@ -7,23 +7,23 @@
 		"ypos"					"0"
 		"wide"					"p0.45"
 		"tall"					"14"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
-		"skip_autoresize"	"1"
-		"bgcolor_override"	"Blank"
+		"skip_autoResize"	"1"
+		"bgColor_override"	"Blank"
 	}
 
 	"MapCheckbutton"
 	{
-		"ControlName"		"CExCheckButton"
+		"controlName"		"CExCheckButton"
 		"fieldName"		"MapCheckbutton"
 		"xpos"		"5"
 		"ypos"		"cs-0.5"
 		"zpos"		"3"
 		"wide"		"f0"
 		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		""
+		"proportionalToParent"	"1"
+		"labelText"		""
 		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
 		"smallcheckimage"	"1"
@@ -34,35 +34,35 @@
 
 	"MapNameLabel"
 	{
-		"ControlName"		"Label"
+		"controlName"		"Label"
 		"fieldName"		"MapNameLabel"
 		"xpos"		"5"
 		"ypos"		"cs-0.5"
 		"zpos"		"3"
 		"wide"		"f0"
 		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"%title_token%"
+		"proportionalToParent"	"1"
+		"labelText"		"%title_token%"
 		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
-		"textinsetx"	"20"
+		"textinsetX"	"20"
 		"use_proportional_insets"	"1"
 		
-		"mouseinputenabled"	"0"
+		"mouseInputEnabled"	"0"
 	}
 
 	"HealthProgressBar"
 	{
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"HealthProgressBar"
 		"xpos"			"20"
 		"ypos"			"cs-0.5"
 		"wide"			"f20"
 		"tall"			"f2"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"progress"		"0.5"
 
-		"fgcolor_override"	"0 0 0 0"
-		"bgcolor_override"	"0 0 0 0"
+		"fgColor_override"	"0 0 0 0"
+		"bgColor_override"	"0 0 0 0"
 	}
 }

@@ -10,7 +10,7 @@
 
 	"BlueTimer"
 	{
-		"ControlName"		"CTFHudTimeStatus"
+		"controlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"cs-0.5-20"
 		"ypos"				"0"
@@ -26,11 +26,11 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"controlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
@@ -42,13 +42,13 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}	
 	}
 
 	"RedTimer"
 	{
-		"ControlName"		"CTFHudTimeStatus"
+		"controlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"cs-0.5+20"
 		"ypos"				"0"
@@ -64,11 +64,11 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"controlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
@@ -80,13 +80,13 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 	}
 
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"			"9999"
 		"wide"			"0"

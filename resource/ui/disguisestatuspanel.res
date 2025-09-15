@@ -2,7 +2,7 @@
 {
 	"DisguiseStatusBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -26,7 +26,7 @@
 
 	"DisguiseNameLabel"
 	{	
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"35"
@@ -42,7 +42,7 @@
 	
 	"WeaponNameLabel"
 	{	
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"TFFontMedium"
 		"xpos"			"35"
@@ -58,7 +58,7 @@
 	
 	"SpectatorGUIHealth"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
 		"ypos"			"0"

@@ -2,10 +2,10 @@
 {
 	"Currency"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"Currency"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -15,15 +15,15 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}	
 	
 	"CurrencyShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"Black"
+		"fgColor"		"Black"
 		"xpos"			"1"
 		"ypos"			"1"
 		"zpos"			"3"
@@ -33,12 +33,12 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}	
 	
 	"WhiteBG"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"WhiteBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -47,14 +47,14 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"Black"
-		"proportionaltoparent"	"1"
+		"bgColor_override"	"Black"
+		"proportionalToParent"	"1"
 
 	}	
 	
 	"GreenBG"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"GreenBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -63,7 +63,7 @@
 		"tall"			"f2"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"HudBonusDark"
-		"proportionaltoparent"	"1"
+		"bgColor_override"	"HudBonusDark"
+		"proportionalToParent"	"1"
 	}
 }

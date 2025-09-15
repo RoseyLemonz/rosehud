@@ -9,7 +9,7 @@
 
 		"Customizations_Scroller"
 		{
-			"ControlName"					"CScrollableList"
+			"controlName"					"CScrollableList"
 			"fieldName"						"Customizations_Scroller"
 			"xpos"							"0"
 			"ypos"							"56"
@@ -18,9 +18,9 @@
 			"tall"							"234"
 			"visible"						"1"
 			"enabled"						"1"
-			"proportionaltoparent"			"1"
+			"proportionalToParent"			"1"
 			"paintBackground"				"0"
-			"bgcolor_override"				"Gray"
+			"bgColor_override"				"Gray"
 			
 			"Scrollbar"
 			{
@@ -29,13 +29,13 @@
 				"wide"							"4"
 				"tall"							"f0"
 				"zpos"							"1000"
-				"proportionaltoparent"			"1"
+				"proportionalToParent"			"1"
 				"nobuttons"						"1"
 
 				"Slider"
 				{
-					"PaintBackgroundType"		"0"
-					"fgcolor_override"			"White"
+					"paintBackgroundType"		"0"
+					"fgColor_override"			"White"
 				}
 			}
 		}

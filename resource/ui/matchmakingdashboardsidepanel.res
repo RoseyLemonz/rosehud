@@ -2,7 +2,7 @@
 {
 	"Shade"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -10,16 +10,16 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"proportionalToParent"	"1"
+		"mouseInputEnabled"	"0"
 		"paintBackgroundType"	"2"
 
-		"bgcolor_override"	"0 0 0 255"
+		"bgColor_override"	"0 0 0 255"
 	}
 
 	"TitleGradient"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"TitleGradient"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -28,7 +28,7 @@
 	
 	"InnerGradient"
 	{
-		"ControlName"		"ImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
 		"xpos"		"1"
 		"rotation"		"2"
@@ -46,16 +46,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
+		"proportionalToParent"	"1"
+		"scaleImage"	"1"
+		"mouseInputEnabled"	"0"
 
 		"image"		"gradient_pure_black"
 	}
 
 	"OuterGradient"
 	{
-		"ControlName"		"ImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -64,7 +64,7 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -73,7 +73,7 @@
 
 	"ReturnButton"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"ReturnButton"
 		"xpos"			"3"
 		"labelText"		"<"
@@ -89,7 +89,7 @@
 		"wide"			"20"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
 
@@ -98,14 +98,14 @@
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
-		"depressedBgColor_override"    "0 0 0 0"
+		"depressedbgColor_override"    "0 0 0 0"
 
 		"armedFgColor_override"	"Orange"
 	}
 	
 	"BGPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -113,9 +113,9 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"paintBackgroundType"	"2"
-		"bgcolor_override"		"DarkerBlack"
-		"roundedcorners"		"1"
+		"bgColor_override"		"DarkerBlack"
+		"roundedCorners"		"1"
 	}
 }

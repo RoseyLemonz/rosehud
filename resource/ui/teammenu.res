@@ -3,7 +3,7 @@
 {
 	"team"
 	{
-		"ControlName"	"CTeamMenu"
+		"controlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -17,7 +17,7 @@
 
 	"SysMenu"
 	{
-		"ControlName"	"Menu"
+		"controlName"	"Menu"
 		"fieldName"		"SysMenu"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -31,7 +31,7 @@
 
 	"MapInfo"
 	{
-		"ControlName"	"HTML"
+		"controlName"	"HTML"
 		"fieldName"		"MapInfo"
 		"xpos"			"100"
 		"ypos"			"34"
@@ -45,7 +45,7 @@
 
 	"mapname"
 	{
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"mapname"
 		"xpos"			"c-310"
 		"ypos"			"50"
@@ -61,7 +61,7 @@
 	
 	"teambutton0"
 	{
-		"ControlName"	"CTFTeamButton"
+		"controlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
 		"xpos"			"cs0"
 		"ypos"			"160"
@@ -76,17 +76,19 @@
 		"command"		"jointeam blue"
 		"font"			"HudFontMediumBigBold"
 		"paintBackgroundType"		"2"
-		"roundedcorners"			"10"
+		"roundedCorners"			"10"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
-		"defaultbgcolor_override"	"BlueTeamTransparent"
-		"armedbgcolor_override"		"BlueTeamSolid"
-		"depressedbgcolor_override"	"DarkBlueTeamSolid"
+		"proportionalToParent"		"1"
+		"defaultBgColor_override"	"BlueTeamSolid"
+		"armedBgColor_override"		"LightBlueTeamSolid"
+		"depressedFgColor_override"	"DarkBlueTeamSolid"
+
+		"depressedFgColor_override"	"Black"
 	}
 
 	"teambutton1"
 	{
-		"ControlName"	"CTFTeamButton"
+		"controlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
 		"xpos"			"cs-1"
 		"ypos"			"160"
@@ -102,17 +104,19 @@
 		"command"		"jointeam red"
 		"font"			"HudFontMediumBigBold"
 		"paintBackgroundType"		"2"
-		"roundedcorners"			"5"
+		"roundedCorners"			"5"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
-		"defaultbgcolor_override"	"RedTeamTransparent"
-		"armedbgcolor_override"		"RedTeamSolid"
-		"depressedbgcolor_override"	"DarkRedTeamSolid"
+		"proportionalToParent"		"1"
+		"defaultBgColor_override"	"RedTeamSolid"
+		"armedBgColor_override"		"LightRedTeamSolid"
+		"depressedFgColor_override"	"DarkRedTeamSolid"
+
+		"depressedFgColor_override"	"Black"
 	}
 
 	"teambutton2"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"cs-1.1"
 		"ypos"			"292"
@@ -127,18 +131,18 @@
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
 
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedFgColor_override" "HudPrimaryDark"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"cs0.1"
 		"ypos"			"292"
@@ -153,18 +157,18 @@
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
 		
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedFgColor_override" "HudPrimaryDark"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -179,13 +183,13 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
+		"roundedCorners"	"0"
 		"defaultBgColor_override"	"DarkerBlack"
 	}
 	
 	"TeamMenuSelect"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -203,7 +207,7 @@
 
 	"TeamMenuRed"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuRed"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -212,7 +216,7 @@
 
 	"TeamMenuBlue"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuBlue"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -221,7 +225,7 @@
 	
 	"TeamMenuAuto"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -230,7 +234,7 @@
 	
 	"TeamMenuSpectate"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -239,7 +243,7 @@
 
 	"BlueCountBG"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"BlueCountBG"
 		"xpos"			"c18"
 		"ypos"			"c5"
@@ -248,12 +252,12 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamTransparent"
+		"fillColor" 	"BlueTeamTransparent"
 	}
 
 	"BlueCountBG2"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"BlueCountBG2"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -262,13 +266,13 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamSolid"
+		"fillColor" 	"BlueTeamSolid"
 		"pin_to_sibling"	"BlueCountBG"
 	}
 
 	"BlueCount"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"-13"
 		"ypos"			"0"
@@ -282,13 +286,13 @@
 		"labelText"		"%bluecount%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallishBold"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 		"pin_to_sibling"	"BlueCountBg2"
 	}	
 
 	"BlueCountImage"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"BlueCountImage"
 		"xpos"			"-2"
 		"ypos"			"0"
@@ -302,13 +306,13 @@
 		"labelText"		"P"
 		"textAlignment"	"center"
 		"font"			"HudMenuIco"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 		"pin_to_sibling"	"BlueCountBg2"
 	}	
 
 	"RedCountBG"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"RedCountBG"
 		"xpos"			"c-76"
 		"ypos"			"c5"
@@ -317,12 +321,12 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"RedTeamTransparent"
+		"fillColor" 	"RedTeamTransparent"
 	}
 
 	"RedCountBG2"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"RedCountBG2"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -331,13 +335,13 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"RedTeamSolid"
+		"fillColor" 	"RedTeamSolid"
 		"pin_to_sibling"	"RedCountBG"
 	}
 
 	"RedCount"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -351,13 +355,13 @@
 		"labelText"		"%redcount%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallishBold"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 		"pin_to_sibling"	"RedCountBg2"
 	}	
 
 	"RedCountImage"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"RedCountImage"
 		"xpos"			"-2"
 		"ypos"			"0"
@@ -371,7 +375,7 @@
 		"labelText"		"P"
 		"textAlignment"	"center"
 		"font"			"HudMenuIco"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 		"pin_to_sibling"	"RedCountBg2"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -379,7 +383,7 @@
 	
 	"HighlanderLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
 		"xpos"			"c-150"
 		"ypos"			"100"
@@ -393,13 +397,13 @@
 		"labelText"		"#TF_Highlander_Mode"
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
-		"fgcolor"		"HudOffWhite"
-		"centerwrap"	"1"
+		"fgColor"		"HudOffWhite"
+		"centerWrap"	"1"
 	}
 	
 	"HighlanderLabelShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
 		"xpos"			"c-149"
 		"ypos"			"101"
@@ -413,13 +417,13 @@
 		"labelText"		"#TF_Highlander_Mode"
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
-		"centerwrap"	"1"
+		"fgColor"		"black"
+		"centerWrap"	"1"
 	}
 	
 	"TeamsFullLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
 		"xpos"			"c-150"
 		"ypos"			"135"
@@ -433,13 +437,13 @@
 		"labelText"		"#TF_Teams_Full"
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
-		"fgcolor"		"HudOffWhite"
-		"centerwrap"	"1"
+		"fgColor"		"HudOffWhite"
+		"centerWrap"	"1"
 	}
 	
 	"TeamsFullLabelShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
 		"xpos"			"c-149"
 		"ypos"			"136"
@@ -453,13 +457,13 @@
 		"labelText"		"#TF_Teams_Full"
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
-		"centerwrap"	"1"
+		"fgColor"		"black"
+		"centerWrap"	"1"
 	}
 
 	"TeamsFullArrow"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"TeamsFullArrow"
 		"xpos"			"c-118"
 		"ypos"			"165"

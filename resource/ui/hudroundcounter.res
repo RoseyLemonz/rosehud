@@ -10,7 +10,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"starting_width"	"20"
 		"width_per_round"	"24"
@@ -24,7 +24,7 @@
 			"tall"				"6"
 			"zpos"				"7"
 			"image"				"../hud/comp_round_counter_dot_bg"
-			"scaleimage"		"1"
+			"scaleImage"		"1"
 		}
 
 		"RoundWinPanelRed_kv"
@@ -34,7 +34,7 @@
 			"tall"				"17"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_red"
-			"scaleimage"		"1"
+			"scaleImage"		"1"
 		}
 
 		"RoundWinPanelBlue_kv"
@@ -44,13 +44,13 @@
 			"tall"				"17"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_blue"
-			"scaleimage"		"1"
+			"scaleImage"		"1"
 		}
 	}	
 
 	"Background"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"9999"
 		"tall"			"0"

@@ -8,7 +8,7 @@
 
 	"ItemEffectIcon"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -28,7 +28,7 @@
 
 	"ItemEffectMeter2"
 	{	
-		"ControlName"			"ContinuousProgressBar"
+		"controlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter2"
 		"xpos"					"rs1-6"
 		"ypos"					"2"
@@ -37,23 +37,23 @@
 		"tall"					"4"
 		"visible"				"1"
 		"enabled"				"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"MeterColor2"
     {
-        "ControlName"	"ImagePanel"
+        "controlName"	"ImagePanel"
         "fieldName"		"MeterColor2"	
         "zpos"			"3"
         "wide"			"17"
         "tall"			"4"
         "visible"		"1"
         "enabled"		"1"
-        "proportionaltoparent"		"1"
+        "proportionalToParent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPrimary"
-		"proportionaltoparent"	"1"
+        "drawColor"		"HudPrimary"
+		"proportionalToParent"	"1"
 		"pin_to_sibling"	"ItemEffectMeter2"
     }		
 }

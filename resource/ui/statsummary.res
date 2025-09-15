@@ -3,7 +3,7 @@
 {	
 	"OnYourWayLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"#LoadingMap"
@@ -17,11 +17,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgColor_override" "White"
 	}					
 	"MapLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%maplabel%"
@@ -35,11 +35,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgColor_override" "White"
 	}
 	"MapType"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"MapType"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%maptype%"
@@ -53,11 +53,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Gray"
+		"fgColor_override" "Gray"
 	}			
 	"MapInfo"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"	"MapInfo"
 		"xpos"		"0"
 		"ypos"		"0"
@@ -65,11 +65,11 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
+		"bgColor_override"	"46 43 42 255"
 	
 		"Background"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -83,7 +83,7 @@
 
 		"MapImage"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"MapImage"
 			"xpos"			"30"
 			"ypos"			"45"
@@ -98,7 +98,7 @@
 	
 		"ContributedLabel"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"	"ContributedLabel"
 			"xpos"			"30"
 			"ypos"			"345"
@@ -110,7 +110,7 @@
 	
 			"BG"
 			{
-				"ControlName"	"EditablePanel"
+				"controlName"	"EditablePanel"
 				"fieldName"		"BG"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -121,12 +121,12 @@
 				"visible"		"1"
 				"enabled"		"1"
                 "paintBackgroundType"   "2"
-                "bgcolor_override"      "TransparentBlack"
+                "bgColor_override"      "TransparentBlack"
 			}
 	
 			"ActualLabel"
 			{
-				"ControlName"		"CExLabel"
+				"controlName"		"CExLabel"
 				"fieldName"		"ActualLabel"
 				"font"			"HudFontSmallBold"
 				"labelText"		"#TF_Contributed"
@@ -140,14 +140,14 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"centerwrap"	"1"
+				"centerWrap"	"1"
 				"wrap"			"1"
 			}					
 		}
 	
 		"InfoBG"
 		{
-			"ControlName"		"EditablePanel"
+			"controlName"		"EditablePanel"
 			"fieldName"		"InfoBG"
 			"xpos"			"c+10"
 			"ypos"			"120"
@@ -162,7 +162,7 @@
 
 		"Title"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"Title"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%title%"
@@ -176,11 +176,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 181 50 255"
+			"fgColor_override" "255 181 50 255"
 		}
 		"MapAuthors"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"MapAuthors"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%authors%"
@@ -199,7 +199,7 @@
 
 		"MapLeaderboardTitle"
 		{
-			"ControlName"	"CExLabel"
+			"controlName"	"CExLabel"
 			"fieldName"		"MapLeaderboardTitle"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%map_leaderboard_title%"
@@ -213,7 +213,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "137 191 60 255"
+			"fgColor_override" "137 191 60 255"
 		}
 	}
 

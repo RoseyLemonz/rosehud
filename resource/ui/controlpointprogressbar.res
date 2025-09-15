@@ -2,7 +2,7 @@
 {
 	"ControlPointProgressBar"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"	"ControlPointProgressBar"
 		"xpos"		"0"
 		"ypos"		"0"
@@ -15,7 +15,7 @@
 
 	"ProgressBar"
 	{
-		"ControlName"	"CircularProgressBar"
+		"controlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
 		"xpos"		"36"
 		"ypos"		"35"
@@ -32,7 +32,7 @@
 
 	"Teardrop"
 	{
-		"ControlName"	"CIconPanel"
+		"controlName"	"CIconPanel"
 		"fieldName"	"Teardrop"
 		"xpos"		"33"
 		"ypos"		"32"
@@ -48,7 +48,7 @@
 	
 	"TeardropSide"
 	{
-		"ControlName"	"CIconPanel"
+		"controlName"	"CIconPanel"
 		"fieldName"	"TeardropSide"
 		"xpos"		"33"
 		"ypos"		"32"
@@ -64,7 +64,7 @@
 
 	"ProgressText"
 	{	
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"ProgressText"
 		"font"			"DefaultSmall"
 		"xpos"			"18"
@@ -77,12 +77,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"progress"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 
 	"Blocked"
 	{
-		"ControlName"	"CIconPanel"
+		"controlName"	"CIconPanel"
 		"fieldName"	"Blocked"
 		"xpos"		"36"
 		"ypos"		"35"

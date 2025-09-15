@@ -10,7 +10,7 @@
 		"zpos"					"10001"
 		"wide"					"f0"
 		"tall"					"35"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"collapsed_height"	"0"
 		"expanded_height"	"35"
@@ -19,7 +19,7 @@
 
 	"TopBar"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"TopBar"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -27,14 +27,14 @@
 		"wide"			"f25"
 		"tall"			"28"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"Gradient"
 		{
-			"ControlName"	"ImagePanel"
+			"controlName"	"ImagePanel"
 			"fieldName"		"Gradient"
 			"xpos"			"0"
 			"wide"			"0"
@@ -43,7 +43,7 @@
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"BGPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
@@ -51,15 +51,15 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"roundedcorners"		"12"
-			"bgcolor_override"		"DarkerBlack"
-			"proportionaltoparent"	"1"
+			"paintBackgroundType"	"2"
+			"roundedCorners"		"12"
+			"bgColor_override"		"DarkerBlack"
+			"proportionalToParent"	"1"
 		} 
 
 		"OuterShadow"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -68,7 +68,7 @@
 
 		"ToggleChatButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"0"
 			"ypos"			"rs1"
@@ -80,28 +80,28 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudMenuIco"
-			"labeltext"		"R"
+			"labelText"		"R"
 			"textAlignment"	"center"
-			"Command"		"toggle_chat"
+			"command"		"toggle_chat"
 
-			"mouseinputenabled"		"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"		"2"
+			"mouseInputEnabled"		"1"
+			"keyboardInputEnabled"	"0"
+			"actionSignalLevel"		"2"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 
-			"roundedcorners"	"4"
+			"roundedCorners"	"4"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"46 43 42 255"
+			"image_drawColor"	"255 255 255 255"
+			"image_armedColor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
+				"controlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -110,7 +110,7 @@
 
 		"PartySlot0"
 		{
-			"ControlName"	"CDashboardPartyMember"
+			"controlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
 			"xpos"			"30"
 			"ypos"			"rs1"
@@ -121,16 +121,16 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"1"
+			"keyboardInputEnabled"	"0"
 
 			"party_slot"	"0"
 		}
 
 		"PartySlot1"
 		{
-			"ControlName"	"CDashboardPartyMember"
+			"controlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -141,9 +141,9 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"1"
+			"keyboardInputEnabled"	"0"
 
 			"pin_to_sibling"		"PartySlot0"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -153,7 +153,7 @@
 
 		"PartySlot2"
 		{
-			"ControlName"	"CDashboardPartyMember"
+			"controlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -164,9 +164,9 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"1"
+			"keyboardInputEnabled"	"0"
 
 			"pin_to_sibling"		"PartySlot1"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -176,7 +176,7 @@
 
 		"PartySlot3"
 		{
-			"ControlName"	"CDashboardPartyMember"
+			"controlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -187,9 +187,9 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"1"
+			"keyboardInputEnabled"	"0"
 
 			"pin_to_sibling"		"PartySlot2"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -199,7 +199,7 @@
 
 		"PartySlot4"
 		{
-			"ControlName"	"CDashboardPartyMember"
+			"controlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -210,9 +210,9 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"1"
+			"keyboardInputEnabled"	"0"
 
 			"pin_to_sibling"		"PartySlot3"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -222,7 +222,7 @@
 
 		"PartySlot5"
 		{
-			"ControlName"	"CDashboardPartyMember"
+			"controlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -233,9 +233,9 @@
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"1"
+			"keyboardInputEnabled"	"0"
 
 			"pin_to_sibling"		"PartySlot4"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -245,7 +245,7 @@
 
 		"QueueContainer"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
 			"xpos"			"cs-0.5"
 			"ypos"			"-50"
@@ -253,11 +253,11 @@
 			"wide"			"220"
 			"tall"			"f0"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
 			"OuterShadow"
 			{
-				"ControlName"	"Panel"
+				"controlName"	"Panel"
 				"fieldName"		"OuterShadow"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -266,7 +266,7 @@
 
 			"BGPanel"
 			{
-				"ControlName"	"Panel"
+				"controlName"	"Panel"
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
@@ -274,14 +274,14 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 				"paintBackgroundType"	"0"
-				"bgcolor_override"		"Black"
+				"bgColor_override"		"Black"
 			}
 
 			"QueueLogoButton"
 			{
-				"ControlName"	"Button"
+				"controlName"	"Button"
 				"fieldName"		"QueueLogoButton"
 				"xpos"			"5"
 				"ypos"			"8"
@@ -292,39 +292,39 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"labeltext"		""
+				"labelText"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"Command"		"queue_logo_clicked"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
+				"command"		"queue_logo_clicked"
+				"proportionalToParent"	"1"
+				"actionSignalLevel"	"3"
 				"button_activation_type"	"1"
 			
-				"paintbackground"	"0"
-				"paintborder"		"0"				
+				"paintBackground"	"0"
+				"paintBorder"		"0"				
 			}		
 
 			"CTFLogoPanel"
 			{
-				"ControlName"	"CTFLogoPanel"
-				"fieldname"		"CTFLogoPanel"
+				"controlName"	"CTFLogoPanel"
+				"fieldName"		"CTFLogoPanel"
 				"xpos"			"5"
 				"ypos"			"8"
 				"zpos"			"5"
 				"wide"			"o1"
 				"tall"			"f12"
 				"visible"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 
 				"radius"		"10"
 				"velocity"		"100"
 
-				"fgcolor_override"	"TFOrange"
+				"fgColor_override"	"TFOrange"
 			}
 
 			"QueueText"
 			{
-				"ControlName"	"CAutoFittingLabel"
+				"controlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
 				"xpos"			"28"
 				"ypos"			"2"
@@ -334,11 +334,11 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
+				"fgColor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
+				"proportionalToParent"	"1"
+				"mouseInputEnabled"	"0"
 
 				"fonts"
 				{
@@ -359,7 +359,7 @@
 
 			"MultiQueuesManageButton"
 			{
-				"ControlName"	"CExImageButton"
+				"controlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
 				"xpos"			"rs1-6"
 				"ypos"			"11"
@@ -370,26 +370,26 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"labeltext"		""
+				"labelText"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"Command"		"manage_queues"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
+				"command"		"manage_queues"
+				"proportionalToParent"	"1"
+				"actionSignalLevel"	"3"
 			
-				"paintbackground"	"0"
+				"paintBackground"	"0"
 			
-				"defaultfgcolor_override" "46 43 42 255"
-				"armedfgcolor_override" "235 226 202 255"
-				"depressedfgcolor_override" "46 43 42 255"
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+				"image_drawColor"	"117 107 94 255"
+				"image_armedColor"	"200 80 60 255"
 				"SubImage"
 				{
-					"ControlName"	"ImagePanel"
+					"controlName"	"ImagePanel"
 					"fieldName"		"SubImage"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -405,7 +405,7 @@
 
 			"CloseButton"
 			{
-				"ControlName"	"CExImageButton"
+				"controlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
 				"xpos"			"rs1-6"
 				"ypos"			"10"
@@ -416,23 +416,23 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"labeltext"		""
+				"labelText"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				"Command"		"leave_queue"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
+				"command"		"leave_queue"
+				"proportionalToParent"	"1"
+				"actionSignalLevel"	"3"
 			
-				"paintbackground"	"0"
+				"paintBackground"	"0"
 			
-		 		"image_drawcolor"	"255 255 255 255"
-				"image_armedcolor"	"237 135 150 255"
+		 		"image_drawColor"	"255 255 255 255"
+				"image_armedColor"	"237 135 150 255"
 				"SubImage"
 				{
-					"ControlName"	"ImagePanel"
+					"controlName"	"ImagePanel"
 					"fieldName"		"SubImage"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -449,7 +449,7 @@
 
 		"JoinPartyLobbyContainer"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"JoinPartyLobbyContainer"
 			"xpos"			"cs-0.5"
 			"ypos"			"-50"
@@ -457,11 +457,11 @@
 			"wide"			"220"
 			"tall"			"f0"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
 			"OuterShadow"
 			{
-				"ControlName"	"Panel"
+				"controlName"	"Panel"
 				"fieldName"		"OuterShadow"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -469,14 +469,14 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 
 				"border"		"OuterShadowBorderThin"
 			}
 
 			"BGPanel"
 			{
-				"ControlName"	"Panel"
+				"controlName"	"Panel"
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
@@ -484,14 +484,14 @@
 				"wide"			"f6"
 				"tall"			"f6"
 				"visible"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 
 				"border"		"ReplayDefaultBorder"
 			}
 
 			"PromptText"
 			{
-				"ControlName"	"Label"
+				"controlName"	"Label"
 				"fieldName"		"PromptText"
 				"xpos"			"cs-0.5"
 				"ypos"			"1"
@@ -501,16 +501,16 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
+				"fgColor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
+				"proportionalToParent"	"1"
+				"mouseInputEnabled"	"0"
 			}		
 
 			"JoinNowButton"
 			{
-				"ControlName"	"CExButton"
+				"controlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
 				"xpos"			"rs1-10"
 				"ypos"			"rs1-9"
@@ -530,15 +530,15 @@
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"Command"		"join_party_match"
-				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
-				"mouseinputenabled"	"1"
-				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"3"
+				"command"		"join_party_match"
+				"proportionalToParent"	"1"
+				"labelText"		"#TF_MM_JoinPartyLobby_Join"
+				"mouseInputEnabled"	"1"
+				"keyboardInputEnabled"	"0"
+				"actionSignalLevel"	"3"
 
-				"armedbgcolor_override"		"CreditsGreen"
-				"defaultbgcolor_override"	"SaleGreen"
+				"armedBgColor_override"		"CreditsGreen"
+				"defaultBgColor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -547,7 +547,7 @@
 
 		"QuitButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlName"	"CExImageButton"
 			"fieldName"		"QuitButton"
 			"xpos"			"rs1"
 			"ypos"			"rs1"
@@ -557,31 +557,31 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudMenuIco"
-			"labeltext"		"b"
+			"labelText"		"b"
 			"textAlignment"	"center"
-			"Command"		"quit"
+			"command"		"quit"
 
-			"mouseinputenabled"		"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"		"2"
+			"mouseInputEnabled"		"1"
+			"keyboardInputEnabled"	"0"
+			"actionSignalLevel"		"2"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"roundedcorners"			"8"
-			"defaultbgcolor_override"	"HudNegatDark"
-			"armedbgcolor_override"		"HudNegatLight"
-			"depressedbgcolor_override"	"HudNegat"
+			"roundedCorners"			"8"
+			"defaultBgColor_override"	"HudNegatDark"
+			"armedBgColor_override"		"HudNegatLight"
+			"depressedFgColor_override"	"HudNegat"
 
- 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"46 43 42 255"
+ 			"image_drawColor"	"255 255 255 255"
+			"image_armedColor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
+				"controlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -590,7 +590,7 @@
 
 		"DisconnectButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
 			"xpos"			"rs1"
 			"ypos"			"rs1"
@@ -600,31 +600,31 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudMenuIco"
-			"labeltext"		"b"
+			"labelText"		"b"
 			"textAlignment"	"center"
-			"Command"		"quit"
+			"command"		"quit"
 
-			"mouseinputenabled"		"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"		"2"
+			"mouseInputEnabled"		"1"
+			"keyboardInputEnabled"	"0"
+			"actionSignalLevel"		"2"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"roundedcorners"			"8"
-			"defaultbgcolor_override"	"HudNegatDark"
-			"armedbgcolor_override"		"HudNegatLight"
-			"depressedbgcolor_override"	"HudNegat"
+			"roundedCorners"			"8"
+			"defaultBgColor_override"	"HudNegatDark"
+			"armedBgColor_override"		"HudNegatLight"
+			"depressedFgColor_override"	"HudNegat"
 
- 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"46 43 42 255"
+ 			"image_drawColor"	"255 255 255 255"
+			"image_armedColor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
+				"controlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -633,7 +633,7 @@
 
 		"ResumeButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
 			"xpos"			"0"
 			"ypos"			"rs1"
@@ -643,28 +643,28 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"font"			"HudMenuIco"
-			"labeltext"		"/"
+			"labelText"		"/"
 			"textAlignment"	"center"
-			"Command"		"resume_game"
+			"command"		"resume_game"
 
-			"mouseinputenabled"		"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"		"2"
+			"mouseInputEnabled"		"1"
+			"keyboardInputEnabled"	"0"
+			"actionSignalLevel"		"2"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 
-			"roundedcorners"			"0"
+			"roundedCorners"			"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
- 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"46 43 42 255"
+ 			"image_drawColor"	"255 255 255 255"
+			"image_armedColor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
+				"controlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -673,7 +673,7 @@
 
 		"FindAGameButton"
 		{
-			"ControlName"	"CExImageButton"
+			"controlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -683,31 +683,31 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudMenuIco"
-			"labeltext"		"c"
+			"labelText"		"c"
 			"textAlignment"	"center"
-			"Command"		"find_game"
+			"command"		"find_game"
 
-			"mouseinputenabled"		"1"
-			"keyboardinputenabled"	"0"
-			"actionsignallevel"		"2"
+			"mouseInputEnabled"		"1"
+			"keyboardInputEnabled"	"0"
+			"actionSignalLevel"		"2"
 			
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 
-			"roundedcorners"			"0"
-			"defaultbgcolor_override"	"HudBonusDark"
-			"armedbgcolor_override"		"HudBonusLight"
-			"depressedbgcolor_override"	"HudBonus"
+			"roundedCorners"			"0"
+			"defaultBgColor_override"	"HudBonusDark"
+			"armedBgColor_override"		"HudBonusLight"
+			"depressedFgColor_override"	"HudBonus"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
- 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"46 43 42 255"
+ 			"image_drawColor"	"255 255 255 255"
+			"image_armedColor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
+				"controlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"

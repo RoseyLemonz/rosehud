@@ -15,7 +15,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -32,7 +32,7 @@
 	
 	"ItemEffectIcon"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"12"
 		"ypos"			"7"
@@ -47,7 +47,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"12"
 		"ypos"					"32"
@@ -60,13 +60,13 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"north"
-		"centerwrap"			"1"
+		"centerWrap"			"1"
 		"font"					"HudMeterLabel"
 	}
 
 	"ItemEffectMeter"
 	{	
-		"ControlName"			"ContinuousProgressBar"
+		"controlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"25"
@@ -83,7 +83,7 @@
 	
 	"ItemEffectMeterCount"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"24"
 		"ypos"					"11"

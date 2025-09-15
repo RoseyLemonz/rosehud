@@ -2,7 +2,7 @@
 {
 	"BorderBG"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"BorderBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -11,13 +11,13 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"Black"
+		"proportionalToParent"	"1"
+		"bgColor_override"	"Black"
 	}	
 	
 	"BackgroundGood"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"BackgroundGood"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -26,13 +26,13 @@
 		"tall"			"f2"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"HudTertiary"
+		"proportionalToParent"	"1"
+		"bgColor_override"	"HudTertiary"
 	}
 	
 	"MoneyImagePanel"
 	{
-		"ControlName"		"ImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"MoneyImagePanel"
 		"xpos"		"2"
 		"ypos"		"cs-0.5"
@@ -43,15 +43,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	
 	"CurrencyGood"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"HudBonus"
+		"fgColor"		"HudBonus"
 		"xpos"			"9"
 		"ypos"			"cs-0.5"
 		"zpos"			"4"
@@ -65,10 +65,10 @@
 	
 	"CurrencyBad"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"Black"
+		"fgColor"		"Black"
 		"xpos"			"9"
 		"ypos"			"cs-0.5"
 		"zpos"			"4"
@@ -76,7 +76,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}

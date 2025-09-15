@@ -11,12 +11,12 @@
 		"wide"			"270"
 		"tall"			"f88"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"Title"
 	{
-		"ControlName"	"Label"
+		"controlName"	"Label"
 		"fieldName"		"Title"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -25,7 +25,7 @@
 
 	"criteria"
 	{
-		"ControlName"	"CCasualCriteriaPanel"
+		"controlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
 		"xpos"			"-3"
 		"ypos"			"2"
@@ -33,12 +33,12 @@
 		"wide"			"f0"
 		"tall"			"f40"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"ToolTipButtonHack"
 	{
-		"ControlName"	"EditablePanel"
+		"controlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -47,7 +47,7 @@
 
 	"QueueButton"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"rs1-5"
 		"ypos"			"rs1-10"
@@ -63,12 +63,12 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		"find_game"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
+		"command"		"find_game"
+		"proportionalToParent"	"1"
+		"labelText"		"#TF_Matchmaking_StartSearch"
+		"mouseInputEnabled"	"1"
+		"keyboardInputEnabled"	"0"
+		"actionSignalLevel"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -79,6 +79,6 @@
 
 		"defaultBgColor_override"	"HudPrimary"
 		"armedBgColor_override"		"HudPrimaryLight"
-		"depressedBgColor_override"	"HudPrimaryDark"
+		"depressedbgColor_override"	"HudPrimaryDark"
 	}
 }

@@ -15,7 +15,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -23,7 +23,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -31,7 +31,7 @@
 
 	"ItemEffectLabel"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectLabel"
 		"xpos"					"9999"
 		"wide"					"0"
@@ -40,7 +40,7 @@
 	
 	"ItemEffectMeter"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -48,7 +48,7 @@
 
 	"StreakIcon"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"StreakIcon"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -60,12 +60,12 @@
 		"textAlignment"	"center"
 		"labelText"		"8"
 		"font"			"HudMenuIco"
-		"proportionaltoparent"	"1"
-		"fgcolor_override"	"HudPrimary"
+		"proportionalToParent"	"1"
+		"fgColor_override"	"HudPrimary"
 	}			
 	"StreakIconShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"StreakIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -77,14 +77,14 @@
 		"textAlignment"	"center"
 		"labelText"		"8"
 		"font"			"HudMenuIco"
-		"proportionaltoparent"	"1"
-		"fgcolor_override"	"Black"
+		"proportionalToParent"	"1"
+		"fgColor_override"	"Black"
 		"pin_to_sibling"	"StreakIcon"
 	}			
 	
 	"ItemEffectMeterCount"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"24"
 		"ypos"					"rs1"
@@ -96,13 +96,13 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 		"font"					"HudAmmoReserve"
-		"fgcolor"				"HudPrimary"
-		"proportionaltoparent"	"1"
+		"fgColor"				"HudPrimary"
+		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
@@ -115,7 +115,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 		"font"					"HudAmmoReserve"
-		"fgcolor"				"black"
+		"fgColor"				"black"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }

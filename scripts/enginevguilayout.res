@@ -28,7 +28,7 @@
 		"xpos"		"1000"
 		"ypos"		"300"
 		"title"	"Hello HUDS.TF! :)"
-		"RoundedCorners"	"0"
-		"infocus_bgcolor_override"		"60 60 60 255"
+		"roundedCorners"	"0"
+		"infocus_bgColor_override"		"60 60 60 255"
 	}
 }

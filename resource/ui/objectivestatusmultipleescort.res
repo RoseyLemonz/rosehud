@@ -2,7 +2,7 @@
 {	
 	"ObjectiveStatusMultipleEscort"
 	{
-		"ControlName"		"EditablePanel"
+		"controlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusMultipleEscort"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -14,7 +14,7 @@
 	
 	"BlueEscortPanel"
 	{
-		"ControlName"		"CTFHudEscort"
+		"controlName"		"CTFHudEscort"
 		"fieldName"			"BlueEscortPanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"r80"
@@ -34,7 +34,7 @@
 
 	"RedEscortPanel"
 	{
-		"ControlName"		"CTFHudEscort"
+		"controlName"		"CTFHudEscort"
 		"fieldName"			"RedEscortPanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"r80"

@@ -3,7 +3,7 @@
 {
 	"info"
 	{
-		"ControlName"			"CTFTextWindow"
+		"controlName"			"CTFTextWindow"
 		"fieldName"				"info"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -16,6 +16,11 @@
 		"settitlebarvisible"	"0"
 	}
 
+	"BGDarken"	
+	{
+		"visible"	"0"
+	}
+
 	"frame_caption"
 	{
 		"xpos"		"9999"
@@ -23,14 +28,14 @@
 
 	"MessageTitle"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"9999"
 	}
 
 	"TFMessageTitle"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -48,7 +53,7 @@
 
 	"TextMessage"
 	{
-		"ControlName"	"TextEntry"
+		"controlName"	"TextEntry"
 		"fieldName"		"TextMessage"
 		"visible"		"0"
 		"enabled"		"0"
@@ -56,7 +61,7 @@
 
 	"TFTextMessage"
 	{
-		"ControlName"	"CExRichText"
+		"controlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
 		"xpos"			"cs-0.5"
@@ -68,14 +73,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintborder"	"0"
+		"paintBorder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 	}
 
 	"HTMLMessage"
 	{
-		"ControlName"	"HTML"
+		"controlName"	"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"cs-0.5"
 		"ypos"			"125"
@@ -86,12 +91,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintborder"	"0"
+		"paintBorder"	"0"
 	}
 	
 	"ok"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
@@ -108,7 +113,7 @@
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
 		"default"			"1"
-		"roundedcorners"	"0"
+		"roundedCorners"	"0"
 		"defaultBgColor_override"	"DarkerBlack"
 	}
 }

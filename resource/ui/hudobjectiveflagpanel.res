@@ -2,7 +2,7 @@
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"controlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -20,7 +20,7 @@
 	
 	"LeftSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -29,7 +29,7 @@
 		
 	"RightSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -38,7 +38,7 @@
 		
 	"OutlineBG"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -47,7 +47,7 @@
 	
 	"BlueScore"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-95"
 		"ypos"			"rs1"
@@ -59,9 +59,9 @@
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"White"
-		"bgcolor_override"	"BlueTeamTransparent"
-		"roundedcorners"	"1"
+		"fgColor"		"White"
+		"bgColor_override"	"BlueTeamTransparent"
+		"roundedCorners"	"1"
 		"paintBackgroundType"	"2"
 		
 		"if_hybrid"
@@ -87,7 +87,7 @@
 		
 	"BlueScoreShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -99,7 +99,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"Black"
+		"fgColor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 		
 		"if_hybrid"
@@ -125,7 +125,7 @@
 							
 	"RedScore"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c50"
 		"ypos"			"rs1"
@@ -137,9 +137,9 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"White"		
-		"bgcolor_override"	"RedTeamTransparent"
-		"roundedcorners"	"2"
+		"fgColor"		"White"		
+		"bgColor_override"	"RedTeamTransparent"
+		"roundedCorners"	"2"
 		"paintBackgroundType"	"2"
 
 		"if_hybrid"
@@ -165,7 +165,7 @@
 		
 	"RedScoreShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -177,7 +177,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"Black"		
+		"fgColor"		"Black"		
 		"pin_to_sibling"	"RedScore"
 		
 		"if_hybrid"
@@ -203,7 +203,7 @@
 															
 	"OutlineImage"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"cs-0.5"
 		"ypos"			"r46"
@@ -218,7 +218,7 @@
 	
 	"CarriedImage"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"cs-0.5"
 		"ypos"			"r48"	[$WIN32]
@@ -243,7 +243,7 @@
 	
 	"PlayingTo"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"cs-0.5"	[$WIN32]
 		"ypos"			"rs1"	[$WIN32]
@@ -254,10 +254,10 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"south"
-		"textinsety"	"-5"
+		"textinsetY"	"-5"
 		"font"			"HudFontSmallestBold"
-		"fgcolor"		"White"
-		"bgcolor_override"	"TransparentBlack"
+		"fgColor"		"White"
+		"bgColor_override"	"TransparentBlack"
 		"use_proportional_insets"	"1"
 		
 		"if_hybrid"
@@ -283,7 +283,7 @@
 
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -292,7 +292,7 @@
 		
 	"BlueFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
+		"controlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-45"
 		"ypos"			"r58"	[$WIN32]
@@ -331,7 +331,7 @@
 			
 	"RedFlag"
 	{
-		"ControlName"	"CTFFlagStatus"
+		"controlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c0"
 		"ypos"			"r58"	[$WIN32]
@@ -370,7 +370,7 @@
 			
 	"CaptureFlag"
 	{
-		"ControlName"	"CTFArrowPanel"
+		"controlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"cs-0.5"
 		"ypos"			"r58"	[$WIN32]
@@ -393,7 +393,7 @@
 
 	"PoisonIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"PoisonIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"r82"
@@ -408,7 +408,7 @@
 
 	"PoisonTimeLabel"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"PoisonTimeLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"r80"
@@ -420,14 +420,14 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudChalk20"
-		"fgcolor"		"White"
-		"bgcolor_override"	"TransparentBlack"
+		"fgColor"		"White"
+		"bgColor_override"	"TransparentBlack"
 		"paintBackgroundType"	"2"
 	}
 	
 	"SpecCarriedImage"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
 		"ypos"			"r137"	[$WIN32]

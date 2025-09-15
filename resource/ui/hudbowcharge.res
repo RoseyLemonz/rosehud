@@ -2,7 +2,7 @@
 {	
 	"ChargeMeter"
 	{	
-		"ControlName"	"ContinuousProgressBar"
+		"controlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"xpos"			"9999"
 	}					

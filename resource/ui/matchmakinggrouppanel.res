@@ -7,36 +7,36 @@
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"20"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"BGPanel"
 	{
 		"fieldName"			"BGPanel"
-		"ControlName"		"EditablePanel"
+		"controlName"		"EditablePanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"wide"				"p1"
 		"tall"				"f0"
 
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"paintBackgroundType"	"0"
-		"bgcolor_override"		"Black"
+		"bgColor_override"		"Black"
 	}
 
 	"Checkbutton"
 	{
-		"ControlName"		"CExCheckButton"
+		"controlName"		"CExCheckButton"
 		"fieldName"		"Checkbutton"
 		"xpos"		"0"
 		"ypos"		"2"
 		"zpos"		"3"
 		"wide"		"f0"
 		"tall"		"15"
-		"proportionaltoparent"	"1"
-		"labeltext"		""
+		"proportionalToParent"	"1"
+		"labelText"		""
 		"smallcheckimage"	"1"
-		"fgcolor_override"	"White"	
+		"fgColor_override"	"White"	
 		"font"				"HudFontSmallBold"
 
 		"sound_depressed"			"UI/buttonclickrelease.wav"	

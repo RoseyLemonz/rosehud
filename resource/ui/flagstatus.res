@@ -2,7 +2,7 @@
 {	
 	"Arrow"
 	{
-		"ControlName"	"CTFArrowPanel"
+		"controlName"	"CTFArrowPanel"
 		"fieldName"		"Arrow"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -15,7 +15,7 @@
 	}
 	"Briefcase"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"Briefcase"
 		"xpos"			"14"
 		"ypos"			"16"
@@ -37,7 +37,7 @@
 	}				
 	"StatusIcon"
 	{
-		"ControlName"	"CTFImagePanel"
+		"controlName"	"CTFImagePanel"
 		"fieldName"		"StatusIcon"
 		"xpos"			"-6"
 		"ypos"			"4"

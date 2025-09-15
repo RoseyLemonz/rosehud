@@ -2,7 +2,7 @@
 {
 	"avatar"
 	{
-		// "ControlName"	"CAvatarImagePanel"
+		// "controlName"	"CAvatarImagePanel"
 		"fieldName"		"avatar"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -10,13 +10,13 @@
 		"wide"			"f2"
 		"tall"			"f2"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"scaleImage"	"1"
 	}
 
 	"EmptyImage"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"EmptyImage"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -24,15 +24,15 @@
 		"wide"			"f2"
 		"tall"			"f2"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"scaleImage"	"1"
 		"image"			"class_portraits/silhouette_alpha"
-		"mouseinputenabled"	"0"
+		"mouseInputEnabled"	"0"
 	}
 
 	"LeaderIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"LeaderIcon"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -43,12 +43,12 @@
 		"enabled"		"1"
 		"image"			"importtool_goldstar"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
+		"mouseInputEnabled"	"0"
 	}
 
 	"BannedIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"BannedIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -59,14 +59,14 @@
 		"enabled"		"1"
 		"image"			"glyph_alert"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-		"proportionaltoparent"	"1"
-		"drawcolor"	"255 0 0 255"
+		"mouseInputEnabled"	"0"
+		"proportionalToParent"	"1"
+		"drawColor"	"255 0 0 255"
 	}
 
 	"OutOfDateIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"OutOfDateIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -77,14 +77,14 @@
 		"enabled"		"1"
 		"image"			"glyph_alert"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-		"proportionaltoparent"	"1"
-		"drawcolor"	"OrangeDim"
+		"mouseInputEnabled"	"0"
+		"proportionalToParent"	"1"
+		"drawColor"	"OrangeDim"
 	}
 
 	"OfflineIcon"
 	{
-		"ControlName"	"ImagePanel"
+		"controlName"	"ImagePanel"
 		"fieldName"		"OfflineIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -95,14 +95,14 @@
 		"enabled"		"1"
 		"image"			"gc_dc"
 		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-		"proportionaltoparent"	"1"
-		"drawcolor"	"OrangeDim"
+		"mouseInputEnabled"	"0"
+		"proportionalToParent"	"1"
+		"drawColor"	"OrangeDim"
 	}
 
 	"StatusDimmer"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"StatusDimmer"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -110,13 +110,13 @@
 		"wide"			"f2"
 		"tall"			"f2"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"TransparentBlack"
+		"proportionalToParent"	"1"
+		"bgColor_override"	"TransparentBlack"
 	}
 
 	"InteractButton"
 	{
-		"ControlName"	"CExImageButton"
+		"controlName"	"CExImageButton"
 		"fieldName"		"InteractButton"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -132,19 +132,19 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"Command"		"interact"
-		"proportionaltoparent"	"1"
-		"labeltext"		""
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
+		"command"		"interact"
+		"proportionalToParent"	"1"
+		"labelText"		""
+		"mouseInputEnabled"	"1"
+		"keyboardInputEnabled"	"0"
+		"actionSignalLevel"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"0 0 0 100"
-		"depressedBgColor_override"	"TransparentBlack"
+		"depressedbgColor_override"	"TransparentBlack"
 
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"FriendHighlightBorderThick"
@@ -152,7 +152,7 @@
 
 	"Spinner"
 	{
-		"ControlName"	"CTFLogoPanel"
+		"controlName"	"CTFLogoPanel"
 		"fieldName"		"Spinner"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -160,12 +160,12 @@
 		"wide"			"f2"
 		"tall"			"f2"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"proportionalToParent"	"1"
+		"mouseInputEnabled"	"0"
 		"alpha"			"200"
 
 		"radius"		"26"
 		"velocity"		"60"
-		"fgcolor_override"	"Orange"
+		"fgColor_override"	"Orange"
 	}
 }

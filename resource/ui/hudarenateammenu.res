@@ -3,7 +3,7 @@
 {
 	"team"
 	{
-		"ControlName"	"CTeamMenu"
+		"controlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -17,7 +17,7 @@
 
 	"SysMenu"
 	{
-		"ControlName"	"Menu"
+		"controlName"	"Menu"
 		"fieldName"		"SysMenu"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -31,7 +31,7 @@
 
 	"teambutton2"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"cs-0.5"
 		"ypos"			"150"
@@ -46,18 +46,18 @@
 		"command"		"jointeam spectate"
 		"font"			"HudFontBiggerBold"
 		
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedFgColor_override" "HudPrimaryDark"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"cs-0.5"
 		"ypos"			"300"
@@ -72,18 +72,18 @@
 		"command"		"jointeam spectatearena"
 		"font"			"HudFontMediumBold"
 		
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
+		"defaultBgColor_override" 	"Black"
+		"armedBgColor_override"		"HudPrimary"
+		"depressedFgColor_override" "HudPrimaryDark"
 
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override"		"Black"
+		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
+		"controlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -98,13 +98,13 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
+		"roundedCorners"	"0"
 		"defaultBgColor_override"	"DarkerBlack"
 	}
 		
 	"TeamMenuAuto"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"0"
 		"ypos"			"110"
@@ -119,11 +119,11 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 	}
 	"TeamMenuAutoShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuAutoShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -138,13 +138,13 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"HudFontBiggerBold"
-		"fgcolor"		"Black"
+		"fgColor"		"Black"
 		"pin_to_sibling"	"TeamMenuAuto"
 	}
 	
 	"TeamMenuSpectate"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"0"
 		"ypos"			"255"
@@ -159,12 +159,12 @@
 		"textAlignment"	"north"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"White"
+		"fgColor"		"White"
 	}
 
 	"TeamMenuSpectateShadow"
 	{
-		"ControlName"	"CExLabel"
+		"controlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectateShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -179,13 +179,13 @@
 		"textAlignment"	"north"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"Black"
+		"fgColor"		"Black"
 		"pin_to_sibling"	"TeamMenuSpectate"
 	}
 
 	"BGDarken"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"BGDarken"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -194,7 +194,7 @@
 
 	"ChalkBG"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"ChalkBG"
 		"xpos"			"9999"
 		"wide"			"0"

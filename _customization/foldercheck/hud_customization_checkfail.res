@@ -4,7 +4,7 @@
 	{
 		"CheckFailedBox"
 		{
-			"ControlName"	"EditablePanel"
+			"controlName"	"EditablePanel"
 			"fieldName"		"CheckFailedBox"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.45"
@@ -12,18 +12,18 @@
 			"wide"			"f80"
 			"tall"			"150"
 			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"paintborder"	"1"
-			"bgcolor_override"	"Black"
+			"paintBackgroundType"	"0"
+			"paintBorder"	"1"
+			"bgColor_override"	"Black"
 			
 			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
-			"mouseinputenabled"	"0"
+			"mouseInputEnabled"	"0"
 
 			"WarningLabel"
 			{
-				"ControlName"							"CExLabel"
+				"controlName"							"CExLabel"
 				"fieldName"								"WarningLabel"
 				"xpos"									"cs-0.5"
 				"ypos"									"15"
@@ -31,15 +31,15 @@
 				"tall"									"30"
 				"visible"								"1"
 				"enabled"								"1"
-				"proportionaltoparent"					"1"
+				"proportionalToParent"					"1"
 				"labelText"								"#rose_Foldercheck_Warning"
 				"font"									"HudfontBiggerBold"
 				"textAlignment"							"center"
-				"fgcolor"								"HudBonusLight"
+				"fgColor"								"HudBonusLight"
 			}
 			"Text"
 			{
-				"ControlName"							"CExLabel"
+				"controlName"							"CExLabel"
 				"fieldName"								"Text"
 				"xpos"									"cs-0.5"
 				"ypos"									"60"
@@ -47,15 +47,15 @@
 				"tall"									"35"
 				"visible"								"1"
 				"enabled"								"1"
-				"proportionaltoparent"					"1"
+				"proportionalToParent"					"1"
 				"labelText"								"#rose_Foldercheck"
 				"font"									"HudfontSmall"
-				"centerwrap"							"1"
-				"fgcolor"								"Gray"
+				"centerWrap"							"1"
+				"fgColor"								"Gray"
 			}
 			"HudFolderName"
 			{
-				"ControlName"							"CExLabel"
+				"controlName"							"CExLabel"
 				"fieldName"								"HudFolderName"
 				"xpos"									"cs-0.5"
 				"ypos"									"105"
@@ -63,11 +63,11 @@
 				"tall"									"20"
 				"visible"								"1"
 				"enabled"								"1"
-				"proportionaltoparent"					"1"
+				"proportionalToParent"					"1"
 				"labelText"								"#rose_Foldercheck_HudName"
 				"font"									"HudfontMediumSmallSecondary"
 				"textAlignment"							"center"
-				"fgcolor"								"White"
+				"fgColor"								"White"
 			}
 		}
 	}

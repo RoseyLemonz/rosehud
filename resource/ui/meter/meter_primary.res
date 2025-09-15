@@ -16,7 +16,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"Panel"
+		"controlName"	"Panel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -24,14 +24,14 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"TransparentBlack"
+		"bgColor_override"	"TransparentBlack"
 		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
+		"controlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"6"
@@ -50,7 +50,7 @@
 
 	"ItemEffectMeter"
 	{	
-		"ControlName"			"ContinuousProgressBar"
+		"controlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"cs-0.5"
@@ -62,12 +62,12 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"MeterColor"
     {
-        "ControlName"	"ImagePanel"
+        "controlName"	"ImagePanel"
         "fieldName"		"MeterColor"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -76,11 +76,11 @@
         "tall"			"4"
         "visible"		"1"
         "enabled"		"1"
-        "proportionaltoparent"		"1"
+        "proportionalToParent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawcolor"		"HudPrimary"
-		"proportionaltoparent"	"1"
+        "drawColor"		"HudPrimary"
+		"proportionalToParent"	"1"
 		"pin_to_sibling"	"ItemEffectMeter"
     }					
 }
