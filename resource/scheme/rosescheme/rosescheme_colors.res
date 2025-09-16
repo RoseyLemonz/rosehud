@@ -28,9 +28,6 @@ Scheme
 		"HudTertiaryLight"			"255 242 189 255"
 		"HudTertiaryDark"			"208 182 129 255"
 
-		"TrueBlack"					"0 0 0 255"
-		"DarkerBlack"				"26 23 22 255"
-
 		"RedTeamSolid"				"180 72 57 255"
 		"LightRedTeamSolid"			"200 82 67 255"
 		"DarkRedTeamSolid"			"140 52 37 255"
@@ -40,6 +37,20 @@ Scheme
 		"LightBlueTeamSolid"		"94 114 175 255"
 		"DarkBlueTeamSolid"			"54 74 115 255"
 		"BlueTeamTransparent"		"84 104 155 155"
+
+
+		// these colors are also the tan* colors
+		"White"						"255 255 255 255"
+		"TransparentWhite"			"255 255 255 196"
+		"Gray"						"180 180 180 255"
+		"TransparentGray"			"180 180 180 196"
+		"DarkGray"					"120 120 120 255"
+
+		"Black"						"46 43 42 255"
+		"DarkerBlack"				"26 23 22 255"
+		"TrueBlack"					"0 0 0 255"
+		"TransparentBlack"			"0 0 0 196"
+		"TransparentLightBlack"		"0 0 0 90"
 
 		//
 		//	DEFAULT HUD COLOR OVERRIDES

@@ -59,9 +59,16 @@
 
 	"ReturnButton"
 	{
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"defaultBgColor_override"	"0 0 0 125"
+		"armedBgColor_override"		"0 0 0 125"
+		"depressedBgColor_override"	"0 0 0 125"
 	}
 
 	"BGPanel"
