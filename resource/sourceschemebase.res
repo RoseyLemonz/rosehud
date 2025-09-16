@@ -43,35 +43,35 @@ Scheme
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
-		Button.bgColor					"Blank"
+		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
-		Button.armedBgColor				"Blank"				[$WIN32]
-		Button.armedBgColor				"190 115 0 255"		[$X360]
+		Button.ArmedBgColor				"Blank"				[$WIN32]
+		Button.ArmedBgColor				"190 115 0 255"		[$X360]
 		Button.DepressedTextColor		"White"
 		Button.DepressedbgColor			"Blank"
 		Button.FocusBorderColor			"Black"
 
 		CheckButton.TextColor			"White"
 		CheckButton.SelectedTextColor		"White"
-		CheckButton.bgColor			"TransparentBlack"
+		CheckButton.BgColor			"TransparentBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check			"White"	// color of the check itself
 		CheckButton.HighlightfgColor		"OffWhite"
-		CheckButton.armedBgColor		"Blank"
+		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedbgColor		"Blank"
 		CheckButton.DisabledbgColor	   	"TransparentBlack"
 				
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.bgColor			"Blank"
+		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledbgColor	"Blank"
 
 		Frame.TitletextinsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.bgColor					"160 160 160 128"	[$WIN32]
-		Frame.bgColor					"80 80 80 192"		[$X360]
+		Frame.BgColor					"160 160 160 128"	[$WIN32]
+		Frame.BgColor					"80 80 80 192"		[$X360]
 		Frame.OutOfFocusbgColor			"160 160 160 32"	[$WIN32]
 		Frame.OutOfFocusbgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
@@ -80,51 +80,51 @@ Scheme
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.fgColor		"200 200 200 196"
-		FrameTitleButton.bgColor		"Blank"
+		FrameTitleButton.FgColor		"200 200 200 196"
+		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledfgColor	"255 255 255 192"
 		FrameTitleButton.DisabledbgColor	"Blank"
-		FrameSystemButton.fgColor		"Blank"
-		FrameSystemButton.bgColor		"Blank"
+		FrameSystemButton.FgColor		"Blank"
+		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.Font				"UiBold"		[$WIN32]
 		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
 		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.bgColor			"Blank"
+		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
 		FrameTitleBar.DisabledbgColor	"Blank"
 
-		GraphPanel.fgColor				"White"
-		GraphPanel.bgColor				"TransparentBlack"
+		GraphPanel.FgColor				"White"
+		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"DullWhite"
 		Label.TextColor					"OffWhite"
 		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
-		Label.bgColor					"Blank"
+		Label.BgColor					"Blank"
 		Label.DisabledfgColor1			"117 117 117 255"
 		Label.DisabledfgColor2			"30 30 30 255"
 
 		ListPanel.TextColor					"OffWhite"
-		ListPanel.TextbgColor				"Blank"
-		ListPanel.bgColor					"TransparentBlack"
+		ListPanel.TextBgColor				"Blank"
+		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedbgColor			"Orange"
+		ListPanel.SelectedBgColor			"Orange"
 		ListPanel.SelectedOutOfFocusbgColor	"255 155 0 128"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
-		Menu.bgColor					"160 160 160 64"
+		Menu.BgColor					"160 160 160 64"
 		Menu.ArmedTextColor				"Black"
-		Menu.armedBgColor				"Orange"
+		Menu.ArmedBgColor				"Orange"
 		Menu.TextInset					"6"
 
-		Panel.fgColor					"DullWhite"
-		Panel.bgColor					"Blank"
+		Panel.FgColor					"DullWhite"
+		Panel.BgColor					"Blank"
 
-		ProgressBar.fgColor				"White"
-		ProgressBar.bgColor				"TransparentBlack"
+		ProgressBar.FgColor				"White"
+		ProgressBar.BgColor				"TransparentBlack"
 
 		PropertySheet.TextColor			"OffWhite"
 		PropertySheet.SelectedTextColor	"White"
@@ -134,29 +134,29 @@ Scheme
 		RadioButton.SelectedTextColor	"White"
 
 		RichText.TextColor				"OffWhite"
-		RichText.bgColor				"TransparentBlack"
+		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedbgColor		"Orange"
+		RichText.SelectedBgColor		"Orange"
 
 		ScrollBar.Wide					17
 
-		ScrollBarButton.fgColor				"White"
-		ScrollBarButton.bgColor				"Blank"
-		ScrollBarButton.armedFgColor		"White"
-		ScrollBarButton.armedBgColor		"Blank"
-		ScrollBarButton.depressedFgColor	"White"
+		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedbgColor	"Blank"
 
-		ScrollBarSlider.fgColor				"Blank"			// nob color
-		ScrollBarSlider.bgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.FgColor				"Blank"			// nob color
+		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderbgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
 		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.bgColor			"TransparentBlack"
+		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedbgColor				"Orange"
+		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedbgColor	"255 155 0 128"
 
@@ -167,23 +167,23 @@ Scheme
 		Slider.DisabledTextColor2	"30 30 30 255"
 
 		TextEntry.TextColor			"OffWhite"
-		TextEntry.bgColor			"TransparentBlack"
+		TextEntry.BgColor			"TransparentBlack"
 		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledbgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedbgColor	"Orange"
+		TextEntry.SelectedBgColor	"Orange"
 		TextEntry.OutOfFocusSelectedbgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
 
 		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.bgColor				"Orange"
+		Tooltip.BgColor				"Orange"
 
-		TreeView.bgColor			"TransparentBlack"
+		TreeView.BgColor			"TransparentBlack"
 
-		WizardSubPanel.bgColor		"Blank"
+		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
@@ -201,7 +201,7 @@ Scheme
 		Console.DevTextColor		"White"
 
 		NewGame.TextColor			"White"
-		NewGame.fillColor			"0 0 0 255"
+		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"			[$WIN32]
 		NewGame.SelectionColor		"0 0 0 255"			[$X360]
 		NewGame.DisabledColor		"128 128 128 196"

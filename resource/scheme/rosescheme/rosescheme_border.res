@@ -2,37 +2,9 @@ Scheme
 {
 	Borders
 	{
-
-		//
-		//	DEFAULT HUD BORDER OVERRIDES
-		//
-
-		MainMenuSubButtonBorder
+		Blank
 		{
-			"inset" "0 0 1 0"
-			"proportional_scalar" "0.667"
-			Left
-			{
-				"1"
-				{
-					"color" "TrueBlack"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "TrueBlack"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ToolTipBorder
-		{
-			"inset" "0 0 0 0 "
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
@@ -69,6 +41,85 @@ Scheme
 				}
 			}
 		}
+
+		//
+		//	DEFAULT HUD BORDER OVERRIDES
+		//
+
+		MainMenuSubButtonBorder
+		{
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
+			Left
+			{
+				"1"
+				{
+					"color" "TrueBlack"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TrueBlack"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		TooltipBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		NotificationDefault
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"image"					"alert_rect"
+			"src_corner_height"		"32"			// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
+		}
+
 
 		QuickplayBorder
 		{
