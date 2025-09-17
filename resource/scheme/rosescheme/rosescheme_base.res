@@ -58,7 +58,7 @@ Scheme
 		ComboBoxButton.DisabledbgColor		"Blank"
 
 		Frame.BgColor						"TransparentBlack"
-		Frame.OutOfFocusbgColor				"TransparentBlack"
+		Frame.OutOfFocusBgColor				"TransparentBlack"
 		Frame.FocusTransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime			"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange					"0"
@@ -150,11 +150,11 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedbgColor	"255 255 255 32"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"HudPrimary"
+		Slider.TextColor			"White"
+		Slider.TrackColor			"HudBlack"
+		Slider.DisabledTextColor1	"White"
+		Slider.DisabledTextColor2	"White"
 
 		TextEntry.TextColor						"Gray"
 		TextEntry.BgColor						"Blank"

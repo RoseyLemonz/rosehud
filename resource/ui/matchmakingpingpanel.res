@@ -19,7 +19,6 @@
 
 	"BGPanel"
 	{
-
 		"roundedCorners"		"10"
 	}
 
@@ -115,7 +114,6 @@
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
-		"fgColor_override"		"TanDark"
 	}
 
 	"KeepPartyOnSameTeamLabel"
@@ -132,6 +130,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
+		"fgColor_override"		"Gray"
 
 		"sound_depressed"			"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"

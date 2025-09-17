@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "Resource/UI/TextWindow.res"
 {
 	"info"
@@ -14,11 +17,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"settitlebarvisible"	"0"
-	}
-
-	"BGDarken"	
-	{
-		"visible"	"0"
 	}
 
 	"frame_caption"

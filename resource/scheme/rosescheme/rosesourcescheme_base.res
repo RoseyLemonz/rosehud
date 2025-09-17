@@ -31,8 +31,9 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledbgColor	"Blank"
 
-		Frame.BgColor					"DarkerBlack"
-		FrameTitleBar.TextColor			"White"
+		Frame.BgColor						"DarkerBlack"
+		Frame.OutOfFocusBgColor				"0 0 0 222"
+		FrameTitleBar.TextColor				"White"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -99,11 +100,11 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedbgColor	"HudPrimaryTransparent"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"180 180 180 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"HudPrimary"
+		Slider.TextColor			"Blank"
+		Slider.TrackColor			"HudBlack"
+		Slider.DisabledTextColor1	"Gray"
+		Slider.DisabledTextColor2	"Gray"
 
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.BgColor			"TransparentBlack"

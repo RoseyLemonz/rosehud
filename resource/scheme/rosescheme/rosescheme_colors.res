@@ -39,7 +39,7 @@ Scheme
 		"BlueTeamTransparent"		"84 104 155 155"
 
 
-		// these colors are also the tan* colors
+		// these colors are also the Tan* colors
 		"White"						"255 255 255 255"
 		"TransparentWhite"			"255 255 255 196"
 		"Gray"						"180 180 180 255"

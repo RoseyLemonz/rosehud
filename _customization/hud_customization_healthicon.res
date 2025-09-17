@@ -4,11 +4,11 @@
 	{
 		"Customizations_Scroller"
 		{
-			"HUDShaders"
+			"HealthIcon"
 			{
 				"controlName"					"EditablePanel"
-				"fieldName"						"HUDShaders"
-				"xpos"							"rs1-7"
+				"fieldName"						"HealthIcon"
+				"xpos"							"cs-0.5"
 				"ypos"							"336"
 				"zpos"							"0"
 				"wide"							"94"
@@ -33,7 +33,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"use_proportional_insets"			"1"
-					"labelText"							"HUD Shaders"
+					"labelText"							"Health Icon"
 					"font"								"ItemFontNameSmallest"
 					"centerWrap"						"1"
 					"fgColor"							"Black"
@@ -42,10 +42,10 @@
 					"bgColor_override"					"HudPrimary"
 				}
 
-				"ShadersOn"
+				"IconOn"
 				{
 					"controlName"						"EditablePanel"
-					"fieldName"							"ShadersOn"
+					"fieldName"							"IconOn"
 					"xpos"								"7"
 					"ypos"								"20"
 					"zpos"								"20"
@@ -56,10 +56,10 @@
 					"proportionalToParent"				"1"
 					"paintBackground"					"0"
 
-					"ShadersOnButton"
+					"IconOnButton"
 					{
 						"controlName"						"CExButton"
-						"fieldName"							"ShadersOnButton"
+						"fieldName"							"IconOnButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"5"
@@ -71,7 +71,7 @@
 						"labelText"							"On"						
 						"font"								"HudFontSmallBold"
 						"textAlignment"						"center"
-						"command"							"engine hud_shaders_on"
+						"command"							"engine hud_healthicon_on"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultBgColor_override"			"HudBonusDark"
@@ -80,10 +80,10 @@
 					}
 				}
 
-				"ShadersOff"
+				"IconOff"
 				{
 					"controlName"						"EditablePanel"
-					"fieldName"							"ShadersOff"
+					"fieldName"							"IconOff"
 					"xpos"								"rs1-7"
 					"ypos"								"20"
 					"zpos"								"20"
@@ -94,10 +94,10 @@
 					"proportionalToParent"				"1"
 					"paintBackground"					"0"
 
-					"ShadersOffButton"
+					"IconOffButton"
 					{
 						"controlName"						"CExButton"
-						"fieldName"							"ShadersOffButton"
+						"fieldName"							"IconOffButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
 						"zpos"								"5"
@@ -109,7 +109,7 @@
 						"labelText"							"Off"						
 						"font"								"HudFontSmallBold"
 						"textAlignment"						"center"
-						"command"							"engine hud_shaders_off"
+						"command"							"engine hud_healthicon_off"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultBgColor_override"			"HudNegatDark"

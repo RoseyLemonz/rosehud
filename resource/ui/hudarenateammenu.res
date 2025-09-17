@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "Resource/UI/ArenaTeamMenu.res"
 {
 	"team"
@@ -185,20 +188,16 @@
 
 	"BGDarken"
 	{
-		"controlName"	"Panel"
-		"fieldName"		"BGDarken"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"		"9999"
+		"wide"		"0"
+		"visible"	"0"
 	}
 
 	"ChalkBG"
 	{
-		"controlName"	"Panel"
-		"fieldName"		"ChalkBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"		"9999"
+		"wide"		"0"
+		"visible"	"0"
 	}
 }
 

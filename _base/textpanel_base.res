@@ -5,9 +5,7 @@ x
 	{
 		"controlName"	"Panel"
 		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
+		"zpos"			"-15"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -31,13 +29,11 @@ x
 		"bgColor_override"		"TransparentBlack"
 	}
 	
-	"AsciiBG"
+	"ShaderBG"
 	{
 		"controlName"	"ImagePanel"
-		"fieldName"		"AsciiBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
+		"fieldName"		"ShaderBG"
+		"zpos"			"-10"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"

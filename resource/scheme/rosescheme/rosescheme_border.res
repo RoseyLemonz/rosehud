@@ -109,18 +109,6 @@ Scheme
 			}
 		}
 
-		NotificationDefault
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"alert_rect"
-			"src_corner_height"		"32"			// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"
-		}
-
-
 		QuickplayBorder
 		{
 			"inset" "0 0 1 1"

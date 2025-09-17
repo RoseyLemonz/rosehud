@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "Resource/UI/MapInfoMenu.res"
 {
 	"mapinfo"

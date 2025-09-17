@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "Resource/UI/ClassSelection.res"
 {
 	"class"
@@ -1358,10 +1361,5 @@
 		"zpos"			"1"
 		"wide"			"500"
 		"tall"			"260"
-	}
-
-	"BGDarken"
-	{
-		"wide"			"0"
 	}
 }
