@@ -76,7 +76,7 @@
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultBgColor_override"			"HudBonusDark"
 						"armedBgColor_override"				"HudBonusLight"
-						"depressedFgColor_override"			"HudBonus"
+						"depressedBgColor_override"			"HudBonus"
 					}
 				}
 
@@ -114,7 +114,7 @@
 						"sound_depressed"					"UI/buttonclick.wav"
 						"defaultBgColor_override"			"HudNegatDark"
 						"armedBgColor_override"				"HudNegatLight"
-						"depressedFgColor_override"			"HudNegat"
+						"depressedBgColor_override"			"HudNegat"
 					}
 				}
 			}

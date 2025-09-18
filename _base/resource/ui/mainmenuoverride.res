@@ -686,7 +686,7 @@
 		"xpos"			"314"
 		"ypos"			"94"
 		"zpos"			"50"
-		"wide"			"300"
+		"wide"			"260"
 		"tall"			"316"
 		"visible"		"0"
 		"bgColor_override"		"Black"
@@ -836,7 +836,7 @@
 			"tall"			"120"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"HudBonus"
+			"bgColor_override"	"HudBlack"
 			"paintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -846,10 +846,10 @@
 			"controlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"60"
+			"ypos"			"63"
 			"zpos"			"100"
-			"wide"			"220"
-			"tall"			"120"
+			"wide"			"210"
+			"tall"			"115"
 			"visible"		"1"
 			"proportionalToParent" "1"
 			
@@ -860,8 +860,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"220"
-				"tall"			"220"
+				"wide"			"210"
+				"tall"			"210"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"class_icons/filter_all"
@@ -890,10 +890,12 @@
 		{
 			"controlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"40"
-			"ypos"			"202"
-			"wide"			"240"
-			"tall"			"300"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-34"
+			"zpos"			"-1"
+			"wide"			"f45"	
+			"tall"			"85"
+			"proportionalToParent"	"1"
 			"paintBackgroundType"	"2"
 			"fgColor"		"HudWhite"
 			
@@ -901,12 +903,11 @@
 			{
 				"controlName"	"EditablePanel"
 				"fieldName"		"MOTD_TextPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"240"
-				"tall"			"300"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
 				"paintBackgroundType"	"2"
+				"proportionaltoparent"	"1"
 			
 				"MOTD_TextLabel"
 				{
@@ -914,17 +915,15 @@
 					"fieldName"		"MOTD_TextLabel"
 					"font"			"HudFontSmall"
 					"labelText"		"%motdtext%"
-					"textAlignment"	"north-west"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"250"
-					"tall"			"300"
+					"wide"			"f0"
+					"tall"			"f0"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"fgColor"		"HudWhite"
-					"centerWrap"			"1"
+					"wrap"			"1"
+					"proportionaltoparent"	"1"
 				}
 			}
 		}
@@ -2222,6 +2221,21 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+
+	"ChatPopupPin"
+	{
+		"fieldName"		"ChatPopupPin"
+		"ControlName"	"Panel"
+		"xpos"			"24"
+		"ypos"			"0"
+	}
+	"InviteNotifPin"
+	{
+		"fieldName"		"InviteNotifPin"
+		"ControlName"	"Panel"
+		"xpos"			"c-318"
+		"ypos"			"c-244"
 	}
 
 	"GeneralStoreButton"

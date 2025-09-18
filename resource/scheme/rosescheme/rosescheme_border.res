@@ -42,6 +42,81 @@ Scheme
 			}
 		}
 
+
+		BPActiveBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		BPInactiveBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "DarkGray"
+					"offset" "0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "DarkGray"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "DarkGray"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+
 		//
 		//	DEFAULT HUD BORDER OVERRIDES
 		//

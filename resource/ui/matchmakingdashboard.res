@@ -24,7 +24,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"f25"
+		"wide"			"f35"
 		"tall"			"28"
 		"visible"		"1"
 		"proportionalToParent"	"1"

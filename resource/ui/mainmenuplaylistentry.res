@@ -90,7 +90,7 @@
 		"ypos"			"cs-0.5"
 		"zpos"			"6"
 		"wide"			"122"
-		"tall"			"f15"
+		"tall"			"f12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%button_token%"

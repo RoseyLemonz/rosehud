@@ -24,7 +24,7 @@
 			
 			"Scrollbar"
 			{
-				"xpos"							"rs1+2"
+				"xpos"							"rs1+1"
 				"ypos"							"0"
 				"wide"							"4"
 				"tall"							"f0"
@@ -34,8 +34,7 @@
 
 				"Slider"
 				{
-					"paintBackgroundType"		"0"
-					"fgColor_override"			"White"
+					"fgColor_override"			"HudPrimary"
 				}
 			}
 		}
