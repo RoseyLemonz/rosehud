@@ -66,6 +66,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
+		"roundedCorners"	"0"
 		"defaultBgColor_override"	"0 0 0 125"
 		"armedBgColor_override"		"0 0 0 125"
 		"depressedBgColor_override"	"0 0 0 125"
