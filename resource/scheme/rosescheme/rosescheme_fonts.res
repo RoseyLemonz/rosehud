@@ -209,6 +209,28 @@ Scheme
 			}
 		}
 
+		"MenuClassSelect"
+		{
+			"1"
+			{
+				"name"		"tf2charactericons"
+				"tall"		"36"	[$LINUX]
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+
+		"MenuMiscSelect"
+		{
+			"1"
+			{
+				"name"		"tf2icons"
+				"tall"		"36"	[$LINUX]
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+
 		"HudSpecGuiHealth"
 		{
 			"1"
