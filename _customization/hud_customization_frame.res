@@ -37,7 +37,7 @@
 			"paintBackground"				"1"
 			"paintBackgroundType"			"2"
 			"roundedCorners"				"3"
-			"bgColor_override"				"Black"
+			"bgColor_override"				"DarkBlack"
 		}
 
 		"Footer"
@@ -61,7 +61,7 @@
 			"paintBackground"				"1"
 			"paintBackgroundType"			"2"
 			"roundedCorners"				"12"
-			"bgColor_override"				"Black"
+			"bgColor_override"				"DarkBlack"
 		}
 
 		"BottomBGHighlight"
@@ -293,11 +293,10 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Black"
 			"armedFgColor_override"			"HudPrimary"
-			"armedBgColor_override"			"Black"
 			"depressedFgColor_override"		"HudPrimaryLight"
-			"depressedFgColor_override"		"Black"
+			
+			"paintBackground"	"0"
 
 			"roundedCorners"				"0"
 		}

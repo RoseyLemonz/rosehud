@@ -43,8 +43,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackgroundType"	"0"
-		"bgColor_override"		"TrueBlack"
-	}					
+		"bgColor_override"		"DarkestGray"
+	}		
+	"BackgroundFooter"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"-5"
+		"ypos"			"420"
+		"zpos"			"40"
+		"wide"			"f-5"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgColor_override"		"DarkerBlack"
+		"border"				"FooterWithAccent"
+	}			
 	
 	"Sheet"
 	{
@@ -61,10 +75,15 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
-			"xpos"			"9999"
-			"wide"			"0"
-			"visible"		"0"
-		}				
+			"xpos"			"0"
+			"ypos"			"31"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"DarkGray"
+		}					
 		
 		"tabskv"
 		{
@@ -77,35 +96,7 @@
 			"activeborder_override"		"BPActiveBorder"
 			"normalborder_override" 	"BPInactiveBorder"
 		}
-	}
-	"BackgroundFooter"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"40"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkerBlack"
-	}				
-	"FooterLine"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FooterLine"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgColor_override"	"HudPrimary"
-		"pin_to_sibling"	"BackgroundFooter"
-	}			
+	}		
 	"BackButton"
 	{
 		"ControlName"	"CExButton"

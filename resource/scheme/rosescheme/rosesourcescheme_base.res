@@ -31,7 +31,7 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledbgColor	"Blank"
 
-		Frame.BgColor						"DarkerBlack"
+		Frame.BgColor						"DarkBlack"
 		Frame.OutOfFocusBgColor				"0 0 0 222"
 		FrameTitleBar.TextColor				"White"
 

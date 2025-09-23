@@ -115,7 +115,7 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkerBlack"
+		"bgColor_override"		"DarkBlack"
 		"roundedCorners"		"1"
 	}
 }

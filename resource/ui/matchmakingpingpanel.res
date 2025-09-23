@@ -305,10 +305,12 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
+		"xpos"			"9999"
 		"visible"		"0"
 
 		if_left
 		{
+			"xpos"			"9999"
 			"visible"		"0"
 		}
 	}

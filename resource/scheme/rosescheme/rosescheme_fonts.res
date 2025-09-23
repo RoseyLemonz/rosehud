@@ -266,6 +266,30 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"ScoreboardVerySmallOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"ScoreboardSmallOutline"
+		{
+			"1"
+			{
+				"name"		"tf2secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 
 		"Customization_Font_TF"
 		{

@@ -77,6 +77,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionSignalLevel"	"2"
 			"proportionalToParent"	"1"
+			"defaultBgColor_override"	"HudBlack"
 
 		 	"image_drawColor"	"255 255 255 255"
 			"image_armedColor"	"46 43 42 255"
@@ -122,6 +123,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionSignalLevel"	"2"
 			"proportionalToParent"	"1"
+			"defaultBgColor_override"	"HudBlack"
 
 		 	"image_drawColor"	"255 255 255 255"
 			"image_armedColor"	"46 43 42 255"

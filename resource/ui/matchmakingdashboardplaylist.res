@@ -74,20 +74,9 @@
 
 	"BGPanel"
 	{
+		"xpos"			"-5"
+		"wide"			"f-5"
 		"roundedCorners"		"0"
-	}
-
-	"BottomBGHighlight"
-	{
-		"controlName"	"Panel"
-		"fieldName"		"BottomBGHighlight"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"150"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgColor_override"	"HudPrimary"
+		"border"				"FooterWithAccent"
 	}
 }

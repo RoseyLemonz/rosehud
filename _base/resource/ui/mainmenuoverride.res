@@ -442,7 +442,7 @@
 		"tall"			"85"
 		"visible"		"1"
 		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkerBlack"
+		"bgColor_override"		"DarkBlack"
 		"proportionalToParent"	"1"
 	}
 	
@@ -456,7 +456,7 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"bgColor_override"		"DarkerBlack"
+		"bgColor_override"		"DarkBlack"
 		
 		"TipSubLabel"
 		{
@@ -689,7 +689,7 @@
 		"wide"			"260"
 		"tall"			"316"
 		"visible"		"0"
-		"bgColor_override"		"Black"
+		"bgColor_override"		"DarkBlack"
 		"paintBackgroundType"	"2"
 		"proportionalToParent"	"1"
 
@@ -1022,7 +1022,7 @@
 		"wide"			"210"
 		"tall"			"95"
 		"visible"		"0"
-		"bgColor_override"	"DarkerBlack"
+		"bgColor_override"	"DarkBlack"
 		"paintBackgroundType"	"2"
 		
 		"Notifications_CloseButton"
@@ -1203,7 +1203,7 @@
 		"visible"		"1"
 
 		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkerBlack"
+		"bgColor_override"		"DarkBlack"
 
 		"TitleLabel"
 		{
@@ -1337,7 +1337,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"showpromocodes"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultBgColor_override"	"DarkBlack"
 	}
 
 	"StoreHasNewItemsImage"
@@ -2165,30 +2165,15 @@
 	{
 		"controlName"	"EditablePanel"
 		"fieldName"		"BottomBG"
-		"xpos"			"0"
+		"xpos"			"-5"
 		"ypos"			"420"
-		"wide"			"f0"
+		"wide"			"f-5"
 		"tall"			"f0"
 		"zpos"			"-1"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"2"
 		"bgColor_override"		"DarkerBlack"
-	}
-
-	"BottomBGHighlight"
-	{
-		"controlName"	"Panel"
-		"fieldName"		"BottomBGHighlight"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgColor_override"	"HudPrimary"
-		"pin_to_sibling"	"BottomBG"
+		"border"				"FooterWithAccent"
 	}
 
 	"icon_generator"
