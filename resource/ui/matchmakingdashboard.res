@@ -559,7 +559,6 @@
 			"font"			"HudMenuIco"
 			"labelText"		"b"
 			"textAlignment"	"center"
-			"use_proportional_insets"	"1"
 			"command"		"quit"
 
 			"mouseInputEnabled"		"1"

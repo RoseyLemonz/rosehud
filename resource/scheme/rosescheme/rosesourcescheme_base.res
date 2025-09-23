@@ -8,7 +8,7 @@ Scheme
 		Border.Selection				"HudPrimary"		// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
-		Button.BgColor					"HudBlack"
+		Button.BgColor					"DarkestGray"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"			
 		Button.DepressedTextColor		"White"
@@ -17,7 +17,7 @@ Scheme
 
 		CheckButton.TextColor			"White"
 		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"HudBlack"
+		CheckButton.BgColor				"DarkestGray"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
@@ -55,7 +55,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
-		Menu.BgColor					"HudBlack"
+		Menu.BgColor					"DarkestGray"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"HudPrimary"
 		Menu.TextInset					"6"
@@ -88,7 +88,7 @@ Scheme
 		ScrollBarButton.DepressedbgColor	"HudPrimaryDark"
 
 		ScrollBarSlider.FgColor				"HudPrimary"				// nob color
-		ScrollBarSlider.BgColor				"HudBlack"	// slider background color
+		ScrollBarSlider.BgColor				"DarkestGray"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderbgColor	"Blank"
@@ -102,7 +102,7 @@ Scheme
 
 		Slider.NobColor				"HudPrimary"
 		Slider.TextColor			"Blank"
-		Slider.TrackColor			"HudBlack"
+		Slider.TrackColor			"DarkestGray"
 		Slider.DisabledTextColor1	"Gray"
 		Slider.DisabledTextColor2	"Gray"
 
