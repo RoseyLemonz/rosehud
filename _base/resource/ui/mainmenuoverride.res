@@ -1376,11 +1376,6 @@
 				
 		"image_drawColor"	"255 255 255 255"
 		"image_armedColor"	"46 43 42 255"
-		
-		"if_taller"	
-		{
-			"xpos"		"25"
-		}
 
 		"SubImage"
 		{
@@ -1730,6 +1725,11 @@
 		"visible"		"1"
 		"pin_to_sibling"	"FixAllButton"
 		"pin_to_sibling_corner"	"1"
+
+		"if_taller"	
+		{
+			"xpos"		"9999"
+		}
 
 		"SubButton"
 		{

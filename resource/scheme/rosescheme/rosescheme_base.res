@@ -23,13 +23,13 @@ Scheme
 		Econ.Button.DepressedbgColor		"HudPrimary"
 		Econ.Button.DepressedFgColor		"Black"
 
-		Econ.Button.PresetDefaultColorFg		"White"
-		Econ.Button.PresetArmedColorFg			"White"
-		Econ.Button.PresetDepressedColorFg		"White"
-
-		Econ.Button.PresetDefaultColorBg		"LighterRed"
-		Econ.Button.PresetArmedColorBg			"LightRed"
-		Econ.Button.PresetDepressedColorBg		"TFOrange"
+		Econ.Button.PresetDefaultColorFg		"Black"
+		Econ.Button.PresetArmedColorFg			"Black"
+		Econ.Button.PresetDepressedColorFg		"Black"
+		
+		Econ.Button.PresetDefaultColorBg		"HudPrimaryDark"
+		Econ.Button.PresetArmedColorBg			"HudPrimaryLight"
+		Econ.Button.PresetDepressedColorBg		"HudPrimary"
 
 		Border.Bright			"Blank"		// the lit side of a control
 		Border.Dark				"Black"		// the dark/unlit side of a control
