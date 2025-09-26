@@ -178,6 +178,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"HudMenuIcoSmall"
+		{
+			"1"
+			{
+				"name"		"tf2icons"
+				"tall"		"15"	[$LINUX]
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
 		"HudInGameIco"
 		{
 			"1"

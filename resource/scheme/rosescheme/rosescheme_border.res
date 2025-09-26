@@ -433,7 +433,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_black"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_black"
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
@@ -445,7 +445,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_blackopaque"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blackopaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -456,7 +456,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_black"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_black"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -467,7 +467,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_redopaque"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -478,7 +478,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_redopaque"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaque"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -489,7 +489,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_red"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -500,7 +500,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_redopaquemore"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_redopaquemore"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -511,7 +511,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_blue"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blue"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -522,7 +522,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_blueopaquemore"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blueopaquemore"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -533,7 +533,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_blueopaque"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blueopaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
@@ -544,7 +544,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"../console/rose/hud/tournamentpanel/tournament_panel_blackopaque"
+			"image"					"replay/thumbnails/hud/tournamentpanel/tournament_panel_blackopaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
