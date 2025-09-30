@@ -97,9 +97,9 @@ Scheme
 
 		Menu.TextColor					"White"
 		Menu.BgColor					"DarkBlack"
-		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"HudPrimary"
-		Menu.TextInset					"6"
+		Menu.ArmedTextColor				"DarkGray"
+		Menu.ArmedBgColor				"DarkBlack"
+		Menu.TextInset					"8"
 
 		Chat.TypingText					"Orange"
 
@@ -190,5 +190,14 @@ Scheme
 		HudCaptureIcon.InActive			"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"		
+
+		// Top-left corner of the menu on the main screen
+		"Main.Menu.X"							"32"
+		"Main.Menu.Y"							"248"
+
+		// Blank space to leave beneath the menu on the main screen
+		"Main.BottomBorder"						"32"
+
+		"VguiScreenCursor"						"255 208 64 255"
 	}
 }
