@@ -1,3 +1,5 @@
+#base "../../_base/carat_base.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"
@@ -85,42 +87,6 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"roundedcorners"	"0"
 		}
-	}
-	
-	"CaratLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-288"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "HudPrimary"
-	}
-	"ClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"c-270"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"TauntCaratLabel"
@@ -252,7 +218,7 @@
 		"ControlName"	"Panel"
 		"FieldName"		"loadout_preset_pin"
 		"xpos"			"0"
-		"ypos"			"-35"
+		"ypos"			"-37"
 		"wide"			"0"
 		"tall"			"0"
 		"proportionaltoparent"	"1"
@@ -305,7 +271,7 @@
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
 		"xpos"			"cs-0.5-115"
-		"ypos"			"15"
+		"ypos"			"13"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -394,7 +360,7 @@
 		"textAlignment"		"center"
 		"font"				"HudFontMediumSmallBold"
 		"scaleImage"		"1"
-		"command"			"r_skin 0"
+		"command"			"sv_cheats 1; r_skin 0"
 		"paintbackground"	"1"
 		"proportionaltoparent"	"1"
 
@@ -415,7 +381,7 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueButton"
 		"xpos"				"cs-0.5+110"
-		"ypos"				"15"
+		"ypos"				"13"
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"25"
@@ -427,7 +393,7 @@
 		"textAlignment"		"center"
 		"font"				"HudFontMediumSmallBold"
 		"scaleImage"		"1"
-		"command"			"r_skin 1"
+		"command"			"sv_cheats 1; r_skin 1"
 		"paintbackground"	"1"
 
 		"defaultFgColor_override"	"BlueTeamSolid"

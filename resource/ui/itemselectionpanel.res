@@ -1,3 +1,5 @@
+#base "../../_base/carat_base.res"
+
 "Resource/UI/ItemSelectionPanel.res"
 {
 	"ItemSelectionPanel"
@@ -34,8 +36,8 @@
 			"text_forcesize"	"2"
 			"text_center"		"0"
 			"text_yoffset"		"0"
-			"inset_eq_y"		"55"
-			"inset_eq_x"		"55"
+			"inset_eq_y"		"9999"
+			"inset_eq_x"		"0"
 
 			"deferred_description"	"1"
 			"deferred_icon"			"1"
@@ -45,24 +47,24 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"54"
-			"tall"			"42"
+			"wide"			"55"
+			"tall"			"46"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_xpos"	"2"
-			"model_ypos"	"4" 
+			"model_ypos"	"6" 
 			"model_wide"	"50"
 			"model_tall"	"35"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
 			
-			"inset_eq_x"	"4"
-			"inset_eq_y"	"2"
+			"inset_eq_y"	"9999"
+			"inset_eq_x"	"0"
 
 			"deferred_description"	"1"
 			
@@ -86,43 +88,7 @@
 			"fgcolor"		"153 204 255 255"
 		}
 	}
-	
-	"CaratLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-288"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "HudPrimary"
-	}
-	"ClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"c-270"
-		"ypos"			"15"
-		"zpos"			"1"
-		"auto_wide_tocontents"	"1"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-		
+
 	"ItemSlotLabel"
 	{
 		"ControlName"		"CExLabel"
