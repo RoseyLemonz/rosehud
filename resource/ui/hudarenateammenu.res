@@ -48,14 +48,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontBiggerBold"
-		
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
-
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
@@ -74,14 +66,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectatearena"
 		"font"			"HudFontMediumBold"
-		
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
-
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"CancelButton"

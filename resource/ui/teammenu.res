@@ -133,10 +133,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
-
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
@@ -155,10 +151,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
-
-		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override" "HudPrimaryLight"
 	}
 
 	"CancelButton"
