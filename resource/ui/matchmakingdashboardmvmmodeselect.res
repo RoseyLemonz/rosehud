@@ -108,12 +108,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_MannUp"
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"mannup"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
@@ -125,8 +122,6 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"Black"
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -227,12 +222,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#TF_MvM_BootCamp"
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		"bootcamp"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
@@ -244,8 +236,6 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"Black"
 		}
 
 		"PlayOnCommunityServerExplanation"

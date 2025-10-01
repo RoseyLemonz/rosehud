@@ -45,7 +45,7 @@ Scheme
 		FooterWithAccent
 		{
    			"inset" "0 0 0 0"
-			"paintBackgroundType"	"0"
+			"backgroundtype"	"0"
 
 			Top
 			{
@@ -57,6 +57,46 @@ Scheme
 				"2"
 				{
 					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FooterWithAccentDark
+		{
+   			"inset" "0 0 0 0"
+			"backgroundtype"	"0"
+
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimaryDark"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudPrimaryDark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FooterWithAccentLight
+		{
+   			"inset" "0 0 0 0"
+			"backgroundtype"	"0"
+
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimaryLight"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudPrimaryLight"
 					"offset" "0 0"
 				}
 			}

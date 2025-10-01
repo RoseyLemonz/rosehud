@@ -74,8 +74,8 @@
 
 	"BGPanel"
 	{
-		"xpos"			"-5"
-		"wide"			"f-5"
+		"xpos"			"0"
+		"wide"			"f0"
 		"roundedCorners"		"0"
 		"border"				"FooterWithAccent"
 	}

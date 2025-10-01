@@ -42,23 +42,6 @@ x
 		"image"			"replay/thumbnails/shaders/textwindowascii"
 	}
 
-	"ButtonHighLight"
-	{
-		"controlName"	"Panel"
-		"fieldName"		"ButtonHighLight"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-35"
-		"zpos"			"10"
-		"wide"			"f0"
-		"tall"			"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintBackground"	"1"
-		"bgColor_override"	"HudPrimaryLight"
-	}	
-
 	"HiddenButtonBG"
 	{
 		"controlName"	"Panel"
@@ -67,12 +50,13 @@ x
 		"ypos"			"rs1"
 		"zpos"			"6"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"1"
 		"bgColor_override"	"DarkerBlack"
+		"border"			"FooterWithAccentLight"
 	}	
 }

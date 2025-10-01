@@ -201,7 +201,6 @@
 		"pin_to_sibling_corner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"proportionaltoparent"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping"
@@ -221,7 +220,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"proportionaltoparent"	"1"
 
 		"DataCenterList"

@@ -2165,9 +2165,9 @@
 	{
 		"controlName"	"EditablePanel"
 		"fieldName"		"BottomBG"
-		"xpos"			"-5"
+		"xpos"			"0"
 		"ypos"			"420"
-		"wide"			"f-5"
+		"wide"			"f0"
 		"tall"			"f0"
 		"zpos"			"-1"
 		"visible"		"1"

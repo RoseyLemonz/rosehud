@@ -276,9 +276,7 @@
 		"controlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
 		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

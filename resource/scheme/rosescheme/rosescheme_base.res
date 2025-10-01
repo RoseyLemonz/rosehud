@@ -16,7 +16,7 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 
 		Econ.Dialog.BgColor					"DarkerBlack"
-		Econ.Button.BgColor					"Black"
+		Econ.Button.BgColor					"DarkestGray"
 		Econ.Button.FgColor					"White"
 		Econ.Button.ArmedBgColor			"HudPrimaryLight"
 		Econ.Button.ArmedFgColor			"Black"
@@ -36,7 +36,7 @@ Scheme
 		Border.Selection		"Gray"		// the additional border color for displaying the default/selected button
 
 		Button.TextColor					"White"
-		Button.BgColor						"Black"
+		Button.BgColor						"DarkestGray"
 		Button.ArmedTextColor				"Black"
 		Button.ArmedBgColor					"HudPrimaryLight"
 		Button.SelectedTextColor			"Black"
@@ -96,9 +96,9 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
 		Menu.TextColor					"White"
-		Menu.BgColor					"DarkBlack"
 		Menu.ArmedTextColor				"DarkGray"
-		Menu.ArmedBgColor				"DarkBlack"
+		Menu.BgColor					"DarkestGray"
+		Menu.ArmedBgColor				"DarkestGray"
 		Menu.TextInset					"8"
 
 		Chat.TypingText					"Orange"

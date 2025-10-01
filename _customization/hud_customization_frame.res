@@ -205,7 +205,6 @@
 			"actionSignalLevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"Black"
 
 			"roundedCorners"				"0"
 		}
@@ -230,7 +229,6 @@
 			"actionSignalLevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"Black"
 
 			"roundedCorners"				"0"
 
@@ -261,7 +259,6 @@
 			"actionSignalLevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
-			"defaultBgColor_override"		"Black"
 
 			"roundedCorners"				"0"
 
@@ -286,8 +283,6 @@
 			"labelText"						"("
 			"font"							"HudMenuIco"
 			"textAlignment"					"center"
-			"textinsetX"					"0"
-			"textinsetY"					"0"
 			"command"						"engine cl_mainmenu_safemode 0; mat_queue_mode -1"
 			"actionSignalLevel"				"2"
 			"sound_depressed"				"UI/buttonclick.wav"

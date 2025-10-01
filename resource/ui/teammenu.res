@@ -84,7 +84,7 @@
 		"proportionalToParent"		"1"
 		"defaultBgColor_override"	"BlueTeamSolid"
 		"armedBgColor_override"		"LightBlueTeamSolid"
-		"depressedFgColor_override"	"DarkBlueTeamSolid"
+		"depressedBgColor_override"	"DarkBlueTeamSolid"
 
 		"depressedFgColor_override"	"Black"
 	}
@@ -112,7 +112,7 @@
 		"proportionalToParent"		"1"
 		"defaultBgColor_override"	"RedTeamSolid"
 		"armedBgColor_override"		"LightRedTeamSolid"
-		"depressedFgColor_override"	"DarkRedTeamSolid"
+		"depressedBgColor_override"	"DarkRedTeamSolid"
 
 		"depressedFgColor_override"	"Black"
 	}
@@ -133,10 +133,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
-
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
 
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"Black"
@@ -159,10 +155,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
-		
-		"defaultBgColor_override" 	"Black"
-		"armedBgColor_override"		"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
 
 		"defaultFgColor_override" 	"White"
 		"armedFgColor_override"		"Black"
