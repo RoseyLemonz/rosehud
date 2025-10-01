@@ -98,7 +98,7 @@ Scheme
 		Menu.TextColor					"White"
 		Menu.ArmedTextColor				"DarkGray"
 		Menu.BgColor					"DarkestGray"
-		Menu.ArmedBgColor				"DarkestGray"
+		Menu.ArmedBgColor				"Black"
 		Menu.TextInset					"8"
 
 		Chat.TypingText					"Orange"

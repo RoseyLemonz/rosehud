@@ -534,6 +534,7 @@
 			"font"			"HudMenuIco"
 			"textAlignment"	"center"
 			"command"		"motd_show"
+			"defaultbgcolor_override"	"Black"
 
 			"actionSignalLevel" "2"
 			"proportionalToParent"	"1"
@@ -578,6 +579,7 @@
 			"font"			"HudMenuIco"
 			"textAlignment"	"center"
 			"command"		"questlog"
+			"defaultbgcolor_override"	"Black"
 
 			"actionSignalLevel" "2"
 			"proportionalToParent"	"1"

@@ -96,6 +96,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
+			"defaultBgColor_override"	"Black"
+
 			"image_drawColor"	"255 255 255 255"
 			"image_armedColor"	"46 43 42 255"
 

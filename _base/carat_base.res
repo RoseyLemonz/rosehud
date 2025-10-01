@@ -29,7 +29,7 @@ x
 		"xpos"			"c-270"
 		"ypos"			"13"
 		"zpos"			"1"
-		"wide"			"240"
+		"auto_wide_tocontents"	"1"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"

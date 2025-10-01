@@ -58,14 +58,71 @@ Scheme
 		//	DEFAULT HUD COLOR OVERRIDES
 		//
 
-		"PartyMember1"	"137 180 250 255"
-		"PartyMember2"	"166 227 161 255"
-		"PartyMember3"	"249 226 175 255"
-		"PartyMember4"	"250 179 135 255"
-		"PartyMember5"	"243 139 168 255"
-		"PartyMember6"	"203 166 247 255"
+		"Orange"			"245 169 127 255"
+		"OrangeDim"			"245 169 127 120" 
+		"LightOrange"		"255 199 105 128" 
+		"GoalOrange"		"245 169 127 255"
+		"TFOrange"			"238 153 160 255"
 
-		// Since some things are hard coded Tan*
+		"Purple"			"198 160 246 255"
+
+		"QuestGold"			"238 212 159 255"
+
+		
+		"HalloweenThemeColor2015_Light"	"245 169 127 255"
+		"HalloweenThemeColor2015"		"238 153 160 255"
+		"HalloweenThemeColor2015_Dark"	"178 93 100 255"
+
+		"QuestUncommitted"		"166 218 149 255"
+		"QuestMap_Bonus"		"238 212 159 255"
+		"QuestMap_ActiveOrange"	"245 169 127 255"
+		"QuestMap_InactiveGrey"	"120 120 120 255"
+		"QuestMap_BGImages"		"55 55 55 255"
+
+		"PartyMember1"	"138 173 244 255 "
+		"PartyMember2"	"166 218 149 255"
+		"PartyMember3"	"238 212 159 255"
+		"PartyMember4"	"245 169 127 255"
+		"PartyMember5"	"237 135 150 255"
+		"PartyMember6"	"198 160 246 255"
+		"Red"				"237 135 150 140"
+		"RedSolid"			"237 135 150 255"
+		"Blue"				"138 173 244 140"
+		"Yellow"			"238 212 159 255"
+		"TransparentYellow"	"238 212 159 140"
+		"BrightYellow"		"255 232 179 255"
+		"GreenSolid"		"166 218 149 255"
+
+		"HUDBlueTeam"		"84 104 155 196"
+		"HUDRedTeam"		"180 72 57 196"
+		"HUDSpectator"		"120 120 120 127"
+		"HUDBlueTeamSolid"	"84 104 155 255"
+		"HUDRedTeamSolid"	"180 72 57 255"
+		"HUDDeathWarning"	"255 100 115 255"
+		"HudWhite"			"202 211 245 255"
+		"HudOffWhite"		"202 171 205 255"
+		"HudBlack"			"54 58 79 255"
+		"ProgressBarBlue"	"139 213 202 255"
+		"CreditsGreen"		"166 218 149 255"
+		"HudTrainingHint"	"238 212 159 255"
+
+		"HudPanelForeground"		"120 120 120 184"
+		"HudPanelBackground"		"120 120 120 184"
+		"HudPanelBorder"			"255 255 255 102"
+
+		"HudProgressBarActive"		"238 212 159 255"
+		"HudProgressBarInActive"	"198 182 119 255"
+		"HudProgressBarActiveLow"	"237 135 150 255"
+		"HudProgressBarInActiveLow"	"237 135 150 99"
+
+		"HudTimerProgressActive"	"255 230 200 255"
+		"HudTimerProgressInActive"	"40 40 40 255"
+		"HudTimerProgressWarning"	"255 100 115 255"
+
+		"StoreDarkTan"			"180 180 180 255"
+		"StoreGreen"			"166 218 149 255"
+
+		// Some things are hard coded Tan*
 		"TanLight"		"255 255 255 255"
 		"TanDark"		"180 180 180 255"
 		"TanDarker"		"120 120 120 255"
