@@ -8,7 +8,7 @@
 		"wide"					"f0"
 		"tall"					"32"
 		"proportionalToParent"	"1"
-		"bgColor_override"		"blank"
+		"bgcolor_override"		"blank"
 
 		"collapsed_height"	"32"
 		"resize_time"	"0.15"
@@ -17,20 +17,20 @@
 	"BGPanel"
 	{
 		"fieldName"			"BGPanel"
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"-1"
 		"wide"				"f0"
 		"tall"				"f0"
 		"visible"			"1"
-		"paintBackgroundType"	"0"
-		"bgColor_override"	"Black"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"	"Black"
 	}
 
 	"TopContainer"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TopContainer"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -43,7 +43,7 @@
 
 		"bgColor"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"bgColor"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -55,12 +55,12 @@
 			"mouseInputEnabled"	"0"
 		
 			"proportionalToParent"	"1"
-			"bgColor_override"	"0 0 0 255"
+			"bgcolor_override"	"0 0 0 255"
 		}
 
 		"BGImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"BGImage"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -75,7 +75,7 @@
 
 		"EntryToggleButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryToggleButton"
 			"xpos"			"0"
 			"ypos"			"rs1"
@@ -97,11 +97,11 @@
 			"drawborder"	"0"
 			"roundedCorners"	"0"
 
-			"defaultFgColor_override"	"White"
+			"defaultfgcolor_override"	"White"
 
-			"defaultBgColor_override"	"TransparentBlack"
-			"armedBgColor_override"		"HudPrimaryDark"
-			"selectedbgColor_override"	"HudPrimaryDark"
+			"defaultbgcolor_override"	"TransparentBlack"
+			"armedbgcolor_override"		"HudPrimaryDark"
+			"selectedbgcolor_override"	"HudPrimaryDark"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -113,7 +113,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"4"
 				"ypos"			"cs-0.5"
@@ -131,7 +131,7 @@
 		"Shade"
 		{
 			"fieldName"			"Shade"
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"xpos"				"9999"
 			"wide"				"0"
 			"visible"			"0"
@@ -139,7 +139,7 @@
 
 		"Checkbutton"
 		{
-			"controlName"	"CExCheckButton"
+			"ControlName"	"CExCheckButton"
 			"fieldName"		"Checkbutton"
 			"xpos"			"r27"
 			"ypos"			"-1"
@@ -153,12 +153,12 @@
 			"sound_depressed"	"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
 
-			"fgColor"	"White"
+			"fgcolor"	"White"
 		}
 
 		"Title"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
 			"xpos"			"rs1-24"
 			"ypos"			"2"
@@ -175,12 +175,12 @@
 			"proportionalToParent" "1"
 			"mouseInputEnabled"	"0"
 
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 		}	
 
 		"TitleShadow"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
 			"xpos"			"rs1-23"
 			"ypos"			"3"
@@ -198,12 +198,12 @@
 			"proportionalToParent" "1"
 			"mouseInputEnabled"	"0"
 
-			"fgColor_override"		"Black"
+			"fgcolor_override"		"Black"
 		}
 
 		"DescLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -212,7 +212,7 @@
 
 		"DescLabelShadow"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -222,7 +222,7 @@
 
 	"PlayListDropShadow"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -231,7 +231,7 @@
 
 	"MapsContainer"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MapsContainer"
 		"xpos"			"rs1"
 		"ypos"			"0"
@@ -242,13 +242,13 @@
 		"enabled"		"1"
 		"proportionalToParent"	"1"
 		"drawborder"			"0"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"skip_autoResize"	"1"
 
-		"bgColor_override"	"36 33 32 255"
+		"bgcolor_override"	"36 33 32 255"
 	}
 }

@@ -6,7 +6,7 @@
 {
 	"class"
 	{
-		"controlName"	"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"class"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -20,7 +20,7 @@
 	
 	"SysMenu"
 	{
-		"controlName"	"Menu"
+		"ControlName"	"Menu"
 		"fieldName"		"SysMenu"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -55,7 +55,7 @@
 	}
 	"scout"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
 		"xpos"				"cs-0.5+70"
 		"ypos"				"cs-0.5-75"
@@ -69,10 +69,10 @@
 		"command"			"select 1"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -96,7 +96,7 @@
 	}
 	"soldier"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -110,10 +110,10 @@
 		"command"			"select 3"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -138,7 +138,7 @@
 	}
 	"pyro"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -152,10 +152,10 @@
 		"command"			"select 7"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -181,7 +181,7 @@
 
 	"demoman"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
 		"xpos"				"cs-0.5+70"
 		"ypos"				"cs-0.5"
@@ -195,10 +195,10 @@
 		"command"			"select 4"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -222,7 +222,7 @@
 	}
 	"heavyweapons"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -236,10 +236,10 @@
 		"command"			"select 6"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -265,7 +265,7 @@
 
 	"engineer"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -279,10 +279,10 @@
 		"command"			"select 9"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -308,7 +308,7 @@
 
 	"medic"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"cs-0.5+70"
 		"ypos"				"cs-0.5+70"
@@ -322,10 +322,10 @@
 		"command"			"select 5"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -350,7 +350,7 @@
 
 	"sniper"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -364,10 +364,10 @@
 		"command"			"select 2"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -393,7 +393,7 @@
 
 	"spy"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"6"
@@ -406,10 +406,10 @@
 		"command"			"select 8"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -435,7 +435,7 @@
 
 	"EditLoadoutButton"
 	{
-		"controlName"		"CExButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"EditLoadoutButton"
 		"xpos"				"cs-0.5+9"
 		"ypos"				"cs-0.5-30"
@@ -449,10 +449,10 @@
 		"command"			"openloadout"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -471,7 +471,7 @@
 	
 	"FakeLoadoutButton"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"FakeLoadoutButton"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -492,7 +492,7 @@
 
 	"random"
 	{
-		"controlName"		"CExImageButton"
+		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
 		"xpos"				"-3"
 		"ypos"				"0"
@@ -506,10 +506,10 @@
 		"command"			"select 12"
 		"font"				"HudClassSelect"
 		
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override"		"HudPrimaryDark"
-		"depressedFgColor_override"	"HudPrimaryLight"
-		"selectedfgColor_override"	"HudPrimaryDark"
+		"defaultfgcolor_override"	"White"
+		"armedfgcolor_override"		"HudPrimaryDark"
+		"depressedfgcolor_override"	"HudPrimaryLight"
+		"selectedfgcolor_override"	"HudPrimaryDark"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -535,7 +535,7 @@
 
 	"CancelButton"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -551,12 +551,12 @@
 		"command"		"vguicancel"
 		"font"			"HudFontSmallBold"
 		"roundedCorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}	
 
 	"ResetButton" 
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
 		"xpos"			"r470"
 		"ypos"			"r38"
@@ -583,7 +583,7 @@
 
 	"NewClassMenuSelect"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"NewClassMenuSelect"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -601,14 +601,14 @@
 	
 	"MenuBG"
 	{
-		"controlName"	"CModelPanel"
+		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 	}
 
 	"Hint"
 	{	
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Hint"
 		"xpos"			"c-300"
 		"ypos"			"95"
@@ -623,7 +623,7 @@
 		"textAlignment"	"left"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgColor"		"HudTrainingHint"
+		"fgcolor"		"HudTrainingHint"
 	}
 	"localPlayerImage"
 	{
@@ -635,7 +635,7 @@
 	
 	"localPlayerBG"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -732,7 +732,7 @@
 	
 	"CountLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -741,7 +741,7 @@
 
 	"CountLabel2"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel2"
 		"xpos"			"10"
 		"ypos"			"-58"
@@ -758,7 +758,7 @@
 	
 	"numScout"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -778,7 +778,7 @@
 	
 	"numSoldier"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -798,7 +798,7 @@
 	
 	"numPyro"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -818,7 +818,7 @@
 	
 	"numDemoman"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -838,7 +838,7 @@
 	
 	"numHeavy"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -858,7 +858,7 @@
 	
 	"numEngineer"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -878,7 +878,7 @@
 	
 	"numMedic"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -898,7 +898,7 @@
 	
 	"numSniper"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -918,7 +918,7 @@
 	
 	"numSpy"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -938,7 +938,7 @@
 	
 	"MvMUpgradeImageScout"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
 		"xpos"			"c-270"
 		"ypos"			"30"
@@ -953,7 +953,7 @@
 	
 	"MvMUpgradeImageSolider"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
 		"xpos"			"c-220"
 		"ypos"			"30"
@@ -968,7 +968,7 @@
 	
 	"MvMUpgradeImagePyro" 
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
 		"xpos"			"c-170"
 		"ypos"			"30"
@@ -983,7 +983,7 @@
 	
 	"MvMUpgradeImageDemoman" 
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
 		"xpos"			"c-80"
 		"ypos"			"30"
@@ -998,7 +998,7 @@
 	
 	"MvMUpgradeImageHeavy"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
 		"xpos"			"c-30"
 		"ypos"			"30"
@@ -1013,7 +1013,7 @@
 	
 	"MvMUpgradeImageEngineer"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
 		"xpos"			"c20"
 		"ypos"			"30"
@@ -1028,7 +1028,7 @@
 	
 	"MvMUpgradeImageMedic"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
 		"xpos"			"c108"
 		"ypos"			"30"
@@ -1043,7 +1043,7 @@
 	
 	"MvMUpgradeImageSniper"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
 		"xpos"			"c158"
 		"ypos"			"30"
@@ -1058,7 +1058,7 @@
 	
 	"MvMUpgradeImageSpy"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
 		"xpos"			"c208"
 		"ypos"			"30"
@@ -1073,7 +1073,7 @@
 
 	"StartExplanation"
 	{
-		"controlName"	"CExplanationPopup"
+		"ControlName"	"CExplanationPopup"
 		"fieldName"		"StartExplanation"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -1081,7 +1081,7 @@
 		"wide"			"250"
 		"tall"			"165"
 		"visible"		"0"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintBackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1096,7 +1096,7 @@
 		
 		"TitleLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_UpgradeExplanation_Title"
@@ -1110,12 +1110,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgColor_override" "46 43 42 255"
+			"fgcolor_override" "46 43 42 255"
 		}
 		
 		"TextLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#TF_MvM_UpgradeExplanation_Text"
@@ -1129,12 +1129,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgColor_override" "46 43 42 255"
+			"fgcolor_override" "46 43 42 255"
 		}
 		
 		"CloseButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
 			"xpos"			"280"
 			"ypos"			"5"
@@ -1154,15 +1154,15 @@
 			
 			"paintBackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultfgcolor_override" "46 43 42 255"
+			"armedfgcolor_override" "200 80 60 255"
+			"depressedfgcolor_override" "46 43 42 255"
 			
-			"image_drawColor"	"117 107 94 255"
-			"image_armedColor"	"200 80 60 255"
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -1179,7 +1179,7 @@
 	
 	"TFPlayerModel"
 	{
-		"controlName"	"CTFPlayerModelPanel"
+		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"cs-0.5-120"
@@ -1199,7 +1199,7 @@
 
 		"paintBackground" "1"		
 		"paintBackgroundenabled" "1"
-		"bgColor_override" "255 255 255 0"
+		"bgcolor_override" "255 255 255 0"
 		
 		"model"
 		{
@@ -1239,7 +1239,7 @@
 	
 	"ClassTipsPanel"
 	{
-		"controlName"	"CTFClassTipsPanel"
+		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -1248,7 +1248,7 @@
 	
 	"ClassHighlightPanel"
 	{
-		"controlName"	"CExplanationPopup"
+		"ControlName"	"CExplanationPopup"
 		"fieldName"		"ClassHighlightPanel"
 		"xpos"			"c-75"
 		"ypos"			"280"
@@ -1256,7 +1256,7 @@
 		"wide"			"250"
 		"tall"			"170"
 		"visible"		"0"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintBackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1273,7 +1273,7 @@
 		
 		"TitleLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#CMenu_ClassHighlightPanel_Title"
@@ -1287,12 +1287,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgColor_override" "46 43 42 255"
+			"fgcolor_override" "46 43 42 255"
 		}
 		
 		"ClassHighlightText"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ClassHighlightText"
 			"font"			"HudFontSmall"
 			"labelText"		"%ClassHighlightText%"
@@ -1306,12 +1306,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgColor_override" "46 43 42 255"
+			"fgcolor_override" "46 43 42 255"
 		}
 		
 		"CloseButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
 			"xpos"			"255"
 			"ypos"			"5"
@@ -1331,15 +1331,15 @@
 			
 			"paintBackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultfgcolor_override" "46 43 42 255"
+			"armedfgcolor_override" "235 226 202 255"
+			"depressedfgcolor_override" "46 43 42 255"
 			
-			"image_drawColor"	"117 107 94 255"
-			"image_armedColor"	"200 80 60 255"
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"

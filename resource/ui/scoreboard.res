@@ -2,7 +2,7 @@
 {
 	"scores"
 	{
-		"controlName"	"CTFClientScoreBoardDialog"
+		"ControlName"	"CTFClientScoreBoardDialog"
 		"fieldName"		"scores"
 		"xpos"			"cs-0.5+10"
 		"ypos"			"31"
@@ -27,7 +27,7 @@
 
 	"BlueScoreBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -35,7 +35,7 @@
 	}
 	"BlueTeamImage"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamImage"
 		"xpos"			"6"
 		"ypos"			"10"
@@ -54,7 +54,7 @@
 	}
 	"BlueLeaderAvatar"
 	{
-		"controlName"		"CAvatarImagePanel"
+		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"BlueLeaderAvatar"
 		"xpos"			"16"
 		"ypos"			"16"
@@ -69,7 +69,7 @@
 	}
 	"BlueLeaderAvatarBG"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueLeaderAvatarBG"
 		"xpos"			"14"
 		"ypos"			"14"
@@ -77,12 +77,12 @@
 		"wide"			"49"
 		"tall"			"49"
 		"visible"		"0"
-		"paintBackgroundType"	"2"
-		"bgColor_override"	"117 107 94 255"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"RedScoreBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -90,7 +90,7 @@
 	}
 	"RedTeamImage"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamImage"
 		"fieldName"		"BlueTeamImage"
 		"xpos"			"rs1+8"
@@ -111,7 +111,7 @@
 	}
 	"RedLeaderAvatar"
 	{
-		"controlName"		"CAvatarImagePanel"
+		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"RedLeaderAvatar"
 		"xpos"			"580"
 		"ypos"			"16"
@@ -126,7 +126,7 @@
 	}
 	"RedLeaderAvatarBG"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedLeaderAvatarBG"
 		"xpos"			"578"
 		"ypos"			"14"
@@ -134,12 +134,12 @@
 		"wide"			"49"
 		"tall"			"49"
 		"visible"		"0"
-		"paintBackgroundType"	"2"
-		"bgColor_override"	"117 107 94 255"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"MainBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
 		"ypos"			"72"
@@ -150,8 +150,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"2"
-		"bgColor_override"		"TransparentBlack"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"TransparentBlack"
 		"proportionalToParent"	"1"
 		
 		if_mvm
@@ -162,7 +162,7 @@
 	}							
 	"BlueTeamLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%blueteamname%"
@@ -184,7 +184,7 @@
 	}							
 	"BlueTeamScore"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
 		"font"			"HudFontGiantBold"
 		"labelText"		"%blueteamscore%"
@@ -199,8 +199,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textinsetX"	"15"
-		"paintBackgroundType"		"2"
-		"bgColor_override"			"BlueTeamTransparent"
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"			"BlueTeamTransparent"
 		"roundedCorners"			"5"
 		"use_proportional_insets"	"1"
 		"proportionalToParent"		"1"
@@ -212,10 +212,10 @@
 	}
 	"BlueTeamScoreDropshadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
 		"font"			"HudFontGiantBold"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"east"
 		"xpos"			"-2"
@@ -239,7 +239,7 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"ScoreboardTeamCountNew"
 		"labelText"		"%blueteamplayercount%"
@@ -261,7 +261,7 @@
 	}							
 	"RedTeamLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"%redteamname%"
@@ -284,7 +284,7 @@
 	}							
 	"RedTeamScore"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
 		"font"			"HudFontGiantBold"
 		"labelText"		"%redteamscore%"
@@ -299,8 +299,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textinsetX"	"15"
-		"paintBackgroundType"		"2"
-		"bgColor_override"			"RedTeamTransparent"
+		"paintbackgroundtype"		"2"
+		"bgcolor_override"			"RedTeamTransparent"
 		"roundedCorners"			"10"
 		"use_proportional_insets"	"1"
 		"proportionalToParent"		"1"
@@ -312,10 +312,10 @@
 	}
 	"RedTeamScoreDropshadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
 		"font"			"HudFontGiantBold"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"west"
 		"xpos"			"-2"
@@ -339,7 +339,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"ScoreboardTeamCountNew"
 		"labelText"		"%redteamplayercount%"
@@ -363,7 +363,7 @@
 	}
 	"BluePlayerList"
 	{
-		"controlName"	"SectionedListPanel"
+		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"2"
 		"ypos"			"75"
@@ -376,7 +376,7 @@
 		"autoResize"	"3"
 		"linespacing"	"15"
 		"linegap"		"1"
-		"fgColor"		"blue"
+		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
 		if_mvm
@@ -386,7 +386,7 @@
 	}
 	"RedPlayerList"
 	{
-		"controlName"	"SectionedListPanel"
+		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"rs1-2"
 		"ypos"			"75"
@@ -399,7 +399,7 @@
 		"autoResize"	"3"
 		"linespacing"	"15"
 		"linegap"		"1"
-		"fgColor"		"red"
+		"fgcolor"		"red"
 		"proportionalToParent"	"1"	
 		//"show_columns"	"1"
 
@@ -410,7 +410,7 @@
 	}
 	"VerticalLine"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"319"
 		"ypos"			"70"
@@ -422,7 +422,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillColor"		"0 0 0 153"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 		
 		if_mvm
 		{
@@ -431,7 +431,7 @@
 	}
 	"Spectators"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%spectators%"
@@ -454,7 +454,7 @@
 	}	
 	"SpectatorsInQueue"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -462,7 +462,7 @@
 	}							
 	"ShadedBar"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
 		"ypos"			"252"
@@ -473,8 +473,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"		"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 
 		if_mvm
@@ -484,7 +484,7 @@
 	}
 	"ClassImage"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -492,7 +492,7 @@
 	}
 	"classmodelpanel"
 	{
-		"controlName"	"CTFPlayerModelPanel"
+		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 
 		"xpos"			"9999"
@@ -627,7 +627,7 @@
 	}
 	"PlayerNameBG"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"PlayerNameBG"
 		"xpos"			"2"
 		"ypos"			"254"
@@ -648,7 +648,7 @@
 	}
 	"PlayerNameLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%playername%"
@@ -672,7 +672,7 @@
 	}		
 	"ServerLabelNew"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabelNew"
 		"font"			"ScoreboardSmall"
 		"labelText"		"%server%"
@@ -696,7 +696,7 @@
 
 	"ServerLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%server%"
@@ -718,7 +718,7 @@
 	}
 	"TimerBG"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"TimerBG"
 		"xpos"			"rs1"
 		"ypos"			"252"
@@ -729,8 +729,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"TransparentBlack"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 		
 		if_mvm
@@ -740,7 +740,7 @@
 	}
 	"ServerTimeLeftInsetBG"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ServerTimeLeftInsetBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -748,7 +748,7 @@
 	}		
 	"MapName"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
 		"font"			"ScoreboardSmall"
 		"labelText"		"%mapname%"
@@ -771,7 +771,7 @@
 	}
 	"ServerTimeLeft"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"%servertimeleft%"
@@ -794,7 +794,7 @@
 	}	
 	"ServerTimeLeftLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
 		"font"			"ScoreboardVerySmall"
 		"labelText"		"#Scoreboard_TimeLeftLabel"
@@ -819,7 +819,7 @@
 	}
 	"ServerTimeLeftValue"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftValue"
 		"font"			"ScoreboardMediumSmall"
 		"labelText"		"%servertime%"
@@ -833,7 +833,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgColor"		"BrightYellow"
+		"fgcolor"		"BrightYellow"
 		"centerWrap"	"1"
 		"proportionalToParent"	"1"
 		"pin_to_sibling"	"ServerTimeLeftLabel"
@@ -846,7 +846,7 @@
 	}		
 	"HorizontalLine"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"115"
 		"ypos"			"397"
@@ -858,7 +858,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillColor"		"127 127 127 153"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 		
 		if_mvm
 		{
@@ -867,7 +867,7 @@
 	}
 	"PlayerScoreLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
 		"font"		"ScoreboardMedium"
 		"labelText"		"%playerscore%"
@@ -890,7 +890,7 @@
 
 	"LocalPlayerDuelStatsPanel"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
 		"ypos"			"95"
@@ -909,7 +909,7 @@
 
 		"DuelingLabel"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
 			"font"			"ScoreboardSmall"
 			"labelText"		"#TF_ScoreBoard_Dueling"
@@ -927,7 +927,7 @@
 
 		"DuelingIcon"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"DuelingIcon"
 			"xpos"			"284"
 			"ypos"			"15"
@@ -942,7 +942,7 @@
 
 		"LocalPlayerData"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"LocalPlayerData"
 			"xpos"			"75"
 			"ypos"			"0"
@@ -955,7 +955,7 @@
 	
 			"AvatarBGPanel"
 			{
-				"controlName"	"EditablePanel"
+				"ControlName"	"EditablePanel"
 				"fieldName"		"AvatarBGPanel"
 				"xpos"			"157"
 				"ypos"			"7"
@@ -963,12 +963,12 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"paintBackgroundType"	"2"
-				"bgColor_override"	"117 107 94 255"
+				"paintbackgroundtype"	"2"
+				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
 			{
-				"controlName"	"CAvatarImagePanel"
+				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"AvatarImage"
 				"xpos"			"159"
 				"ypos"			"9"
@@ -983,9 +983,9 @@
 			}
 			"AvatarTextLabel"
 			{	
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgColor"		"TanLight"
+				"fgcolor"		"TanLight"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -1002,7 +1002,7 @@
 			}
 			"Score"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"east"
@@ -1021,7 +1021,7 @@
 
 		"OpponentData"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"OpponentData"
 			"xpos"			"325"
 			"ypos"			"0"
@@ -1034,7 +1034,7 @@
 	
 			"AvatarBGPanel"
 			{
-				"controlName"	"EditablePanel"
+				"ControlName"	"EditablePanel"
 				"fieldName"		"AvatarBGPanel"
 				"xpos"			"7"
 				"ypos"			"7"
@@ -1042,12 +1042,12 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"paintBackgroundType"	"2"
-				"bgColor_override"	"117 107 94 255"
+				"paintbackgroundtype"	"2"
+				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
 			{
-				"controlName"	"CAvatarImagePanel"
+				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"AvatarImage"
 				"xpos"			"9"
 				"ypos"			"9"
@@ -1062,9 +1062,9 @@
 			}
 			"AvatarTextLabel"
 			{	
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgColor"		"TanLight"
+				"fgcolor"		"TanLight"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -1081,7 +1081,7 @@
 			}
 			"Score"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"west"
@@ -1101,7 +1101,7 @@
 
 	"LocalPlayerStatsPanel"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"280"
@@ -1121,7 +1121,7 @@
 
 		"KillsLabel"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"K:"
@@ -1138,7 +1138,7 @@
 		}
 		"Kills"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Kills"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"%kills%"
@@ -1157,7 +1157,7 @@
 		}					
 		"DeathsLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DeathsLabel"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"D:"
@@ -1174,7 +1174,7 @@
 		}
 		"Deaths"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"%deaths%"
@@ -1193,7 +1193,7 @@
 		}					
 		"AssistsLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"AssistsLabel"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"A:"
@@ -1210,7 +1210,7 @@
 		}
 		"Assists"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"%assists%"
@@ -1229,7 +1229,7 @@
 		}	
 		"HealingLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"HealingLabel"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"H:"
@@ -1246,7 +1246,7 @@
 		}
 		"Healing"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
 			"font"			"ScoreboardMediumSmall"
 			"labelText"		"%healing%"
@@ -1266,7 +1266,7 @@
 		
 		"GameType"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -1274,7 +1274,7 @@
 		}						
 		"CapturesLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"CapturesLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
@@ -1291,7 +1291,7 @@
 		}				
 		"Captures"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Captures"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%captures%"
@@ -1310,7 +1310,7 @@
 		}			
 		"DefensesLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DefensesLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
@@ -1327,7 +1327,7 @@
 		}			
 		"Defenses"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%defenses%"
@@ -1346,7 +1346,7 @@
 		}						
 		"DominationLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DominationLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
@@ -1363,7 +1363,7 @@
 		}		
 		"Domination"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Domination"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%dominations%"
@@ -1382,7 +1382,7 @@
 		}					
 		"RevengeLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RevengeLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
@@ -1399,7 +1399,7 @@
 		}							
 		"Revenge"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%Revenge%"
@@ -1418,7 +1418,7 @@
 		}										
 		"InvulnLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
@@ -1435,7 +1435,7 @@
 		}
 		"Invuln"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%invulns%"
@@ -1454,7 +1454,7 @@
 		}
 		"HeadshotsLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"HeadshotsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
@@ -1471,7 +1471,7 @@
 		}
 		"Headshots"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%headshots%"
@@ -1490,7 +1490,7 @@
 		}		
 		"TeleportsLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TeleportsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
@@ -1507,7 +1507,7 @@
 		}
 		"Teleports"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%teleports%"
@@ -1526,7 +1526,7 @@
 		}	
 		"DestructionLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DestructionLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
@@ -1543,7 +1543,7 @@
 		}		
 		"Destruction"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%destruction%"
@@ -1562,7 +1562,7 @@
 		}					
 		"BackstabsLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
@@ -1579,7 +1579,7 @@
 		}
 		"Backstabs"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%backstabs%"
@@ -1598,7 +1598,7 @@
 		}		
 		"BonusLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
@@ -1615,7 +1615,7 @@
 		}
 		"Bonus"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%bonus%"
@@ -1634,7 +1634,7 @@
 		}
 		"SupportLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_Scoreboard_Support"
@@ -1651,7 +1651,7 @@
 		}
 		"Support"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%support%"
@@ -1670,7 +1670,7 @@
 		}
 		"DamageLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_Scoreboard_Damage"
@@ -1687,7 +1687,7 @@
 		}		
 		"Damage"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%damage%"
@@ -1708,7 +1708,7 @@
 	
 	"MvMScoreboard"
 	{
-		"controlName"		"CTFHudMannVsMachineScoreboard"
+		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"0"
 		"ypos"				"0"

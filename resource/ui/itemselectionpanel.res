@@ -52,7 +52,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"paintborder"	"1"
 
 			"model_xpos"	"2"
@@ -257,7 +257,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"disabledFgColor2_override"		"DarkGray"
+		"disabledfgcolor2_override"		"DarkGray"
 	}		
 	
 	"CurPageLabel"
@@ -296,7 +296,7 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"disabledFgColor2_override"		"DarkGray"
+		"disabledfgcolor2_override"		"DarkGray"
 		"pin_to_sibling"		"CurPageLabel"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}		
@@ -313,7 +313,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"

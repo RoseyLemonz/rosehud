@@ -2,7 +2,7 @@
 {
 	"Shade"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -12,14 +12,14 @@
 		"visible"		"1"
 		"proportionalToParent"	"1"
 		"mouseInputEnabled"	"0"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
-		"bgColor_override"	"0 0 0 255"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	"TitleGradient"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TitleGradient"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -28,7 +28,7 @@
 	
 	"InnerGradient"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
 		"xpos"		"1"
 		"rotation"		"2"
@@ -55,7 +55,7 @@
 
 	"OuterGradient"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -64,7 +64,7 @@
 
 	"CloseButton"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -73,7 +73,7 @@
 
 	"ReturnButton"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
 		"xpos"			"3"
 		"labelText"		"<"
@@ -96,16 +96,16 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-		"depressedbgColor_override"    "0 0 0 0"
+		"armedbgcolor_override"	"0 0 0 0"
+		"defaultbgcolor_override"	"0 0 0 0"
+		"depressedbgcolor_override"    "0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"armedfgcolor_override"	"Orange"
 	}
 	
 	"BGPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -114,8 +114,8 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionalToParent"	"1"
-		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkBlack"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkBlack"
 		"roundedCorners"		"1"
 	}
 }

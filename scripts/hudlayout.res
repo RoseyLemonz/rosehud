@@ -177,7 +177,7 @@
 		"tall"					"32"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	CHealthAccountPanel
@@ -189,8 +189,8 @@
 		"tall"  				"35"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"paintBackgroundType"	"2"
-		"bgColor_override"		"Blank"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"Blank"
 	}
 	
 	CDamageAccountPanel
@@ -202,7 +202,7 @@
 		"tall"					"480"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	
@@ -276,7 +276,7 @@
 		"wide"		"640"
 		"tall"		"480"
 		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	BuildingStatus_Engineer
@@ -289,7 +289,7 @@
 		"wide"		"640"
 		"tall"		"480"
 		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	HudMannVsMachineStatus
@@ -303,12 +303,12 @@
 		"wide"		"f0"
 		"tall"		"480"
 		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"CurrencyStatusPanel"
 	{
-		"controlName"		"CCurrencyStatusPanel"
+		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"c-235"
 		"ypos"				"r167"
@@ -318,7 +318,7 @@
 		"visible" 			"0"
 		"enabled" 			"1"
 		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	HudProgressBar
@@ -333,7 +333,7 @@
 
 		"BorderThickness" "1"
 
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	HudRoundTimer
@@ -346,7 +346,7 @@
 		"visible" "1"
 		"enabled" "1"
 		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		"FlashColor" "HudIcon_Red"		
 
@@ -366,7 +366,7 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		"IconColor"				"Hostage_Yellow"	
 	}
@@ -385,7 +385,7 @@
 		"text_ypos" "6"
 		"TextColor"	"255 170 0 220"
 
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	HudDamageIndicator
@@ -403,7 +403,7 @@
 		"visible" "1"
 		"enabled" "1"
 		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"BackgroundOverrideColor" "0 0 0 128"
 		
 		"bar_xpos"		"50"
@@ -752,7 +752,7 @@
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
 
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	overview
@@ -919,7 +919,7 @@
 
 	"HudChat"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
@@ -927,7 +927,7 @@
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"HudMenuEngyBuild"
@@ -939,7 +939,7 @@
 		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"195"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -951,7 +951,7 @@
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -963,7 +963,7 @@
 		"ypos"			"c-55"
 		"wide"			"250"
 		"tall"			"195"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -975,7 +975,7 @@
 		"ypos"			"c-52"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}	
 	
 	HudDemomanPipes
@@ -1155,7 +1155,7 @@
 	
 	"HudAchievementTracker"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
 		"NormalY"		"10"
@@ -1282,8 +1282,8 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"0 0 0 0"
-		"paintBackgroundType"	"0" // rounded corners
+		"bgcolor_override"	"0 0 0 0"
+		"paintbackgroundtype"	"0" // rounded corners
 	}
 
 	"HudAlert"
@@ -1307,8 +1307,8 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"0 0 0 0"
-		"paintBackgroundType"	"0" // rounded corners
+		"bgcolor_override"	"0 0 0 0"
+		"paintbackgroundtype"	"0" // rounded corners
 	}
 
 	CTFFlagCalloutPanel
@@ -1332,7 +1332,7 @@
 		"ypos"			"c-52"
 		"wide"			"470"
 		"tall"			"200"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	"ItemAttributeTracker"
@@ -1344,7 +1344,7 @@
 		"ypos"			"0"
 		"wide"			"f5"
 		"tall"			"f0"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	HudMiniGame
@@ -1371,7 +1371,7 @@
 
 	"MatchMakingContainer"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName" 		"MatchMakingContainer"
 		"visible" 		"1"
 		"enabled" 		"1"

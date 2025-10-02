@@ -2,7 +2,7 @@
 {	
 	"ObjectiveStatusEscort"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"cs-0.5"
 		"ypos"				"r78"
@@ -17,7 +17,7 @@
 	
 	"LevelBar"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"16"
 		"ypos"			"63"
@@ -33,7 +33,7 @@
 	
 	"ProgressBar"
 	{
-		"controlName"	"CTFHudEscortProgressBar"
+		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
 		"xpos"			"9999"
 		"wide"			"0"
@@ -42,7 +42,7 @@
 	
 	"HomeCPIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
 		"xpos"			"8"
 		"ypos"			"58"
@@ -82,7 +82,7 @@
 	
 	"SimpleControlPointTemplate"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"			"0"
 		"ypos"			"58"
@@ -100,7 +100,7 @@
 
 	"EscortItemPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -112,7 +112,7 @@
 				
 		"EscortItemImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
 			"xpos"			"24"
 			"ypos"			"30"
@@ -148,7 +148,7 @@
 		
 		"EscortItemImageBottom"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"	
 			"xpos"			"24"
 			"ypos"			"30"
@@ -184,7 +184,7 @@
 		
 		"EscortItemImageAlert"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageAlert"	
 			"xpos"			"0"
 			"ypos"			"0"
@@ -210,7 +210,7 @@
 		
 		"Speed_Backwards"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"xpos"			"36"
 			"ypos"			"44"
@@ -233,7 +233,7 @@
 		
 		"CapPlayerImage"
 		{
-			"controlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -243,7 +243,7 @@
 
 		"CapNumPlayers"
 		{	
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"HudFontSmallestBold"
 			"font"			"ItemFontNameSmallest"
@@ -269,7 +269,7 @@
 		
 		"RecedeTime"
 		{	
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
@@ -288,7 +288,7 @@
 		
 		"Blocked"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
 			"xpos"			"36"
 			"ypos"			"46"
@@ -313,7 +313,7 @@
 
 		"EscortTeardrop"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
 			"xpos"				"26"
 			"ypos"				"0"
@@ -331,7 +331,7 @@
 
 			"Teardrop"
 			{
-				"controlName"		"CIconPanel"
+				"ControlName"		"CIconPanel"
 				"fieldName"			"Teardrop"
 				"xpos"				"0"
 				"ypos"				"0"
@@ -347,7 +347,7 @@
 
 			"ProgressText"
 			{	
-				"controlName"		"Label"
+				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
 				"xpos"				"9999"
 				"wide"				"0"
@@ -356,7 +356,7 @@
 
 			"Blocked"
 			{
-				"controlName"		"CIconPanel"
+				"ControlName"		"CIconPanel"
 				"fieldName"			"Blocked"
 				"xpos"				"-2"
 				"ypos"				"-2"
@@ -373,7 +373,7 @@
 			
 			"Capping"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"Capping"	
 				"xpos"			"-6"
 				"ypos"			"-7"
@@ -391,7 +391,7 @@
 	}
 	"EscortHilightSwoop"
 	{
-		"controlName"	"CControlPointIconSwoop"
+		"ControlName"	"CControlPointIconSwoop"
 		"fieldName"		"EscortHilightSwoop"
 		"xpos"			"9999"
 		"alpha" 		"0"

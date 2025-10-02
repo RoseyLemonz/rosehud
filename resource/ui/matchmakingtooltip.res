@@ -2,7 +2,7 @@
 {
 	"TooltipPanel"
 	{
-	//	"controlName"	"EditablePanel"
+	//	"ControlName"	"EditablePanel"
 		"fieldName"		"TooltipPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -10,13 +10,13 @@
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"0"
-		"paintBackgroundType"	"0"
-		"bgColor_override"		"DarkerBlack"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"DarkerBlack"
 		"mouseInputEnabled"		"0"
 		
 		"TipLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
@@ -30,7 +30,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 			"auto_wide_toContents" "1"
 			"auto_tall_tocontents"	"1"
 			"wrap"	"1"

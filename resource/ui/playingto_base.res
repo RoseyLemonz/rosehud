@@ -4,7 +4,7 @@ x
 {	
 	"PlayingTo"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
@@ -16,9 +16,9 @@ x
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallestBold"
-		"fgColor"		"White"
-		"paintBackgroundType"	"2"
-		"bgColor_override"	"TransparentBlack"
+		"fgcolor"		"White"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"TransparentBlack"
 		"roundedCorners"	"3"
 		
 		"if_hybrid"
@@ -44,7 +44,7 @@ x
 
 	"PlayingToBG"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"9999"
 		"wide"			"0"

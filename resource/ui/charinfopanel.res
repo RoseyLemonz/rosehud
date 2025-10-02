@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 		"bgcolor_override"				"Blank"
 		"infocus_bgcolor_override"		"Blank"
 		"outoffocus_bgcolor_override"	"Blank"
@@ -41,8 +41,8 @@
 		"zpos"			"-1"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"0"
-		"bgColor_override"		"DarkestGray"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"DarkestGray"
 	}		
 	"BackgroundFooter"
 	{
@@ -55,7 +55,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"		"DarkerBlack"
+		"bgcolor_override"		"DarkerBlack"
 		"border"				"FooterWithAccent"
 	}			
 	

@@ -46,7 +46,7 @@
 		"textAlignment"	"center"
 		"Command"		"back"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_Back"
+		"labelText"		"#TF_Matchmaking_Back"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
@@ -54,7 +54,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"HudBlack"
+		"defaultbgcolor_override"	"DarkestGray"
 	}
 
 	"MannUpToolTipButtonHack"
@@ -91,7 +91,7 @@
 		"textAlignment"	"center"
 		"Command"		"start_search"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
+		"labelText"		"#TF_Matchmaking_StartSearch"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
@@ -99,8 +99,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"HudBonus"
-		"armedBgColor_override"		"HudBonusDark"
+		"defaultbgcolor_override"	"HudBonus"
+		"armedbgcolor_override"		"HudBonusDark"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -137,7 +137,7 @@
 		"textAlignment"	"center"
 		"Command"		"start_search"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_StartSearch"
+		"labelText"		"#TF_Matchmaking_StartSearch"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
@@ -145,8 +145,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"HudBonus"
-		"armedBgColor_override"		"HudBonusDark"
+		"defaultbgcolor_override"	"HudBonus"
+		"armedbgcolor_override"		"HudBonusDark"
 	}
 
 	"NextButton"
@@ -166,7 +166,7 @@
 		"textAlignment"	"center"
 		"Command"		"select_tour"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_MvM_SelectChallenge"
+		"labelText"		"#TF_MvM_SelectChallenge"
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
@@ -174,7 +174,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"HudBlack"
+		"defaultbgcolor_override"	"DarkestGray"
 	}
 
 	"JoinLateCheckButton"

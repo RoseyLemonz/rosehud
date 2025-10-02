@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 		"bgcolor_override"				"DarkBlack"
 		"infocus_bgcolor_override"		"DarkBlack"
 		"outoffocus_bgcolor_override"	"DarkBlack"
@@ -44,7 +44,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"paintborder"	"1"
 			
 			"model_center_x"	"1"
@@ -165,7 +165,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintborder"	"1"
 		
 		"text_ypos"			"15"
@@ -253,7 +253,7 @@
 		"autoResize"	"1"
 		"visible"		"0"
 		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	"TauntHintLabel"
@@ -285,8 +285,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 
 		"SubImage"
 		{
@@ -364,8 +364,8 @@
 		"paintbackground"	"1"
 		"proportionaltoparent"	"1"
 
-		"defaultFgColor_override"	"RedTeamSolid"
-		"armedFgColor_override"		"White"
+		"defaultfgcolor_override"	"RedTeamSolid"
+		"armedfgcolor_override"		"White"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -396,8 +396,8 @@
 		"command"			"sv_cheats 1; r_skin 1"
 		"paintbackground"	"1"
 
-		"defaultFgColor_override"	"BlueTeamSolid"
-		"armedFgColor_override"		"White"
+		"defaultfgcolor_override"	"BlueTeamSolid"
+		"armedfgcolor_override"		"White"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

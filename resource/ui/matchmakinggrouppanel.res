@@ -13,20 +13,20 @@
 	"BGPanel"
 	{
 		"fieldName"			"BGPanel"
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"wide"				"p1"
 		"tall"				"f0"
 
 		"proportionalToParent"	"1"
-		"paintBackgroundType"	"0"
-		"bgColor_override"		"Black"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"Black"
 	}
 
 	"Checkbutton"
 	{
-		"controlName"		"CExCheckButton"
+		"ControlName"		"CExCheckButton"
 		"fieldName"		"Checkbutton"
 		"xpos"		"0"
 		"ypos"		"2"
@@ -36,7 +36,7 @@
 		"proportionalToParent"	"1"
 		"labelText"		""
 		"smallcheckimage"	"1"
-		"fgColor_override"	"White"	
+		"fgcolor_override"	"White"	
 		"font"				"HudFontSmallBold"
 
 		"sound_depressed"			"UI/buttonclickrelease.wav"	

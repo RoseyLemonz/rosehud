@@ -14,7 +14,7 @@
 	
 	"AccountBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"AccountBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -22,14 +22,14 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"TransparentBlack"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 	}
 	
 	"MetalIcon"	
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"			"MetalIcon"
 		"xpos"				"1"
 		"ypos"				"0"
@@ -42,14 +42,14 @@
 		"textinsetY"		"-0.8"
 		"textAlignment"		"center"
 		"font"				"HudInGameIcoSmall"
-		"fgColor"			"HudPrimaryLight"
+		"fgcolor"			"HudPrimaryLight"
 		"proportionalToParent"		"1"
 		"use_proportional_insets"	"1"
 	}
 	
 	"AccountValue"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"rs1-6"
 		"ypos"			"0"
@@ -63,7 +63,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"east"
 		"font"			"HudMeterCountSmall"
-		"fgColor"		"HudPrimary"
+		"fgcolor"		"HudPrimary"
 		"proportionalToParent"		"1"
 	}
 }

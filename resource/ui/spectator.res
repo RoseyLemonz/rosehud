@@ -4,7 +4,7 @@
 {
 	"Spectator"
 	{
-		"controlName"		"Frame"
+		"ControlName"		"Frame"
 		"fieldName"		"Spectator"
 		"tall"			"480"
 		"autoResize"		"0"
@@ -18,7 +18,7 @@
 
 	"TopBar"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"ypos"			"9999"
 		"tall"			"0"
@@ -28,7 +28,7 @@
 
 	"BottomBar"
 	{
-		"controlName"	"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
 		"xpos"			"0"
 		"ypos"			"r70"
@@ -41,7 +41,7 @@
 
 	"BarBottom"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"BarBottom"
 		"xpos"			"12"
 		"ypos"			"rs1-12"
@@ -50,12 +50,12 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"TransparentBlack"
+		"paintbackgroundtype"	"2"
 	}
 	"BarBottomDarker"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"BarBottomDarker"
 		"xpos"			"17"
 		"ypos"			"rs1-17"
@@ -64,13 +64,13 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"DarkerBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"DarkerBlack"
+		"paintbackgroundtype"	"2"
 	}
 
 	"bottombarblank"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
 		"xpos"			"9999"
 		"tall"			"0"
@@ -79,7 +79,7 @@
 	}
 	"ReinforcementsLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"26"
 		"ypos"			"rs1-36"
@@ -94,12 +94,12 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
 		"paintBackground"	"1"
-		"bgColor_override"	"DarkerBlack"
+		"bgcolor_override"	"DarkerBlack"
 	}
 
 	"SpectatingLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SpectatingLabel"
 		"xpos"			"26"
 		"ypos"			"rs1-36"
@@ -114,12 +114,12 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallest"
 		"paintBackground"	"1"
-		"bgColor_override"	"DarkerBlack"
+		"bgcolor_override"	"DarkerBlack"
 	}
 
 	"BuyBackLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -138,7 +138,7 @@
 
 	"MapLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"26"
@@ -155,7 +155,7 @@
 
 	"ClassOrTeamLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -163,7 +163,7 @@
 
 	"SwitchCamModeKeyLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -171,42 +171,42 @@
 	}
 	"SwitchCamModeLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"9999"
 		"visible"		"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"9999"
 		"visible"		"0"
 	}
 	"CycleTargetFwdLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"9999"
 		"visible"		"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"9999"
 		"visible"		"0"
 	}
 	"CycleTargetRevLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"9999"
 		"visible"		"0"
 	}
 	"TipLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -214,7 +214,7 @@
 
 	"spectator_extras"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"spectator_extras"
 		"xpos"			"0"
 		"ypos"			"0"

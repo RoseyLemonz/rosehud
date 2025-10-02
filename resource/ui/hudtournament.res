@@ -2,7 +2,7 @@
 {
 	HudTournament
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"				"HudTournament"
 				
 		"xpos"					"c-125"
@@ -65,7 +65,7 @@
 
 		"ModeImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"cs-0.5"
 			"ypos"			"35"
@@ -116,7 +116,7 @@
 			
 			"playername"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
 				"xpos"			"5"
@@ -129,7 +129,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgColor"		"235 226 202 255"
+				//"fgcolor"		"235 226 202 255"
 					
 				if_mvm
 				{
@@ -163,7 +163,7 @@
 			
 			"classimage"
 			{
-				"controlName"	"CTFClassImage"
+				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"2"
 				"ypos"			"2"
@@ -206,7 +206,7 @@
 			
 			"classimagebg"
 			{
-				"controlName"		"Panel"
+				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"5"
 				"ypos"			"4"
@@ -215,8 +215,8 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-				"bgColor_override"		"Black"
-				"paintBackgroundType"	"0"
+				"bgcolor_override"		"Black"
+				"paintbackgroundtype"	"0"
 				
 				if_mvm
 				{
@@ -241,7 +241,7 @@
 			
 			"HealthIcon"
 			{
-				"controlName"		"EditablePanel"
+				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"22"
 				"ypos"				"-3"
@@ -267,7 +267,7 @@
 			
 			"ReadyBG"
 			{
-				"controlName"		"ScalableImagePanel"
+				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
@@ -280,7 +280,7 @@
 				"enabled"		"1"
 				"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-				"drawColor"		"Black"
+				"drawcolor"		"Black"
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
@@ -311,7 +311,7 @@
 			
 			"ReadyImage"
 			{
-				"controlName"		"ImagePanel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -348,7 +348,7 @@
 			
 			"respawntime"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
 				"xpos"			"30"
@@ -361,7 +361,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgColor"		"235 226 202 255"
+				//"fgcolor"		"235 226 202 255"
 				
 				if_competitive
 				{
@@ -376,7 +376,7 @@
 			
 			"chargeamount"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"DefaultSmall"
 				"xpos"			"25"
@@ -389,7 +389,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
-				"fgColor"		"0 255 0 255"
+				"fgcolor"		"0 255 0 255"
 				
 				if_mvm
 				{	
@@ -408,7 +408,7 @@
 			
 			"specindex"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
 				"xpos"			"4"
@@ -421,7 +421,7 @@
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgColor"		"235 226 202 255"
+				//"fgcolor"		"235 226 202 255"
 				
 				if_competitive
 				{
@@ -435,7 +435,7 @@
 
 	"HudTournamentBG"
 	{
-		"controlName"		"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -476,7 +476,7 @@
 	}
 	"TournamentLabel"
 	{	
-		"controlName"		"Label"
+		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"5"
@@ -513,7 +513,7 @@
 
 	"HudTournamentBLUEBG"
 	{
-		"controlName"		"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"5"
 		"ypos"			"23"
@@ -552,7 +552,7 @@
 	}
 	"TournamentBLUELabel"
 	{	
-		"controlName"		"Label"
+		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"12"
@@ -588,7 +588,7 @@
 	}
 	"TournamentBLUEStateLabel"
 	{	
-		"controlName"		"Label"
+		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"HudFontSmallestBold"
 		"xpos"			"56"
@@ -625,7 +625,7 @@
 
 	"HudTournamentREDBG"
 	{
-		"controlName"		"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"125"
 		"ypos"			"23"
@@ -664,7 +664,7 @@
 	}
 	"TournamentREDLabel"
 	{	
-		"controlName"		"Label"
+		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"175"
@@ -699,7 +699,7 @@
 	}
 	"TournamentREDStateLabel"
 	{	
-		"controlName"		"Label"
+		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"HudFontSmallestBold"
 		"xpos"			"130"
@@ -734,10 +734,10 @@
 	}
 	"TournamentConditionLabel"
 	{	
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
-		"fgColor"		"TanLight"
+		"fgcolor"		"TanLight"
 		"xpos"			"8"
 		"ypos"			"42"
 		"zpos"			"1"
@@ -776,7 +776,7 @@
 
 	"HudTournamentBGHelp"
 	{
-		"controlName"		"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"0"
 		"ypos"			"51"
@@ -813,7 +813,7 @@
 	}
 	"TournamentInstructionsLabel"
 	{	
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"TFFontSmall"
 		"xpos"			"0"
@@ -863,7 +863,7 @@
 	
 	"TournamentInstructionsLabelShadow"
 	{	
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
 		"font"			"TFFontSmall"
 		"xpos"			"0"
@@ -888,7 +888,7 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgColor"		"Black"
+			"fgcolor"		"Black"
 		}
 
 		if_competitive
@@ -899,7 +899,7 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgColor"		"Black"
+			"fgcolor"		"Black"
 		}
 
 		if_readymode
@@ -910,13 +910,13 @@
 			"wide"			"190"
 			"tall"			"20"
 			"visible"		"1"
-			"fgColor"		"Black"
+			"fgcolor"		"Black"
 		}
 	}
 
 	"TournamentReadyHintIcon"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentReadyHintIcon"
 		"font"			"GameUIButtonsSteamControllerSmallest"
 		"xpos"			"0"
@@ -958,7 +958,7 @@
 	
 	"CountdownBG"
 	{
-		"controlName"		"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"230"
 		"ypos"			"r55"
@@ -993,7 +993,7 @@
 
 	"CountdownLabel"
 	{	
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
 		"xpos"			"230"
@@ -1014,7 +1014,7 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
-			"fgColor"		"TanLight"
+			"fgcolor"		"TanLight"
 			"font"			"HudFontGiant"
 		}
 
@@ -1027,7 +1027,7 @@
 	
 	"CountdownLabelShadow"
 	{	
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
 		"xpos"			"231"
@@ -1042,7 +1042,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"proportionalToParent"	"1"
 
 		if_competitive

@@ -4,7 +4,7 @@
 	{
 		"CheckFailedBox"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"CheckFailedBox"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.45"
@@ -12,9 +12,9 @@
 			"wide"			"f80"
 			"tall"			"150"
 			"visible"		"1"	
-			"paintBackgroundType"	"0"
-			"paintBorder"	"1"
-			"bgColor_override"	"Black"
+			"paintbackgroundtype"	"0"
+			"paintborder"	"1"
+			"bgcolor_override"	"Black"
 			
 			"use_proportional_insets"	"1"
 			"proportionalToParent"	"1"
@@ -23,7 +23,7 @@
 
 			"WarningLabel"
 			{
-				"controlName"							"CExLabel"
+				"ControlName"							"CExLabel"
 				"fieldName"								"WarningLabel"
 				"xpos"									"cs-0.5"
 				"ypos"									"15"
@@ -35,11 +35,11 @@
 				"labelText"								"#rose_Foldercheck_Warning"
 				"font"									"HudfontBiggerBold"
 				"textAlignment"							"center"
-				"fgColor"								"HudBonusLight"
+				"fgcolor"								"HudBonusLight"
 			}
 			"Text"
 			{
-				"controlName"							"CExLabel"
+				"ControlName"							"CExLabel"
 				"fieldName"								"Text"
 				"xpos"									"cs-0.5"
 				"ypos"									"60"
@@ -51,11 +51,11 @@
 				"labelText"								"#rose_Foldercheck"
 				"font"									"HudfontSmall"
 				"centerWrap"							"1"
-				"fgColor"								"Gray"
+				"fgcolor"								"Gray"
 			}
 			"HudFolderName"
 			{
-				"controlName"							"CExLabel"
+				"ControlName"							"CExLabel"
 				"fieldName"								"HudFolderName"
 				"xpos"									"cs-0.5"
 				"ypos"									"105"
@@ -67,7 +67,7 @@
 				"labelText"								"#rose_Foldercheck_HudName"
 				"font"									"HudfontMediumSmallSecondary"
 				"textAlignment"							"center"
-				"fgColor"								"White"
+				"fgcolor"								"White"
 			}
 		}
 	}

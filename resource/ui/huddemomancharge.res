@@ -2,7 +2,7 @@
 {	
 	"MeterColor"
     {
-        "controlName"	"ImagePanel"
+        "ControlName"	"ImagePanel"
         "fieldName"		"MeterColor"
         "zpos"			"3"
         "wide"			"40"
@@ -12,13 +12,13 @@
         "proportionalToParent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawColor"		"HudPrimary"
+        "drawcolor"		"HudPrimary"
 		"pin_to_sibling"			"Chargemeter"
     }
 
 	"ChargeMeter"
 	{	
-		"controlName"	"ContinuousProgressBar"
+		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"cs-0.5"
@@ -30,6 +30,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgColor_override" "255 255 255 255"
+		"fgcolor_override" "255 255 255 255"
 	}					
 }

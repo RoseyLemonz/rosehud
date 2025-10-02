@@ -2,7 +2,7 @@
 {
 	"PlaylistBGPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -10,7 +10,7 @@
 		"wide"			"p0.98"
 		"tall"			"p1"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 
 		"pinCorner"		"2"
@@ -18,7 +18,7 @@
 
 		"RankImage"
 		{
-			"controlName"	"CTFLocalPlayerBadgePanel"
+			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
 			"xpos"			"rs1+12"
 			"ypos"			"-8"
@@ -35,7 +35,7 @@
 	
 		"RankPanel"
 		{
-			"controlName"	"CPvPRankPanel"
+			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
 			"xpos"			"0"
 			"ypos"			"-35"
@@ -54,7 +54,7 @@
 
 		"SaveCasualSearchCriteria"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
 			"xpos"			"rs1"
 			"ypos"			"40"
@@ -74,13 +74,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionSignalLevel"	"2"
 			"proportionalToParent"	"1"
-			"defaultBgColor_override"	"HudBlack"
+			"defaultbgcolor_override"	"HudBlack"
 
-		 	"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+		 	"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
@@ -97,7 +97,7 @@
 
 		"RestoreCasualSearchCriteria"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
 			"xpos"			"18"
 			"ypos"			"0"
@@ -117,15 +117,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionSignalLevel"	"2"
 			"proportionalToParent"	"1"
-			"defaultBgColor_override"	"HudBlack"
+			"defaultbgcolor_override"	"HudBlack"
 
-		 	"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+		 	"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"pin_to_sibling"	"SaveCasualSearchCriteria"
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
@@ -142,7 +142,7 @@
 
 		"ShowExplanationsButton"
 		{
-			"controlName"	"CExButton"
+			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -151,7 +151,7 @@
 
 		"Title"
 		{
-			"controlName"		"Label"
+			"ControlName"		"Label"
 			"fieldName"		"Title"
 			"xpos"		"10"
 			"ypos"		"38"
@@ -168,7 +168,7 @@
 
 		"SelectedCount"
 		{
-			"controlName"	"Label"
+			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -177,7 +177,7 @@
 
 		"QueueEstimation"
 		{
-			"controlName"		"Label"
+			"ControlName"		"Label"
 			"fieldName"		"QueueEstimation"
 			"xpos"		"rs1-5"
 			"ypos"		"18"
@@ -188,7 +188,7 @@
 			"labelText"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
 			"font"			"HudFontSmallest"
-			"fgColor_override"	"TanLight"
+			"fgcolor_override"	"TanLight"
 			"textinsetX"	"5"
 			"visible"	"0"
 		
@@ -197,7 +197,7 @@
 
 		"PlayListDropShadow"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayListDropShadow"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -206,7 +206,7 @@
 
 		"GameModesList"
 		{
-			"controlName"	"CScrollableList"
+			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"rs1"
 			"ypos"			"60"
@@ -219,7 +219,7 @@
 
 			"ScrollBar"
 			{
-				"controlName"	"ScrollBar"
+				"ControlName"	"ScrollBar"
 				"fieldName"		"ScrollBar"
 				"xpos"			"rs1+1"
 				"ypos"			"0"
@@ -231,7 +231,7 @@
 
 				"Slider"
 				{
-					"fgColor_override"	"HudPrimary"
+					"fgcolor_override"	"HudPrimary"
 				}
 		
 				"UpButton"

@@ -3,7 +3,7 @@
 	//Mouse over panel
 	"mouseoveritempanel"
 	{
-		"controlName"	"CItemModelPanel"
+		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"0"
 		"ypos"			"600"
@@ -11,10 +11,10 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgColor_override"		"0 0 0 0"
+		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"paintBackgroundType"	"2"
-		"paintBorder"	"1"
+		"paintbackgroundtype"	"2"
+		"paintborder"	"1"
 		
 		"text_ypos"			"0"
 		"text_center"		"1"
@@ -36,14 +36,14 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgColor"		"117 107 94 255"
+			"fgcolor"		"117 107 94 255"
 			"centerWrap"	"1"
 		}
 	}
 
 	"DoneButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"DoneButton"
 		"xpos"			"c175"
 		"ypos"			"372"
@@ -60,13 +60,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawColor"	"235 226 202 255"
+		"image_drawcolor"	"235 226 202 255"
 		"command"		"done"
 	}
 
 	"ParticlePanel"
 	{
-		"controlName"	"CTFParticlePanel"
+		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"ParticlePanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -79,7 +79,7 @@
 
 	"OutterBackground"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"OutterBackground"
 		"xpos"			"0"
 		"ypos"			"90"
@@ -91,13 +91,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 			
-		"paintBackgroundType" "2"
-		"bgColor_override"	"42 39 37 255"
+		"paintbackgroundtype" "2"
+		"bgcolor_override"	"42 39 37 255"
 	}
 
 	"HeaderLine"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HeaderLine"
 		"xpos"			"0"
 		"ypos"			"-10"
@@ -116,7 +116,7 @@
 
 	"FooterLine"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -136,7 +136,7 @@
 
 	"TabContainer"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TabContainer"
 		"xpos"			"c-118"
 		"ypos"			"55"
@@ -147,7 +147,7 @@
 
 		"PlayerTab1"
 		{
-			"controlName"	"CMvMVictoryMannUpPlayerTab"
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
 			"fieldName"		"PlayerTab1"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -157,14 +157,14 @@
 			"autoResize"	"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"42 41 39 255"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"42 41 39 255"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
 		"PlayerTab2"
 		{
-			"controlName"	"CMvMVictoryMannUpPlayerTab"
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
 			"fieldName"		"PlayerTab2"
 			"xpos"			"68"
 			"ypos"			"0"
@@ -175,14 +175,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"77 72 68 255"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"77 72 68 255"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
 		"PlayerTab3"
 		{
-			"controlName"	"CMvMVictoryMannUpPlayerTab"
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
 			"fieldName"		"PlayerTab3"
 			"xpos"			"135"
 			"ypos"			"0"
@@ -193,14 +193,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"77 72 68 255"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"77 72 68 255"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
 		"PlayerTab4"
 		{
-			"controlName"	"CMvMVictoryMannUpPlayerTab"
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
 			"fieldName"		"PlayerTab4"
 			"xpos"			"202"
 			"ypos"			"0"
@@ -211,14 +211,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"77 72 68 255"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"77 72 68 255"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
 		"PlayerTab5"
 		{
-			"controlName"	"CMvMVictoryMannUpPlayerTab"
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
 			"fieldName"		"PlayerTab5"
 			"xpos"			"269"
 			"ypos"			"0"
@@ -229,14 +229,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"77 72 68 255"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"77 72 68 255"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
 		"PlayerTab6"
 		{
-			"controlName"	"CMvMVictoryMannUpPlayerTab"
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
 			"fieldName"		"PlayerTab6"
 			"xpos"			"336"
 			"ypos"			"0"
@@ -247,15 +247,15 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"77 72 68 255"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"77 72 68 255"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 	}
 		
 	"MainPanelContainer"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MainPanelContainer"
 		"xpos"			"c-230"
 		"ypos"			"140"
@@ -268,7 +268,7 @@
 			
 		"NoItemServerContainer"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"NoItemServerContainer"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -278,7 +278,7 @@
 			
 			"NoItemServerHeader"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"NoItemServer"
 				"font"			"HudFontMediumSmallBold"
 				"labelText"		"#TF_PVE_Server_GCDownHeader"
@@ -286,12 +286,12 @@
 				"xpos"			"0"
 				"ypos"			"100"
 				"wide"			"530"
-				"fgColor"		"tanlight"
+				"fgcolor"		"tanlight"
 			}
 			
 			"NoItemServerMessage"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"NoItemServer"
 				"font"			"HudFontSmall"
 				"labelText"		"#TF_PVE_Server_GCDownMessage"
@@ -301,7 +301,7 @@
 				"wide"			"530"
 				"tall"			"40"
 				"centerWrap"		"1"
-				"fgColor"		"tanlight"
+				"fgcolor"		"tanlight"
 			}
 		}
 	}

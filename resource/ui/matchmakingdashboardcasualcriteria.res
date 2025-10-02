@@ -16,7 +16,7 @@
 
 	"Title"
 	{
-		"controlName"	"Label"
+		"ControlName"	"Label"
 		"fieldName"		"Title"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -25,7 +25,7 @@
 
 	"criteria"
 	{
-		"controlName"	"CCasualCriteriaPanel"
+		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
 		"xpos"			"-3"
 		"ypos"			"2"
@@ -38,7 +38,7 @@
 
 	"ToolTipButtonHack"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -47,7 +47,7 @@
 
 	"QueueButton"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
 		"xpos"			"rs1-5"
 		"ypos"			"rs1-8"
@@ -70,12 +70,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"Black"
-		"armedFgColor_override"		"Black"
-		"depressedFgColor_override"	"White"
+		"defaultfgcolor_override"	"Black"
+		"armedfgcolor_override"		"Black"
+		"depressedfgcolor_override"	"White"
 
-		"defaultBgColor_override"	"HudPrimary"
-		"armedBgColor_override"		"HudPrimaryLight"
-		"depressedbgColor_override"	"HudPrimaryDark"
+		"defaultbgcolor_override"	"HudPrimary"
+		"armedbgcolor_override"		"HudPrimaryLight"
+		"depressedbgcolor_override"	"HudPrimaryDark"
 	}
 }

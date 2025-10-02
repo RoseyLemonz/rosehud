@@ -2,7 +2,7 @@
 {
 	"NotificationToastControl"
 	{
-		"controlName"	"CNotificationToastControl"
+		"ControlName"	"CNotificationToastControl"
 		"fieldName"		"NotificationToastControl"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -12,14 +12,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"paintBorder"			"1"
+		"paintborder"			"1"
 		"paintBackground"		"1"
-		"bgColor_override"		"TrueBlack"
+		"bgcolor_override"		"TrueBlack"
 	}
 
 	"DeleteButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"DeleteButton"
 		"xpos"			"166"
 		"ypos"			"5"
@@ -37,14 +37,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"delete"
 
-		"defaultBgColor_override"	"HudPrimaryDark"
+		"defaultbgcolor_override"	"HudPrimaryDark"
 
- 		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+ 		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 		
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -61,7 +61,7 @@
 
 	"TriggerButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TriggerButton"
 		"xpos"			"145"
 		"if_one_button"
@@ -83,14 +83,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"trigger"
 
-		"defaultBgColor_override"	"HudPrimaryDark"
+		"defaultbgcolor_override"	"HudPrimaryDark"
 
- 		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+ 		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -107,7 +107,7 @@
 
 	"AcceptButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"AcceptButton"
 		"xpos"			"144"
 		"if_one_button"
@@ -133,16 +133,16 @@
 		"border_armed"		"MainMenuMiniButtonArmed"
 		"paintBackground"	"0"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultbgcolor_override"	"100 90 85 255"
+		"defaultfgcolor_override"	"255 255 255 255"
+		"armedfgcolor_override" "235 226 202 255"
+		"depressedfgcolor_override" "46 43 42 255"
 
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"200 80 60 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"2"
 			"ypos"			"2"
@@ -158,7 +158,7 @@
 
 	"DeclineButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"DeclineButton"
 		"xpos"			"165"
 		"ypos"			"5"
@@ -181,16 +181,16 @@
 		"border_armed"		"MainMenuMiniButtonArmed"
 		"paintBackground"	"0"
 
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultbgcolor_override"	"100 90 85 255"
+		"defaultfgcolor_override" "46 43 42 255"
+		"armedfgcolor_override" "235 226 202 255"
+		"depressedfgcolor_override" "46 43 42 255"
 
-		"image_drawColor"	"238 54 36 255"
-		"image_armedColor"	"200 80 60 255"
+		"image_drawcolor"	"238 54 36 255"
+		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"2"
 			"ypos"			"2"

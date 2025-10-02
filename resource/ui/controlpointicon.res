@@ -2,7 +2,7 @@
 {
 	"ControlPointIcon"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"	"ControlPointIcon"
 		"xpos"		"0"
 		"ypos"		"0"
@@ -15,7 +15,7 @@
 	
 	"Countdown"
 	{
-		"controlName"	"CControlPointCountdown"
+		"ControlName"	"CControlPointCountdown"
 		"fieldName"	"Countdown"
 		"xpos"		"0"
 		"ypos"		"0"
@@ -28,14 +28,14 @@
 
 	"CapPlayerImage"
 	{
-		"controlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"		
 		"fieldName"	"CapPlayerImage"
 		"xpos"		"9999"
 	}
 
 	"CapNumPlayers"
 	{	
-		"controlName"		"CexLabel"
+		"ControlName"		"CexLabel"
 		"fieldName"		"CapNumPlayers"
 		"font"			"HudFontSmallestBold"
 		"xpos"			"cs-0.5"
@@ -49,13 +49,13 @@
 		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"	"center"
-		"fgColor_override"	"White"
+		"fgcolor_override"	"White"
 		"proportionalToParent"	"1"
 	}
 
 	"OverlayImage"
 	{
-		"controlName"	"ImagePanel"		
+		"ControlName"	"ImagePanel"		
 		"fieldName"	"OverlayImage"
 		"xpos"		"rs1"
 		"ypos"		"0"
@@ -71,7 +71,7 @@
 	
 	"CPTimerLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CPTimerLabel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -88,7 +88,7 @@
 				
 	"CPTimerBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"CPTimerBG"
 		"xpos"			"0"
 		"ypos"			"0"

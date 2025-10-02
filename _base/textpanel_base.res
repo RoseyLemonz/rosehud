@@ -3,7 +3,7 @@ x
 {
 	"BGDarken"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"BGDarken"
 		"zpos"			"-15"
 		"wide"			"f0"
@@ -12,12 +12,12 @@ x
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
 	"ChalkBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"ChalkBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"115"
@@ -26,12 +26,12 @@ x
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentBlack"
 	}
 	
 	"ShaderBG"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ShaderBG"
 		"zpos"			"-10"
 		"wide"			"f0"
@@ -44,7 +44,7 @@ x
 
 	"HiddenButtonBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"HiddenButtonBG"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -56,7 +56,7 @@ x
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"1"
-		"bgColor_override"	"DarkerBlack"
+		"bgcolor_override"	"DarkerBlack"
 		"border"			"FooterWithAccentLight"
 	}	
 }

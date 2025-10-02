@@ -2,7 +2,7 @@
 {	
 	"EnemyCountPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"EnemyCountPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -15,7 +15,7 @@
 	
 	"EnemyCountImage"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountImage"
 		"xpos"			"3"
 		"ypos"			"2"
@@ -29,7 +29,7 @@
 	
 	"EnemyCountImageBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"EnemyCountImageBG"
 		"xpos"			"2"
 		"ypos"			"1"
@@ -39,13 +39,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"paintBackgroundType" "2"
-		"bgColor_override"	"TanLight"
+		"paintbackgroundtype" "2"
+		"bgcolor_override"	"TanLight"
 	}
 	
 	"EnemyCountCritImageBG"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountCritImageBG"
 		"xpos"			"1"
 		"ypos"			"0"
@@ -55,20 +55,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"paintBackgroundType" "2"
+		"paintbackgroundtype" "2"
 		//"bgColor" "Yellow"
-		//"bgColor_override"	"Yellow"
-		//"fgColor_override"	"Yellow"
-		//"paintBackgroundType" "2"
+		//"bgcolor_override"	"Yellow"
+		//"fgcolor_override"	"Yellow"
+		//"paintbackgroundtype" "2"
 		"image"			"../hud/leaderboard_class_critical"
 	}
 	
 	"EnemyCount"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
 		"font"			"HudFontSmall"
-		"fgColor"		"TanLight"
+		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"3"

@@ -2,7 +2,7 @@
 {
 	"ModeImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -18,7 +18,7 @@
 
 	"PlayListDropShadow"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -26,7 +26,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"border"		"InnerShadowBorderThin"
 		"proportionalToParent"	"1"
 		"mouseInputEnabled"	"0"
@@ -34,7 +34,7 @@
 
 	"bgColor"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"bgColor"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -45,13 +45,13 @@
 		"enabled"		"1"
 		
 		"proportionalToParent"	"1"
-		"bgColor_override"	"0 0 0 255"
+		"bgcolor_override"	"0 0 0 255"
 	}
 
 	
 	"ToolTipHack"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipHack"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -67,7 +67,7 @@
 
 	"ToolTipButtonHack"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
 		"xpos"			"rs1-6"
 		"ypos"			"2"
@@ -84,7 +84,7 @@
 
 	"ModeButton"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
 		"xpos"			"rs1-8"
 		"ypos"			"cs-0.5"
@@ -109,7 +109,7 @@
 
 	"MatchmakingBanPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MatchmakingBanPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -119,15 +119,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseInputEnabled"	"0"
-		"bgColor_override"	"0 0 0 250"
+		"bgcolor_override"	"0 0 0 250"
 		"proportionalToParent"	"1"
 
 		"MatchmakingBanDurationLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"MatchmakingBanDurationLabel"
 			"font"			"MMenuPlayListDesc"
-			"fgColor_override"	"RedSolid"
+			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textAlignment"	"south-west"
 			"xpos"			"5"
@@ -147,7 +147,7 @@
 
 	"DescLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
 		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
@@ -162,14 +162,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgColor_override" "TanLight"
+		"fgcolor_override" "TanLight"
 		"proportionalToParent" "1"
 		"mouseInputEnabled"	"0"
 	}
 
 	"DescLabelShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabelShadow"
 		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
@@ -184,14 +184,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgColor_override" "Black"
+		"fgcolor_override" "Black"
 		"proportionalToParent" "1"
 		"mouseInputEnabled"	"0"
 	}
 	
 	"DisabledIcon"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"DisabledIcon"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -209,18 +209,18 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 				
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedbgColor_override" "0 0 0 0"
+		"defaultfgcolor_override" "46 43 42 255"
+		"armedfgcolor_override" "235 226 202 255"
+		"depressedfgcolor_override" "46 43 42 255"
+		"defaultbgcolor_override" "0 0 0 0"
+		"armedbgcolor_override" "0 0 0 0"
+		"depressedbgcolor_override" "0 0 0 0"
 				
-		"image_drawColor"	"235 226 202 255"
-		"image_armedColor"	"235 140 140 255"
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"235 140 140 255"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"233"
 			"ypos"			"2"

@@ -2,7 +2,7 @@
 {
 	"HudAmmoIco"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudAmmoIco"
 		"xpos"			"cs-0.5+215"
 		"ypos"			"r122"
@@ -16,7 +16,7 @@
 	}
 	"HudAmmoIcoOverlay"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudAmmoIcoOverlay"
 		"zpos"			"3"
 		"wide"			"38"
@@ -24,13 +24,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/ammo/ammo_icon_over"
-		"drawColor"		"HudPrimaryDark"
+		"drawcolor"		"HudPrimaryDark"
 		"scaleImage"	"1"			
 		"pin_to_sibling"	"HudAmmoIco"
 	}
 	"HudWeaponLowAmmoImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"cs-0.5+215"
 		"ypos"			"r123"
@@ -40,13 +40,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/ammo/ammo_icon_bonus"
-		"drawColor"		"255 0 0 255"
+		"drawcolor"		"255 0 0 255"
 		"scaleImage"	"1"
 		"alpha"			"0"	
 	}
 	"AmmoInClip"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"HudValue"
 		"xpos"			"cs-0.5+115"
@@ -58,15 +58,15 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
-		"fgColor_override"	"HudPrimaryLight"
+		"fgcolor_override"	"HudPrimaryLight"
 	}		
 
 	"AmmoInClipShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"HudValue"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"5"
@@ -77,11 +77,11 @@
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
 		"pin_to_sibling"	"AmmoInClip"
-		"fgColor_override"	"Black"
+		"fgcolor_override"	"Black"
 	}						
 	"AmmoInReserve"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudAmmoReserve"
 		"xpos"			"cs-0.5+185"
@@ -93,11 +93,11 @@
 		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
-		"fgColor_override"	"HudPrimaryTransparent"
+		"fgcolor_override"	"HudPrimaryTransparent"
 	}		
 	"AmmoInReserveShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"HudAmmoReserve"
 		"xpos"			"-1"
@@ -110,11 +110,11 @@
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 		"pin_to_sibling"	"AmmoInReserve"
-		"fgColor_override"	"TransparentBlack"
+		"fgcolor_override"	"TransparentBlack"
 	}									
 	"AmmoNoClip"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudValue"
 		"xpos"			"cs-0.5+125"
@@ -126,12 +126,12 @@
 		"enabled"		"1"
 		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
-		"fgColor_override"	"HudPrimaryLight"
+		"fgcolor_override"	"HudPrimaryLight"
 		
 	}	
 	"AmmoNoClipShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"HudValue"
 		"xpos"			"-2"
@@ -144,6 +144,6 @@
 		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
 		"pin_to_sibling"	"AmmoNoClip"
-		"fgColor_override"	"Black"
+		"fgcolor_override"	"Black"
 	}							
 }

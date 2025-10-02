@@ -6,7 +6,7 @@
 		{
 			"TeamIndicator"
 			{
-				"controlName"					"EditablePanel"
+				"ControlName"					"EditablePanel"
 				"fieldName"						"TeamIndicator"
 				"xpos"							"7"
 				"ypos"							"284"
@@ -17,12 +17,12 @@
 				"enabled"						"1"
 				"proportionalToParent"			"1"
 				"paintBackground"				"1"
-				"paintBackgroundType"			"0"
-				"bgColor_override"				"Black"
+				"paintbackgroundtype"			"0"
+				"bgcolor_override"				"Black"
 
 				"Title"
 				{
-					"controlName"						"CExLabel"
+					"ControlName"						"CExLabel"
 					"fieldName"							"Title"
 					"xpos"								"0"
 					"ypos"								"0"
@@ -36,15 +36,15 @@
 					"labelText"							"Team Indicator"
 					"font"								"ItemFontNameSmallest"
 					"centerWrap"						"1"
-					"fgColor"							"Black"
+					"fgcolor"							"Black"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
-					"bgColor_override"					"HudPrimary"
+					"paintbackgroundtype"				"0"
+					"bgcolor_override"					"HudPrimary"
 				}
 
 				"IndicatorOn"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"IndicatorOn"
 					"xpos"								"7"
 					"ypos"								"20"
@@ -58,7 +58,7 @@
 
 					"IndicatorOnButton"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"IndicatorOnButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -74,15 +74,15 @@
 						"command"							"engine hud_indicator_visible"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"HudBonusDark"
-						"armedBgColor_override"				"HudBonusLight"
-						"depressedBgColor_override"			"HudBonus"
+						"defaultbgcolor_override"			"HudBonusDark"
+						"armedbgcolor_override"				"HudBonusLight"
+						"depressedbgcolor_override"			"HudBonus"
 					}
 				}
 
 				"IndicatorOff"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"IndicatorOff"
 					"xpos"								"49"
 					"ypos"								"20"
@@ -96,7 +96,7 @@
 
 					"IndicatorOffButton"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"IndicatorOffButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -112,15 +112,15 @@
 						"command"							"engine hud_indicator_invis"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"HudNegatDark"
-						"armedBgColor_override"				"HudNegatLight"
-						"depressedBgColor_override"			"HudNegat"
+						"defaultbgcolor_override"			"HudNegatDark"
+						"armedbgcolor_override"				"HudNegatLight"
+						"depressedbgcolor_override"			"HudNegat"
 					}
 				}
 
 				"IndicatorLeft"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"IndicatorLeft"
 					"xpos"								"cs-0.5-5"
 					"ypos"								"20"
@@ -131,11 +131,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"IndicatorLeftButton"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"IndicatorLeftButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -151,12 +151,12 @@
 						"command"							"engine hud_indicator_left; hud_indicator_visible"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 				"IndicatorRight"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"IndicatorRight"
 					"xpos"								"rs1-7"
 					"ypos"								"20"
@@ -167,11 +167,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"IndicatorRightButton"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"IndicatorRightButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -187,7 +187,7 @@
 						"command"							"engine hud_indicator_right; hud_indicator_visible"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 			}

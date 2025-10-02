@@ -2,7 +2,7 @@
 {	
 	"itempanel"
 	{
-		"controlName"	"CItemModelPanel"
+		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -10,10 +10,10 @@
 		"wide"			"130"
 		"tall"			"f0"
 		"visible"		"0"
-		"bgColor_override"		"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
+		"paintbackgroundtype"	"2"
 		"paintBackground"		"1"
-		"paintBorder"	"0"
+		"paintborder"	"0"
 		
 		"model_ypos"		"20"
 		"model_center_x"	"1"
@@ -40,7 +40,7 @@
 		
 		"ItemLabel"
 		{	
-			"controlName"	"Label"
+			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"10"

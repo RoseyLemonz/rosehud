@@ -2,7 +2,7 @@
 {
 	"Notification_Background"
 	{
-		"controlName"	"CImagePanel"
+		"ControlName"	"CImagePanel"
 		"fieldName"		"Notification_Background"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -11,7 +11,7 @@
 	
 	"Notification_Icon"	
 	{
-		"controlName"	"CIconPanel"
+		"ControlName"	"CIconPanel"
 		"fieldName"		"Notification_Icon"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -20,7 +20,7 @@
 	
 	"Notification_Label"
 	{	
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
 		"font"			"NotificationText"
 		"xpos"			"cs-0.5"
@@ -33,7 +33,7 @@
 		"labelText"		"60 seconds until gates open"
 		"textAlignment"	"center"
 		"auto_wide_toContents"	"1"
-		"bgColor_override"	"blank"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"blank"
+		"paintbackgroundtype"	"2"
 	}
 }

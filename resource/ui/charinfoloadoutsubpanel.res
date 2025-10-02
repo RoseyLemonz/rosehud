@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 		"bgcolor_override"		"DarkBlack"
 
 		"selectlabely_default"		"44"
@@ -44,8 +44,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomScout"
-		"xpos"						"c-290"
-		"ypos"						"c-140"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"55"
 		"tall"						"70"
@@ -61,11 +61,15 @@
 		"Command"					"loadout scout"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling"			"CustomSoldier"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"TitleScout"
 	{
@@ -74,13 +78,17 @@
 		"font"						"HudFontSmallestBold"
 		"labelText"					"#TF_Scout"
 		"textAlignment"				"center"
-		"xpos"						"c-290"
-		"ypos"						"c-80"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
 		"wide"						"55"
 		"tall"						"15"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"pin_to_sibling"			"TitleSoldier"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"soldier"
@@ -113,15 +121,15 @@
 		"Command"					"loadout soldier"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling"			"CustomScout"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"CustomPyro"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"TitleSoldier"
 	{
@@ -138,9 +146,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"pin_to_sibling"			"TitleScout"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"TitlePyro"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"pyro"
@@ -173,15 +181,15 @@
 		"Command"					"loadout pyro"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling"			"CustomSoldier"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"CustomDemoman"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"TitlePyro"
 	{
@@ -198,9 +206,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"pin_to_sibling"			"TitleSoldier"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"TitleDemoman"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"demoman"
@@ -233,15 +241,15 @@
 		"Command"					"loadout demoman"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling"			"CustomPyro"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"CustomHeavy"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"TitleDemoman"
 	{
@@ -258,9 +266,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"pin_to_sibling"			"TitlePyro"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"TitleHeavy"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"heavyweapons"
@@ -276,8 +284,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomHeavy"
-		"xpos"						"10"
-		"ypos"						"0"
+		"xpos"						"cs-0.5"
+		"ypos"						"c-140"
 		"zpos"						"10"
 		"wide"						"55"
 		"tall"						"70"
@@ -288,20 +296,17 @@
 		"font"						"MenuClassSelect"
 		"textAlignment"				"center"
 		"use_proportional_insets" 	"1"
+		"proportionaltoparent"		"1"
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"loadout heavy"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-
-		"pin_to_sibling"			"CustomDemoman"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleHeavy"
 	{
@@ -310,17 +315,14 @@
 		"font"						"HudFontSmallestBold"
 		"labelText"					"#TF_HWGuy"
 		"textAlignment"				"center"
-		"xpos"						"10"
-		"ypos"						"0"
+		"xpos"						"cs-0.5"
+		"ypos"						"c-80"
 		"zpos"						"5"
 		"wide"						"55"
 		"tall"						"15"
 		"visible"					"1"
 		"enabled"					"1"
-
-		"pin_to_sibling"			"TitleDemoman"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"proportionaltoparent"		"1"
 	}
 
 	"engineer"
@@ -353,8 +355,8 @@
 		"Command"					"loadout engineer"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -413,8 +415,8 @@
 		"Command"					"loadout medic"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -473,8 +475,8 @@
 		"Command"					"loadout sniper"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -532,8 +534,8 @@
 		"Command"					"loadout spy"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -583,8 +585,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomBackpack"
-		"xpos"						"c-185"
-		"ypos"						"c-40"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"10"
 		"wide"						"65"
 		"tall"						"70"
@@ -600,11 +602,15 @@
 		"Command"					"backpack"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling"			"CustomCrafting"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"TitleBackpack"
 	{
@@ -613,13 +619,17 @@
 		"font"						"HudFontSmallestBold"
 		"labelText"					"#BackpackTitle"
 		"textAlignment"				"center"
-		"xpos"						"c-185"
-		"ypos"						"c20"
+		"xpos"						"10"
+		"ypos"						"0"
 		"zpos"						"5"
 		"wide"						"65"
 		"tall"						"15"
 		"visible"					"1"
 		"enabled"					"1"
+
+		"pin_to_sibling"			"TitleCrafting"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"ShowCraftingButton"
@@ -660,15 +670,15 @@
 		"Command"					"crafting"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling"			"CustomBackpack"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"CustomArmory"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 	"TitleCrafting"
 	{
@@ -685,9 +695,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"pin_to_sibling"			"TitleBackpack"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"pin_to_sibling"			"TitleArmory"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 	}
 
 	"ShowArmoryButton"
@@ -711,8 +721,8 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"CustomArmory"
-		"xpos"						"10"
-		"ypos"						"0"
+		"xpos"						"cs-0.5"
+		"ypos"						"c-40"
 		"zpos"						"10"
 		"wide"						"65"
 		"tall"						"70"
@@ -723,20 +733,17 @@
 		"font"						"MenuMiscSelect"
 		"textAlignment"				"center"
 		"use_proportional_insets"	"1"
+		"proportionaltoparent"		"1"
 		"default"					"0"
 		"paintbackground"			"0"
 		"Command"					"armory"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-
-		"pin_to_sibling"			"CustomCrafting"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	"TitleArmory"
 	{
@@ -745,17 +752,14 @@
 		"font"						"HudFontSmallestBold"
 		"labelText"					"#Armory"
 		"centerwrap"				"1"
-		"xpos"						"10"
-		"ypos"						"0"
+		"xpos"						"cs-0.5"
+		"ypos"						"c20"
 		"zpos"						"5"
 		"wide"						"65"
 		"tall"						"25"
 		"visible"					"1"
 		"enabled"					"1"
-
-		"pin_to_sibling"			"TitleCrafting"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+		"proportionaltoparent"		"1"
 	}
 	"ShowTradeButton"
 	{
@@ -795,8 +799,8 @@
 		"Command"					"trading"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -863,8 +867,8 @@
 		"Command"					"paintkit_preview"
 		"paintbackground"			"0"
 
-		"armedFgColor_override" 	"HudPrimary"
-		"depressedFgColor_override" "HudPrimaryDark"
+		"armedfgcolor_override" 	"HudPrimary"
+		"depressedfgcolor_override" "HudPrimaryDark"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"

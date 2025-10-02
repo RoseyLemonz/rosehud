@@ -27,11 +27,11 @@ Scheme
 		Econ.Button.DepressedFgColor						"Black"
 
 		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
+		Econ.Button.PresetarmedcolorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 
 		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
+		Econ.Button.PresetarmedcolorBg						"LightRed"
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
 
 		Border.Bright					"Blank"		// the lit side of a control

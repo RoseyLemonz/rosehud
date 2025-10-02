@@ -10,7 +10,7 @@
 
 	"BlueTimer"
 	{
-		"controlName"		"CTFHudTimeStatus"
+		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"cs-0.5-20"
 		"ypos"				"0"
@@ -30,7 +30,7 @@
 		
 		"TimePanelValue"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
@@ -48,7 +48,7 @@
 
 	"RedTimer"
 	{
-		"controlName"		"CTFHudTimeStatus"
+		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
 		"xpos"				"cs-0.5+20"
 		"ypos"				"0"
@@ -68,7 +68,7 @@
 		
 		"TimePanelValue"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
@@ -86,7 +86,7 @@
 
 	"ActiveTimerBG"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"			"9999"
 		"wide"			"0"

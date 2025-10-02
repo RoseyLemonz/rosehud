@@ -6,7 +6,7 @@
 {
 	"intro"
 	{
-		"controlName"		"CTFIntroMenu"
+		"ControlName"		"CTFIntroMenu"
 		"fieldName"		"intro"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -37,7 +37,7 @@
 	
 	"titlelabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"			"titlelabel"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -51,7 +51,7 @@
 
 	"Skip"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"Skip"
 		"xpos"			"rs1"
 		"ypos"			"rs1"
@@ -71,7 +71,7 @@
 	
 	"Back"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"Back"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -90,14 +90,14 @@
 
 	"MenuBG"
 	{
-		"controlName"	"CModelPanel"
+		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 	}
 
 	"ReplayVideo"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
 		"xpos"			"40"
 		"ypos"			"r60"
@@ -112,12 +112,12 @@
 		"textAlignment"	"center"
 		"command"		"replayVideo"
 		"font"			"MenuSmallFont"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 	}
 	
 	"VideoPanel"
 	{
-		"controlName"	"CTFVideoPanel"
+		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"c-170"
@@ -134,7 +134,7 @@
 	
 	"VideoCaption"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"VideoCaption"
 		"xpos"			"cs-0.5"
 		"ypos"			"c70"
@@ -148,7 +148,7 @@
 		"labelText"		" "
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 		"centerWrap"			"1"
 	}
 }

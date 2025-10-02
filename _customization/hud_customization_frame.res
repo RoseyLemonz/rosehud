@@ -2,7 +2,7 @@
 {
 	"SafeMode"
 	{
-		"controlName"				"EditablePanel"
+		"ControlName"				"EditablePanel"
 		"fieldName"					"SafeMode"
 		"xpos"						"314"
 		"ypos"						"94"
@@ -12,12 +12,12 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"proportionalToParent"		"1"
-		"bgColor_override"			"DarkerBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"			"DarkerBlack"
+		"paintbackgroundtype"	"2"
 		
 		"Title"
 		{
-			"controlName"					"CExLabel"
+			"ControlName"					"CExLabel"
 			"fieldName"						"Title"
 			"xpos"							"cs-0.5"			
 			"ypos"							"0"
@@ -33,16 +33,16 @@
 			"textAlignment"					"west"
 			"textinsetX"					"10"
 			"textinsetY"					"0"
-			"fgColor"						"White"
+			"fgcolor"						"White"
 			"paintBackground"				"1"
-			"paintBackgroundType"			"2"
+			"paintbackgroundtype"			"2"
 			"roundedCorners"				"3"
-			"bgColor_override"				"DarkBlack"
+			"bgcolor_override"				"DarkBlack"
 		}
 
 		"Footer"
 		{
-			"controlName"					"CExLabel"
+			"ControlName"					"CExLabel"
 			"fieldName"						"Footer"
 			"xpos"							"cs-0.5"
 			"ypos"							"rs1"
@@ -57,16 +57,16 @@
 			"font"							"DefaultBahnMedium"
 			"textAlignment"					"center"
 			"textinsetX"					"0"
-			"fgColor"						"White"
+			"fgcolor"						"White"
 			"paintBackground"				"1"
-			"paintBackgroundType"			"2"
+			"paintbackgroundtype"			"2"
 			"roundedCorners"				"12"
-			"bgColor_override"				"DarkBlack"
+			"bgcolor_override"				"DarkBlack"
 		}
 
 		"BottomBGHighlight"
 		{
-			"controlName"	"Panel"
+			"ControlName"	"Panel"
 			"fieldName"		"BottomBGHighlight"
 			"xpos"			"0"
 			"ypos"			"2"
@@ -75,13 +75,13 @@
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"HudPrimary"
+			"bgcolor_override"	"HudPrimary"
 			"pin_to_sibling"	"Footer"
 		}
 
 		"GitButton"
 		{
-			"controlName"					"CExImageButton"
+			"ControlName"					"CExImageButton"
 			"fieldName"						"GitButton"
 			"xpos"							"0"
 			"ypos"							"rs1"
@@ -102,22 +102,22 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"TrueBlack"
-			"armedBgColor_override"			"White"
-			"depressedFgColor_override"		"White"
+			"defaultbgcolor_override"		"TrueBlack"
+			"armedbgcolor_override"			"White"
+			"depressedfgcolor_override"		"White"
 
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"TrueBlack"
-			"depressedFgColor_override"		"255 255 255 255"
+			"defaultfgcolor_override"		"White"
+			"armedfgcolor_override"			"TrueBlack"
+			"depressedfgcolor_override"		"255 255 255 255"
 
 			"roundedCorners"				"4"
 
-			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"0 0 0 255"
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"rs1-5"
 				"ypos"			"cs-0.5"
@@ -134,7 +134,7 @@
 
 		"DiscordButton"
 		{
-			"controlName"					"CExImageButton"
+			"ControlName"					"CExImageButton"
 			"fieldName"						"DiscordButton"
 			"xpos"							"rs1"
 			"ypos"							"rs1"
@@ -155,22 +155,22 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"88 101 242 255"
-			"armedBgColor_override"			"224 227 255 255"
-			"depressedFgColor_override"		"224 227 255 255"
+			"defaultbgcolor_override"		"88 101 242 255"
+			"armedbgcolor_override"			"224 227 255 255"
+			"depressedfgcolor_override"		"224 227 255 255"
 
-			"defaultFgColor_override"		"224 227 255 255"
-			"armedFgColor_override"			"TrueBlack"
-			"depressedFgColor_override"		"255 255 255 255"
+			"defaultfgcolor_override"		"224 227 255 255"
+			"armedfgcolor_override"			"TrueBlack"
+			"depressedfgcolor_override"		"255 255 255 255"
 
 			"roundedCorners"				"8"
 
-			"image_drawColor"	"224 227 255 255"
-			"image_armedColor"	"0 0 0 255"
+			"image_drawcolor"	"224 227 255 255"
+			"image_armedcolor"	"0 0 0 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"5"
 				"ypos"			"cs-0.5"
@@ -187,7 +187,7 @@
 
 		"ApplyButton"
 		{
-			"controlName"					"CExButton"
+			"ControlName"					"CExButton"
 			"fieldName"						"ApplyButton"
 			"xpos"							"6"
 			"ypos"							"29"
@@ -211,7 +211,7 @@
 
 		"ResetAllButton"
 		{
-			"controlName"					"CExButton"
+			"ControlName"					"CExButton"
 			"fieldName"						"ResetAllButton"
 			"xpos"							"0"
 			"ypos"							"0"
@@ -241,7 +241,7 @@
 
 		"ReloadGameButton"
 		{
-			"controlName"					"CExButton"
+			"ControlName"					"CExButton"
 			"fieldName"						"ReloadGameButton"
 			"xpos"							"-1"
 			"ypos"							"0"
@@ -269,7 +269,7 @@
 
 		"CloseButton"
 		{
-			"controlName"					"CExButton"
+			"ControlName"					"CExButton"
 			"fieldName"						"CloseButton"
 			"xpos"							"rs1-5"
 			"ypos"							"3"
@@ -288,8 +288,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"armedFgColor_override"			"HudPrimary"
-			"depressedFgColor_override"		"HudPrimaryLight"
+			"armedfgcolor_override"			"HudPrimary"
+			"depressedfgcolor_override"		"HudPrimaryLight"
 			
 			"paintBackground"	"0"
 

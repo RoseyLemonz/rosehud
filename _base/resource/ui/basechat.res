@@ -2,7 +2,7 @@
 {
 	"HudChat"
 	{
-		"controlName"			"EditablePanel"
+		"ControlName"			"EditablePanel"
 		"fieldName" 			"HudChat"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -10,13 +10,13 @@
 		"ypos"					"rs1-80"
 		"wide"					"230"
 		"tall"					"100"
-		"paintBackgroundType"	"0"
-		"bgColor_override"		"TransparentBlack"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"TransparentBlack"
 	}
 
 	ChatInputLine
 	{
-		"controlName"			"EditablePanel"
+		"ControlName"			"EditablePanel"
 		"fieldName"				"ChatInputLine"
 		"visible"				"1"
 		"enabled"				"1"
@@ -24,12 +24,12 @@
 		"ypos"					"405"
 		"wide"					"220"
 		"tall"					"0"
-		"paintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	"ChatFiltersButton"
 	{
-		"controlName"			"Button"
+		"ControlName"			"Button"
 		"fieldName"				"ChatFiltersButton"
 		"xpos"					"9999"
 		"wide"					"0"
@@ -38,7 +38,7 @@
 
 	"HudChatHistory"
 	{
-		"controlName"			"RichText"
+		"ControlName"			"RichText"
 		"fieldName"				"HudChatHistory"
 		"xpos"					"5"
 		"ypos"					"5"

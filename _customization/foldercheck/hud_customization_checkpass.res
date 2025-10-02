@@ -9,7 +9,7 @@
 
 		"Customizations_Scroller"
 		{
-			"controlName"					"CScrollableList"
+			"ControlName"					"CScrollableList"
 			"fieldName"						"Customizations_Scroller"
 			"xpos"							"0"
 			"ypos"							"56"
@@ -20,7 +20,7 @@
 			"enabled"						"1"
 			"proportionalToParent"			"1"
 			"paintBackground"				"0"
-			"bgColor_override"				"Gray"
+			"bgcolor_override"				"Gray"
 			
 			"Scrollbar"
 			{
@@ -34,7 +34,7 @@
 
 				"Slider"
 				{
-					"fgColor_override"			"HudPrimary"
+					"fgcolor_override"			"HudPrimary"
 				}
 			}
 		}

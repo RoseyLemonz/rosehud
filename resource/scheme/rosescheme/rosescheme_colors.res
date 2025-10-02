@@ -5,8 +5,8 @@ Scheme
 
 		// Sub image cheat sheet
 		//
-		// 	"image_drawColor"	"255 255 255 255"
-		//	"image_armedColor"	"46 43 42 255"
+		// 	"image_drawcolor"	"255 255 255 255"
+		//	"image_armedcolor"	"46 43 42 255"
 		//
 
 		"HudPrimary"				"254 189 230 255"
@@ -67,7 +67,6 @@ Scheme
 		"Purple"			"198 160 246 255"
 
 		"QuestGold"			"238 212 159 255"
-
 		
 		"HalloweenThemeColor2015_Light"	"245 169 127 255"
 		"HalloweenThemeColor2015"		"238 153 160 255"
@@ -88,8 +87,14 @@ Scheme
 		"Red"				"237 135 150 140"
 		"RedSolid"			"237 135 150 255"
 		"Blue"				"138 173 244 140"
-		"Yellow"			"238 212 159 255"
-		"TransparentYellow"	"238 212 159 140"
+
+		// Specifically the casual category headers, replace with pure white
+		// somehow originally yellow?
+		"Yellow"				"255 255 255 255"
+		"TransparentYellow"		"255 255 255 196"
+		//"Yellow"			"238 212 159 255"
+		//"TransparentYellow"	"238 212 159 140"
+		
 		"BrightYellow"		"255 232 179 255"
 		"GreenSolid"		"166 218 149 255"
 
@@ -122,14 +127,117 @@ Scheme
 		"StoreDarkTan"			"180 180 180 255"
 		"StoreGreen"			"166 218 149 255"
 
+		"HudTrainingHint"			"238 212 159 255"
+
 		// Some things are hard coded Tan*
 		"TanLight"		"255 255 255 255"
 		"TanDark"		"180 180 180 255"
 		"TanDarker"		"120 120 120 255"
 
-		// Specifically the casual category headers, replace with pure white
-		// somehow originally yellow?
-		"Yellow"				"255 255 255 255"
-		"TransparentYellow"		"255 255 255 196"
+		// not done
+		"LowHealthRed"		"255 0 0 255"
+		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressBackground"	"250 234 201 51"
+		"HealthBgGrey"		"72 71 69 255"
+
+		"ProgressOffWhiteTransparent"	"251 235 202 128"
+
+		"LabelDark"			"48 43 42 255"
+		"LabelTransparent"	"109 96 80 180"
+
+		"BuildMenuActive"	"248 231 198 255"
+
+		"DisguiseMenuIconRed"	"192 56 63 255"
+		"DisguiseMenuIconBlue"	"92 128 166 255"
+
+ 		"MatchmakingDialogTitleColor"			"200 184 151 255"
+ 		"MatchmakingMenuItemBackground"			"46 43 42 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"
+		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
+		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+
+		"HTMLBackground"						"95 92 101 255"
+
+		"ItemAttribLevel"						"117 107 94 255"
+		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribPositive"					"153 204 255 255"
+		"ItemAttribNegative"					"255 64 64 255"
+
+		"ItemSetName"							"225 255 15 255"
+		"ItemSetItemEquipped"					"149 175 12 255"
+		"ItemSetItemMissing"					"139 137 137 255"
+		"ItemIsotope"							"225 255 15 255"
+		"ItemBundleItem"						"149 175 12 255"
+		"ItemLimitedUse"						"0 160 0 255"
+		"ItemFlags"								"117 107 94 255"
+		"ItemLimitedQuantity"					"225 209 0 255"
+
+		"QualityColorNormal"					"178 178 178 255"
+		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity2"					"141 131 75 255"
+		"QualityColorrarity3"					"204 204 250 255"
+		"QualityColorrarity4"					"134 80 172 255"
+		"QualityColorVintage"					"71 98 145 255"
+		"QualityColorUnique"					"255 215 0 255"
+		"QualityColorCommunity"					"112 176 74 255"
+		"QualityColorDeveloper"					"165 15 121 255"
+		"QualityColorSelfMade"					"112 176 74 255"
+		"QualityColorCustomized"				"71 98 145 255"
+		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorCompleted"					"134 80 172 255"
+		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"				"170 0 0 255"
+		"QualityColorPaintkitWeapon"			"250 250 250 255"
+
+		"ItemRarityDefault"						"131 126 119 255"
+		"ItemRarityCommon"						"176 195 217 255"
+		"ItemRarityUncommon"					"94 152 217 255"
+		"ItemRarityRare"						"75 105 255 255"
+		"ItemRarityMythical"					"136 71 255 255"
+		"ItemRarityLegendary"					"211 44 230 255"
+		"ItemRarityAncient"						"235 75 75 255"
+
+		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
+		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
+		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
+		"ItemRarityRare_GreyedOut"				"25 35 85 255"
+		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
+		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
+		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
+
+		"QualityColorNormal_GreyedOut"			"44 44 44 255"
+		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
+		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
+		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
+		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
+		"QualityColorVintage_GreyedOut"			"18 25 36 255"
+		"QualityColorUnique_GreyedOut"			"64 54 0  255"
+		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
+		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
+		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
+		"QualityColorStrange_GreyedOut"			"52 27 13 255"
+		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
+		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
+		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
+		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
+
+		"SaleGreen"								"76 107 34 255"
+
+		"LightRed"								"200 80 60 255"
+		"LighterRed"							"220 100 80 255"
+		"LighterDarkBrown"						"59 54 48 255"
+		"DarkBrown"								"41 37 38 255"
+
+		"UpgradeDefaultFg"		"87 82 74 255"
+		"UpgradeDefaultBg"		"111 104 94 255"
+		"UpgradeArmedFg"		"194 96 47 255"
+		"UpgradeArmedBg"		"239 128 73 255"
+		"UpgradeDepressedFg"	"204 106 57 255"
+		"UpgradeDepressedBg"	"249 138 83 255"
+		"UpgradeSelectedFg"		"204 106 57 255"
+		"UpgradeSelectedBg"		"249 138 83 255"
+		"UpgradeDisabledFg"		"64 59 52 255"
+		"UpgradeDisabledBg"		"79 77 68 255"
 	}
 }

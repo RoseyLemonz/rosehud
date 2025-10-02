@@ -6,7 +6,7 @@
 {
 	"mapinfo"
 	{
-		"controlName"	"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"mapinfo"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -26,7 +26,7 @@
 	
 	"MapInfoTitle"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -43,7 +43,7 @@
 	}
 	"MapInfoType"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"0"
 		"ypos"			"75"
@@ -57,11 +57,11 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
-		"fgColor"		"Gray"
+		"fgcolor"		"Gray"
 	}	
 	"MapInfoTypeShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTypeShadow"
 		"xpos"			"1"
 		"ypos"			"76"
@@ -74,12 +74,12 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 	}
 	
 	"MapInfoText"
 	{
-		"controlName"	"CExRichText"
+		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
 		"font"			"ChalkboardText"
 		"xpos"			"c-184"
@@ -91,14 +91,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBorder"	"0"
+		"paintborder"	"0"
 		"textAlignment"	"west"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 	}
 	
 	"MapImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
 		"xpos"			"c10"
 		"ypos"			"140"
@@ -113,7 +113,7 @@
 
 	"NewMapInfoContinue"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"NewMapInfoContinue"
 		"xpos"			"rs1"
 		"ypos"			"rs1"
@@ -130,12 +130,12 @@
 		"font"			"HudFontSmallBold"
 		"default"			"1"
 		"roundedCorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 
 	"MapInfoContinue"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -144,7 +144,7 @@
 	
 	"MapInfoWatchIntro"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -160,7 +160,7 @@
 	
 	"MapInfoBack"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -176,7 +176,7 @@
 		"command"		"back"
 		"font"			"HudFontSmallBold"
 		"roundedCorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 
 	"BGDarken"

@@ -15,7 +15,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -23,7 +23,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -31,7 +31,7 @@
 
 	"ItemEffectLabel"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectLabel"
 		"xpos"					"9999"
 		"wide"					"0"
@@ -40,7 +40,7 @@
 	
 	"ItemEffectMeter"
 	{	
-		"controlName"	"ContinuousProgressBar"
+		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -48,7 +48,7 @@
 
 	"StreakIcon"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"StreakIcon"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -61,11 +61,11 @@
 		"labelText"		"8"
 		"font"			"HudMenuIco"
 		"proportionalToParent"	"1"
-		"fgColor_override"	"HudPrimary"
+		"fgcolor_override"	"HudPrimary"
 	}			
 	"StreakIconShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"StreakIconShadow"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -78,13 +78,13 @@
 		"labelText"		"8"
 		"font"			"HudMenuIco"
 		"proportionalToParent"	"1"
-		"fgColor_override"	"Black"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"StreakIcon"
 	}			
 	
 	"ItemEffectMeterCount"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"24"
 		"ypos"					"rs1"
@@ -96,13 +96,13 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 		"font"					"HudAmmoReserve"
-		"fgColor"				"HudPrimary"
+		"fgcolor"				"HudPrimary"
 		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
@@ -115,7 +115,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"west"
 		"font"					"HudAmmoReserve"
-		"fgColor"				"black"
+		"fgcolor"				"black"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 }

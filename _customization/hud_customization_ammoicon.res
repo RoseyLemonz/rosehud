@@ -6,7 +6,7 @@
 		{
 			"AmmoIcon"
 			{
-				"controlName"					"EditablePanel"
+				"ControlName"					"EditablePanel"
 				"fieldName"						"AmmoIcon"
 				"xpos"							"7"
 				"ypos"							"336"
@@ -17,12 +17,12 @@
 				"enabled"						"1"
 				"proportionalToParent"			"1"
 				"paintBackground"				"1"
-				"paintBackgroundType"			"0"
-				"bgColor_override"				"Black"
+				"paintbackgroundtype"			"0"
+				"bgcolor_override"				"Black"
 
 				"Title"
 				{
-					"controlName"						"CExLabel"
+					"ControlName"						"CExLabel"
 					"fieldName"							"Title"
 					"xpos"								"0"
 					"ypos"								"0"
@@ -36,15 +36,15 @@
 					"labelText"							"Ammo Icon"
 					"font"								"ItemFontNameSmallest"
 					"centerWrap"						"1"
-					"fgColor"							"Black"
+					"fgcolor"							"Black"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
-					"bgColor_override"					"HudPrimary"
+					"paintbackgroundtype"				"0"
+					"bgcolor_override"					"HudPrimary"
 				}
 
 				"IconOn"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"IconOn"
 					"xpos"								"7"
 					"ypos"								"20"
@@ -58,7 +58,7 @@
 
 					"IconOnButton"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"IconOnButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -74,15 +74,15 @@
 						"command"							"engine hud_ammoicon_on"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"HudBonusDark"
-						"armedBgColor_override"				"HudBonusLight"
-						"depressedBgColor_override"			"HudBonus"
+						"defaultbgcolor_override"			"HudBonusDark"
+						"armedbgcolor_override"				"HudBonusLight"
+						"depressedbgcolor_override"			"HudBonus"
 					}
 				}
 
 				"IconOff"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"IconOff"
 					"xpos"								"rs1-7"
 					"ypos"								"20"
@@ -96,7 +96,7 @@
 
 					"IconOffButton"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"IconOffButton"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -112,9 +112,9 @@
 						"command"							"engine hud_ammoicon_off"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"HudNegatDark"
-						"armedBgColor_override"				"HudNegatLight"
-						"depressedBgColor_override"			"HudNegat"
+						"defaultbgcolor_override"			"HudNegatDark"
+						"armedbgcolor_override"				"HudNegatLight"
+						"depressedbgcolor_override"			"HudNegat"
 					}
 				}
 			}

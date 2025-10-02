@@ -6,7 +6,7 @@
 {
 	"info"
 	{
-		"controlName"			"CTFTextWindow"
+		"ControlName"			"CTFTextWindow"
 		"fieldName"				"info"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -26,14 +26,14 @@
 
 	"MessageTitle"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"9999"
 	}
 
 	"TFMessageTitle"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"0"
 		"ypos"			"50"
@@ -51,7 +51,7 @@
 
 	"TextMessage"
 	{
-		"controlName"	"TextEntry"
+		"ControlName"	"TextEntry"
 		"fieldName"		"TextMessage"
 		"visible"		"0"
 		"enabled"		"0"
@@ -59,7 +59,7 @@
 
 	"TFTextMessage"
 	{
-		"controlName"	"CExRichText"
+		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"ChalkboardText"
 		"xpos"			"cs-0.5"
@@ -71,14 +71,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBorder"	"0"
+		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 	}
 
 	"HTMLMessage"
 	{
-		"controlName"	"HTML"
+		"ControlName"	"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"cs-0.5"
 		"ypos"			"125"
@@ -89,12 +89,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBorder"	"0"
+		"paintborder"	"0"
 	}
 	
 	"ok"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"ok"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
@@ -112,6 +112,6 @@
 		"font"			"HudFontSmallBold"
 		"default"			"1"
 		"roundedCorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 }

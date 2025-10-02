@@ -2,7 +2,7 @@
 {
 	"avatar"
 	{
-		// "controlName"	"CAvatarImagePanel"
+		// "ControlName"	"CAvatarImagePanel"
 		"fieldName"		"avatar"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -16,7 +16,7 @@
 
 	"EmptyImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"EmptyImage"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -32,7 +32,7 @@
 
 	"LeaderIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"LeaderIcon"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -48,7 +48,7 @@
 
 	"BannedIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BannedIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -61,12 +61,12 @@
 		"scaleImage"	"1"
 		"mouseInputEnabled"	"0"
 		"proportionalToParent"	"1"
-		"drawColor"	"255 0 0 255"
+		"drawcolor"	"255 0 0 255"
 	}
 
 	"OutOfDateIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"OutOfDateIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -79,12 +79,12 @@
 		"scaleImage"	"1"
 		"mouseInputEnabled"	"0"
 		"proportionalToParent"	"1"
-		"drawColor"	"OrangeDim"
+		"drawcolor"	"OrangeDim"
 	}
 
 	"OfflineIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"OfflineIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -97,12 +97,12 @@
 		"scaleImage"	"1"
 		"mouseInputEnabled"	"0"
 		"proportionalToParent"	"1"
-		"drawColor"	"OrangeDim"
+		"drawcolor"	"OrangeDim"
 	}
 
 	"StatusDimmer"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"StatusDimmer"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -111,12 +111,12 @@
 		"tall"			"f2"
 		"visible"		"1"
 		"proportionalToParent"	"1"
-		"bgColor_override"	"TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
 	}
 
 	"InteractButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"InteractButton"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -139,9 +139,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"0 0 0 100"
-		"depressedbgColor_override"	"TransparentBlack"
+		"defaultbgcolor_override"	"Blank"
+		"armedbgcolor_override"		"0 0 0 100"
+		"depressedbgcolor_override"	"TransparentBlack"
 
 		"border_default"	"QuickplayBorder"
 		"border_armed"		"FriendHighlightBorderThick"
@@ -149,7 +149,7 @@
 
 	"Spinner"
 	{
-		"controlName"	"CTFLogoPanel"
+		"ControlName"	"CTFLogoPanel"
 		"fieldName"		"Spinner"
 		"xpos"			"1"
 		"ypos"			"1"
@@ -163,6 +163,6 @@
 
 		"radius"		"26"
 		"velocity"		"60"
-		"fgColor_override"	"Orange"
+		"fgcolor_override"	"Orange"
 	}
 }

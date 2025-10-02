@@ -16,7 +16,7 @@
 	
 	"playlist"
 	{
-	//	"controlName"	"CTFPlaylistPanel"
+	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -29,7 +29,7 @@
 
 	"PlayListDropShadow"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -67,9 +67,9 @@
 		"enabled"		"1"
 		"labelText"		""
 		"roundedCorners"	"0"
-		"defaultBgColor_override"	"0 0 0 125"
-		"armedBgColor_override"		"0 0 0 125"
-		"depressedBgColor_override"	"0 0 0 125"
+		"defaultbgcolor_override"	"0 0 0 125"
+		"armedbgcolor_override"		"0 0 0 125"
+		"depressedbgcolor_override"	"0 0 0 125"
 	}
 
 	"BGPanel"

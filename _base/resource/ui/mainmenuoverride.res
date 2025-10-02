@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-//		"bgColor_override"	"0 0 0 240"
+//		"bgcolor_override"	"0 0 0 240"
 		
 		"update_url"	"https://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"https://www.teamfortress.com/"
@@ -29,7 +29,7 @@
 
 			"SubButton"
 			{
-				"controlName"	"CExImageButton"
+				"ControlName"	"CExImageButton"
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -50,15 +50,15 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintBackground"	"0"
 				
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultfgcolor_override" "46 43 42 255"
+				"armedfgcolor_override" "235 226 202 255"
+				"depressedfgcolor_override" "46 43 42 255"
 				
-				"image_drawColor"	"117 107 94 255"
-				"image_armedColor"	"235 226 202 255"
+				"image_drawcolor"	"117 107 94 255"
+				"image_armedcolor"	"235 226 202 255"
 				"SubImage"
 				{
-					"controlName"	"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
 					"xpos"			"6"
 					"ypos"			"6"
@@ -77,7 +77,7 @@
 
 	"mouseoveritempanel"
 	{
-		"controlName"	"CItemModelPanel"
+		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
@@ -85,10 +85,10 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgColor_override"		"0 0 0 0"
+		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"paintBackgroundType"	"2"
-		"paintBorder"	"1"
+		"paintbackgroundtype"	"2"
+		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
 		
 		"text_ypos"			"20"
@@ -111,14 +111,14 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgColor"		"117 107 94 255"
+			"fgcolor"		"117 107 94 255"
 			"centerWrap"	"1"
 		}
 	}
 	
 	"Background"
 	{
-		"controlName"	"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -183,7 +183,7 @@
 
 	"HolidayConditional"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"visible"		"0"
 		"command"	    "soundentry rose.main_menu"
 
@@ -205,7 +205,7 @@
 
 	"TFLogoImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -214,7 +214,7 @@
 		
 	"TFCharacterImage"
 	{
-		// "controlName"	"ImagePanel"
+		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -223,7 +223,7 @@
 
 	"FakeHudName"
 	{
-		"controlName"	"Button"
+		"ControlName"	"Button"
 		"fieldName"		"FakeHudName"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -234,14 +234,14 @@
 		"labelText"		""
 		"sound_depressed"	"ui/piano.mp3"
 		"paintBackground"	"0"
-		"paintBorder"		"0"
+		"paintborder"		"0"
 		"command"			"engine toggleconsole; echo ------------; rosehud_version; echo ------------"
 		"pin_to_sibling"	"HudName"
 	}
 
 	"HudName"
 	{
-		"controlName"	"CexLabel"
+		"ControlName"	"CexLabel"
 		"fieldName"		"HudName"
 		"xpos"			"35"
 		"ypos"			"20"
@@ -253,12 +253,12 @@
 		"textAlignment"	"center"
 		"labelText"		"#rose_HudName"
 		"font"			"HudTitle"
-		"fgColor"		"HudPrimary"
+		"fgcolor"		"HudPrimary"
 	}	
 	
 	"HudNameShadow"
 	{
-		"controlName"	"CexLabel"
+		"ControlName"	"CexLabel"
 		"fieldName"		"HudNameShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -270,13 +270,13 @@
 		"textAlignment"	"center"
 		"labelText"		"#rose_HudName"
 		"font"			"HudTitle"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"HudName"
 	}	
 
 	"HudTheme"
 	{
-		"controlName"	"CexLabel"
+		"ControlName"	"CexLabel"
 		"fieldName"		"HudTheme"
 		"xpos"			"35"
 		"ypos"			"52"
@@ -288,12 +288,12 @@
 		"textAlignment"	"center"
 		"labelText"		"SakakiTheme"
 		"font"			"HudTheme"
-		"fgColor"		"HudPrimary"
+		"fgcolor"		"HudPrimary"
 	}	
 	
 	"HudThemeShadow"
 	{
-		"controlName"	"CexLabel"
+		"ControlName"	"CexLabel"
 		"fieldName"		"HudThemeShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -305,13 +305,13 @@
 		"textAlignment"	"center"
 		"labelText"		"SakakiTheme"
 		"font"			"HudTheme"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"HudTheme"
 	}	
 
 	"MenuBGUni"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"MenuBGUni"
 		"xpos"			"25"
 		"ypos"			"0"
@@ -320,12 +320,12 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
 	}		
 
 	"RankModelPanel"
 	{
-		"controlName"	"CPvPRankPanel"
+		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"9999"
 		"visible"		"0"
@@ -333,7 +333,7 @@
 
 	"CycleRankTypeButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"272"
 		"ypos"			"c-136"
@@ -351,18 +351,18 @@
 		"actionSignalLevel" "1"
 		"proportionalToParent"	"1"
 
-		"armedBgColor_override"	"HudPrimaryLight"
-		"depressedFgColor_override"	"HudPrimary"
+		"armedbgcolor_override"	"HudPrimaryLight"
+		"depressedfgcolor_override"	"HudPrimary"
 				
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"paintBackground"	"0"
-		"paintBorder"		"0"
+		"paintborder"		"0"
 
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"9999"
 			"visible"		"0"
@@ -371,7 +371,7 @@
 
 	"RankTooltipPanel"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -380,7 +380,7 @@
 	
 	"RankPanel"
 	{
-		"controlName"	"CPvPRankPanel"
+		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"35"
 		"ypos"			"82"
@@ -399,7 +399,7 @@
 
 	"NoGCMessage"
 	{
-		"controlName"	"Label"
+		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
 		"xpos"			"50"
 		"ypos"			"100"
@@ -417,7 +417,7 @@
 
 	"NoGCImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
 		"xpos"			"230"
 		"ypos"			"116"
@@ -433,7 +433,7 @@
 
 	"RankBorder"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"35"
 		"ypos"			"104"
@@ -441,14 +441,14 @@
 		"wide"			"260"
 		"tall"			"85"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkBlack"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkBlack"
 		"proportionalToParent"	"1"
 	}
 	
 	"TooltipPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TooltipPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -456,11 +456,11 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"bgColor_override"		"DarkBlack"
+		"bgcolor_override"		"DarkBlack"
 		
 		"TipSubLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"%tipsubtext%"
@@ -474,13 +474,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgColor_override"	"117 107 94 255"
+			"fgcolor_override"	"117 107 94 255"
 			"wrap"			"1"
 		}
 		
 		"TipLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%tiptext%"
@@ -494,14 +494,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 			"auto_wide_toContents" "1"
 		}
 	}	
 
 	"WatchStreamButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -510,7 +510,7 @@
 	
 	"MOTD_ShowButtonPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"314"
 		"ypos"			"62"
@@ -522,7 +522,7 @@
 
 		"MOTD_ShowButtonPanel_SB"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_ShowButtonPanel_SB"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -544,7 +544,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -555,7 +555,7 @@
 
 	"QuestLogButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"314"
 		"ypos"			"30"
@@ -567,7 +567,7 @@
 		
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -589,7 +589,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -600,7 +600,7 @@
 
 	"Notifications_ShowButtonPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"314"
 		"ypos"			"94"
@@ -612,7 +612,7 @@
 		
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"16"
 			"ypos"			"0"
@@ -623,13 +623,13 @@
 			"enabled"		"1"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawColor" "210 125 33 255"
+			"drawcolor" "210 125 33 255"
 			"mouseInputEnabled"	"0"
 		}				
 		
 		"Notifications_CountLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%noticount%"
@@ -643,13 +643,13 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgColor_override"	"255 255 255 255"
+			"fgcolor_override"	"255 255 255 255"
 			"mouseInputEnabled"	"0"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -672,7 +672,7 @@
 			
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -683,7 +683,7 @@
 	
 	"MOTD_Panel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"314"
 		"ypos"			"94"
@@ -691,30 +691,30 @@
 		"wide"			"260"
 		"tall"			"316"
 		"visible"		"0"
-		"bgColor_override"		"DarkBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"		"DarkBlack"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 
 		"InnerShadow"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"InnerShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-22"
 			"wide"			"f15"
 			"tall"			"245"
 			"visible"		"1"
-			"paintBackgroundType"	"0"
+			"paintbackgroundtype"	"0"
 			"proportionalToParent"	"1"
 			"mouseInputEnabled"	"0"
 
-			"paintBorder"	"1"
+			"paintborder"	"1"
 			"border"		"InnerShadowBorder"
 		}
 
 		"MOTD_HeaderContainer"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_HeaderContainer"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -723,7 +723,7 @@
 		
 		"MOTD_CloseButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
 			"xpos"			"rs1-8"
 			"ypos"			"rs1-4"
@@ -743,12 +743,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "DarkerBlack"
-			"defaultBgColor_override" "HudPrimary"
+			"defaultfgcolor_override" "DarkerBlack"
+			"defaultbgcolor_override" "HudPrimary"
 			
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -758,7 +758,7 @@
 		
 		"MOTD_URLButton"
 		{
-			"controlName"	"CExButton"
+			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"8"
 			"ypos"			"rs1-4"
@@ -780,13 +780,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "DarkerBlack"
-			"defaultBgColor_override" "HudPrimary"
+			"defaultfgcolor_override" "DarkerBlack"
+			"defaultbgcolor_override" "HudPrimary"
 		}	
 
 		"MOTD_HeaderIcon"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_HeaderIcon"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -795,7 +795,7 @@
 			
 		"MOTD_TitleLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
 			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%motdtitle%"
@@ -806,13 +806,13 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgColor"		"HudWhite"
+			"fgcolor"		"White"
 			"proportionalToParent"	"1"
 		}
 		
 		"MOTD_Label"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
 			"font"			"HudFontSmall"
 			"labelText"		"%motddate%"
@@ -823,13 +823,13 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgColor"		"HudPrimary"
+			"fgcolor"		"HudPrimary"
 			"proportionalToParent"	"1"
 		}
 		
 		"MOTD_TitleImageBg"
 		{
-			"controlName"	"Panel"
+			"ControlName"	"Panel"
 			"fieldName"		"MOTD_TitleImageBg"
 			"xpos"			"cs-0.5"
 			"ypos"			"60"
@@ -838,14 +838,14 @@
 			"tall"			"120"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgColor_override"	"HudBlack"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"DarkestGray"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 		
 		"MOTD_TitleImageContainer"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
 			"xpos"			"cs-0.5"
 			"ypos"			"63"
@@ -857,7 +857,7 @@
 			
 			"MOTD_TitleImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"MOTD_TitleImage"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -873,7 +873,7 @@
 
 		"MOTD_TextScrollerBG"
 		{
-			"controlName"	"Panel"
+			"ControlName"	"Panel"
 			"fieldName"		"MOTD_TextScrollerBG"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-30"
@@ -884,13 +884,13 @@
 			"enabled"		"1"
 			"scaleImage"		"1"	
 			"proportionalToParent"	"1"
-			"bgColor_override"	"DarkerBlack"
-			"paintBackgroundType"	"2"
+			"bgcolor_override"	"DarkerBlack"
+			"paintbackgroundtype"	"2"
 		}
 			
 		"MOTD_TextScroller"
 		{
-			"controlName"	"ScrollableEditablePanel"
+			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-34"
@@ -898,22 +898,21 @@
 			"wide"			"f45"	
 			"tall"			"85"
 			"proportionalToParent"	"1"
-			"paintBackgroundType"	"2"
-			"fgColor"		"HudWhite"
+			"paintbackgroundtype"	"2"
 			
 			"MOTD_TextPanel"
 			{
-				"controlName"	"EditablePanel"
+				"ControlName"	"EditablePanel"
 				"fieldName"		"MOTD_TextPanel"
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"paintBackgroundType"	"2"
+				"paintbackgroundtype"	"2"
 				"proportionaltoparent"	"1"
 			
 				"MOTD_TextLabel"
 				{
-					"controlName"	"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
 					"font"			"HudFontSmall"
 					"labelText"		"%motdtext%"
@@ -923,7 +922,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgColor"		"HudWhite"
+					"fgcolor"		"White"
 					"wrap"			"1"
 					"proportionaltoparent"	"1"
 				}
@@ -932,7 +931,7 @@
 		
 		"MOTD_PrevButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_PrevButton"
 			"xpos"			"12"
 			"ypos"			"336"
@@ -953,11 +952,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintBackground" "0"
 			
-			"image_drawColor"	"235 226 202 255"
-			"image_armedColor"	"255 255 255 255"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -973,7 +972,7 @@
 		
 		"MOTD_NextButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_NextButton"
 			"xpos"			"267"
 			"ypos"			"336"
@@ -995,11 +994,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintBackground" "0"
 			
-			"image_drawColor"	"235 226 202 255"
-			"image_armedColor"	"255 255 255 255"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -1016,7 +1015,7 @@
 
 	"Notifications_Panel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
 		"xpos"			"314"
 		"ypos"			"94"
@@ -1024,12 +1023,12 @@
 		"wide"			"210"
 		"tall"			"95"
 		"visible"		"0"
-		"bgColor_override"	"DarkBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"DarkBlack"
+		"paintbackgroundtype"	"2"
 		
 		"Notifications_CloseButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
 			"xpos"			"186"
 			"ypos"			"6"
@@ -1052,12 +1051,12 @@
 
 			"paintBackground"	"0"
 			
- 			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"125 125 125 255"
+ 			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"125 125 125 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -1073,7 +1072,7 @@
 	
 		"Notifications_TitleLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%notititle%"
@@ -1086,24 +1085,24 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgColor"		"White"
+			"fgcolor"		"White"
 			"wrap"			"1"
 		}
 		
 		"Notifications_Scroller"
 		{
-			"controlName"	"ScrollableEditablePanel"
+			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"Notifications_Scroller"
 			"xpos"			"8"
 			"ypos"			"25"
 			"wide"			"210"
 			"tall"			"56"
-			"paintBackgroundType"	"2"
-			"fgColor_override"	"White"
+			"paintbackgroundtype"	"2"
+			"fgcolor_override"	"White"
 			
 			"Notifications_Control"
 			{
-				"controlName"	"CMainMenuNotificationsControl"
+				"ControlName"	"CMainMenuNotificationsControl"
 				"fieldName"		"Notifications_Control"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -1116,7 +1115,7 @@
 	
 	"VRBGPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"VRBGPanel"
 		"xpos"			"c-290"
 		"ypos"			"373"
@@ -1124,13 +1123,13 @@
 		"wide"			"260"
 		"tall"			"38"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"border"		"MainMenuBGBorder"
 	}
 
 	"VRModeButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"VRModeButton"
 		"xpos"			"314"
 		"ypos"			"354"
@@ -1138,11 +1137,11 @@
 		"wide"			"200"
 		"tall"			"26"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1160,14 +1159,14 @@
 			"proportionalToParent"	"1"
 			"use_proportional_insets"	"1"
 			
-			"defaultBgColor_override"	"DarkerBlack"
+			"defaultbgcolor_override"	"DarkerBlack"
 				
-			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
 				"ypos"			"6"
@@ -1183,7 +1182,7 @@
 
 	"CompetitiveAccessInfoPanel"
 	{
-		"controlName"	"CCompetitiveAccessInfoPanel"
+		"ControlName"	"CCompetitiveAccessInfoPanel"
 		"fieldName"		"CompetitiveAccessInfoPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -1195,7 +1194,7 @@
 
 	"FriendsContainer"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FriendsContainer"
 		"xpos"			"35"
 		"ypos"			"200"
@@ -1204,12 +1203,12 @@
 		"tall"			"210"
 		"visible"		"1"
 
-		"paintBackgroundType"	"2"
-		"bgColor_override"		"DarkBlack"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkBlack"
 
 		"TitleLabel"
 		{
-			"controlName"	"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_Competitive_Friends"
@@ -1223,12 +1222,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textinsetX"	"0"
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 		}
 
 		"InnerShadow"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"InnerShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
@@ -1236,17 +1235,17 @@
 			"wide"			"f10"
 			"tall"			"170"
 			"visible"		"1"	
-			"paintBackgroundType"	"0"
+			"paintbackgroundtype"	"0"
 			"proportionalToParent"	"1"
 			"mouseInputEnabled"	"0"
 
-			"paintBorder"	"1"
+			"paintborder"	"1"
 			"border"		"InnerShadowBorder"
 		}
 
 		"SteamFriendsList"
 		{
-			"controlName"	"CSteamFriendsListPanel"
+			"ControlName"	"CSteamFriendsListPanel"
 			"fieldName"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
@@ -1271,7 +1270,7 @@
 
 			"ScrollBar"
 			{
-				"controlName"	"ScrollBar"
+				"ControlName"	"ScrollBar"
 				"fieldName"		"ScrollBar"
 				"xpos"			"rs1-1"
 				"ypos"			"0"
@@ -1283,19 +1282,19 @@
 
 				"Slider"
 				{
-					"fgColor_override"	"TanDark"
+					"fgcolor_override"	"TanDark"
 				}
 		
 				"UpButton"
 				{
-					"controlName"	"Button"
+					"ControlName"	"Button"
 					"fieldName"		"UpButton"
 					"visible"		"0"
 				}
 		
 				"DownButton"
 				{
-					"controlName"	"Button"
+					"ControlName"	"Button"
 					"fieldName"		"DownButton"
 					"visible"		"0"
 				}
@@ -1304,7 +1303,7 @@
 
 		"BelowDarken"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BelowDarken"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
@@ -1312,17 +1311,17 @@
 			"wide"			"f10"
 			"tall"			"170"
 			"visible"		"1"	
-			"paintBackgroundType"	"0"
+			"paintbackgroundtype"	"0"
 			"proportionalToParent"	"1"
 			"mouseInputEnabled"	"0"
 
-			"bgColor_override"	"0 0 0 100"
+			"bgcolor_override"	"0 0 0 100"
 		}
 	}
 
 	"ShowPromoCodesButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
 		"xpos"			"314"
 		"ypos"			"384"
@@ -1339,12 +1338,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"showpromocodes"
-		"defaultBgColor_override"	"DarkBlack"
+		"defaultbgcolor_override"	"DarkBlack"
 	}
 
 	"StoreHasNewItemsImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -1353,7 +1352,7 @@
 
 	"CharacterSetupButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"36"
 		"ypos"			"rs1-18"
@@ -1376,12 +1375,12 @@
 			
 		"paintBackground"	"1"
 				
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"6"
 			"ypos"			"cs-0.5"
@@ -1399,7 +1398,7 @@
 	
 	"NewSettingsButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"NewSettingsButton"
 		"xpos"			"-3"
 		"ypos"			"0"
@@ -1421,14 +1420,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 
 		"pin_to_sibling"	"CharacterSetupButton"
 		"pin_to_sibling_corner"	"1"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"5"
 			"ypos"			"cs-0.5"
@@ -1445,7 +1444,7 @@
 
 	"TF2SettingsButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1465,8 +1464,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 
 		"pin_to_sibling"	"NewSettingsButton"
 		"pin_to_sibling_corner" "1"			
@@ -1474,7 +1473,7 @@
 	
 	"NewGeneralStoreButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NewGeneralStoreButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1487,7 +1486,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1510,7 +1509,7 @@
 					
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1521,7 +1520,7 @@
 
 	"ShowHUDOptionsButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ShowHUDOptionsButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1534,7 +1533,7 @@
 
 		"SubButton"
 		{
-			"controlName"		"CExImageButton"
+			"ControlName"		"CExImageButton"
 			"fieldName"			"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1557,7 +1556,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1568,7 +1567,7 @@
 
 	"AchievementsButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1588,8 +1587,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 
 		"pin_to_sibling"	"ShowHUDOptionsButton"
 		"pin_to_sibling_corner" "1"	
@@ -1598,7 +1597,7 @@
 
 	"WorkshopButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"WorkshopButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1618,8 +1617,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 		
 		"pin_to_sibling"	"AchievementsButton"
 		"pin_to_sibling_corner" "1"			
@@ -1627,7 +1626,7 @@
 		
 	"CommentaryButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1654,7 +1653,7 @@
 
 	"NewUserForumsButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1673,7 +1672,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"paintBackgroundType" "0"
+		"paintbackgroundtype" "0"
 		"border_default"	"MainMenuSubButtonBorder"
 
 		"pin_to_sibling"	"CommentaryButton"
@@ -1682,7 +1681,7 @@
 
 	"FixAllButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FixAllButton"
 		"xpos"			"-3"
 		"ypos"			"0"
@@ -1695,7 +1694,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1717,7 +1716,7 @@
 
 	"MusicChangePrevButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MusicChangePrevButton"
 		"xpos"			"15"
 		"ypos"			"0"
@@ -1735,7 +1734,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1755,7 +1754,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1766,7 +1765,7 @@
 
 	"MusicStopButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MusicStopButton"
 		"xpos"			"-3"
 		"ypos"			"0"
@@ -1780,7 +1779,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1801,7 +1800,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1812,7 +1811,7 @@
 
 	"MusicPlayButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MusicPlayButton"
 		"xpos"			"-1"
 		"ypos"			"0"
@@ -1826,7 +1825,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1847,7 +1846,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1858,7 +1857,7 @@
 	
   	"MusicChangeNextButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MusicChangeNextButton"
 		"xpos"			"-3"
 		"ypos"			"0"
@@ -1873,7 +1872,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1893,7 +1892,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1906,7 +1905,7 @@
 
 	"ReportPlayerButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ReportPlayerButton"
 		"xpos"			"15"
 		"ypos"			"0"
@@ -1919,7 +1918,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1939,7 +1938,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1950,7 +1949,7 @@
 
 	"CallVoteButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"CallVoteButton"
 		"xpos"			"-3"
 		"ypos"			"0"
@@ -1963,7 +1962,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1985,7 +1984,7 @@
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -1996,7 +1995,7 @@
 
 	"MutePlayersButton"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MutePlayersButton"
 		"xpos"			"-3"
 		"ypos"			"0"
@@ -2009,7 +2008,7 @@
 
 		"SubButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -2029,7 +2028,7 @@
 			
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -2040,7 +2039,7 @@
 
 	"BackToReplaysButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"BackToReplaysButton"
 		"xpos"			"c-300"
 		"ypos"			"437"
@@ -2060,11 +2059,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"16"
 			"ypos"			"6"
@@ -2081,7 +2080,7 @@
 
 	"SettingsButtonSDK"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButtonSDK"
 		"xpos"			"c-34+273"
 		"ypos"			"437"
@@ -2103,11 +2102,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"6"
 			"ypos"			"6"
@@ -2123,7 +2122,7 @@
 
 	"TF2SettingsButtonSDK"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButtonSDK"
 		"xpos"			"c-0+273"
 		"ypos"			"437"
@@ -2144,11 +2143,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawColor"	"255 255 255 255"
-		"image_armedColor"	"46 43 42 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"46 43 42 255"
 		"SubImage"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
 			"xpos"			"6"
 			"ypos"			"6"
@@ -2165,7 +2164,7 @@
 				
 	"BottomBG"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BottomBG"
 		"xpos"			"0"
 		"ypos"			"420"
@@ -2174,13 +2173,13 @@
 		"zpos"			"-1"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"		"DarkerBlack"
+		"bgcolor_override"		"DarkerBlack"
 		"border"				"FooterWithAccent"
 	}
 
 	"icon_generator"
 	{
-		"controlName"		"CEmbeddedItemModelPanel"
+		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"icon_generator"
 
 		"xpos"			"0"
@@ -2227,7 +2226,7 @@
 
 	"GeneralStoreButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -2236,7 +2235,7 @@
 
 	"SettingsButton"
 	{
-		"controlName"	"CExImageButton"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"9999"
 		"wide"			"0"

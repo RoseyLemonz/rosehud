@@ -24,11 +24,11 @@ Scheme
 		Econ.Button.DepressedFgColor		"Black"
 
 		Econ.Button.PresetDefaultColorFg		"Black"
-		Econ.Button.PresetArmedColorFg			"Black"
+		Econ.Button.PresetarmedcolorFg			"Black"
 		Econ.Button.PresetDepressedColorFg		"Black"
 		
 		Econ.Button.PresetDefaultColorBg		"HudPrimaryDark"
-		Econ.Button.PresetArmedColorBg			"HudPrimaryLight"
+		Econ.Button.PresetarmedcolorBg			"HudPrimaryLight"
 		Econ.Button.PresetDepressedColorBg		"HudPrimary"
 
 		Border.Bright			"Blank"		// the lit side of a control
@@ -97,7 +97,7 @@ Scheme
 
 		Menu.TextColor					"White"
 		Menu.ArmedTextColor				"DarkGray"
-		Menu.BgColor					"DarkestGray"
+		Menu.BgColor					"Black"
 		Menu.ArmedBgColor				"Black"
 		Menu.TextInset					"8"
 
@@ -152,7 +152,7 @@ Scheme
 
 		Slider.NobColor				"HudPrimary"
 		Slider.TextColor			"White"
-		Slider.TrackColor			"HudBlack"
+		Slider.TrackColor			"DarkestGray"
 		Slider.DisabledTextColor1	"White"
 		Slider.DisabledTextColor2	"White"
 

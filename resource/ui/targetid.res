@@ -2,7 +2,7 @@
 {
 	"TargetBG"
 	{
-		"controlName"		"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetBG"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -16,7 +16,7 @@
 
 	"TargetIDBG"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -27,7 +27,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawColor"		"HudPrimaryDark"
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -38,7 +38,7 @@
 
 	"TargetIDBGTeamTriangle"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBGTeamTriangle"
 		"xpos"			"s-0.05"
 		"ypos"			"s-0.04"
@@ -64,7 +64,7 @@
 
 	"TargetIDBG_Spec_Blue"
 	{
-		"controlName"	"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawColor"		"HudPrimaryDark"
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -86,7 +86,7 @@
 
 	"TargetIDBG_Spec_Red"
 	{
-		"controlName"	"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -97,7 +97,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawColor"		"HudPrimaryDark"
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -108,7 +108,7 @@
 
 	"TargetNameLabel"
 	{
-		"controlName"	"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudTargetIDName"
 		"xpos"			"8"
@@ -120,12 +120,12 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 	}
 
 	"TargetDataLabel"
 	{
-		"controlName"	"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"HudTargetIDIcons"
 		"xpos"			"15"
@@ -137,12 +137,12 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"	"west"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 	}
 
 	"SpectatorGUIHealth"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"5"
 		"ypos"			"0"
@@ -156,7 +156,7 @@
 
 	"AmmoIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"30"
 		"ypos"			"rs1.45"
@@ -172,7 +172,7 @@
 
 	"KillstreakIconAnchor"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"KillstreakIconAnchor"
 		"xpos"			"cs-0.5+72"
 		"ypos"			"16"
@@ -184,7 +184,7 @@
 
 	"KillStreakIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -201,7 +201,7 @@
 
 	"MoveableSubPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -211,7 +211,7 @@
 
 		"MoveableIconBG"
 		{
-			"controlName"	"CIconPanel"
+			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
 			"xpos"			"9999"
 			"ypos"			"9999"
@@ -227,7 +227,7 @@
 
 		"MoveableIcon"
 		{
-			"controlName"	"CIconPanel"
+			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -236,7 +236,7 @@
 
 		"MoveableIconPin"
 		{
-			"controlName"	"Panel"
+			"ControlName"	"Panel"
 			"fieldName"		"MoveableIconPin"
 			"xpos"			"15"
 			"ypos"			"-4"
@@ -245,7 +245,7 @@
 
 		"MoveableSymbolIcon"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"MoveableSymbolIcon"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -262,7 +262,7 @@
 
 		"MoveableKeyLabel"
 		{	
-			"controlName"	"Label"
+			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"xpos"			"0"
 			"wide"			"0"
@@ -273,7 +273,7 @@
 
 	"AvatarImage"
 	{
-		"controlName"	"CAvatarImagePanel"
+		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
 		"ypos"			"6"	[$WIN32]

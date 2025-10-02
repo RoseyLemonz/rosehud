@@ -2,7 +2,7 @@
 {
 	"HealthIcon"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -13,7 +13,7 @@
 	}
 	"SpectatorGUIHealth"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -28,7 +28,7 @@
 			"visible"		"1"
 			"textAlignment"	"center"
 			"font"			"HudSpecGuiHealth"
-			"fgColor"		"HudPrimaryLight"
+			"fgcolor"		"HudPrimaryLight"
 			"proportionalToParent"	"1"
 		}
 		"TargetStatusHealthValueShadow"
@@ -38,7 +38,7 @@
 			"visible"		"1"
 			"textAlignment"	"center"
 			"font"			"HudSpecGuiHealth"
-			"fgColor"		"Black"
+			"fgcolor"		"Black"
 			"pin_to_sibling"		"TargetStatusHealthValue"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			"proportionalToParent"	"1"

@@ -19,7 +19,7 @@
 
 	"TopBar"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -34,7 +34,7 @@
 
 		"Gradient"
 		{
-			"controlName"	"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"Gradient"
 			"xpos"			"0"
 			"wide"			"0"
@@ -43,7 +43,7 @@
 
 		"BGPanel"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BGPanel"
 			"xpos"			"cs-0.5"
 			"ypos"			"0"
@@ -51,15 +51,15 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"paintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"roundedCorners"		"12"
-			"bgColor_override"		"DarkerBlack"
+			"bgcolor_override"		"DarkerBlack"
 			"proportionalToParent"	"1"
 		} 
 
 		"OuterShadow"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
 			"xpos"			"9999"
 			"wide"			"0"
@@ -68,7 +68,7 @@
 
 		"ToggleChatButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
 			"xpos"			"0"
 			"ypos"			"rs1"
@@ -96,14 +96,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"	"Black"
+			"defaultbgcolor_override"	"Black"
 
-			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -112,7 +112,7 @@
 
 		"PartySlot0"
 		{
-			"controlName"	"CDashboardPartyMember"
+			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
 			"xpos"			"30"
 			"ypos"			"rs1"
@@ -132,7 +132,7 @@
 
 		"PartySlot1"
 		{
-			"controlName"	"CDashboardPartyMember"
+			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -155,7 +155,7 @@
 
 		"PartySlot2"
 		{
-			"controlName"	"CDashboardPartyMember"
+			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -178,7 +178,7 @@
 
 		"PartySlot3"
 		{
-			"controlName"	"CDashboardPartyMember"
+			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -201,7 +201,7 @@
 
 		"PartySlot4"
 		{
-			"controlName"	"CDashboardPartyMember"
+			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -224,7 +224,7 @@
 
 		"PartySlot5"
 		{
-			"controlName"	"CDashboardPartyMember"
+			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -247,7 +247,7 @@
 
 		"QueueContainer"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
 			"xpos"			"cs-0.5"
 			"ypos"			"-50"
@@ -259,7 +259,7 @@
 
 			"OuterShadow"
 			{
-				"controlName"	"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
 				"xpos"			"9999"
 				"wide"			"0"
@@ -268,7 +268,7 @@
 
 			"BGPanel"
 			{
-				"controlName"	"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
@@ -277,13 +277,13 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"proportionalToParent"	"1"
-				"paintBackgroundType"	"0"
-				"bgColor_override"		"Black"
+				"paintbackgroundtype"	"0"
+				"bgcolor_override"		"Black"
 			}
 
 			"QueueLogoButton"
 			{
-				"controlName"	"Button"
+				"ControlName"	"Button"
 				"fieldName"		"QueueLogoButton"
 				"xpos"			"5"
 				"ypos"			"8"
@@ -303,12 +303,12 @@
 				"button_activation_type"	"1"
 			
 				"paintBackground"	"0"
-				"paintBorder"		"0"				
+				"paintborder"		"0"				
 			}		
 
 			"CTFLogoPanel"
 			{
-				"controlName"	"CTFLogoPanel"
+				"ControlName"	"CTFLogoPanel"
 				"fieldName"		"CTFLogoPanel"
 				"xpos"			"5"
 				"ypos"			"8"
@@ -321,12 +321,12 @@
 				"radius"		"10"
 				"velocity"		"100"
 
-				"fgColor_override"	"TFOrange"
+				"fgcolor_override"	"TFOrange"
 			}
 
 			"QueueText"
 			{
-				"controlName"	"CAutoFittingLabel"
+				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
 				"xpos"			"28"
 				"ypos"			"2"
@@ -336,7 +336,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgColor_override"	"TanLight"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionalToParent"	"1"
@@ -361,7 +361,7 @@
 
 			"MultiQueuesManageButton"
 			{
-				"controlName"	"CExImageButton"
+				"ControlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
 				"xpos"			"rs1-6"
 				"ypos"			"11"
@@ -383,15 +383,15 @@
 			
 				"paintBackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"defaultfgcolor_override" "46 43 42 255"
+				"armedfgcolor_override" "235 226 202 255"
+				"depressedfgcolor_override" "46 43 42 255"
 			
-				"image_drawColor"	"117 107 94 255"
-				"image_armedColor"	"200 80 60 255"
+				"image_drawcolor"	"117 107 94 255"
+				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
 				{
-					"controlName"	"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -407,7 +407,7 @@
 
 			"CloseButton"
 			{
-				"controlName"	"CExImageButton"
+				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
 				"xpos"			"rs1-6"
 				"ypos"			"9"
@@ -430,11 +430,11 @@
 			
 				"paintBackground"	"0"
 			
-		 		"image_drawColor"	"255 255 255 255"
-				"image_armedColor"	"237 135 150 255"
+		 		"image_drawcolor"	"255 255 255 255"
+				"image_armedcolor"	"237 135 150 255"
 				"SubImage"
 				{
-					"controlName"	"ImagePanel"
+					"ControlName"	"ImagePanel"
 					"fieldName"		"SubImage"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -451,7 +451,7 @@
 
 		"JoinPartyLobbyContainer"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"JoinPartyLobbyContainer"
 			"xpos"			"cs-0.5"
 			"ypos"			"-50"
@@ -463,7 +463,7 @@
 
 			"OuterShadow"
 			{
-				"controlName"	"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -478,7 +478,7 @@
 
 			"BGPanel"
 			{
-				"controlName"	"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
@@ -493,7 +493,7 @@
 
 			"PromptText"
 			{
-				"controlName"	"Label"
+				"ControlName"	"Label"
 				"fieldName"		"PromptText"
 				"xpos"			"cs-0.5"
 				"ypos"			"1"
@@ -503,7 +503,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgColor_override"	"TanLight"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionalToParent"	"1"
@@ -512,7 +512,7 @@
 
 			"JoinNowButton"
 			{
-				"controlName"	"CExButton"
+				"ControlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
 				"xpos"			"rs1-10"
 				"ypos"			"rs1-9"
@@ -539,8 +539,8 @@
 				"keyboardInputEnabled"	"0"
 				"actionSignalLevel"	"3"
 
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"armedbgcolor_override"		"CreditsGreen"
+				"defaultbgcolor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -549,7 +549,7 @@
 
 		"QuitButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"QuitButton"
 			"xpos"			"rs1"
 			"ypos"			"rs1"
@@ -574,16 +574,16 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"roundedCorners"			"8"
-			"defaultBgColor_override"	"HudNegatDark"
-			"armedBgColor_override"		"HudNegatLight"
-			"depressedBgColor_override"	"HudNegat"
+			"defaultbgcolor_override"	"HudNegatDark"
+			"armedbgcolor_override"		"HudNegatLight"
+			"depressedbgcolor_override"	"HudNegat"
 
- 			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+ 			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -592,7 +592,7 @@
 
 		"DisconnectButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
 			"xpos"			"rs1"
 			"ypos"			"rs1"
@@ -617,16 +617,16 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"roundedCorners"			"8"
-			"defaultBgColor_override"	"HudNegatDark"
-			"armedBgColor_override"		"HudNegatLight"
-			"depressedBgColor_override"	"HudNegat"
+			"defaultbgcolor_override"	"HudNegatDark"
+			"armedbgcolor_override"		"HudNegatLight"
+			"depressedbgcolor_override"	"HudNegat"
 
- 			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+ 			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -635,7 +635,7 @@
 
 		"ResumeButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
 			"xpos"			"0"
 			"ypos"			"rs1"
@@ -661,12 +661,12 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
- 			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+ 			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"
@@ -675,7 +675,7 @@
 
 		"FindAGameButton"
 		{
-			"controlName"	"CExImageButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -697,19 +697,19 @@
 			"use_proportional_insets"	"1"
 
 			"roundedCorners"			"0"
-			"defaultBgColor_override"	"HudBonusDark"
-			"armedBgColor_override"		"HudBonusLight"
-			"depressedBgColor_override"	"HudBonus"
+			"defaultbgcolor_override"	"HudBonusDark"
+			"armedbgcolor_override"		"HudBonusLight"
+			"depressedbgcolor_override"	"HudBonus"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
- 			"image_drawColor"	"255 255 255 255"
-			"image_armedColor"	"46 43 42 255"
+ 			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor"	"46 43 42 255"
 
 			"SubImage"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"9999"
 				"visible"		"0"

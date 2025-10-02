@@ -2,7 +2,7 @@
 {
 	"ChargeLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"			"ChargeLabel"
 		"xpos"				"cs-0.5"
 		"ypos"				"c148"
@@ -14,15 +14,15 @@
 		"textAlignment"		"south"
 		"allcaps"			"1"
 		"font"				"HudMeterLabel"
-		"fgColor_override"		"White"
-		"bgColor_override"		"Black"
-		"paintBackgroundType"	"2"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"Black"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"		"1"
 	}
 
 	"ChargeMeter"
 	{
-		"controlName"		"ContinuousProgressBar"
+		"ControlName"		"ContinuousProgressBar"
 		"fieldName"			"ChargeMeter"
 		"xpos"				"-5"
 		"ypos"				"-2"
@@ -36,7 +36,7 @@
 
 	"MeterColor"
     {
-        "controlName"		"ImagePanel"
+        "ControlName"		"ImagePanel"
         "fieldName"			"MeterColor"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -47,14 +47,14 @@
         "enabled"			"1"
         "image"				"replay/thumbnails/hud/modulate"
         "scaleImage"		"1"
-        "drawColor"			"HudPrimary"
+        "drawcolor"			"HudPrimary"
 		"proportionalToParent"	"1"
 		"pin_to_sibling"		"ChargeMeter"
     }
 
 	"PipesPresentPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"c148"
@@ -62,12 +62,12 @@
 		"wide"			"48"
 		"tall"			"16"
 		"visible"		"1"	
-		"bgColor_override"		"Black"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"		"Black"
+		"paintbackgroundtype"	"2"
 
 		"NumPipesLabel"
 		{
-			"controlName"				"CExLabel"
+			"ControlName"				"CExLabel"
 			"fieldName"					"NumPipesLabel"
 			"xpos"						"rs1-6"
 			"ypos"						"0"
@@ -79,12 +79,12 @@
 			"labelText"					"%activepipes%"
 			"textAlignment"				"east"
 			"font"						"HudMeterCount"
-			"fgColor"					"HudPrimary"
+			"fgcolor"					"HudPrimary"
 			"proportionalToParent"		"1"
 		}
 		"StickyIcon"
 		{
-			"controlName"				"CExLabel"
+			"ControlName"				"CExLabel"
 			"fieldName"					"StickyIcon"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -97,7 +97,7 @@
 			"textinsetY"				"-0.8"
 			"textAlignment"				"center"
 			"font"						"HudInGameIcoSmall"
-			"fgColor"					"HudPrimaryLight"
+			"fgcolor"					"HudPrimaryLight"
 			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 		}
@@ -120,7 +120,7 @@
 	
 	"NoPipesPresentPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
 		"xpos"			"cs-0.5"
 		"ypos"			"c148"
@@ -128,12 +128,12 @@
 		"wide"			"48"
 		"tall"			"16"
 		"visible"		"1"
-		"bgColor_override"		"Black"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"		"Black"
+		"paintbackgroundtype"	"2"
 
 		"NumPipesLabel"
 		{
-			"controlName"				"CExLabel"
+			"ControlName"				"CExLabel"
 			"fieldName"					"NumPipesLabel"
 			"xpos"						"rs1-6"
 			"ypos"						"0"
@@ -145,12 +145,12 @@
 			"labelText"					"%activepipes%"
 			"textAlignment"				"east"
 			"font"						"HudMeterCount"
-			"fgColor"					"HudPrimary"
+			"fgcolor"					"HudPrimary"
 			"proportionalToParent"		"1"
 		}		
 		"StickyIcon"
 		{
-			"controlName"				"CExLabel"
+			"ControlName"				"CExLabel"
 			"fieldName"					"StickyIcon"
 			"xpos"						"0"
 			"ypos"						"0"
@@ -163,7 +163,7 @@
 			"textinsetY"				"-0.8"
 			"textAlignment"				"center"
 			"font"						"HudInGameIcoSmall"
-			"fgColor"					"HudPrimaryLight"
+			"fgcolor"					"HudPrimaryLight"
 			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 		}

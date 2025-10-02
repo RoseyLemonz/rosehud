@@ -11,7 +11,7 @@
 
 	"RoundSignModel"
 	{
-		"controlName"	"CModelPanel"
+		"ControlName"	"CModelPanel"
 		"fieldName"		"RoundSignModel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -59,7 +59,7 @@
 	
 	"CountdownLabel"
 	{	
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.5"
@@ -75,7 +75,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionalToParent"	"1"
-		"fgColor"		"TanLight"
+		"fgcolor"		"TanLight"
 
 		if_readymode
 		{
@@ -86,7 +86,7 @@
 	
 	"CountdownLabelShadow"
 	{	
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
@@ -101,7 +101,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"proportionalToParent"	"1"
 
 	
@@ -114,7 +114,7 @@
 
 	"FrontParticlePanel"
 	{
-		"controlName"	"CTFParticlePanel"
+		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"FrontParticlePanel"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -142,7 +142,7 @@
 
 	"MatchDoors"
 	{
-		"controlName"	"CModelPanel"
+		"ControlName"	"CModelPanel"
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -208,7 +208,7 @@
 
 	"BlueBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"BlueBG"
 		"xpos"			"cs-1.0"
 		"zpos"			"2"
@@ -217,7 +217,7 @@
 		"tall"			"9"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgColor_override"	"BlueTeamTransparent"
+		"bgcolor_override"	"BlueTeamTransparent"
 
 		if_match
 		{
@@ -227,7 +227,7 @@
 
 	"RedBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"RedBG"
 		"xpos"			"cs0.0"
 		"zpos"			"2"
@@ -236,7 +236,7 @@
 		"tall"			"9"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgColor_override"	"RedTeamTransparent"
+		"bgcolor_override"	"RedTeamTransparent"
 
 		if_match
 		{
@@ -246,7 +246,7 @@
 
 	"BlackBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"BlackBG"
 		"xpos"			"cs-0.5"
 		"zpos"			"2"
@@ -255,9 +255,9 @@
 		"tall"			"16"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
+		"bgcolor_override"	"TransparentBlack"
 		"roundedCorners"	"12"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		if_match
 		{
@@ -267,7 +267,7 @@
 
 	"BGFrame"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
 		"ypos"				"9999"
 		"tall"				"0"
@@ -276,7 +276,7 @@
 
 	"RankUpLabel"
 	{	
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
 		"font"			"HudFontMediumSmallBold"
 		"xpos"			"cs-0.5"
@@ -294,12 +294,12 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionalToParent"	"1"
-		"fgColor"		"TanLight"
+		"fgcolor"		"TanLight"
 	}
 
 	"RankUpShadowLabel"
 	{	
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
 		"font"			"HudFontMediumSmallBold"
 		"xpos"			"cs-0.5+2"
@@ -317,12 +317,12 @@
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
 		"proportionalToParent"	"1"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 	}
 
 	"ObjectiveStatusTimePanel"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"0"
@@ -341,7 +341,7 @@
 		
 		"TimePanelValue"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmallestBold"
 			"xpos"			"cs-0.5"
@@ -358,7 +358,7 @@
 	}
 	"TeamStatus"
 	{
-		"controlName"	"CTFTeamStatus"
+		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -403,7 +403,7 @@
 			
 			"playername"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
 				"xpos"			"5"
@@ -417,7 +417,7 @@
 			}
 			"classimage"
 			{
-				"controlName"	"CTFClassImage"
+				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
@@ -432,7 +432,7 @@
 			}
 			"classimagebg"
 			{
-				"controlName"		"Panel"
+				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -441,12 +441,12 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"paintBackgroundType"	"0"
+				"paintbackgroundtype"	"0"
 				"proportionalToParent"	"1"
 			}
 			"healthbar"
 			{	
-				"controlName"			"ContinuousProgressBar"
+				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
 				"font"					"Default"																		
 				"xpos"					"0"
@@ -459,12 +459,12 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
-				"bgColor_override"	   "80 80 80 255"
+				"bgcolor_override"	   "80 80 80 255"
 				"proportionalToParent"	"1"
 			}
 			"overhealbar"
 			{	
-				"controlName"			"ContinuousProgressBar"
+				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"overhealbar"
 				"font"					"Default"																		
 				"xpos"					"0"
@@ -477,13 +477,13 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
-				"bgColor_override"	   "0 0 0 0"
-				"fgColor_override"	   "255 255 255 160"
+				"bgcolor_override"	   "0 0 0 0"
+				"fgcolor_override"	   "255 255 255 160"
 				"proportionalToParent"	"1"
 			}
 			"HealthIcon"
 			{
-				"controlName"		"EditablePanel"
+				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"22"
 				"ypos"				"-3"
@@ -500,7 +500,7 @@
 			}
 			"ReadyBG"
 			{
-				"controlName"		"ScalableImagePanel"
+				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
@@ -519,7 +519,7 @@
 			}
 			"ReadyImage"
 			{
-				"controlName"		"ImagePanel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -535,7 +535,7 @@
 			}
 			"respawntime"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"HudMatchRespawn"
 				"xpos"			"cs-0.5"
@@ -552,7 +552,7 @@
 			}
 			"chargeamount"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"DefaultSmall"
 				"xpos"			"25"
@@ -565,11 +565,11 @@
 				"visible"		"0"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
-				"fgColor"		"0 255 0 255"
+				"fgcolor"		"0 255 0 255"
 			}
 			"specindex"
 			{
-				"controlName"	"CExLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"font"			"DefaultVerySmall"
 				"xpos"			"4"
@@ -582,11 +582,11 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgColor"		"235 226 202 255"
+				//"fgcolor"		"235 226 202 255"
 			}
 			"DeathPanel"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"DeathPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
@@ -601,7 +601,7 @@
 			}
 			"SkullPanel"
 			{
-				"controlName"	"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
 				"xpos"			"cs-0.5"
 				"zpos"			"1"
@@ -618,7 +618,7 @@
 
 	"BlueTeamPanel"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueTeamPanel"
 		"xpos"			"-155"
 		"ypos"			"125"
@@ -636,7 +636,7 @@
 
 		"BlueTeamBG"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -651,7 +651,7 @@
 		}
 		"BlueTeamImage"
 		{
-			"controlName"		"ImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"BlueTeamImage"
 			"xpos"			"9"
 			"ypos"			"0"
@@ -665,7 +665,7 @@
 		}
 		"BlueTeamLabel"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%blueteamname%"
@@ -683,7 +683,7 @@
 		}
 		"BlueLeaderAvatar"
 		{
-			"controlName"		"CAvatarImagePanel"
+			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"11"
 			"ypos"			"10"
@@ -698,7 +698,7 @@
 		}
 		"BlueLeaderAvatarBG"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
 			"xpos"			"9"
 			"ypos"			"8"
@@ -706,12 +706,12 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"paintBackgroundType"	"2"
-			"bgColor_override"	"117 107 94 255"
+			"paintbackgroundtype"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}
 		"BluePlayerList"
 		{
-			"controlName"	"SectionedListPanel"
+			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
 			"xpos"			"6"
 			"ypos"			"38"
@@ -733,7 +733,7 @@
 		}
 		"BluePlayerListBG"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BluePlayerListBG"
 			"xpos"			"4"
 			"ypos"			"30"
@@ -755,7 +755,7 @@
 
 	"RedTeamPanel"
 	{
-		"controlName"		"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"RedTeamPanel"
 		"xpos"			"r-5"
 		"ypos"			"125"
@@ -773,7 +773,7 @@
 
 		"RedTeamBG"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedTeamBG"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -788,7 +788,7 @@
 		}
 		"RedTeamImage"
 		{
-			"controlName"		"ImagePanel"
+			"ControlName"		"ImagePanel"
 			"fieldName"		"RedTeamImage"
 			"xpos"			"84"
 			"ypos"			"-9"
@@ -802,7 +802,7 @@
 		}
 		"RedTeamLabel"
 		{
-			"controlName"		"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%redteamname%"
@@ -820,7 +820,7 @@
 		}
 		"RedLeaderAvatar"
 		{
-			"controlName"		"CAvatarImagePanel"
+			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
 			"xpos"			"102"
 			"ypos"			"10"
@@ -835,7 +835,7 @@
 		}
 		"RedLeaderAvatarBG"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"RedLeaderAvatarBG"
 			"xpos"			"100"
 			"ypos"			"8"
@@ -843,12 +843,12 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"paintBackgroundType"	"2"
-			"bgColor_override"	"117 107 94 255"
+			"paintbackgroundtype"	"2"
+			"bgcolor_override"	"117 107 94 255"
 		}
 		"RedPlayerList"
 		{
-			"controlName"	"SectionedListPanel"
+			"ControlName"	"SectionedListPanel"
 			"fieldName"		"RedPlayerList"
 			"xpos"			"6"
 			"ypos"			"38"
@@ -870,7 +870,7 @@
 		}
 		"RedPlayerListBG"
 		{
-			"controlName"		"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedPlayerListBG"
 			"xpos"			"4"
 			"ypos"			"30"

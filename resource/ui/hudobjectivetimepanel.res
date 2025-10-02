@@ -2,7 +2,7 @@
 {	
 	"TimePanelBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"7"
@@ -12,8 +12,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"bgColor_override"		"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"		"TransparentBlack"
+		"paintbackgroundtype"	"2"
 
 		"proportionalToParent"	"1"
 		if_match
@@ -23,7 +23,7 @@
 	}
 	"TimePanelProgressBar"
 	{
-		"controlName"			"CTFProgressBar"
+		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -31,7 +31,7 @@
 	}
 	"WaitingForPlayersLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -49,7 +49,7 @@
 	}			
 	"WaitingForPlayersBG"
 	{
-		"controlName"		"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -57,7 +57,7 @@
 	}
 	"OvertimeLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -75,7 +75,7 @@
 	}			
 	"OvertimeBG"
 	{
-		"controlName"		"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -83,7 +83,7 @@
 	}
 	"SuddenDeathLabel"
 	{
-		"controlName"		"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -101,7 +101,7 @@
 	}			
 	"SuddenDeathBG"
 	{
-		"controlName"		"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -109,7 +109,7 @@
 	}	
 	"SetupLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"0"
 		"ypos"			"25"
@@ -127,7 +127,7 @@
 	}	
 	"SetupBG"
 	{
-		"controlName"		"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
 		"wide"			"0"
@@ -135,7 +135,7 @@
 	}
 	"ServerTimeLimitLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"0"
 		"ypos"			"35"
@@ -153,7 +153,7 @@
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"controlName"		"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"
 		"wide"			"0"

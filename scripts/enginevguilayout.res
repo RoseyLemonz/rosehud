@@ -29,6 +29,6 @@
 		"ypos"		"300"
 		"title"	"Hello HUDS.TF! :)"
 		"roundedCorners"	"0"
-		"infocus_bgColor_override"		"DarkestGray"
+		"infocus_bgcolor_override"		"DarkestGray"
 	}
 }

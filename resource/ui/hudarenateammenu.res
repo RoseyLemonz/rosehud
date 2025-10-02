@@ -6,7 +6,7 @@
 {
 	"team"
 	{
-		"controlName"	"CTeamMenu"
+		"ControlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -20,7 +20,7 @@
 
 	"SysMenu"
 	{
-		"controlName"	"Menu"
+		"ControlName"	"Menu"
 		"fieldName"		"SysMenu"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -34,7 +34,7 @@
 
 	"teambutton2"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"teambutton2"
 		"xpos"			"cs-0.5"
 		"ypos"			"150"
@@ -52,7 +52,7 @@
 	
 	"teambutton3"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"teambutton3"
 		"xpos"			"cs-0.5"
 		"ypos"			"300"
@@ -70,7 +70,7 @@
 	
 	"CancelButton"
 	{
-		"controlName"	"CExButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -86,12 +86,12 @@
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
 		"roundedCorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 		
 	"TeamMenuAuto"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"0"
 		"ypos"			"110"
@@ -106,11 +106,11 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"HudFontBiggerBold"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 	}
 	"TeamMenuAutoShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAutoShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -125,13 +125,13 @@
 		"textAlignment"	"center"
 		"wrap"			"0"
 		"font"			"HudFontBiggerBold"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"TeamMenuAuto"
 	}
 	
 	"TeamMenuSpectate"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
 		"xpos"			"0"
 		"ypos"			"255"
@@ -146,12 +146,12 @@
 		"textAlignment"	"north"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 	}
 
 	"TeamMenuSpectateShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectateShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -166,7 +166,7 @@
 		"textAlignment"	"north"
 		"wrap"			"0"
 		"font"			"HudFontMediumBold"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"TeamMenuSpectate"
 	}
 

@@ -15,7 +15,7 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
 		"ypos"			"0"
@@ -32,7 +32,7 @@
 	
 	"ItemEffectMeterLabel"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"40"
 		"ypos"					"25"
@@ -50,7 +50,7 @@
 
 	"ItemEffectMeter"
 	{	
-		"controlName"			"ContinuousProgressBar"
+		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"45"
@@ -67,7 +67,7 @@
 	
 	"ItemEffectMeterLabel2"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel2"
 		"xpos"					"40"
 		"ypos"					"31"
@@ -85,7 +85,7 @@
 	
 	"KillComboClassIcon1"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"KillComboClassIcon1"
 		"xpos"			"40"
 		"ypos"			"23"
@@ -98,7 +98,7 @@
 	}
 	"KillComboClassIcon2"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"KillComboClassIcon2"
 		"xpos"			"52"
 		"ypos"			"23"
@@ -111,7 +111,7 @@
 	}
 	"KillComboClassIcon3"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"KillComboClassIcon3"
 		"xpos"			"64"
 		"ypos"			"23"

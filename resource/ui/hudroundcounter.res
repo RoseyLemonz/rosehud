@@ -50,7 +50,7 @@
 
 	"Background"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"9999"
 		"tall"			"0"

@@ -2,7 +2,7 @@
 {
 	"EventEntry"
 	{
-		"controlName"	"CEventPlayListEntry"
+		"ControlName"	"CEventPlayListEntry"
 		"fieldName"		"EventEntry"
 		"xpos"			"0"
 		"ypos"			"3"
@@ -15,7 +15,7 @@
 
 	"CasualEntry"
 	{
-		"controlName"			"CPlayListEntry"
+		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CasualEntry"
 		"xpos"					"10"
 		"ypos"					"13"
@@ -31,7 +31,7 @@
 
 	"MvMEntry"
 	{
-		"controlName"			"CPlayListEntry"
+		"ControlName"			"CPlayListEntry"
 		"fieldName"				"MvMEntry"
 		"xpos"					"5"
 		"ypos"					"0"
@@ -49,7 +49,7 @@
 
 	"ServerBrowserEntry"
 	{
-		"controlName"			"CPlayListEntry"
+		"ControlName"			"CPlayListEntry"
 		"fieldName"				"ServerBrowserEntry"
 		"xpos"					"5"
 		"ypos"					"0"
@@ -66,7 +66,7 @@
 
 	"CompetitiveEntry"
 	{
-		"controlName"			"CPlayListEntry"
+		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CompetitiveEntry"
 		"xpos"					"9999"
 		"ypos"					"32"
@@ -82,7 +82,7 @@
 	}
 	"TrainingEntry"
 	{
-		"controlName"			"CPlayListEntry"
+		"ControlName"			"CPlayListEntry"
 		"fieldName"				"TrainingEntry"
 		"xpos"					"5"
 		"ypos"					"0"
@@ -99,7 +99,7 @@
 
 	"CreateServerEntry"
 	{
-		"controlName"			"CPlayListEntry"
+		"ControlName"			"CPlayListEntry"
 		"fieldName"				"CreateServerEntry"
 		"xpos"					"5"
 		"ypos"					"0"
@@ -116,7 +116,7 @@
 
 	"ScrollBar"
 	{
-		"controlName"	"ScrollBar"
+		"ControlName"	"ScrollBar"
 		"fieldName"		"ScrollBar"
 		"xpos"			"rs1-1"
 		"ypos"			"0"
@@ -128,19 +128,19 @@
 
 		"Slider"
 		{
-			"fgColor_override"	"TanDark"
+			"fgcolor_override"	"TanDark"
 		}
 		
 		"UpButton"
 		{
-			"controlName"	"Button"
+			"ControlName"	"Button"
 			"fieldName"		"UpButton"
 			"visible"		"0"
 		}
 		
 		"DownButton"
 		{
-			"controlName"	"Button"
+			"ControlName"	"Button"
 			"fieldName"		"DownButton"
 			"visible"		"0"
 		}

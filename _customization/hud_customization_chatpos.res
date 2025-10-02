@@ -6,7 +6,7 @@
 		{
 			"ChatPos"
 			{
-				"controlName"					"EditablePanel"
+				"ControlName"					"EditablePanel"
 				"fieldName"						"ChatPos"
 				"xpos"							"7"
 				"ypos"							"232"
@@ -17,12 +17,12 @@
 				"enabled"						"1"
 				"proportionalToParent"			"1"
 				"paintBackground"				"1"
-				"paintBackgroundType"			"0"
-				"bgColor_override"				"Black"
+				"paintbackgroundtype"			"0"
+				"bgcolor_override"				"Black"
 
 				"Title"
 				{
-					"controlName"						"CExLabel"
+					"ControlName"						"CExLabel"
 					"fieldName"							"Title"
 					"xpos"								"0"
 					"ypos"								"0"
@@ -36,15 +36,15 @@
 					"labelText"							"Chat Position"
 					"font"								"ItemFontNameSmallest"
 					"centerWrap"						"1"
-					"fgColor"							"Black"
+					"fgcolor"							"Black"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
-					"bgColor_override"					"HudPrimary"
+					"paintbackgroundtype"				"0"
+					"bgcolor_override"					"HudPrimary"
 				}
 
 				"ChatPosTop"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"ChatPosTop"
 					"xpos"								"7"
 					"ypos"								"20"
@@ -55,11 +55,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"ChatTop_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"ChatTop_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -75,13 +75,13 @@
 						"command"							"engine hud_chatpos_top"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"ChatPosBottom"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"ChatPosBottom"
 					"xpos"								"rs1-7"
 					"ypos"								"20"
@@ -92,11 +92,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"ChatBottom_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"ChatBottom_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -112,7 +112,7 @@
 						"command"							"engine hud_chatpos_bottom"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 			}

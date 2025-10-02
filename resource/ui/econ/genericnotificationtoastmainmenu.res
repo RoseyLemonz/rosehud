@@ -2,7 +2,7 @@
 {
 	"GenericNotificationToast"
 	{
-		"controlName"	"CGenericNotificationToast"
+		"ControlName"	"CGenericNotificationToast"
 		"fieldName"		"GenericNotificationToast"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -15,7 +15,7 @@
 
 	"AvatarBGPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"AvatarBGPanel"
 		"xpos"			"7"
 		"ypos"			"7"
@@ -23,12 +23,12 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
-		"bgColor_override"	"117 107 94 255"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"	"117 107 94 255"
 	}
 	"AvatarImage"
 	{
-		"controlName"	"CAvatarImagePanel"
+		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"9"
 		"ypos"			"9"
@@ -44,10 +44,10 @@
 
 	"AvatarTextLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgColor"		"56 47 29 255"
-		"fgColor_override" "56 47 29 255"
+		"fgcolor"		"56 47 29 255"
+		"fgcolor_override" "56 47 29 255"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"
@@ -65,12 +65,12 @@
 
 	"TextLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgColor"		"White"
+		"fgcolor"		"White"
 		"if_high_priority"
 		{
-			"fgColor"			"HudTertiary"
+			"fgcolor"			"HudTertiary"
 			"font"				"StorePromotionsTitle"
 		}
 		"xpos"			"7"

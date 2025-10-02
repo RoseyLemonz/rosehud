@@ -16,7 +16,7 @@
 
 	"ItemEffectMeterBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -24,28 +24,28 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"TransparentBlack"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterLabel"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"9999"
 	}
 
 	"ItemEffectMeter"
 	{
-		"controlName"			"ContinuousProgressBar"
+		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"xpos"					"9999"
 	}
 
 	"SkullIcon"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"SkullIcon"
 		"xpos"			"3"
 		"ypos"			"2"
@@ -56,12 +56,12 @@
 		"enabled"				"1"
 		"image"			"glyph_achievements"
 		"scaleImage"	"1"
-		"drawColor"		"HudPrimary"
+		"drawcolor"		"HudPrimary"
 	}
 
 	"ItemEffectMeterCount"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"rs1-6"
 		"ypos"					"0"
@@ -74,7 +74,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"east"
 		"font"					"HudMeterCount"
-		"fgColor"				"HudPrimary"
+		"fgcolor"				"HudPrimary"
 		"proportionalToParent"	"1"
 	}
 }

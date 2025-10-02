@@ -2,7 +2,7 @@
 {
 	"ModelContainer"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -14,7 +14,7 @@
 
 		"BelowModelParticlePanel"
 		{
-			"controlName"	"CTFParticlePanel"
+			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"BelowModelParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -47,7 +47,7 @@
 
 		"RankModel"
 		{
-			"controlName"	"CBaseModelPanel"
+			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
@@ -109,7 +109,7 @@
 
 		"AboveModelParticlePanel"
 		{
-			"controlName"	"CTFParticlePanel"
+			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"AboveModelParticlePanel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -162,7 +162,7 @@
 
 		"MedalButton"
 		{
-			"controlName"	"Button"
+			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5+2"
@@ -181,7 +181,7 @@
 
 	"BGPanel"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"0"
 		"ypos"			"20"
@@ -189,7 +189,7 @@
 		"wide"			"f0"
 		"tall"			"f42"
 		"visible"		"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"proportionalToParent"	"1"
 
 		if_mini
@@ -202,7 +202,7 @@
 
 		"NameLabel"
 		{
-			"controlName"	"Label"
+			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
 			"xpos"			"cs-0.5"
 			"ypos"			"6"
@@ -212,7 +212,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 			"textAlignment"	"west"
 			"labelText"		"%name%"
 			"proportionalToParent"	"1"
@@ -225,7 +225,7 @@
 
 		"DescLine1"
 		{
-			"controlName"	"CAutoFittingLabel"
+			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"cs-0.5"
 			"ypos"			"21"
@@ -235,7 +235,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 			"textAlignment"	"west"
 			"labelText"		"%desc1%"
 			"proportionalToParent"	"1"
@@ -257,7 +257,7 @@
 
 		"DescLine2"
 		{
-			"controlName"	"CAutoFittingLabel"
+			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"			"cs-0.5"
 			"ypos"			"30"
@@ -267,7 +267,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
-			"fgColor_override"	"White"
+			"fgcolor_override"	"White"
 			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionalToParent"	"1"
@@ -295,7 +295,7 @@
 
 		"StatsContainer"
 		{
-			"controlName"	"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -313,7 +313,7 @@
 
 			"XPBar"
 			{
-				"controlName"	"EditablePanel"
+				"ControlName"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"6"
 				"ypos"			"18"
@@ -330,7 +330,7 @@
 
 				"CurrentXPLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"0"
 					"ypos"			"rs1"
@@ -340,7 +340,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionalToParent"	"1"
@@ -348,7 +348,7 @@
 
 				"NextLevelXPLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
 					"xpos"			"rs1"
 					"ypos"			"rs1"
@@ -358,7 +358,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionalToParent"	"1"
@@ -366,7 +366,7 @@
 
 				"ProgressBarsContainer"
 				{
-					"controlName"	"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"s0.004"
 					"ypos"			"rs1-9"
@@ -376,7 +376,7 @@
 
 					"ProgressBar"
 					{
-						"controlName"	"ProgressBar"
+						"ControlName"	"ProgressBar"
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
 						"ypos"			"cs-0.5"
@@ -386,13 +386,13 @@
 						"proportionalToParent"	"1"
 						"progress"		"1"
 
-						"fgColor_override"	"DarkerBlack"
-						"bgColor_override"	"0 0 0 0"
+						"fgcolor_override"	"DarkerBlack"
+						"bgcolor_override"	"0 0 0 0"
 					}
 
 					"ContinuousProgressBar"
 					{
-						"controlName"	"ContinuousProgressBar"
+						"ControlName"	"ContinuousProgressBar"
 						"fieldName"		"ContinuousProgressBar"
 						"xpos"			"cs-0.5"
 						"ypos"			"cs-0.5"
@@ -401,12 +401,12 @@
 						"proportionalToParent"	"1"
 						"progress"		"0"
 
-						"fgColor_override"	"HudPrimary"
+						"fgcolor_override"	"HudPrimary"
 					}
 
 					"Frame"
 					{
-						"controlName"	"EditablePanel"
+						"ControlName"	"EditablePanel"
 						"fieldName"		"Frame"
 						"xpos"			"0"
 						"ypos"			"0"
@@ -421,7 +421,7 @@
 
 			"Stats"
 			{
-				"controlName"	"EditablePanel"
+				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"6"
 				"ypos"			"50"
@@ -429,7 +429,7 @@
 				"tall"			"30"
 				"visible"		"1"
 				"proportionalToParent"	"1"
-				"bgColor_override"	"0 0 0 100"
+				"bgcolor_override"	"0 0 0 100"
 
 				"if_mini"
 				{
@@ -438,7 +438,7 @@
 
 				"Frame"
 				{
-					"controlName"	"EditablePanel"
+					"ControlName"	"EditablePanel"
 					"fieldName"		"Frame"
 					"xpos"			"0"
 					"ypos"			"0"
@@ -452,7 +452,7 @@
 				// First column
 				"GamesLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
 					"xpos"			"5"
 					"ypos"			"5"
@@ -462,7 +462,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionalToParent"	"1"
@@ -470,7 +470,7 @@
 
 				"KillsLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
 					"xpos"			"85"
 					"ypos"			"5"
@@ -480,7 +480,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north"
 					"labelText"		"%stat_kills%"
 					"proportionalToParent"	"1"
@@ -488,7 +488,7 @@
 
 				"DeathsLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
 					"xpos"			"164"
 					"ypos"			"5"
@@ -498,7 +498,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-east"
 					"labelText"		"%stat_deaths%"
 					"proportionalToParent"	"1"
@@ -507,7 +507,7 @@
 				// Second column
 				"DamageLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
 					"xpos"			"5"
 					"ypos"			"15"
@@ -517,7 +517,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionalToParent"	"1"
@@ -525,7 +525,7 @@
 
 				"HealingLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
 					"xpos"			"124"
 					"ypos"			"15"
@@ -535,7 +535,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-east"
 					"labelText"		"%stat_healing%"
 					"proportionalToParent"	"1"
@@ -543,7 +543,7 @@
 
 				"SupportLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
 					"xpos"			"c0"
 					"ypos"			"25"
@@ -553,7 +553,7 @@
 					"visible"		"0"
 					"enabled"		"0"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionalToParent"	"1"
@@ -562,7 +562,7 @@
 				// Third column
 				"ScoreLabel"
 				{
-					"controlName"	"Label"
+					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
 					"xpos"			"c0"
 					"ypos"			"25"
@@ -572,7 +572,7 @@
 					"visible"		"0"
 					"enabled"		"0"
 					"font"			"HudFontSmallest"
-					"fgColor_override"	"White"
+					"fgcolor_override"	"White"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionalToParent"	"1"

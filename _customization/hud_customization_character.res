@@ -6,7 +6,7 @@
 		{
 			"CharacterTheme"
 			{
-				"controlName"					"EditablePanel"
+				"ControlName"					"EditablePanel"
 				"fieldName"						"CharacterTheme"
 				"xpos"							"6"
 				"ypos"							"0"
@@ -17,12 +17,12 @@
 				"enabled"						"1"
 				"proportionalToParent"			"1"
 				"paintBackground"				"1"
-				"paintBackgroundType"			"0"
-				"bgColor_override"				"Black"
+				"paintbackgroundtype"			"0"
+				"bgcolor_override"				"Black"
 
 				"Title"
 				{
-					"controlName"						"CExLabel"
+					"ControlName"						"CExLabel"
 					"fieldName"							"Title"
 					"xpos"								"0"
 					"ypos"								"0"
@@ -36,15 +36,15 @@
 					"labelText"							"HUD Theme"
 					"font"								"ItemFontNameSmallest"
 					"centerWrap"						"1"
-					"fgColor"							"Black"
+					"fgcolor"							"Black"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
-					"bgColor_override"					"HudPrimary"
+					"paintbackgroundtype"				"0"
+					"bgcolor_override"					"HudPrimary"
 				}
 
 				"CharacterTheme_Sakaki"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Sakaki"
 					"xpos"								"7"
 					"ypos"								"16"
@@ -55,11 +55,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"Sakaki_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Sakaki_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -73,13 +73,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Sakaki"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Sakaki_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Sakaki_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -94,11 +94,11 @@
 						"command"							"engine hud_charatheme_sakaki"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -115,7 +115,7 @@
 
 				"CharacterTheme_Ellep"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Ellep"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -126,7 +126,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"CharacterTheme_Sakaki"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -134,7 +134,7 @@
 
 					"Ellep_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Ellep_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -148,13 +148,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Elizabeth"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Ellep_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Ellep_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -169,11 +169,11 @@
 						"command"							"engine hud_charatheme_ellep"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -191,7 +191,7 @@
 
 				"NotYetSusieButton"
 				{
-					"controlName"					"CExButton"
+					"ControlName"					"CExButton"
 					"fieldName"						"NotYetSusieButton"
 					"xpos"							"4"
 					"ypos"							"16"
@@ -210,15 +210,15 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedfgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Susie"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Susie"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -229,7 +229,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"CharacterTheme_Ellep"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -237,7 +237,7 @@
 
 					"Susie_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Susie_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -251,13 +251,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Susie"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Susie_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Susie_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -272,11 +272,11 @@
 						"command"							"engine"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -293,7 +293,7 @@
 
 				"NotYetSybilButton"
 				{
-					"controlName"					"CExButton"
+					"ControlName"					"CExButton"
 					"fieldName"						"NotYetSybilButton"
 					"xpos"							"4"
 					"ypos"							"16"
@@ -312,15 +312,15 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedfgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Sybil"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Sybil"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -331,7 +331,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"CharacterTheme_Susie"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -339,7 +339,7 @@
 
 					"Sybil_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Sybil_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -353,13 +353,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Sybil"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Sybil_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Sybil_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -374,11 +374,11 @@
 						"command"							"engine"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -395,7 +395,7 @@
 
 				"NotYetLambdaButton"
 				{
-					"controlName"					"CExButton"
+					"ControlName"					"CExButton"
 					"fieldName"						"NotYetLambdaButton"
 					"xpos"							"8"
 					"ypos"							"72"
@@ -410,15 +410,15 @@
 					"textAlignment"					"center"
 					"paintBackground"				"0"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedfgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Lambda"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Lambda"
 					"xpos"								"7"
 					"ypos"								"72"
@@ -429,11 +429,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"Lambda_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Lambda_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -447,13 +447,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Half-Life"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Lambda_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Lambda_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -468,11 +468,11 @@
 						"command"							"engine"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -489,7 +489,7 @@
 
 				"NotYetShadowButton"
 				{
-					"controlName"					"CExButton"
+					"ControlName"					"CExButton"
 					"fieldName"						"NotYetShadowButton"
 					"xpos"							"4"
 					"ypos"							"16"
@@ -508,15 +508,15 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedfgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Shadow"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Shadow"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -527,7 +527,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"CharacterTheme_Lambda"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -535,7 +535,7 @@
 
 					"Shadow_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Shadow_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -549,13 +549,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Shadow"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Shadow_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Shadow_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -570,11 +570,11 @@
 						"command"							"engine"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -591,7 +591,7 @@
 
 				"NotYetTestButton"
 				{
-					"controlName"					"CExButton"
+					"ControlName"					"CExButton"
 					"fieldName"						"NotYetTestButton"
 					"xpos"							"4"
 					"ypos"							"16"
@@ -610,15 +610,15 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedfgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Testament"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Testament"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -629,7 +629,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"CharacterTheme_Shadow"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -637,7 +637,7 @@
 
 					"Testament_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Testament_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -651,13 +651,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Testament"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Testament_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Testament_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -672,11 +672,11 @@
 						"command"							"engine"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"
@@ -693,7 +693,7 @@
 				
 				"NotYetAngelaButton"
 				{
-					"controlName"					"CExButton"
+					"ControlName"					"CExButton"
 					"fieldName"						"NotYetAngelaButton"
 					"xpos"							"4"
 					"ypos"							"16"
@@ -712,15 +712,15 @@
 					"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 					"pin_to_sibling_corner"			"PIN_BOTTOMRIGHT"
 
-					"defaultFgColor_override"		"RedSolid"
-					"armedFgColor_override"			"RedSolid"
-					"depressedFgColor_override"		"RedSolid"
-					"SelectedfgColor_override"		"RedSolid"
+					"defaultfgcolor_override"		"RedSolid"
+					"armedfgcolor_override"			"RedSolid"
+					"depressedfgcolor_override"		"RedSolid"
+					"Selectedfgcolor_override"		"RedSolid"
 				}
 
 				"CharacterTheme_Angela"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"CharacterTheme_Angela"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -731,7 +731,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"CharacterTheme_Testament"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -739,7 +739,7 @@
 
 					"Angela_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"Angela_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -753,13 +753,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Angela"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"Angela_Button"
 					{
-						"controlName"						"CExImageButton"
+						"ControlName"						"CExImageButton"
 						"fieldName"							"Angela_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -774,11 +774,11 @@
 						"command"							"engine"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 
 						"SubImage"
 						{
-							"controlName"	"ImagePanel"
+							"ControlName"	"ImagePanel"
 							"fieldName"		"SubImage"
 							"xpos"			"cs-0.5"
 							"ypos"			"rs1"

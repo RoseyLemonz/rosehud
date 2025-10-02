@@ -2,7 +2,7 @@
 {
 	"Background"
 	{
-		"controlName"	"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
 		"ypos"			"2"
@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
-		"drawColor"		"TransparentBlack"
+		"drawcolor"		"TransparentBlack"
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -25,10 +25,10 @@
 	
 	"WaveCountLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
 		"font"			"HudFontSmallestBold"
-		"fgColor"		"TanLight"
+		"fgcolor"		"TanLight"
 		"xpos"			"208"
 		"ypos"			"8"
 		"zpos"			"3"
@@ -39,12 +39,12 @@
 		"enabled"		"1"
 		"textAlignment"				"west"
 		"labelText"					"%wave_count%"
-		"fgColor_override"	"White"
+		"fgcolor_override"	"White"
 	}
 	
 	"SeparatorBar"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"SeparatorBar"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -54,8 +54,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"paintBackgroundType" "2"
-		"bgColor_override"	"TanLight"
+		"paintbackgroundtype" "2"
+		"bgcolor_override"	"TanLight"
 		
 		if_verbose
 		{
@@ -65,10 +65,10 @@
 	
 	"SupportLabel"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
 		"font"			"HudFontSmallestBold"
-		"fgColor"		"TanLight"
+		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -87,7 +87,7 @@
 	
 	"ProgressBar"
 	{
-		"controlName"	"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"274"
 		"xpos_minmode"	"272"
@@ -102,7 +102,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawColor"		"HudPrimary"
+		"drawcolor"		"HudPrimary"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -113,7 +113,7 @@
 	
 	"ProgressBarBG"
 	{
-		"controlName"	"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
 		"xpos"			"270"
 		"ypos"			"8"
@@ -126,7 +126,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
 
-		"drawColor"		"Black"
+		"drawcolor"		"Black"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

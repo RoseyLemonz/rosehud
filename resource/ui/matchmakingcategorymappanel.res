@@ -10,12 +10,12 @@
 		"proportionalToParent"	"1"
 
 		"skip_autoResize"	"1"
-		"bgColor_override"	"Blank"
+		"bgcolor_override"	"Blank"
 	}
 
 	"MapCheckbutton"
 	{
-		"controlName"		"CExCheckButton"
+		"ControlName"		"CExCheckButton"
 		"fieldName"		"MapCheckbutton"
 		"xpos"		"5"
 		"ypos"		"cs-0.5"
@@ -34,7 +34,7 @@
 
 	"MapNameLabel"
 	{
-		"controlName"		"Label"
+		"ControlName"		"Label"
 		"fieldName"		"MapNameLabel"
 		"xpos"		"5"
 		"ypos"		"cs-0.5"
@@ -53,7 +53,7 @@
 
 	"HealthProgressBar"
 	{
-		"controlName"	"ContinuousProgressBar"
+		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"HealthProgressBar"
 		"xpos"			"20"
 		"ypos"			"cs-0.5"
@@ -62,7 +62,7 @@
 		"proportionalToParent"	"1"
 		"progress"		"0.5"
 
-		"fgColor_override"	"0 0 0 0"
-		"bgColor_override"	"0 0 0 0"
+		"fgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"0 0 0 0"
 	}
 }

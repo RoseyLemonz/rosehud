@@ -6,7 +6,7 @@
 		{
 			"UIFont"
 			{
-				"controlName"					"EditablePanel"
+				"ControlName"					"EditablePanel"
 				"fieldName"						"UIFont"
 				"xpos"							"7"
 				"ypos"							"134"
@@ -17,12 +17,12 @@
 				"enabled"						"1"
 				"proportionalToParent"			"1"
 				"paintBackground"				"1"
-				"paintBackgroundType"			"0"
-				"bgColor_override"				"Black"
+				"paintbackgroundtype"			"0"
+				"bgcolor_override"				"Black"
 
 				"Title"
 				{
-					"controlName"						"CExLabel"
+					"ControlName"						"CExLabel"
 					"fieldName"							"Title"
 					"xpos"								"0"
 					"ypos"								"0"
@@ -36,15 +36,15 @@
 					"labelText"							"In-game font"
 					"font"								"ItemFontNameSmallest"
 					"centerWrap"						"1"
-					"fgColor"							"Black"
+					"fgcolor"							"Black"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
-					"bgColor_override"					"HudPrimary"
+					"paintbackgroundtype"				"0"
+					"bgcolor_override"					"HudPrimary"
 				}
 
 				"FontTF"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontTF"
 					"xpos"								"7"
 					"ypos"								"16"
@@ -55,11 +55,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"FontTF_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontTF_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -73,13 +73,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"TF2"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontTF_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontTF_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -95,13 +95,13 @@
 						"command"							"engine hud_font_tf"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontBahn"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontBahn"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -112,7 +112,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"FontTF"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -120,7 +120,7 @@
 
 					"FontBahn_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontBahn_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -134,13 +134,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Bahnschrift"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontBahn_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontBahn_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -156,13 +156,13 @@
 						"command"							"engine hud_font_bahn"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontLuxi"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontLuxi"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -173,7 +173,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"FontBahn"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -181,7 +181,7 @@
 
 					"FontLuxi_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontLuxi_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -195,13 +195,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Luxi"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontLuxi_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontLuxi_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -217,13 +217,13 @@
 						"command"							"engine hud_font_luxi"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontImpress"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontImpress"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -234,7 +234,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"FontLuxi"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -242,7 +242,7 @@
 
 					"FontImpress_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontImpress_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -256,13 +256,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Impress BT"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontImpress_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontImpress_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -278,13 +278,13 @@
 						"command"							"engine hud_font_impress"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontWing"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontWing"
 					"xpos"								"7"
 					"ypos"								"54"
@@ -295,11 +295,11 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"FontWing_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontWing_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -313,13 +313,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"WingDings"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontWing_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontWing_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -335,13 +335,13 @@
 						"command"							"engine hud_font_wingding"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontSans"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontSans"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -352,7 +352,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"FontWing"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -360,7 +360,7 @@
 
 					"FontSans_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontSans_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -374,13 +374,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Comic Sans"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontSans_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontSans_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -396,13 +396,13 @@
 						"command"							"engine hud_font_sans"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontPapaya"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontPapaya"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -413,7 +413,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"FontSans"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -421,7 +421,7 @@
 
 					"FontPapaya_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontPapaya_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -435,13 +435,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Papyrus"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontPapaya_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontPapaya_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -457,13 +457,13 @@
 						"command"							"engine hud_font_papyrus"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 
 				"FontIosevka"
 				{
-					"controlName"						"EditablePanel"
+					"ControlName"						"EditablePanel"
 					"fieldName"							"FontIosevka"
 					"xpos"								"4"
 					"ypos"								"0"
@@ -474,7 +474,7 @@
 					"enabled"							"1"
 					"proportionalToParent"				"1"
 					"paintBackground"					"1"
-					"paintBackgroundType"				"0"
+					"paintbackgroundtype"				"0"
 
 					"pin_to_sibling"					"FontPapaya"
 					"pin_corner_to_sibling"				"PIN_BOTTOMLEFT"
@@ -482,7 +482,7 @@
 
 					"FontIosevka_Name"
 					{
-						"controlName"						"CExLabel"
+						"ControlName"						"CExLabel"
 						"fieldName"							"FontIosevka_Name"
 						"xpos"								"cs-0.5"
 						"ypos"								"0"
@@ -496,13 +496,13 @@
 						"font"								"ItemFontNameSmallest"
 						"labelText"							"Iosevka"
 						"textAlignment"						"center"
-						"fgColor"							"White"
+						"fgcolor"							"White"
 						"paintBackground"					"0"
-						"paintBackgroundType"				"0"
+						"paintbackgroundtype"				"0"
 					}
 					"FontIosevka_Button"
 					{
-						"controlName"						"CExButton"
+						"ControlName"						"CExButton"
 						"fieldName"							"FontIosevka_Button"
 						"xpos"								"cs-0.5"
 						"ypos"								"rs1"
@@ -518,7 +518,7 @@
 						"command"							"engine hud_font_iosevka"
 						"actionSignalLevel"					"5"
 						"sound_depressed"					"UI/buttonclick.wav"
-						"defaultBgColor_override"			"DarkerBlack"
+						"defaultbgcolor_override"			"DarkerBlack"
 					}
 				}
 			}

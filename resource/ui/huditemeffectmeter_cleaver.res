@@ -16,7 +16,7 @@
 
 	"ItemEffectMeterBG"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -24,13 +24,13 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgColor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"bgcolor_override"	"TransparentBlack"
+		"paintbackgroundtype"	"2"
 	}
 
 	"ItemEffectMeterLabel"
 	{
-		"controlName"			"CExLabel"
+		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"6"
@@ -48,7 +48,7 @@
 
 	"MeterColor"
     {
-        "controlName"	"ImagePanel"
+        "ControlName"	"ImagePanel"
         "fieldName"		"MeterColor"
 		"xpos"			"cs-0.5"
 		"ypos"			"2"
@@ -60,13 +60,13 @@
         "proportionalToParent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
-        "drawColor"		"HudPrimary"
+        "drawcolor"		"HudPrimary"
 		"proportionalToParent"	"1"
     }
 
 	"ItemEffectMeter"
 	{
-		"controlName"			"ContinuousProgressBar"
+		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"cs-0.5"

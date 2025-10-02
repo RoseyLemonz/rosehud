@@ -3,7 +3,7 @@
 	// player health data
 	"HudPlayerHealth"
 	{
-		"controlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -19,7 +19,7 @@
 
 	"TheMeasuringStickTM"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"TheMeasuringStickTM"
 		"xpos"			"cs-0.5"
 		"ypos"			"r160"
@@ -32,7 +32,7 @@
 	
 	"TeamIndicator"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
 		"xpos"			"0"
 		"ypos"			"rs1"
@@ -49,7 +49,7 @@
 
 	"RandomTextTestLabel"
 	{
-		"controlName"	"Label"
+		"ControlName"	"Label"
 		"fieldName"		"RandomTextTestLabel"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
@@ -61,12 +61,12 @@
 		"labelText"		"    "
 		"textAlignment"	"center"	
 		"font"			"HudTargetIDIcons"
-		"fgColor"		"HudPrimaryLight"
+		"fgcolor"		"HudPrimaryLight"
 	}
 
 	"PlayerCharaImage"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerCharaImage"
 		"xpos"			"cs-0.5-150"
 		"ypos"			"r78"
@@ -81,41 +81,39 @@
 
 	"PlayerCharaImageHurt"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerCharaImageHurt"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"alpha"			"0"
 		"image"			"replay/thumbnails/characters/sakakihurt"
 		"pin_to_sibling"	"PlayerCharaImage"
 	}
 
 	"PlayerCharaImageBonus"
 	{
-		"controlName"	"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerCharaImageBonus"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"alpha"			"0"
 		"image"			"replay/thumbnails/characters/sakakispin"
 		"pin_to_sibling"	"PlayerCharaImage"
 	}
 
 	"PlayerStatusHealthImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"cs-0.5-215"
 		"ypos"			"r120"
@@ -128,7 +126,7 @@
 	}		
 	"PlayerStatusHealthAdditive"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthAdditive"
 		"zpos"			"5"
 		"wide"			"35"
@@ -141,7 +139,7 @@
 	}
 	"PlayerStatusHealthAdditiveOverlay"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthAdditiveOverlay"
 		"zpos"			"6"
 		"wide"			"35"
@@ -149,13 +147,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/health_color_over"
-		"drawColor"		"HudPrimaryDark"
+		"drawcolor"		"HudPrimaryDark"
 		"scaleImage"	"1"
 		"pin_to_sibling"	"PlayerStatusHealthImage"
 	}
 	"PlayerStatusHealthImageBG"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"2"
 		"ypos"			"2"
@@ -170,7 +168,7 @@
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"cs-0.5-215"
 		"ypos"			"r122"
@@ -184,7 +182,7 @@
 	}
 	"PlayerStatusHealthValue"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"cs-0.5-120"
 		"ypos"			"r127"
@@ -196,12 +194,12 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
 		"font"			"HudValue"
-		"fgColor"		"HudPrimaryLight"
+		"fgcolor"		"HudPrimaryLight"
 	}
 
 	"PlayerStatusHealthValueShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -213,13 +211,13 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
 		"font"			"HudValue"
-		"fgColor"		"Black"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 
 	"PlayerStatusMaxHealthValue"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"0"
 		"ypos"			"10"
@@ -231,12 +229,12 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"west"	
 		"font"			"HudHealthMax"
-		"fgColor"		"HudPrimaryTransparent"
+		"fgcolor"		"HudPrimaryTransparent"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 	"PlayerStatusMaxHealthValueShadow"
 	{
-		"controlName"	"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
 		"xpos"			"-1"
 		"ypos"			"9"
@@ -248,13 +246,13 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"west"	
 		"font"			"HudHealthMax"
-		"fgColor"		"TransparentBlack"
+		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
 
 	"PlayerStatusPin"
 	{
-		"controlName"	"Panel"
+		"ControlName"	"Panel"
 		"xpos"			"cs-0.5-27"
 		"ypos"			"r75"
 		"wide"			"0"
@@ -263,7 +261,7 @@
 
 	"PlayerStatusBleedImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -274,12 +272,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatusHookBleedImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHookBleedImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -290,12 +288,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop_grapple"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatusMilkImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -306,12 +304,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatusGasImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusGasImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -322,12 +320,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/covered_in_gas"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -338,12 +336,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -354,12 +352,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -370,12 +368,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -386,12 +384,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -402,13 +400,13 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -419,12 +417,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -435,12 +433,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -451,14 +449,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	
 
 	"PlayerStatus_WheelOfDoom"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -469,13 +467,13 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -486,13 +484,13 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -503,13 +501,13 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -520,12 +518,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_SpyMarked"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SpyMarked"
 		"xpos"			"115"
 		"ypos"			"0"
@@ -536,12 +534,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_Parachute"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_Parachute"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -552,12 +550,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneStrength"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneStrength"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -568,12 +566,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneHaste"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneHaste"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -584,12 +582,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneRegen"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneRegen"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -600,12 +598,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneResist"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneResist"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -616,12 +614,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneVampire"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneVampire"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -632,12 +630,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneReflect"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -648,12 +646,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_reflect_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RunePrecision"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePrecision"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -664,12 +662,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneAgility"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneAgility"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -680,12 +678,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKnockout"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -696,12 +694,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneKing"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneKing"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -712,12 +710,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_king_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RunePlague"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RunePlague"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -728,12 +726,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_plague_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneSupernova"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -744,12 +742,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 	"PlayerStatusSlowed"
 	{
-		"controlName"	"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusSlowed"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -760,7 +758,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
-		"fgColor"		"TanDark"
+		"fgcolor"		"TanDark"
 		"pin_to_sibling"	"PlayerStatusPin"
 	}
 }
