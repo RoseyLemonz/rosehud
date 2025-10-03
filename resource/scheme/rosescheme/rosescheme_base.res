@@ -85,8 +85,8 @@ Scheme
 		Label.TextBrightColor				"White"
 		Label.SelectedTextColor				"HudPrimaryLight"
 		Label.BgColor						"Blank"
-		Label.DisabledfgColor1				"Blank"
-		Label.DisabledfgColor2				"Black"
+		Label.DisabledfgColor1				"DarkGray"
+		Label.DisabledfgColor2				"DarkGray"
 
 		ListPanel.TextColor					"Orange"
 		ListPanel.BgColor					"TransparentBlack"

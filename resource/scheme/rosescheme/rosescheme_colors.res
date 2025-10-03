@@ -95,7 +95,7 @@ Scheme
 		//"Yellow"			"238 212 159 255"
 		//"TransparentYellow"	"238 212 159 140"
 		
-		"BrightYellow"		"255 232 179 255"
+		"BrightYellow"		"238 212 159 255"
 		"GreenSolid"		"166 218 149 255"
 
 		"HUDBlueTeam"		"84 104 155 196"

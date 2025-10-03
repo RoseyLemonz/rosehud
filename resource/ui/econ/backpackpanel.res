@@ -353,8 +353,6 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"disabledfgcolor2_override"		"DarkGray"
 	}		
 	
 	"CurPageLabel"
@@ -367,7 +365,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -393,7 +391,6 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"disabledfgcolor2_override"		"DarkGray"
 		"pin_to_sibling"		"CurPageLabel"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}		
@@ -448,8 +445,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
-		"xpos"			"c-195"
-		"ypos"			"337"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -465,6 +462,9 @@
 		"Command"		"canceltool"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling"	"NextPageButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}		
 	
 	"PrevPageShortcut"

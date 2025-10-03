@@ -202,8 +202,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c-195"
-		"ypos"			"310"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -217,13 +217,16 @@
 		"Command"		"show_backpack"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling"	"NextPageButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"ShowSelection"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c-195"
-		"ypos"			"310"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -237,6 +240,9 @@
 		"Command"		"show_selection"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling"	"NextPageButton"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"PrevPageButton"
@@ -270,7 +276,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
