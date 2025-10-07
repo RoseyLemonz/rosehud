@@ -18,7 +18,7 @@
 		"infocus_bgcolor_override"		"DarkBlack"
 		"outoffocus_bgcolor_override"	"DarkBlack"
 		
-		"item_ypos"		"50"
+		"item_ypos"		"60"
 		"item_ydelta"	"85"
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
@@ -140,10 +140,10 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c+205"
+		"xpos"			"rs1-36"
 		"ypos"		"16"
 		"zpos"		"2"
-		"wide"		"90"
+		"wide"		"91"
 		"tall"		"19"
 		"visible"		"1"
 		"enabled"		"1"
@@ -249,8 +249,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-290"
-		"ypos"			"310"
+		"xpos"			"36"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"

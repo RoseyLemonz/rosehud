@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override"		"DarkBlack"
 		"outoffocus_bgcolor_override"	"DarkBlack"
 		
-		"item_xpos_offcenter_a"			"-288"
-		"item_xpos_offcenter_b"			"-150"
+		"item_xpos_offcenter_a"			"-300"
+		"item_xpos_offcenter_b"			"170"
 		"item_ypos"						"50"
 		"item_ydelta"					"75"
 		"item_mod_wide"					"40"
@@ -120,7 +120,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-20"
+		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"		
 		"wide"			"340"
@@ -198,8 +198,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-15"
-		"ypos"			"48"
+		"xpos"			"c-165"
+		"ypos"			"50"
 		"zpos"			"0"	
 		"wide"			"120"
 		"tall"			"296"
@@ -213,31 +213,26 @@
 		"wrap"	"1"
 	}
 
-	"loadout_preset_pin"
+	"presetpinner"
 	{
 		"ControlName"	"Panel"
-		"FieldName"		"loadout_preset_pin"
 		"xpos"			"0"
-		"ypos"			"-37"
+		"ypos"			"-35"
 		"wide"			"0"
 		"tall"			"0"
 		"proportionaltoparent"	"1"
 	}
-	
+
 	"loadout_preset_panel"
 	{
-		"ControlName"	"CLoadoutPresetPanel"
-		"FieldName"		"loadout_preset_panel"
-		"zpos"			"20"
-		"wide"			"150"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"ignorescheme"		"1"
-		"pin_to_sibling"	"loadout_preset_pin"
+		"ControlName"			"CLoadoutPresetPanel"
+		"FieldName"				"loadout_preset_panel"
+		"xpos"					"0"
+		"zpos"					"100"
+		"wide"					"95"
+		"visible"				"1"
+		"ignorescheme"			"1"
+		"pin_to_sibling"		"presetpinner"
 		"pin_to_sibling_corner"	"3"
 	}
 
@@ -270,8 +265,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"cs-0.5-115"
-		"ypos"			"13"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -287,6 +282,10 @@
 		
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"46 43 42 255"
+
+		"pin_to_sibling"			"TauntLoadoutButton"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 
 		"SubImage"
 		{
@@ -309,7 +308,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"5"
+		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"25"
@@ -323,9 +322,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling"			"CharacterLoadoutButton"
-		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_to_sibling"			"loadout_preset_panel"
+		"pin_to_sibling_corner"		"PIN_TOPLEFT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 
 		"SubImage"
 		{
@@ -380,7 +379,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"BlueButton"
-		"xpos"				"cs-0.5+110"
+		"xpos"				"rs1-36"
 		"ypos"				"13"
 		"zpos"				"12"
 		"wide"				"25"
