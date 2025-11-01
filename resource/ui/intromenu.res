@@ -1,5 +1,5 @@
 #base "textpanel_base.res"
-"Resource/UI/IntroMenu.res"
+"resource/ui/intromenu.res"
 {
 	"intro"
 	{

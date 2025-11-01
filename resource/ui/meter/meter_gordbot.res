@@ -1,4 +1,4 @@
-"Resource/UI/Meter/Meter_Gordbot.res"
+"resource/ui/meter/meter_gordbot.res"
 {
 	HudItemEffectMeter
 	{

@@ -1,5 +1,5 @@
 #base "playingto_base.res"
-"Resource/UI/HudObjectivePlayerDestruction.res"
+"resource/ui/hudobjectiveplayerdestruction.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{

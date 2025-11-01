@@ -1,5 +1,5 @@
 #base "textpanel_base.res"
-"Resource/UI/ArenaTeamMenu.res"
+"resource/ui/arenateammenu.res"
 {
 	"team"
 	{

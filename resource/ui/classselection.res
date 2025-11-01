@@ -1,5 +1,5 @@
 #base "textpanel_base.res"
-"Resource/UI/ClassSelection.res"
+"resource/ui/classselection.res"
 {
 	"class"
 	{

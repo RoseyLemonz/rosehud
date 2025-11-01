@@ -1,5 +1,5 @@
 #base "textpanel_base.res"
-"Resource/UI/TextWindow.res"
+"resource/ui/textwindow.res"
 {
 	"info"
 	{

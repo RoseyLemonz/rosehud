@@ -1,6 +1,6 @@
 #base "meter/meter_gordbot.res"
 
-"Resource/UI/HudItemEffectMeter_Pomson.res"
+"resource/ui/huditemeffectmeter_pomson.res"
 {
 	HudItemEffectMeter
 	{
