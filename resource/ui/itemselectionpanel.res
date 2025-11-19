@@ -1,6 +1,6 @@
 #base "../../_base/carat_base.res"
 
-"Resource/UI/ItemSelectionPanel.res"
+"resource/ui/itemselectionpanel.res"
 {
 	"ItemSelectionPanel"
 	{
