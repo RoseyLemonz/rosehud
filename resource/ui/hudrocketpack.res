@@ -1,5 +1,5 @@
 #base "meter/meter_primary.res"
-"Resource/UI/HudRocketPack.res"
+"resource/ui/hudrocketpack.res"
 {
 	HudItemEffectMeter
 	{
