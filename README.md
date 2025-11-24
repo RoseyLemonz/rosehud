@@ -17,4 +17,5 @@ Currently still W.I.P
 
 - DeerUwU - [Lavender HUD - Inspiration](https://github.com/DeerUwU/lavenderhud)
 - ficool2 - [sdk_screenspace_shaders](https://github.com/ficool2/sdk_screenspace_shaders)
+- cueki - [hud_screenspace_shaders](https://github.com/cueki/hud-screenspace-shaders)
     

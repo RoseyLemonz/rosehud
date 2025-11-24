@@ -121,9 +121,9 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"cs-1.1"
+		"xpos"			"cs-1"
 		"ypos"			"292"
-		"wide"			"180"
+		"wide"			"198"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -133,15 +133,20 @@
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
+		"paintbackgroundtype"		"2"
+		"roundedCorners"			"5"
+		"defaultbgcolor_override"	"Black"
+		"armedbgcolor_override"		"HudPrimaryLight"
+		"depressedbgcolor_override"	"HudPrimary"
 	}
 	
 	"teambutton3"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"cs0.1"
+		"xpos"			"cs0"
 		"ypos"			"292"
-		"wide"			"180"
+		"wide"			"198"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -151,7 +156,12 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
-	}
+		"paintbackgroundtype"		"2"
+		"roundedCorners"			"10"
+		"defaultbgcolor_override"	"Black"
+		"armedbgcolor_override"		"HudPrimaryLight"
+		"depressedbgcolor_override"	"HudPrimary"
+	}	
 
 	"CancelButton"
 	{
@@ -461,13 +471,6 @@
 		"enabled"		"1"
 		"image"			"../HUD/arrow_big_down"
 		"scaleImage"	"1"	
-	}
-
-	"BGDarken"
-	{
-		"xpos"		"9999"
-		"wide"		"0"
-		"visible"	"0"
 	}
 	
 	"ChalkBG"

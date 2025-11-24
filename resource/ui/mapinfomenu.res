@@ -178,11 +178,4 @@
 		"roundedCorners"	"0"
 		"defaultbgcolor_override"	"DarkerBlack"
 	}
-
-	"BGDarken"
-	{
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
-	}
 }

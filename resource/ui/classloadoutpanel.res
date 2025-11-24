@@ -19,20 +19,20 @@
 		"infocus_bgcolor_override"		"DarkBlack"
 		"outoffocus_bgcolor_override"	"DarkBlack"
 		
-		"item_xpos_offcenter_a"			"-300"
-		"item_xpos_offcenter_b"			"170"
+		"item_xpos_offcenter_a"			"45"
+		"item_xpos_offcenter_b"			"178"
 		"item_ypos"						"50"
 		"item_ydelta"					"75"
 		"item_mod_wide"					"40"
-		
+
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 
-		"button_xpos_offcenter"	"175"		
-		"button_ypos"	"85"
-		"button_ydelta"	"80"
-		"button_override_delete_xpos" "0"
+		"button_xpos_offcenter"			"175"
+		"button_ypos"					"85"
+		"button_ydelta"					"80"
+		"button_override_delete_xpos"	"0"
 		
 		"modelpanels_kv"
 		{
@@ -120,18 +120,18 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"cs-0.5"
+		"xpos"			"cs-1+45"
 		"ypos"			"0"
 		"zpos"			"-1"		
 		"wide"			"340"
-		"tall"			"366"
+		"tall"			"365"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
+		"fov"				"27"
 		"allow_manip"		"1"
 				
 		"model"
@@ -198,26 +198,26 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-165"
+		"centerwrap"	"1"
+		"xpos"			"cs-1+45"
 		"ypos"			"50"
 		"zpos"			"0"	
-		"wide"			"120"
+		"wide"			"340"
 		"tall"			"296"
 		"autoResize"	"0"
-		"pinCorner"		"0"
+		"pinCorner"		"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"north"
+		"textAlignment"	"south"
 		"fgcolor"		"255 215 0 255"
-		"wrap"	"1"
 	}
 
 	"presetpinner"
 	{
 		"ControlName"	"Panel"
 		"xpos"			"0"
-		"ypos"			"-35"
+		"ypos"			"-37"
 		"wide"			"0"
 		"tall"			"0"
 		"proportionaltoparent"	"1"
@@ -322,7 +322,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling"			"loadout_preset_panel"
+		"pin_to_sibling"			"RedButton"
 		"pin_to_sibling_corner"		"PIN_TOPLEFT"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 

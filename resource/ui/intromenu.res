@@ -25,11 +25,6 @@
 		"tall"			"350"
 	}
 
-	"BGDarken"
-	{
-		"visible"	"0"
-	}
-
 	"frame_caption"
 	{
 		"xpos"		"9999"

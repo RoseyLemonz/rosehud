@@ -21,7 +21,7 @@
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
-		"item_ypos"		"50"
+		"item_ypos"		"48"
 		"item_ydelta"	"80"
 		"item_mod_wide"	"40"
 		
@@ -34,11 +34,11 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 
-		"page_button_y"	"272"
+		"page_button_y"	"270"
 		"page_button_x_delta" "3"
 		"page_button_y_delta" "3"
 		"page_button_per_row" "20"
-		"page_button_height" "13"
+		"page_button_height" "12"
 
 		"pagebuttons_kv"
 		{
@@ -56,7 +56,7 @@
 				"fieldName"		"Button"
 				"ControlName"	"CExButton"
 				"wide"			"25"
-				"tall"			"13"
+				"tall"			"12"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
 				"noitem_textcolor"		"117 107 94 255"
@@ -158,18 +158,9 @@
 		}
 	}
 	
-	"CaratLabel"
-	{
-		"ypos"			"20"
-	}
 	"ClassLabel"
 	{
 		"font"			"HudFontMediumSmallBold"
-		"ypos"			"2"
-		"wide"			"360"
-		"tall"			"50"
-		"wrap"			"1"
-		"auto_wide_tocontents"	"0"
 	}
 	
 	"tool_icon"
@@ -220,12 +211,11 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c+137"
-		"ypos"		"8"
-		"wide"		"150"
+		"xpos"			"rs1-36"
+		"ypos"		"16"
+		"zpos"		"2"
+		"wide"		"91"
 		"tall"		"19"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textHidden"		"0"
@@ -242,8 +232,8 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
 		"Font"				"HudFontSmallestBold"
-		"xpos"				"c137"
-		"ypos"				"30"
+		"xpos"				"rs1-134"
+		"ypos"				"19"
 		"zpos"				"1"
 		"wide"				"150"
 		"tall"				"15"
@@ -340,8 +330,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-290"
-		"ypos"			"337"
+		"xpos"			"36"
+		"ypos"			"334"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -400,10 +390,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToNextPageButton"
 		"xpos"			"cs-0.5+304"
-		"ypos"			"98"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"25"
-		"tall"			"125"
+		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -423,10 +413,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToPrevPageButton"
 		"xpos"			"cs-0.5-304"
-		"ypos"			"98"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"25"
-		"tall"			"125"
+		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"

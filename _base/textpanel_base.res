@@ -32,14 +32,12 @@ x
 	"ShaderBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"ShaderBG"
-		"zpos"			"-10"
+		"zpos"			"-10000"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/shaders/textwindowascii"
+		"image"			"replay/thumbnails/shaders/sepia"
 	}
 
 	"HiddenButtonBG"
