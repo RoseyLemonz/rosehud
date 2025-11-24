@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override"		"DarkBlack"
 		"outoffocus_bgcolor_override"	"DarkBlack"
 		
-		"item_xpos_offcenter_a"			"45"
-		"item_xpos_offcenter_b"			"178"
+		"item_xpos_offcenter_a"			"0"
+		"item_xpos_offcenter_b"			"133"
 		"item_ypos"						"50"
 		"item_ydelta"					"75"
 		"item_mod_wide"					"40"
@@ -119,11 +119,10 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
-		"xpos"			"cs-1+45"
+		"xpos"			"cs-1"
 		"ypos"			"0"
 		"zpos"			"-1"		
-		"wide"			"340"
+		"wide"			"280"
 		"tall"			"365"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -131,7 +130,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"				"27"
+		"fov"				"22"
 		"allow_manip"		"1"
 				
 		"model"
@@ -199,10 +198,10 @@
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
 		"centerwrap"	"1"
-		"xpos"			"cs-1+45"
+		"xpos"			"cs-1"
 		"ypos"			"50"
-		"zpos"			"0"	
-		"wide"			"340"
+		"zpos"			"0"		
+		"wide"			"280"
 		"tall"			"296"
 		"autoResize"	"0"
 		"pinCorner"		"1"
