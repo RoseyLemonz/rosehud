@@ -50,10 +50,10 @@
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"east"
-		"textinsetx"	"15"
+		"textinsetX"	"15"
 		"fgcolor"		"HudPrimaryLight"
 		"bgcolor_override"	"Black"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"font"			"HudValueSmaller"
 	}
 
@@ -85,7 +85,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"		
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"Black"
 	}
 

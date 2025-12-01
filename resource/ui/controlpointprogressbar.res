@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"progress"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 
 	"Blocked"

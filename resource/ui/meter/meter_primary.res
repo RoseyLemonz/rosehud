@@ -25,8 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"proportionalToParent"	"1"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -62,7 +62,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"MeterColor"
@@ -76,11 +76,11 @@
         "tall"			"4"
         "visible"		"1"
         "enabled"		"1"
-        "proportionaltoparent"		"1"
+        "proportionalToParent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
         "drawcolor"		"HudPrimary"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"pin_to_sibling"	"ItemEffectMeter"
     }					
 }

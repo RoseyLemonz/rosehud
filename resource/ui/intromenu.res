@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "resource/ui/intromenu.res"
 {
 	"intro"
@@ -13,7 +16,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
+		"paintBackground"	"0"
+	}
+
+	"ChalkBG"
+	{
+		"ypos"			"50"
+		"tall"			"350"
 	}
 
 	"frame_caption"
@@ -135,11 +144,6 @@
 		"textAlignment"	"center"
 		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
-		"centerwrap"			"1"
-	}
-
-	"ChalkBG"
-	{
-		"tall"			"340"
+		"centerWrap"			"1"
 	}
 }

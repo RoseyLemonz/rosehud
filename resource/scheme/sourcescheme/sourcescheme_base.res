@@ -12,33 +12,33 @@ Scheme
 		Button.ArmedTextColor			"TFDarkBrown"
 		Button.ArmedBgColor				"TFTanBright"
 		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
+		Button.DepressedbgColor			"TFTanLight"	
 		Button.FocusBorderColor			"TransparentBlack"
 		
 		CheckButton.TextColor			"TFTextBright"
 		CheckButton.SelectedTextColor		"TFTextBright"
 		CheckButton.BgColor				"ListBG"
-		CheckButton.HighlightFgColor		"TFTextMedium"
+		CheckButton.HighlightfgColor		"TFTextMedium"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
+		CheckButton.DepressedbgColor		"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"TFTanBright"	// color of the check itself
-		CheckButton.DisabledBgColor	    "ListBG"
+		CheckButton.DisabledbgColor	    "ListBG"
 
 		ToggleButton.SelectedTextColor	"TFTextBright"
 		
 		ComboBoxButton.ArrowColor		"TFTanLight"
 		ComboBoxButton.ArmedArrowColor	"TFTanBright"
 		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.DisabledbgColor	"Blank"
 		
 		RadioButton.TextColor		"TFTextBright"
 		RadioButton.SelectedTextColor	"TFTextBright"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
 		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
+		Frame.OutOfFocusbgColor			"TFDarkBrownTransparent"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
@@ -51,13 +51,13 @@ Scheme
 		Label.TextBrightColor			"TFTextBright"
 		Label.SelectedTextColor			"TFTextBright"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
-		Label.DisabledFgColor2			"Blank"	
+		Label.DisabledfgColor1			"TFTextDull"	
+		Label.DisabledfgColor2			"Blank"	
 		
 		ListPanel.TextColor					"TFTextBright"
 		ListPanel.BgColor					"ListBG"
 		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
+		ListPanel.SelectedOutOfFocusbgColor	"SelectionBG2"
 		
 		MainMenu.TextColor			"TanLight"			[!$OSX]
 		MainMenu.ArmedTextColor		"117 107 94 255"	[!$OSX]
@@ -75,7 +75,7 @@ Scheme
 		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
 		ScrollBarButton.ArmedBgColor		"TFTanBright"
 		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
+		ScrollBarButton.DepressedbgColor	"TFTanLight"
 
 		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
 		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed

@@ -43,7 +43,7 @@
 		"textAlignment"	"center"
 		"font"			"HudSpecGuiHealth"
 		"fgcolor"		"HudPrimaryLight"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	"TargetStatusHealthValueShadow"
 	{
@@ -60,7 +60,7 @@
 		"textAlignment"	"center"
 		"font"			"HudSpecGuiHealth"
 		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"pin_to_sibling"		"TargetStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

@@ -2,37 +2,9 @@ Scheme
 {
 	Borders
 	{
-
-		//
-		//	DEFAULT HUD BORDER OVERRIDES
-		//
-
-		MainMenuSubButtonBorder
+		Blank
 		{
-			"inset" "0 0 1 0"
-			"proportional_scalar" "0.667"
-			Left
-			{
-				"1"
-				{
-					"color" "TrueBlack"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "TrueBlack"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ToolTipBorder
-		{
-			"inset" "0 0 0 0 "
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
@@ -65,6 +37,230 @@ Scheme
 				"1"
 				{
 					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FooterWithAccent
+		{
+   			"inset" "0 0 0 0"
+			"backgroundtype"	"0"
+
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FooterWithAccentDark
+		{
+   			"inset" "0 0 0 0"
+			"backgroundtype"	"0"
+
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimaryDark"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudPrimaryDark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		FooterWithAccentLight
+		{
+   			"inset" "0 0 0 0"
+			"backgroundtype"	"0"
+
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimaryLight"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudPrimaryLight"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		BPActiveBorder
+		{
+   			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		BPInactiveBorder
+		{
+   			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "DarkGray"
+					"offset" "0 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "DarkGray"
+					"offset" "0 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "DarkGray"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		//
+		//	DEFAULT HUD BORDER OVERRIDES
+		//
+
+		MainMenuSubButtonBorder
+		{
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
+			Left
+			{
+				"1"
+				{
+					"color" "TrueBlack"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "TrueBlack"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		TooltipBorder
+		{
+			"inset" "0 0 0 0"
+		}
+		QuickplayBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "DarkestGray"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "DarkestGray"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "DarkestGray"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "DarkestGray"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		MenuBorder
+		{
+   			"inset" "0 0 1 1"
+			"backgroundtype"	"0"
+
+			Left
+			{
+				"1"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "HudPrimary"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "HudPrimary"
 					"offset" "0 0"
 				}
 			}

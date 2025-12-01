@@ -12,7 +12,6 @@
 		"delta_item_font"		"HudDamageOver"
 		"delta_item_font_big"	"HudDamageOverLarge"
 		"visible"				"1"
-		"visible_minmode"		"1"
 	}
 	"DamageAccountValue"
 	{

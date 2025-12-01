@@ -17,9 +17,9 @@ x
 		"textAlignment"	"center"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"TransparentBlack"
-		"roundedcorners"	"3"
+		"roundedCorners"	"3"
 		
 		"if_hybrid"
 		{

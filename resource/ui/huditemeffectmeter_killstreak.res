@@ -60,7 +60,7 @@
 		"textAlignment"	"center"
 		"labelText"		"8"
 		"font"			"HudMenuIco"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor_override"	"HudPrimary"
 	}			
 	"StreakIconShadow"
@@ -77,7 +77,7 @@
 		"textAlignment"	"center"
 		"labelText"		"8"
 		"font"			"HudMenuIco"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"StreakIcon"
 	}			
@@ -97,7 +97,7 @@
 		"textAlignment"			"west"
 		"font"					"HudAmmoReserve"
 		"fgcolor"				"HudPrimary"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterCountShadow"

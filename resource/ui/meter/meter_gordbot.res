@@ -24,8 +24,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterLabel"
@@ -57,11 +57,11 @@
         "tall"			"4"
         "visible"		"1"
         "enabled"		"1"
-        "proportionaltoparent"		"1"
+        "proportionalToParent"		"1"
         "image"			"replay/thumbnails/hud/modulate"
         "scaleImage"	"1"
         "drawcolor"		"HudPrimary"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
     }
 
 	"ItemEffectMeter"
@@ -79,7 +79,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	"Mark1"
 	{
@@ -92,7 +92,7 @@
 		"tall"					"4"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 255"
+		"fillColor"				"0 0 0 255"
 	}
 	"Mark2"
 	{
@@ -105,7 +105,7 @@
 		"tall"					"4"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 255"
+		"fillColor"				"0 0 0 255"
 	}
 	"Mark3"
 	{
@@ -118,7 +118,7 @@
 		"tall"					"4"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 255"
+		"fillColor"				"0 0 0 255"
 	}
 }
 

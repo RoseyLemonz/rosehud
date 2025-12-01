@@ -6,7 +6,7 @@ Scheme
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
 		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.Button.DepressedbgColor				"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -16,33 +16,33 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 
 		Econ.Dialog.BgColor					"DarkerBlack"
-		Econ.Button.BgColor					"Black"
+		Econ.Button.BgColor					"DarkestGray"
 		Econ.Button.FgColor					"White"
 		Econ.Button.ArmedBgColor			"HudPrimaryLight"
 		Econ.Button.ArmedFgColor			"Black"
-		Econ.Button.DepressedBgColor		"HudPrimary"
+		Econ.Button.DepressedbgColor		"HudPrimary"
 		Econ.Button.DepressedFgColor		"Black"
 
-		Econ.Button.PresetDefaultColorFg		"TanLight"
-		Econ.Button.PresetArmedColorFg			"TanLight"
-		Econ.Button.PresetDepressedColorFg		"TanLight"
-
-		Econ.Button.PresetDefaultColorBg		"LighterRed"
-		Econ.Button.PresetArmedColorBg			"LightRed"
-		Econ.Button.PresetDepressedColorBg		"TFOrange"
+		Econ.Button.PresetDefaultColorFg		"Black"
+		Econ.Button.PresetarmedcolorFg			"Black"
+		Econ.Button.PresetDepressedColorFg		"Black"
+		
+		Econ.Button.PresetDefaultColorBg		"HudPrimaryDark"
+		Econ.Button.PresetarmedcolorBg			"HudPrimaryLight"
+		Econ.Button.PresetDepressedColorBg		"HudPrimary"
 
 		Border.Bright			"Blank"		// the lit side of a control
 		Border.Dark				"Black"		// the dark/unlit side of a control
 		Border.Selection		"Gray"		// the additional border color for displaying the default/selected button
 
 		Button.TextColor					"White"
-		Button.BgColor						"Black"
+		Button.BgColor						"DarkestGray"
 		Button.ArmedTextColor				"Black"
 		Button.ArmedBgColor					"HudPrimaryLight"
 		Button.SelectedTextColor			"Black"
 		Button.SelectedBgColor				"HudPrimaryLight"
 		Button.DepressedTextColor			"255 255 255 255"
-		Button.DepressedBgColor				"HudPrimary"
+		Button.DepressedbgColor				"HudPrimary"
 
 		CheckButton.TextColor				"Yellow"
 		CheckButton.SelectedTextColor		"Yellow"
@@ -50,12 +50,12 @@ Scheme
 		CheckButton.Border1  				"Yellow" 		// the left checkbutton border
 		CheckButton.Border2  				"Yellow"		// the right checkbutton border
 		CheckButton.Check					"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor		"Yellow"
+		CheckButton.HighlightfgColor		"Yellow"
 
 		ComboBoxButton.ArrowColor			"White"
 		ComboBoxButton.ArmedArrowColor		"White"
 		ComboBoxButton.BgColor				"Blank"
-		ComboBoxButton.DisabledBgColor		"Blank"
+		ComboBoxButton.DisabledbgColor		"Blank"
 
 		Frame.BgColor						"TransparentBlack"
 		Frame.OutOfFocusBgColor				"TransparentBlack"
@@ -66,8 +66,8 @@ Scheme
 		FrameGrip.Color2					"Blank"
 		FrameTitleButton.FgColor			"Blank"
 		FrameTitleButton.BgColor			"Blank"
-		FrameTitleButton.DisabledFgColor	"Blank"
-		FrameTitleButton.DisabledBgColor	"Blank"
+		FrameTitleButton.DisabledfgColor	"Blank"
+		FrameTitleButton.DisabledbgColor	"Blank"
 		FrameSystemButton.FgColor			"Blank"
 		FrameSystemButton.BgColor			"Blank"
 		FrameSystemButton.Icon				""
@@ -75,7 +75,7 @@ Scheme
 		FrameTitleBar.TextColor				"Orange"
 		FrameTitleBar.BgColor				"Blank"
 		FrameTitleBar.DisabledTextColor		"Orange"
-		FrameTitleBar.DisabledBgColor		"Blank"
+		FrameTitleBar.DisabledbgColor		"Blank"
 
 		GraphPanel.FgColor					"Orange"
 		GraphPanel.BgColor					"TransparentBlack"
@@ -85,21 +85,21 @@ Scheme
 		Label.TextBrightColor				"White"
 		Label.SelectedTextColor				"HudPrimaryLight"
 		Label.BgColor						"Blank"
-		Label.DisabledFgColor1				"Blank"
-		Label.DisabledFgColor2				"Black"
+		Label.DisabledfgColor1				"DarkGray"
+		Label.DisabledfgColor2				"DarkGray"
 
 		ListPanel.TextColor					"Orange"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
-		ListPanel.SelectedOutOfFocusBgColor	"Red"
+		ListPanel.SelectedOutOfFocusbgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
-		Menu.TextInset					"6"
+		Menu.TextColor					"White"
+		Menu.ArmedTextColor				"DarkGray"
+		Menu.BgColor					"Black"
+		Menu.ArmedBgColor				"Black"
+		Menu.TextInset					"8"
 
 		Chat.TypingText					"Orange"
 
@@ -135,35 +135,35 @@ Scheme
 		ScrollBarButton.ArmedFgColor		"Gray"
 		ScrollBarButton.ArmedBgColor		"Blank"
 		ScrollBarButton.DepressedFgColor	"Black"
-		ScrollBarButton.DepressedBgColor	"Blank"
+		ScrollBarButton.DepressedbgColor	"Blank"
 
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
 		SectionedListPanel.HeaderTextColor				"Orange"
-		SectionedListPanel.HeaderBgColor				"Blank"
+		SectionedListPanel.HeaderbgColor				"Blank"
 		SectionedListPanel.DividerColor					"Black"
 		SectionedListPanel.TextColor					"Orange"
 		SectionedListPanel.BgColor						"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
+		SectionedListPanel.OutOfFocusSelectedbgColor	"255 255 255 32"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"HudPrimary"
+		Slider.TextColor			"White"
+		Slider.TrackColor			"DarkestGray"
+		Slider.DisabledTextColor1	"White"
+		Slider.DisabledTextColor2	"White"
 
 		TextEntry.TextColor						"Gray"
 		TextEntry.BgColor						"Blank"
 		TextEntry.CursorColor					"Gray"
 		TextEntry.DisabledTextColor				"Gray"
-		TextEntry.DisabledBgColor				"Blank"
-		TextEntry.SelectedTextColor				"TanLight"
+		TextEntry.DisabledbgColor				"Blank"
+		TextEntry.SelectedTextColor				"White"
 		TextEntry.SelectedBgColor				"Gray"
-		TextEntry.OutOfFocusSelectedBgColor		"Blank"
+		TextEntry.OutOfFocusSelectedbgColor		"Blank"
 		TextEntry.FocusEdgeColor				"Blank"
 
 		ToggleButton.SelectedTextColor		"Orange"
@@ -189,6 +189,15 @@ Scheme
 		HudCaptureIcon.Active			"HudProgressBarActive"
 		HudCaptureIcon.InActive			"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
-		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
+		HudCaptureProgressBar.InActive	"HudProgressBarInActive"		
+
+		// Top-left corner of the menu on the main screen
+		"Main.Menu.X"							"32"
+		"Main.Menu.Y"							"248"
+
+		// Blank space to leave beneath the menu on the main screen
+		"Main.BottomBorder"						"32"
+
+		"VguiScreenCursor"						"255 208 64 255"
 	}
 }

@@ -13,9 +13,9 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"bgcolor_override"		"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		if_match
 		{
 			"visible"	"0"
@@ -41,9 +41,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStoreOriginalPrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_WaitingForPlayers"
 	}			
@@ -67,9 +67,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStorePrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_Overtime"
 	}			
@@ -93,9 +93,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStorePrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_SuddenDeath"
 	}			
@@ -119,9 +119,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStoreOriginalPrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"#game_Setup"
 	}	
@@ -145,9 +145,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"textinsetx"	"6"
+		"textinsetX"	"6"
 		"font"			"FontStorePrice"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"use_proportional_insets"	"1"
 		"labelText"		"%servertimeleft%"
 	}	

@@ -39,7 +39,7 @@
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"textinsetx"	"25"
+				"textinsetX"	"25"
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"west"
@@ -48,7 +48,7 @@
 				
 				"border_default"	"MainMenuButtonDefault"
 				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"	"0"
+				"paintBackground"	"0"
 				
 				"defaultfgcolor_override" "46 43 42 255"
 				"armedfgcolor_override" "235 226 202 255"
@@ -87,7 +87,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
 		
@@ -112,7 +112,7 @@
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
+			"centerWrap"	"1"
 		}
 	}
 	
@@ -129,7 +129,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		if_wider
 		{
@@ -199,7 +199,7 @@
 		{
 			"fieldName"	"MessageRelay"
 			"visible"	"0"
-			"actionsignallevel"	"1"
+			"actionSignalLevel"	"1"
 		}
 	}
 
@@ -233,7 +233,7 @@
 		"visible"		"1"
 		"labelText"		""
 		"sound_depressed"	"ui/piano.mp3"
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		"paintborder"		"0"
 		"command"			"engine toggleconsole; echo ------------; rosehud_version; echo ------------"
 		"pin_to_sibling"	"HudName"
@@ -279,7 +279,7 @@
 		"ControlName"	"CexLabel"
 		"fieldName"		"HudTheme"
 		"xpos"			"35"
-		"ypos"			"48"
+		"ypos"			"52"
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"60"
@@ -336,7 +336,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"272"
-		"ypos"			"c-146"
+		"ypos"			"c-136"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
@@ -348,16 +348,16 @@
 		"font"			"HudMenuIco"
 		"command"		"open_rank_type_menu"
 		"textAlignment"	"center"
-		"actionsignallevel" "1"
-		"proportionaltoparent"	"1"
+		"actionSignalLevel" "1"
+		"proportionalToParent"	"1"
 
-		"armedBgColor_override"	"HudPrimaryLight"
-		"depressedbgcolor_override"	"HudPrimary"
+		"armedbgcolor_override"	"HudPrimaryLight"
+		"depressedfgcolor_override"	"HudPrimary"
 				
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		"paintborder"		"0"
 
 		"SubImage"
@@ -382,19 +382,19 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-25"
-		"ypos"			"72"
+		"xpos"			"35"
+		"ypos"			"82"
 		"zpos"			"-52"
-		"wide"			"320"
-		"tall"			"160"
+		"wide"			"260"
+		"tall"			"140"
 		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
+		"proportionalToParent"	"1"
+		"mouseInputEnabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
 		"show_model"	"0"
-		"show_type"		"1"
+		"show_type"		"0"
 	}
 
 	"NoGCMessage"
@@ -407,9 +407,9 @@
 		"wide"			"180"
 		"tall"			"80"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-		"centerwrap"			"1"
+		"proportionalToParent"	"1"
+		"mouseInputEnabled"	"0"
+		"centerWrap"			"1"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#TF_MM_NoGC_Rank"
 		"use_proportional_insets"	"1"
@@ -428,7 +428,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/characters/sakakihurt"
 		"scaleImage"	"1"
-		"proportionaltoparent" "1"
+		"proportionalToParent" "1"
 	}	
 
 	"RankBorder"
@@ -436,14 +436,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"35"
-		"ypos"			"94"
+		"ypos"			"104"
 		"zpos"			"-100"
 		"wide"			"260"
-		"tall"			"95"
+		"tall"			"85"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"DarkerBlack"
-		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkBlack"
+		"proportionalToParent"	"1"
 	}
 	
 	"TooltipPanel"
@@ -456,7 +456,7 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"bgcolor_override"		"DarkerBlack"
+		"bgcolor_override"		"DarkBlack"
 		
 		"TipSubLabel"
 		{
@@ -495,7 +495,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			"auto_wide_tocontents" "1"
+			"auto_wide_toContents" "1"
 		}
 	}	
 
@@ -533,10 +533,11 @@
 			"labelText"		"F"
 			"font"			"HudMenuIco"
 			"textAlignment"	"center"
-			"Command"		"motd_show"
+			"command"		"motd_show"
+			"defaultbgcolor_override"	"Black"
 
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
+			"actionSignalLevel" "2"
+			"proportionalToParent"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -578,9 +579,10 @@
 			"font"			"HudMenuIco"
 			"textAlignment"	"center"
 			"command"		"questlog"
+			"defaultbgcolor_override"	"Black"
 
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
+			"actionSignalLevel" "2"
+			"proportionalToParent"	"1"
 				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -622,7 +624,7 @@
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
 			"drawcolor" "210 125 33 255"
-			"mouseinputenabled"	"0"
+			"mouseInputEnabled"	"0"
 		}				
 		
 		"Notifications_CountLabel"
@@ -642,7 +644,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"255 255 255 255"
-			"mouseinputenabled"	"0"
+			"mouseInputEnabled"	"0"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -659,14 +661,14 @@
 			"labelText"		"X"
 			"font"			"HudMenuIco"
 			"textAlignment"	"center"
-			"Command"		"noti_show"
+			"command"		"noti_show"
 
-			"actionsignallevel" "2"
-			"proportionaltoparent"	"1"
+			"actionSignalLevel" "2"
+			"proportionalToParent"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "1"
+			"paintBackground" "1"
 			
 			"SubImage"
 			{
@@ -686,25 +688,25 @@
 		"xpos"			"314"
 		"ypos"			"94"
 		"zpos"			"50"
-		"wide"			"300"
+		"wide"			"260"
 		"tall"			"316"
 		"visible"		"0"
-		"bgcolor_override"		"Black"
-		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"bgcolor_override"		"DarkBlack"
+		"paintbackgroundtype"	"2"
+		"proportionalToParent"	"1"
 
 		"InnerShadow"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
+			"fieldName"		"InnerShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-22"
 			"wide"			"f15"
 			"tall"			"245"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"paintbackgroundtype"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"0"
 
 			"paintborder"	"1"
 			"border"		"InnerShadowBorder"
@@ -731,12 +733,12 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labeltext"		"#TF_Close"
+			"labelText"		"#TF_Close"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"Command"		"motd_hide"
-			"proportionaltoparent"	"1"
-			"actionsignallevel"	"2"
+			"command"		"motd_hide"
+			"proportionalToParent"	"1"
+			"actionSignalLevel"	"2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -767,13 +769,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#MMenu_MOTD_URL"
-			"textinsetx"	"20"
+			"textinsetX"	"20"
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"command"		"motd_viewurl"
-			"proportionaltoparent" "1"
-			"actionsignallevel"	"2"
+			"proportionalToParent" "1"
+			"actionSignalLevel"	"2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -804,8 +806,8 @@
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"HudWhite"
-			"proportionaltoparent"	"1"
+			"fgcolor"		"White"
+			"proportionalToParent"	"1"
 		}
 		
 		"MOTD_Label"
@@ -822,7 +824,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"HudPrimary"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -836,9 +838,9 @@
 			"tall"			"120"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"HudBonus"
-			"paintBackgroundType"	"2"
-			"proportionaltoparent"	"1"
+			"bgcolor_override"	"DarkestGray"
+			"paintbackgroundtype"	"2"
+			"proportionalToParent"	"1"
 		}
 		
 		"MOTD_TitleImageContainer"
@@ -846,12 +848,12 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MOTD_TitleImageContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"60"
+			"ypos"			"63"
 			"zpos"			"100"
-			"wide"			"220"
-			"tall"			"120"
+			"wide"			"210"
+			"tall"			"115"
 			"visible"		"1"
-			"proportionaltoparent" "1"
+			"proportionalToParent" "1"
 			
 			"MOTD_TitleImage"
 			{
@@ -860,8 +862,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"100"
-				"wide"			"220"
-				"tall"			"220"
+				"wide"			"210"
+				"tall"			"210"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"class_icons/filter_all"
@@ -881,32 +883,32 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"		"1"	
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"bgcolor_override"	"DarkerBlack"
-			"paintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 		}
 			
 		"MOTD_TextScroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
-			"xpos"			"40"
-			"ypos"			"202"
-			"wide"			"240"
-			"tall"			"300"
-			"PaintBackgroundType"	"2"
-			"fgcolor"		"HudWhite"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-34"
+			"zpos"			"-1"
+			"wide"			"f45"	
+			"tall"			"85"
+			"proportionalToParent"	"1"
+			"paintbackgroundtype"	"2"
 			
 			"MOTD_TextPanel"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MOTD_TextPanel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"240"
-				"tall"			"300"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"paintbackgroundtype"	"2"
+				"proportionaltoparent"	"1"
 			
 				"MOTD_TextLabel"
 				{
@@ -914,17 +916,15 @@
 					"fieldName"		"MOTD_TextLabel"
 					"font"			"HudFontSmall"
 					"labelText"		"%motdtext%"
-					"textAlignment"	"north-west"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"250"
-					"tall"			"300"
+					"wide"			"f0"
+					"tall"			"f0"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"HudWhite"
-					"centerwrap"			"1"
+					"fgcolor"		"White"
+					"wrap"			"1"
+					"proportionaltoparent"	"1"
 				}
 			}
 		}
@@ -945,13 +945,12 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"Command"		"motd_prev"
-			"actionsignallevel"	"2"
-
+			"command"		"motd_prev"
+			"actionSignalLevel"	"2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+			"paintBackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -987,13 +986,13 @@
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"Command"		"motd_next"
-			"actionsignallevel"	"2"
+			"command"		"motd_next"
+			"actionSignalLevel"	"2"
 
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+			"paintBackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1024,8 +1023,8 @@
 		"wide"			"210"
 		"tall"			"95"
 		"visible"		"0"
-		"bgcolor_override"	"DarkerBlack"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"DarkBlack"
+		"paintbackgroundtype"	"2"
 		
 		"Notifications_CloseButton"
 		{
@@ -1040,17 +1039,17 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labeltext"		""
+			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"actionsignallevel"	"2"
+			"actionSignalLevel"	"2"
 
-			"Command"		"noti_hide"
+			"command"		"noti_hide"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"paintbackground"	"0"
+			"paintBackground"	"0"
 			
  			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"125 125 125 255"
@@ -1098,7 +1097,7 @@
 			"ypos"			"25"
 			"wide"			"210"
 			"tall"			"56"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"fgcolor_override"	"White"
 			
 			"Notifications_Control"
@@ -1124,21 +1123,21 @@
 		"wide"			"260"
 		"tall"			"38"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"border"		"MainMenuBGBorder"
 	}
 
 	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"VRModeButton"
+		"fieldName"		"VRModeButton"
 		"xpos"			"314"
 		"ypos"			"354"
 		"zpos"			"-60"
 		"wide"			"200"
 		"tall"			"26"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		"SubButton"
 		{
@@ -1154,13 +1153,13 @@
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
-			"textinsetx"	"15"
+			"textinsetX"	"15"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"use_proportional_insets"	"1"
 			
-			"defaultBgColor_override"	"DarkerBlack"
+			"defaultbgcolor_override"	"DarkerBlack"
 				
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"46 43 42 255"
@@ -1196,7 +1195,7 @@
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
+		"fieldName"		"FriendsContainer"
 		"xpos"			"35"
 		"ypos"			"200"
 		"zpos"			"5"
@@ -1204,8 +1203,8 @@
 		"tall"			"210"
 		"visible"		"1"
 
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"DarkerBlack"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"DarkBlack"
 
 		"TitleLabel"
 		{
@@ -1222,23 +1221,23 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"0"
+			"textinsetX"	"0"
 			"fgcolor_override"	"White"
 		}
 
 		"InnerShadow"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
+			"fieldName"		"InnerShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
 			"zpos"			"501"
 			"wide"			"f10"
 			"tall"			"170"
 			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"paintbackgroundtype"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"0"
 
 			"paintborder"	"1"
 			"border"		"InnerShadowBorder"
@@ -1247,14 +1246,14 @@
 		"SteamFriendsList"
 		{
 			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
+			"fieldName"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
 			"zpos"			"500"
 			"wide"			"f10"
 			"tall"			"170"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
 			"columns_count"	"2"
 			"inset_x"		"10"
@@ -1272,14 +1271,14 @@
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
+				"fieldName"		"ScrollBar"
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 
 				"Slider"
 				{
@@ -1289,14 +1288,14 @@
 				"UpButton"
 				{
 					"ControlName"	"Button"
-					"FieldName"		"UpButton"
+					"fieldName"		"UpButton"
 					"visible"		"0"
 				}
 		
 				"DownButton"
 				{
 					"ControlName"	"Button"
-					"FieldName"		"DownButton"
+					"fieldName"		"DownButton"
 					"visible"		"0"
 				}
 			}
@@ -1305,16 +1304,16 @@
 		"BelowDarken"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
+			"fieldName"		"BelowDarken"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
 			"zpos"			"499"
 			"wide"			"f10"
 			"tall"			"170"
 			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"paintbackgroundtype"	"0"
+			"proportionalToParent"	"1"
+			"mouseInputEnabled"	"0"
 
 			"bgcolor_override"	"0 0 0 100"
 		}
@@ -1339,7 +1338,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"command"		"showpromocodes"
-		"defaultBgColor_override"	"DarkerBlack"
+		"defaultbgcolor_override"	"DarkBlack"
 	}
 
 	"StoreHasNewItemsImage"
@@ -1364,25 +1363,20 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"25"
+		"textinsetX"	"25"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
 		"command"		"engine open_charinfo"
-		"labeltext"		"#MMenu_CharacterSetup"
+		"labelText"		"#MMenu_CharacterSetup"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 			
-		"paintbackground"	"1"
+		"paintBackground"	"1"
 				
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"46 43 42 255"
-		
-		"if_taller"	
-		{
-			"xpos"		"25"
-		}
 
 		"SubImage"
 		{
@@ -1396,7 +1390,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"image"			"replay/thumbnails/menu/glyph_items"
 		}		
 	}
@@ -1415,12 +1409,12 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext" 	"#TF_Options_Title"
+		"labelText" 	"#TF_Options_Title"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"textinsetx"	"25"
+		"textinsetX"	"25"
 		"use_proportional_insets" "1"
-		"Command"		"OpenOptionsDialog"
+		"command"		"OpenOptionsDialog"
 		"border_default"	"MainMenuSubButtonBorder"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1443,7 +1437,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"image"			"replay/thumbnails/menu/glyph_options"
 		}			
 	}
@@ -1464,7 +1458,7 @@
 		"labelText"		"}"
 		"textAlignment"	"center"
 		"font"			"HudMenuIco"
-		"Command"		"opentf2options"
+		"command"		"opentf2options"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1504,13 +1498,13 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"font"			"HudMenuIco"
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 				
-			"paintbackground"	"1"
+			"paintBackground"	"1"
 			"border_default"	"MainMenuSubButtonBorder"
 					
 			"SubImage"
@@ -1527,7 +1521,7 @@
 	"ShowHUDOptionsButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ShowHUDOptionsButton"
+		"fieldName"		"ShowHUDOptionsButton"
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -1549,16 +1543,16 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"font"			"HudMenuIco"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 				
-			"paintbackground"	"1"
+			"paintBackground"	"1"
 			"border_default"	"MainMenuSubButtonBorder"
 
 			"use_proportional_insets" "1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
 			"SubImage"
 			{
@@ -1587,7 +1581,7 @@
 		"labelText"		"V"
 		"font"			"HudMenuIco"
 		"textAlignment"	"center"
-		"Command"		"OpenAchievementsDialog"
+		"command"		"OpenAchievementsDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1617,7 +1611,7 @@
 		"labelText"		"p"
 		"font"			"HudMenuIco"
 		"textAlignment"	"center"
-		"Command"		"engine OpenSteamWorkshopDialog"
+		"command"		"engine OpenSteamWorkshopDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1646,7 +1640,7 @@
 		"labelText"		"_"
 		"font"			"HudMenuIco"
 		"textAlignment"	"center"
-		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+		"command"		"OpenLoadSingleplayerCommentaryDialog"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1673,12 +1667,12 @@
 		"labelText"		"Q"
 		"font"			"HudMenuIco"
 		"textAlignment"	"center"
-		"Command"		"view_newuser_forums"
+		"command"		"view_newuser_forums"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"PaintBackgroundType" "0"
+		"paintbackgroundtype" "0"
 		"border_default"	"MainMenuSubButtonBorder"
 
 		"pin_to_sibling"	"CommentaryButton"
@@ -1708,14 +1702,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"6"
+			"textinsetX"	"6"
 			"font"			"HudMenuIco"
 			"textAlignment"	"east"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 		}		
 	}	
@@ -1733,6 +1727,11 @@
 		"pin_to_sibling"	"FixAllButton"
 		"pin_to_sibling_corner"	"1"
 
+		"if_taller"	
+		{
+			"xpos"		"9999"
+		}
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1743,14 +1742,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"7"
+			"textinsetX"	"7"
 			"font"			"HudMenuIco"
 			"textAlignment"	"west"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"use_proportional_insets" "1"
 
 			"SubImage"
@@ -1796,7 +1795,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"use_proportional_insets" "1"
 
 			"SubImage"
@@ -1842,7 +1841,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"use_proportional_insets" "1"
 
 			"SubImage"
@@ -1881,14 +1880,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"8"
+			"textinsetX"	"8"
 			"font"			"HudMenuIco"
 			"textAlignment"	"east"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"use_proportional_insets" "1"
 
 			"SubImage"
@@ -1907,7 +1906,7 @@
 	"ReportPlayerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ReportPlayerButton"
+		"fieldName"		"ReportPlayerButton"
 		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -1927,14 +1926,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"5"
+			"textinsetX"	"5"
 			"font"			"HudMenuIco"
 			"textAlignment"	"west"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"use_proportional_insets" "1"
 
 			"SubImage"
@@ -1951,7 +1950,7 @@
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CallVoteButton"
+		"fieldName"		"CallVoteButton"
 		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -1981,7 +1980,7 @@
 			
 			"border_default"	"MainMenuSubButtonBorder"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 
 			"SubImage"
 			{
@@ -1997,7 +1996,7 @@
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"MutePlayersButton"
+		"fieldName"		"MutePlayersButton"
 		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -2017,14 +2016,14 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"5"
+			"textinsetX"	"5"
 			"font"			"HudMenuIco"
 			"textAlignment"	"east"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"proportionaltoparent"		"1"
+			"proportionalToParent"		"1"
 			"use_proportional_insets"	"1"
 			
 			"SubImage"
@@ -2054,9 +2053,9 @@
 		"labelText"		"#GameUI_GameMenu_ExitReplay"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"textinsetx"	"35"
+		"textinsetX"	"35"
 		"use_proportional_insets" "1"
-		"Command"		"exitreplayeditor"
+		"command"		"exitreplayeditor"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
@@ -2095,9 +2094,9 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"textinsetx"	"25"
+		"textinsetX"	"25"
 		"use_proportional_insets" "1"
-		"Command"		"OpenOptionsDialog"
+		"command"		"OpenOptionsDialog"
 
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2137,9 +2136,9 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"east"
-		"Command"		"opentf2options"
+		"command"		"opentf2options"
 		"use_proportional_insets"	"1"
-		"textinsetx"	"25"
+		"textinsetX"	"25"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2174,23 +2173,8 @@
 		"zpos"			"-1"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"2"
 		"bgcolor_override"		"DarkerBlack"
-	}
-
-	"BottomBGHighlight"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"BottomBGHighlight"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"HudPrimary"
-		"pin_to_sibling"	"BottomBG"
+		"border"				"FooterWithAccent"
 	}
 
 	"icon_generator"
@@ -2223,6 +2207,21 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+
+	"ChatPopupPin"
+	{
+		"fieldName"		"ChatPopupPin"
+		"ControlName"	"Panel"
+		"xpos"			"24"
+		"ypos"			"0"
+	}
+	"InviteNotifPin"
+	{
+		"fieldName"		"InviteNotifPin"
+		"ControlName"	"Panel"
+		"xpos"			"c-318"
+		"ypos"			"c-244"
 	}
 
 	"GeneralStoreButton"

@@ -1,4 +1,10 @@
 //==============================================================
+// FOLDERCHECK
+//==============================================================
+#base "../../rosehud/_customization/foldercheck/hud_customization_checkpass.res"
+#base "foldercheck/hud_customization_checkfail.res"
+
+//==============================================================
 // CHARACTER THEME
 //==============================================================
 #base "hud_customization_character.res"
@@ -14,20 +20,24 @@
 #base "hud_customization_chatpos.res"
 
 //==============================================================
-// CUSTOM SHADERS
-//==============================================================
-//#base "hud_customization_shaders.res"
-
-//==============================================================
 // TEAM INDICATOR
 //==============================================================
 #base "hud_customization_teamindicator.res"
 
 //==============================================================
-// FOLDERCHECK
+// AMMO ICON
 //==============================================================
-#base "../../rosehud/_customization/foldercheck/hud_customization_checkpass.res"
-#base "foldercheck/hud_customization_checkfail.res"
+#base "hud_customization_ammoicon.res"
+
+//==============================================================
+// HEALTH ICON
+//==============================================================
+#base "hud_customization_healthicon.res"
+
+//==============================================================
+// CUSTOM SHADERS
+//==============================================================
+#base "hud_customization_shaders.res"
 
 //==============================================================
 // FRAME

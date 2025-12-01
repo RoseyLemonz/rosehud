@@ -27,7 +27,7 @@
 		"tall"			"5"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
+		"fillColor"		"255 255 255 255"
 	}	
 	
 	"TeamIndicator"
@@ -88,10 +88,9 @@
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"alpha"			"0"
 		"image"			"replay/thumbnails/characters/sakakihurt"
 		"pin_to_sibling"	"PlayerCharaImage"
 	}
@@ -105,10 +104,9 @@
 		"zpos"			"3"
 		"wide"			"90"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"alpha"			"0"
 		"image"			"replay/thumbnails/characters/sakakispin"
 		"pin_to_sibling"	"PlayerCharaImage"
 	}

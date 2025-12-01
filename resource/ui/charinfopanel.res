@@ -1,0 +1,133 @@
+"resource/ui/charinfopanel.res"
+{
+	"character_info"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"character_info"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"settitlebarvisible"	"1"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"				"Blank"
+		"infocus_bgcolor_override"		"Blank"
+		"outoffocus_bgcolor_override"	"Blank"
+		
+		"title"			"#CharInfoAndSetup"
+		"title_font"	"HudFontMediumBold"
+		"titletextinsetX"	"40"
+		"titletextinsetY"	"0"
+		"titlebarfgcolor_override"				"Blank"
+		"titlebardisabledfgcolor_override"		"Blank"
+		"titlebarbgcolor_override"				"Blank"
+		
+		"clientinsetx_override"			"0"
+		"sheetinset_bottom"				"40"
+	}
+	
+	"BackgroundHeader"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"120"
+		"zpos"			"-1"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"DarkestGray"
+	}		
+	"BackgroundFooter"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"40"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"DarkerBlack"
+		"border"				"FooterWithAccent"
+	}			
+	
+	"Sheet"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Sheet"
+		"tabxindent"	"36"
+		"tabxdelta"		"5"
+		"tabwidth"		"220"
+		"tabheight"			"26"
+		"transition_time"	"0"
+		"yoffset"			"6"
+		
+		"HeaderLine"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"0"
+			"ypos"			"31"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"DarkGray"
+		}					
+		
+		"tabskv"
+		{
+			"textinsetx"				"30"
+			"proportionaltoparent"		"1"
+			"font"						"HudFontMediumSmallBold"
+			"selectedcolor"				"White"
+			"unselectedcolor"			"DarkGray"
+			"paintbackground"			"1"
+			"activeborder_override"		"BPActiveBorder"
+			"normalborder_override" 	"BPInactiveBorder"
+		}
+	}		
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
+		"xpos"			"36"
+		"ypos"			"rs1-18"
+		"zpos"			"45"
+		"wide"			"120"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#rose_Back"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"default"		"0"
+		"Command"		"back"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}		
+	
+	"NotificationsPresentPanel"
+	{
+		"ControlName"	"CNotificationsPresentPanel"
+		"fieldName"		"NotificationsPresentPanel"
+		"xpos"			"r200"
+		"ypos"			"10"
+		"zpos"			"10000"
+		"wide"			"190"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"1"
+	}
+}

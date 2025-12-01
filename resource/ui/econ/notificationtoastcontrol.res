@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"border"		"NoBorder"
 		"paintborder"			"1"
-		"paintbackground"		"1"
+		"paintBackground"		"1"
 		"bgcolor_override"		"TrueBlack"
 	}
 
@@ -30,12 +30,12 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labeltext"		""
+		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"delete"
+		"command"		"delete"
 
 		"defaultbgcolor_override"	"HudPrimaryDark"
 
@@ -55,7 +55,7 @@
 			"enabled"		"1"
 			"image"			"glyph_close_X"
 			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 	}
 
@@ -76,12 +76,12 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labeltext"		""
+		"labelText"		""
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"trigger"
+		"command"		"trigger"
 
 		"defaultbgcolor_override"	"HudPrimaryDark"
 
@@ -101,7 +101,7 @@
 			"enabled"		"1"
 			"image"			"glyph_view"
 			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 	}
 
@@ -122,16 +122,16 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labeltext"		""
+		"labelText"		""
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"accept"
+		"command"		"accept"
 
 		"border_default"	"MainMenuMiniButtonDefault"
 		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 
 		"defaultbgcolor_override"	"100 90 85 255"
 		"defaultfgcolor_override"	"255 255 255 255"
@@ -169,17 +169,17 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labeltext"		""
+		"labelText"		""
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"decline"
+		"command"		"decline"
 
 		"border_default"	"MainMenuMiniButtonDefault"
 		"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 
 		"defaultbgcolor_override"	"100 90 85 255"
 		"defaultfgcolor_override" "46 43 42 255"

@@ -9,7 +9,7 @@
 		"ypos"					"25"
 		"wide"					"250"
 		"tall"					"480"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
@@ -78,7 +78,7 @@
 			"enabled"		"1"
 			"image"			"competitive/competitive_logo_laurel"
 			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
 			if_competitive
 			{
@@ -148,7 +148,7 @@
 					"tall"				"p0.22"
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 
 				if_readymode
@@ -191,7 +191,7 @@
 					"wide"			"p0.4"
 					"tall"			"p0.6"
 					"image"			"../vgui/hud_connecting"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 
 				if_readymode
@@ -216,7 +216,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
+				"paintbackgroundtype"	"0"
 				
 				if_mvm
 				{
@@ -230,7 +230,7 @@
 					"wide"			"p0.4"
 					"tall"			"p0.6"
 					"visible"		"1"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 
 				if_readymode
@@ -261,7 +261,7 @@
 					"wide"			"p0.64"
 					"tall"			"p0.96"
 					"visible"		"1"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 			}
 			
@@ -299,7 +299,7 @@
 					"ypos"			"5"
 					"wide"			"p0.3"
 					"tall"			"p0.45"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 					"visible"		"1"
 				}
 				
@@ -336,7 +336,7 @@
 					"ypos"			"7"
 					"wide"			"p0.21"
 					"tall"			"p0.34"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 					"visible"		"1"
 				}
 
@@ -370,7 +370,7 @@
 					"wide"			"p0.5"
 					"tall"			"p0.28"
 					"autoResize"	"1"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 			}
 			
@@ -402,7 +402,7 @@
 					"ypos"			"15"
 					"wide"			"p0.45"
 					"tall"			"p0.28"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 			}
 			
@@ -427,7 +427,7 @@
 				{
 					"wide"			"p0.9"
 					"tall"			"p0.22"
-					"proportionaltoparent" "1"
+					"proportionalToParent" "1"
 				}
 			}
 		}
@@ -447,7 +447,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -491,7 +491,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -525,7 +525,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -567,7 +567,7 @@
 		"wrap"			"0"
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -603,7 +603,7 @@
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -643,7 +643,7 @@
 		
 		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"4"	
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -828,7 +828,7 @@
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -878,7 +878,7 @@
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -976,7 +976,7 @@
 		
 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		if_competitive
 		{
@@ -1008,7 +1008,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		if_competitive
 		{
@@ -1043,7 +1043,7 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		if_competitive
 		{

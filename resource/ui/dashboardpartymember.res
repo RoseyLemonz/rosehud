@@ -1,0 +1,168 @@
+"resource/ui/dashboardpartymember.res"
+{
+	"avatar"
+	{
+		// "ControlName"	"CAvatarImagePanel"
+		"fieldName"		"avatar"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"101"
+		"wide"			"f2"
+		"tall"			"f2"
+		"visible"		"1"
+		"proportionalToParent"	"1"
+		"scaleImage"	"1"
+	}
+
+	"EmptyImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"EmptyImage"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"100"
+		"wide"			"f2"
+		"tall"			"f2"
+		"visible"		"1"
+		"proportionalToParent"	"1"
+		"scaleImage"	"1"
+		"image"			"class_portraits/silhouette_alpha"
+		"mouseInputEnabled"	"0"
+	}
+
+	"LeaderIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeaderIcon"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"105"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"importtool_goldstar"
+		"scaleImage"	"1"
+		"mouseInputEnabled"	"0"
+	}
+
+	"BannedIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BannedIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"105"
+		"wide"			"p0.75"
+		"tall"			"p0.75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"glyph_alert"
+		"scaleImage"	"1"
+		"mouseInputEnabled"	"0"
+		"proportionalToParent"	"1"
+		"drawcolor"	"255 0 0 255"
+	}
+
+	"OutOfDateIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OutOfDateIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"105"
+		"wide"			"p0.75"
+		"tall"			"p0.75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"glyph_alert"
+		"scaleImage"	"1"
+		"mouseInputEnabled"	"0"
+		"proportionalToParent"	"1"
+		"drawcolor"	"OrangeDim"
+	}
+
+	"OfflineIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OfflineIcon"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"105"
+		"wide"			"p0.65"
+		"tall"			"p0.65"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"gc_dc"
+		"scaleImage"	"1"
+		"mouseInputEnabled"	"0"
+		"proportionalToParent"	"1"
+		"drawcolor"	"OrangeDim"
+	}
+
+	"StatusDimmer"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"StatusDimmer"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"104"
+		"wide"			"f2"
+		"tall"			"f2"
+		"visible"		"1"
+		"proportionalToParent"	"1"
+		"bgcolor_override"	"TransparentBlack"
+	}
+
+	"InteractButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"InteractButton"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"200"
+		"wide"			"f1"
+		"tall"			"f1"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"			"PlayerPanelPlayerName"
+		"textAlignment"	"center"
+		"command"		"interact"
+		"proportionalToParent"	"1"
+		"labelText"		""
+		"mouseInputEnabled"	"1"
+		"keyboardInputEnabled"	"0"
+		"actionSignalLevel"	"1"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultbgcolor_override"	"Blank"
+		"armedbgcolor_override"		"0 0 0 100"
+		"depressedbgcolor_override"	"TransparentBlack"
+
+		"border_default"	"QuickplayBorder"
+		"border_armed"		"FriendHighlightBorderThick"
+	}
+
+	"Spinner"
+	{
+		"ControlName"	"CTFLogoPanel"
+		"fieldName"		"Spinner"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"104"
+		"wide"			"f2"
+		"tall"			"f2"
+		"visible"		"1"
+		"proportionalToParent"	"1"
+		"mouseInputEnabled"	"0"
+		"alpha"			"200"
+
+		"radius"		"26"
+		"velocity"		"60"
+		"fgcolor_override"	"Orange"
+	}
+}

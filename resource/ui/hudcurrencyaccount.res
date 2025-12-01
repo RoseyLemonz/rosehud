@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}	
 	
 	"CurrencyShadow"
@@ -33,7 +33,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}	
 	
 	"WhiteBG"
@@ -48,7 +48,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Black"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 	}	
 	
@@ -64,6 +64,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"HudBonusDark"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 }

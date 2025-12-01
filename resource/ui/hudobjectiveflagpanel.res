@@ -61,8 +61,8 @@
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"
 		"bgcolor_override"	"BlueTeamTransparent"
-		"roundedcorners"	"1"
-		"paintBackgroundType"	"2"
+		"roundedCorners"	"1"
+		"paintbackgroundtype"	"2"
 		
 		"if_hybrid"
 		{
@@ -139,8 +139,8 @@
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"White"		
 		"bgcolor_override"	"RedTeamTransparent"
-		"roundedcorners"	"2"
-		"paintBackgroundType"	"2"
+		"roundedCorners"	"2"
+		"paintbackgroundtype"	"2"
 
 		"if_hybrid"
 		{
@@ -254,7 +254,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"south"
-		"textinsety"	"-5"
+		"textinsetY"	"-5"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"bgcolor_override"	"TransparentBlack"
@@ -422,7 +422,7 @@
 		"font"			"HudChalk20"
 		"fgcolor"		"White"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"SpecCarriedImage"

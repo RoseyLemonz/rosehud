@@ -13,7 +13,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintborder"	"1"
 		
 		"text_ypos"			"0"
@@ -37,7 +37,7 @@
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
+			"centerWrap"	"1"
 		}
 	}
 
@@ -61,7 +61,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
-		"Command"		"done"
+		"command"		"done"
 	}
 
 	"ParticlePanel"
@@ -91,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 			
-		"PaintBackgroundType" "2"
+		"paintbackgroundtype" "2"
 		"bgcolor_override"	"42 39 37 255"
 	}
 
@@ -158,7 +158,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"42 41 39 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
@@ -176,7 +176,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
@@ -194,7 +194,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
@@ -212,7 +212,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
@@ -230,7 +230,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 
@@ -248,7 +248,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"proportionalToParent"	"1"
 		}
 	}
@@ -300,7 +300,7 @@
 				"ypos"			"120"
 				"wide"			"530"
 				"tall"			"40"
-				"centerwrap"		"1"
+				"centerWrap"		"1"
 				"fgcolor"		"tanlight"
 			}
 		}

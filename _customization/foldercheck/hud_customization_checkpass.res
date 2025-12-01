@@ -18,24 +18,23 @@
 			"tall"							"234"
 			"visible"						"1"
 			"enabled"						"1"
-			"proportionaltoparent"			"1"
+			"proportionalToParent"			"1"
 			"paintBackground"				"0"
 			"bgcolor_override"				"Gray"
 			
 			"Scrollbar"
 			{
-				"xpos"							"rs1+2"
+				"xpos"							"rs1+1"
 				"ypos"							"0"
 				"wide"							"4"
 				"tall"							"f0"
 				"zpos"							"1000"
-				"proportionaltoparent"			"1"
+				"proportionalToParent"			"1"
 				"nobuttons"						"1"
 
 				"Slider"
 				{
-					"PaintBackgroundType"		"0"
-					"fgcolor_override"			"White"
+					"fgcolor_override"			"HudPrimary"
 				}
 			}
 		}

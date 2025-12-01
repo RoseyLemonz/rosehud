@@ -11,7 +11,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"bgcolor_override"	"Black"
 	}	
 	
@@ -26,7 +26,7 @@
 		"tall"			"f2"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"bgcolor_override"	"HudTertiary"
 	}
 	
@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	
 	"CurrencyGood"
@@ -76,7 +76,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}

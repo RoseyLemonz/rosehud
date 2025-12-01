@@ -91,6 +91,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudMeterCountSmall"
+		{
+			"1"
+			{
+				"name"		"tf2build"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"HudMeterCount"
 		{
 			"1"
@@ -168,6 +178,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"HudMenuIcoSmall"
+		{
+			"1"
+			{
+				"name"		"tf2icons"
+				"tall"		"15"	[$LINUX]
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
 		"HudInGameIco"
 		{
 			"1"
@@ -178,11 +198,43 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"HudInGameIcoSmall"
+		{
+			"1"
+			{
+				"name"		"tf2charactericons"
+				"tall"		"15"	[$LINUX]
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
 		"HudClassSelect"
 		{
 			"1"
 			{
 				"name"		"tf2charactericons"
+				"tall"		"36"	[$LINUX]
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+
+		"MenuClassSelect"
+		{
+			"1"
+			{
+				"name"		"tf2charactericons"
+				"tall"		"36"	[$LINUX]
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+
+		"MenuMiscSelect"
+		{
+			"1"
+			{
+				"name"		"tf2icons"
 				"tall"		"36"	[$LINUX]
 				"tall"		"48"
 				"antialias"	"1"
@@ -241,6 +293,30 @@ Scheme
 			{
 				"name"		"tf2secondary"
 				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"ScoreboardVerySmallOutline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"ScoreboardSmallOutline"
+		{
+			"1"
+			{
+				"name"		"tf2secondary"
+				"tall"		"10"
+				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"

@@ -171,13 +171,13 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"cs-0.5+202"
-		"ypos"					"rs1-36"
-		"wide"					"60"
-		"tall"  				"42"
+		"xpos"					"cs-0.5"
+		"ypos"					"c148"
+		"wide"					"48"
+		"tall"					"32"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	CHealthAccountPanel
@@ -189,7 +189,7 @@
 		"tall"  				"35"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"		"Blank"
 	}
 	
@@ -202,7 +202,7 @@
 		"tall"					"480"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	
@@ -241,7 +241,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"322"
+		"ypos"		"352"
 		"wide"		"250"
 		"tall"	 	"28"
 		"priority"	"40"
@@ -276,7 +276,7 @@
 		"wide"		"640"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	BuildingStatus_Engineer
@@ -289,7 +289,7 @@
 		"wide"		"640"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	HudMannVsMachineStatus
@@ -303,7 +303,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"CurrencyStatusPanel"
@@ -318,7 +318,7 @@
 		"visible" 			"0"
 		"enabled" 			"1"
 		
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	HudProgressBar
@@ -333,7 +333,7 @@
 
 		"BorderThickness" "1"
 
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	HudRoundTimer
@@ -346,7 +346,7 @@
 		"visible" "1"
 		"enabled" "1"
 		
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		"FlashColor" "HudIcon_Red"		
 
@@ -366,7 +366,7 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 
 		"IconColor"				"Hostage_Yellow"	
 	}
@@ -385,7 +385,7 @@
 		"text_ypos" "6"
 		"TextColor"	"255 170 0 220"
 
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	HudDamageIndicator
@@ -403,7 +403,7 @@
 		"visible" "1"
 		"enabled" "1"
 		
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"BackgroundOverrideColor" "0 0 0 128"
 		
 		"bar_xpos"		"50"
@@ -421,7 +421,7 @@
 		"icon_width"	"40"
 		"icon_height"	"40"
 
-		"use_script_bgcolor"	"1"
+		"use_script_bgColor"	"1"
 	}
 
 	HudZoom
@@ -752,12 +752,12 @@
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
 
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	overview
 	{
-		"fieldname" "overview"
+		"fieldName" "overview"
 		"visible"	"1"
 		"enabled" "1"
 		"xpos"	"0"
@@ -821,7 +821,7 @@
 		"wide"					"220"
 		"tall"					"f0"
 		"zpos"					"4"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	ArenaWinPanel
@@ -927,7 +927,7 @@
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	
 	"HudMenuEngyBuild"
@@ -939,7 +939,7 @@
 		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -951,7 +951,7 @@
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -963,7 +963,7 @@
 		"ypos"			"c-55"
 		"wide"			"250"
 		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -975,7 +975,7 @@
 		"ypos"			"c-52"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}	
 	
 	HudDemomanPipes
@@ -1283,7 +1283,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"paintbackgroundtype"	"0" // rounded corners
 	}
 
 	"HudAlert"
@@ -1308,7 +1308,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"paintbackgroundtype"	"0" // rounded corners
 	}
 
 	CTFFlagCalloutPanel
@@ -1332,7 +1332,7 @@
 		"ypos"			"c-52"
 		"wide"			"470"
 		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	"ItemAttributeTracker"
@@ -1344,7 +1344,7 @@
 		"ypos"			"0"
 		"wide"			"f5"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	HudMiniGame
@@ -1425,9 +1425,9 @@
 		"zpos"					"1001"
 		"wide"					"200"
 		"tall"					"18"
-		"proportionaltoparent"	"1"
-		"keyboardinputenabled"	"1"
-		"mouseinputenabled"		"0"
+		"proportionalToParent"	"1"
+		"keyboardInputEnabled"	"1"
+		"mouseInputEnabled"		"0"
 		"alpha"					"100"
 	}
 }

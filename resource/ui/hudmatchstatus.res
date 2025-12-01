@@ -23,7 +23,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"70"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"model"
 		{
@@ -74,7 +74,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor"		"TanLight"
 
 		if_readymode
@@ -102,7 +102,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 	
 		if_readymode
@@ -122,7 +122,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		"ParticleEffects"
 		{
@@ -137,7 +137,7 @@
 			}
 		}
 
-		"paintbackground"	"0"	
+		"paintBackground"	"0"	
 	}
 
 	"MatchDoors"
@@ -154,7 +154,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"70"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"model"
 		{
@@ -256,8 +256,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
-		"roundedcorners"	"12"
-		"paintBackgroundType"	"2"
+		"roundedCorners"	"12"
+		"paintbackgroundtype"	"2"
 
 		if_match
 		{
@@ -289,11 +289,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 		"alpha"			"0"
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor"		"TanLight"
 	}
 
@@ -312,11 +312,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 		"alpha"			"0"
 		"labelText"		"%rank_possibility%"
 		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor"		"Black"
 	}
 
@@ -353,7 +353,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}	
 	}
 	"TeamStatus"
@@ -428,7 +428,7 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 			}
 			"classimagebg"
 			{
@@ -441,8 +441,8 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
+				"paintbackgroundtype"	"0"
+				"proportionalToParent"	"1"
 			}
 			"healthbar"
 			{	
@@ -460,7 +460,7 @@
 				"enabled"				"1"
 				"textAlignment"			"Left"
 				"bgcolor_override"	   "80 80 80 255"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 			}
 			"overhealbar"
 			{	
@@ -479,7 +479,7 @@
 				"textAlignment"			"Left"
 				"bgcolor_override"	   "0 0 0 0"
 				"fgcolor_override"	   "255 255 255 160"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 			}
 			"HealthIcon"
 			{
@@ -542,13 +542,13 @@
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"proportionaltoparent"	"1"
+				"proportionalToParent"	"1"
 			}
 			"chargeamount"
 			{
@@ -597,7 +597,7 @@
 				"enabled"		"1"
 				"image"			"../HUD/comp_player_status"	
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
+				"proportionalToParent"	"1"	
 			}
 			"SkullPanel"
 			{
@@ -611,7 +611,7 @@
 				"enabled"		"1"
 				"image"			"../HUD/comp_player_status_skull"	
 				"scaleImage"	"1"
-				"proportionaltoparent"	"1"	
+				"proportionalToParent"	"1"	
 			}
 		}
 	}
@@ -679,7 +679,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"centerwrap"	"1"
+			"centerWrap"	"1"
 		}
 		"BlueLeaderAvatar"
 		{
@@ -706,7 +706,7 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
 		"BluePlayerList"
@@ -721,7 +721,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoresize"	"3"
+			"autoResize"	"3"
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
@@ -816,7 +816,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"centerwrap"	"1"
+			"centerWrap"	"1"
 		}
 		"RedLeaderAvatar"
 		{
@@ -843,7 +843,7 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
 		"RedPlayerList"
@@ -858,7 +858,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoresize"	"3"
+			"autoResize"	"3"
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"

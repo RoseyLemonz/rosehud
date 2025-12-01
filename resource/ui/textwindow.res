@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "resource/ui/textwindow.res"
 {
 	"info"
@@ -108,7 +111,7 @@
 		"command"		"okay"
 		"font"			"HudFontSmallBold"
 		"default"			"1"
-		"roundedcorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"roundedCorners"	"0"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 }

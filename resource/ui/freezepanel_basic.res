@@ -37,9 +37,9 @@
 			"tall"				"30"
 			"visible"			"1"
 			"enabled"			"1"
-			"paintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"		"TransparentBlack"	
-			"proportionaltoparent"	"1"	
+			"proportionalToParent"	"1"	
 		}
 
 		"FreezePanelHealth"
@@ -53,7 +53,7 @@
 			"tall"				"30"
 			"visible"			"1"
 			"enabled"			"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}	
 		"FreezeLabel"
 		{	
@@ -169,9 +169,9 @@
 			"tall"				"21"
 			"visible"			"1"
 			"enabled"			"1"
-			"paintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"		"TransparentBlack"	
-			"proportionaltoparent"	"1"	
+			"proportionalToParent"	"1"	
 		}
 		"ScreenshotIcon"
 		{

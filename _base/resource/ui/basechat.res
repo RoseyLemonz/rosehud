@@ -10,7 +10,7 @@
 		"ypos"					"rs1-80"
 		"wide"					"230"
 		"tall"					"100"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 		"bgcolor_override"		"TransparentBlack"
 	}
 
@@ -24,7 +24,7 @@
 		"ypos"					"405"
 		"wide"					"220"
 		"tall"					"0"
-		"PaintBackgroundType"	"0"
+		"paintbackgroundtype"	"0"
 	}
 
 	"ChatFiltersButton"

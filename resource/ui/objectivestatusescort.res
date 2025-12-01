@@ -125,7 +125,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"image"			"../hud/cart_neutral"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"scaleImage"	"1"				
 			
 			"if_team_blue"

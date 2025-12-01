@@ -12,14 +12,14 @@
 			"wide"			"f80"
 			"tall"			"150"
 			"visible"		"1"	
-			"PaintBackgroundType"	"0"
+			"paintbackgroundtype"	"0"
 			"paintborder"	"1"
 			"bgcolor_override"	"Black"
 			
 			"use_proportional_insets"	"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 
-			"mouseinputenabled"	"0"
+			"mouseInputEnabled"	"0"
 
 			"WarningLabel"
 			{
@@ -31,7 +31,7 @@
 				"tall"									"30"
 				"visible"								"1"
 				"enabled"								"1"
-				"proportionaltoparent"					"1"
+				"proportionalToParent"					"1"
 				"labelText"								"#rose_Foldercheck_Warning"
 				"font"									"HudfontBiggerBold"
 				"textAlignment"							"center"
@@ -47,10 +47,10 @@
 				"tall"									"35"
 				"visible"								"1"
 				"enabled"								"1"
-				"proportionaltoparent"					"1"
+				"proportionalToParent"					"1"
 				"labelText"								"#rose_Foldercheck"
 				"font"									"HudfontSmall"
-				"centerwrap"							"1"
+				"centerWrap"							"1"
 				"fgcolor"								"Gray"
 			}
 			"HudFolderName"
@@ -63,7 +63,7 @@
 				"tall"									"20"
 				"visible"								"1"
 				"enabled"								"1"
-				"proportionaltoparent"					"1"
+				"proportionalToParent"					"1"
 				"labelText"								"#rose_Foldercheck_HudName"
 				"font"									"HudfontMediumSmallSecondary"
 				"textAlignment"							"center"

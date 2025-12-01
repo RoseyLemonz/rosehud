@@ -51,7 +51,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundtype"	"2"
+		"paintbackgroundtype"	"2"
 	}
 	"BarBottomDarker"
 	{
@@ -65,7 +65,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"DarkerBlack"
-		"paintBackgroundtype"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	"bottombarblank"
@@ -133,7 +133,7 @@
 		"textAlignment"		"center"
 		"font"			"HudFontSmall"
 		"wrap"			"1"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 
 	"MapLabel"

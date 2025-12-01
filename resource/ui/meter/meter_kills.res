@@ -25,8 +25,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterLabel"
@@ -75,6 +75,6 @@
 		"textAlignment"			"east"
 		"font"					"HudMeterCount"
 		"fgcolor"				"HudPrimary"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 }

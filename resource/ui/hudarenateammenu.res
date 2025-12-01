@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "resource/ui/arenateammenu.res"
 {
 	"team"
@@ -45,14 +48,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontBiggerBold"
-		
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
 	}
 	
 	"teambutton3"
@@ -71,14 +66,6 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectatearena"
 		"font"			"HudFontMediumBold"
-		
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
 	}
 	
 	"CancelButton"
@@ -98,8 +85,8 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"roundedCorners"	"0"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 		
 	"TeamMenuAuto"
@@ -185,20 +172,16 @@
 
 	"BGDarken"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"BGDarken"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"		"9999"
+		"wide"		"0"
+		"visible"	"0"
 	}
 
 	"ChalkBG"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"ChalkBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
+		"xpos"		"9999"
+		"wide"		"0"
+		"visible"	"0"
 	}
 }
 

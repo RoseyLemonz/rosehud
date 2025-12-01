@@ -39,7 +39,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "2"
+		"paintbackgroundtype" "2"
 		"bgcolor_override"	"TanLight"
 	}
 	
@@ -55,11 +55,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "2"
-		//"bgcolor" "Yellow"
+		"paintbackgroundtype" "2"
+		//"bgColor" "Yellow"
 		//"bgcolor_override"	"Yellow"
 		//"fgcolor_override"	"Yellow"
-		//"PaintBackgroundType" "2"
+		//"paintbackgroundtype" "2"
 		"image"			"../hud/leaderboard_class_critical"
 	}
 	

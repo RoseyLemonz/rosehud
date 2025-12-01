@@ -3,36 +3,37 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"Blank"	// the lit side of a control
-		Border.Dark						"Blank"		// the dark/unlit side of a control
-		Border.Selection				"HudPrimary"			// the additional border color for displaying the default/selected button
+		Border.Bright					"Blank"				// the lit side of a control
+		Border.Dark						"Blank"				// the dark/unlit side of a control
+		Border.Selection				"HudPrimary"		// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
-		Button.BgColor					"HudBlack"
+		Button.BgColor					"DarkestGray"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"			
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
+		Button.DepressedbgColor			"Blank"
 		Button.FocusBorderColor			"Black"
 
 		CheckButton.TextColor			"White"
-		CheckButton.SelectedTextColor		"White"
-		CheckButton.BgColor			"TransparentBlack"
+		CheckButton.SelectedTextColor	"White"
+		CheckButton.BgColor				"DarkestGray"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check			"White"	// color of the check itself
-		CheckButton.HighlightFgColor		"OffWhite"
+		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.HighlightfgColor	"OffWhite"
 		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor		"Blank"
-		CheckButton.DisabledBgColor	   	"TransparentBlack"
+		CheckButton.DepressedbgColor	"Blank"
+		CheckButton.DisabledbgColor	   	"TransparentBlack"
 				
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.DisabledbgColor	"Blank"
 
-		Frame.BgColor					"DarkerBlack"
-		FrameTitleBar.TextColor			"White"
+		Frame.BgColor						"DarkBlack"
+		Frame.OutOfFocusBgColor				"0 0 0 222"
+		FrameTitleBar.TextColor				"White"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -42,19 +43,19 @@ Scheme
 		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"117 117 117 255"
-		Label.DisabledFgColor2			"30 30 30 255"
+		Label.DisabledfgColor1			"117 117 117 255"
+		Label.DisabledfgColor2			"30 30 30 255"
 
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"HudPrimary"
-		ListPanel.SelectedOutOfFocusBgColor	"HudPrimaryTransparent"
+		ListPanel.SelectedOutOfFocusbgColor	"HudPrimaryTransparent"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"White"
-		Menu.BgColor					"HudBlack"
+		Menu.BgColor					"DarkestGray"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"HudPrimary"
 		Menu.TextInset					"6"
@@ -84,41 +85,41 @@ Scheme
 		ScrollBarButton.ArmedFgColor		"Black"
 		ScrollBarButton.ArmedBgColor		"HudPrimaryDark"
 		ScrollBarButton.DepressedFgColor	"Black"
-		ScrollBarButton.DepressedBgColor	"HudPrimaryDark"
+		ScrollBarButton.DepressedbgColor	"HudPrimaryDark"
 
 		ScrollBarSlider.FgColor				"HudPrimary"				// nob color
-		ScrollBarSlider.BgColor				"HudBlack"	// slider background color
+		ScrollBarSlider.BgColor				"DarkestGray"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
-		SectionedListPanel.HeaderBgColor	"Blank"
+		SectionedListPanel.HeaderbgColor	"Blank"
 		SectionedListPanel.DividerColor		"Gray"
 		SectionedListPanel.TextColor		"DullWhite"
 		SectionedListPanel.BgColor			"TrueBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"HudPrimaryDark"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"HudPrimaryTransparent"
+		SectionedListPanel.OutOfFocusSelectedbgColor	"HudPrimaryTransparent"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"180 180 180 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"HudPrimary"
+		Slider.TextColor			"Blank"
+		Slider.TrackColor			"DarkestGray"
+		Slider.DisabledTextColor1	"Gray"
+		Slider.DisabledTextColor2	"Gray"
 
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.BgColor			"TransparentBlack"
 		TextEntry.CursorColor		"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.DisabledBgColor	"Blank"
+		TextEntry.DisabledbgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"HudPrimary"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
+		TextEntry.OutOfFocusSelectedbgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
 		ToggleButton.SelectedTextColor	"White"
 
-		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"Orange"
+		Tooltip.TextColor			"Black"
+		Tooltip.BgColor				"HudPrimaryDark"
 
 		TreeView.BgColor			"TransparentBlack"
 

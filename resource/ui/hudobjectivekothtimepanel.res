@@ -26,7 +26,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"TimePanelValue"
 		{
@@ -42,7 +42,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}	
 	}
 
@@ -64,7 +64,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"TimePanelValue"
 		{
@@ -80,7 +80,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 		}
 	}
 

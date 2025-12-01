@@ -120,7 +120,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-                "paintBackgroundType"   "2"
+                "paintbackgroundtype"   "2"
                 "bgcolor_override"      "TransparentBlack"
 			}
 	
@@ -140,7 +140,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"centerwrap"	"1"
+				"centerWrap"	"1"
 				"wrap"			"1"
 			}					
 		}

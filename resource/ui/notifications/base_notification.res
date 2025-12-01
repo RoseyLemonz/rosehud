@@ -32,8 +32,8 @@
 		"enabled"		"1"
 		"labelText"		"60 seconds until gates open"
 		"textAlignment"	"center"
-		"auto_wide_tocontents"	"1"
+		"auto_wide_toContents"	"1"
 		"bgcolor_override"	"blank"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 }

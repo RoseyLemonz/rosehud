@@ -50,7 +50,7 @@
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"	"center"
 		"fgcolor_override"	"White"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"OverlayImage"
@@ -66,7 +66,7 @@
 		"enabled"	"1"
 		"image"		"capture_icon"
 		"scaleImage"	"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	
 	"CPTimerLabel"

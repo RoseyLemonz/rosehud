@@ -5,9 +5,7 @@ x
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
+		"zpos"			"-15"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -28,26 +26,19 @@ x
 		"tall"			"260"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"2"
 		"bgcolor_override"		"TransparentBlack"
 	}
-
-	"ButtonHighLight"
+	
+	"ShaderBG"
 	{
-		"ControlName"	"Panel"
-		"fieldName"		"ButtonHighLight"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-35"
-		"zpos"			"10"
+		"ControlName"	"ImagePanel"
+		"zpos"			"-10000"
 		"wide"			"f0"
-		"tall"			"3"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"f0"
 		"visible"		"1"
-		"enabled"		"1"
-		"paintBackground"	"1"
-		"bgcolor_override"	"HudPrimaryLight"
-	}	
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/shaders/sepia"
+	}
 
 	"HiddenButtonBG"
 	{
@@ -57,12 +48,13 @@ x
 		"ypos"			"rs1"
 		"zpos"			"6"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintBackground"	"1"
 		"bgcolor_override"	"DarkerBlack"
+		"border"			"FooterWithAccentLight"
 	}	
 }

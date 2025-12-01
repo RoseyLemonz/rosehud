@@ -46,7 +46,7 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"TFFontMedium"
 		"xpos"			"35"
-		"ypos"			"9"
+		"ypos"			"8"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"15"

@@ -96,7 +96,7 @@
 			"labelText"		"%itemname%"
 			"textAlignment"	"center"
 			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
+			"centerWrap"	"1"
 		}
 		"attriblabel"
 		{
@@ -115,7 +115,7 @@
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
 			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"1"
+			"centerWrap"	"1"
 		}
 		
 		"equippedlabel"
@@ -136,7 +136,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 		}
 	
 		"paint_icon"
@@ -171,7 +171,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 		}
 
 		"serieslabel"
@@ -192,7 +192,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 		}
 
 		"matcheslabel"
@@ -213,7 +213,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 		}
 
 		"vision_restriction_icon"
@@ -289,7 +289,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
 		

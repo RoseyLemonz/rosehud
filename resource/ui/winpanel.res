@@ -59,8 +59,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"		"BlueTeamTransparent"
-			"paintBackgroundType"	"2"
-			"roundedcorners"		"5"
+			"paintbackgroundtype"	"2"
+			"roundedCorners"		"5"
 		}
 		"BlueTeamScoreDropshadow"
 		{
@@ -106,7 +106,7 @@
 			"wide"			"44"
 			"tall"			"44"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}									
 		"RedTeamLabel"
@@ -143,10 +143,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"proportionaltoparent"	"1"
+			"proportionalToParent"	"1"
 			"bgcolor_override"		"RedTeamTransparent"
-			"paintBackgroundType"	"2"
-			"roundedcorners"		"10"
+			"paintbackgroundtype"	"2"
+			"roundedCorners"		"10"
 		}
 		"RedTeamScoreDropshadow"
 		{
@@ -192,7 +192,7 @@
 			"wide"			"44"
 			"tall"			"44"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"paintbackgroundtype"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
 	}
@@ -218,9 +218,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 	}
 
 	"WinningTeamLabel"
@@ -239,7 +239,7 @@
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
@@ -257,7 +257,7 @@
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"WinningTeamLabel"
 	}
@@ -277,7 +277,7 @@
 		"enabled"		"1"
 		"labelText"		"%AdvancingTeamLabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	"AdvancingTeamLabelDropshadow"
 	{	
@@ -295,7 +295,7 @@
 		"enabled"		"1"
 		"labelText"		"%AdvancingTeamLabel%"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"fgcolor"				"Black"
 		"pin_to_sibling"		"AdvancingTeamLabel"
 	}
@@ -329,8 +329,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"TransparentBlack"
-		"proportionaltoparent"	"1"
-		"PaintBackgroundType"	"2"
+		"proportionalToParent"	"1"
+		"paintbackgroundtype"	"2"
 	}
 	"TopPlayerLabel"
 	{	
@@ -346,7 +346,7 @@
 		"enabled"		"1"
 		"labelText"		"%TopPlayersLabel%"
 		"textAlignment"		"west"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	"PointsThisRoundLabel"
 	{	
@@ -369,9 +369,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"White"
-		"PaintBackgroundType"	"0"
-		"proportionaltoparent"	"1"
+		"fillColor"		"White"
+		"paintbackgroundtype"	"0"
+		"proportionalToParent"	"1"
 	}
 	"Player1Badge"
 	{
@@ -620,7 +620,7 @@
 		"enabled"		"1"
 		"labelText"		"#Winpanel_KillStreakLeader"
 		"textAlignment"		"west"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 	"KillStreakMaxCountLabel"
 	{	
@@ -643,9 +643,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"White"
-		"PaintBackgroundType"	"0"
-		"proportionaltoparent"	"1"
+		"fillColor"		"White"
+		"paintbackgroundtype"	"0"
+		"proportionalToParent"	"1"
 	}
 	"KillStreakPlayer1Badge"
 	{

@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "resource/ui/teammenu.res"
 {
 	"team"
@@ -75,13 +78,15 @@
 		"textAlignment"	"center"
 		"command"		"jointeam blue"
 		"font"			"HudFontMediumBigBold"
-		"paintBackgroundType"		"2"
-		"roundedcorners"			"10"
+		"paintbackgroundtype"		"2"
+		"roundedCorners"			"10"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
-		"defaultbgcolor_override"	"BlueTeamTransparent"
-		"armedbgcolor_override"		"BlueTeamSolid"
+		"proportionalToParent"		"1"
+		"defaultbgcolor_override"	"BlueTeamSolid"
+		"armedbgcolor_override"		"LightBlueTeamSolid"
 		"depressedbgcolor_override"	"DarkBlueTeamSolid"
+
+		"depressedfgcolor_override"	"Black"
 	}
 
 	"teambutton1"
@@ -101,22 +106,24 @@
 		"textAlignment"	"center"
 		"command"		"jointeam red"
 		"font"			"HudFontMediumBigBold"
-		"paintBackgroundType"		"2"
-		"roundedcorners"			"5"
+		"paintbackgroundtype"		"2"
+		"roundedCorners"			"5"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
-		"defaultbgcolor_override"	"RedTeamTransparent"
-		"armedbgcolor_override"		"RedTeamSolid"
+		"proportionalToParent"		"1"
+		"defaultbgcolor_override"	"RedTeamSolid"
+		"armedbgcolor_override"		"LightRedTeamSolid"
 		"depressedbgcolor_override"	"DarkRedTeamSolid"
+
+		"depressedfgcolor_override"	"Black"
 	}
 
 	"teambutton2"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"cs-1.1"
+		"xpos"			"cs-1"
 		"ypos"			"292"
-		"wide"			"180"
+		"wide"			"198"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -126,23 +133,20 @@
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
 		"font"			"HudFontMediumBold"
-
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
+		"paintbackgroundtype"		"2"
+		"roundedCorners"			"5"
+		"defaultbgcolor_override"	"Black"
+		"armedbgcolor_override"		"HudPrimaryLight"
+		"depressedbgcolor_override"	"HudPrimary"
 	}
 	
 	"teambutton3"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"cs0.1"
+		"xpos"			"cs0"
 		"ypos"			"292"
-		"wide"			"180"
+		"wide"			"198"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -152,15 +156,12 @@
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"font"			"HudFontMediumBold"
-		
-		"defaultbgcolor_override" 	"TransparentBlack"
-		"armedbgcolor_override"		"HudPrimary"
-		"depressedbgcolor_override" "HudPrimaryDark"
-
-		"defaultfgcolor_override" 	"White"
-		"armedfgcolor_override"		"Black"
-		"depressedfgcolor_override" "HudPrimaryLight"
-	}
+		"paintbackgroundtype"		"2"
+		"roundedCorners"			"10"
+		"defaultbgcolor_override"	"Black"
+		"armedbgcolor_override"		"HudPrimaryLight"
+		"depressedbgcolor_override"	"HudPrimary"
+	}	
 
 	"CancelButton"
 	{
@@ -179,8 +180,8 @@
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"roundedCorners"	"0"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 	
 	"TeamMenuSelect"
@@ -248,7 +249,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamTransparent"
+		"fillColor" 	"BlueTeamTransparent"
 	}
 
 	"BlueCountBG2"
@@ -262,7 +263,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"BlueTeamSolid"
+		"fillColor" 	"BlueTeamSolid"
 		"pin_to_sibling"	"BlueCountBG"
 	}
 
@@ -317,7 +318,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"RedTeamTransparent"
+		"fillColor" 	"RedTeamTransparent"
 	}
 
 	"RedCountBG2"
@@ -331,7 +332,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor" 	"RedTeamSolid"
+		"fillColor" 	"RedTeamSolid"
 		"pin_to_sibling"	"RedCountBG"
 	}
 
@@ -394,7 +395,7 @@
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
 		"fgcolor"		"HudOffWhite"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 	
 	"HighlanderLabelShadow"
@@ -414,7 +415,7 @@
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
 		"fgcolor"		"black"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 	
 	"TeamsFullLabel"
@@ -434,7 +435,7 @@
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
 		"fgcolor"		"HudOffWhite"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 	
 	"TeamsFullLabelShadow"
@@ -454,7 +455,7 @@
 		"textAlignment"	"west"
 		"font"			"CapPlayerFont"
 		"fgcolor"		"black"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 	}
 
 	"TeamsFullArrow"
@@ -471,13 +472,7 @@
 		"image"			"../HUD/arrow_big_down"
 		"scaleImage"	"1"	
 	}
-
-	"BGDarken"
-	{
-		"xpos"		"9999"
-		"wide"		"0"
-		"visible"	"0"
-	}
+	
 	"ChalkBG"
 	{
 		"xpos"		"9999"

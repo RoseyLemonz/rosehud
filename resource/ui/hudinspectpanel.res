@@ -11,9 +11,9 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"bgcolor_override"		"TransparentBlack"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"paintBackground"		"1"
-		"paintBorder"	"0"
+		"paintborder"	"0"
 		
 		"model_ypos"		"20"
 		"model_center_x"	"1"
@@ -29,7 +29,7 @@
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		"itemmodelpanel"
 		{

@@ -1,0 +1,123 @@
+"resource/ui/#customizations/hud_customization_health.res"
+{
+	"SafeMode"
+	{
+		"Customizations_Scroller"
+		{
+			"HealthIcon"
+			{
+				"ControlName"					"EditablePanel"
+				"fieldName"						"HealthIcon"
+				"xpos"							"cs-0.5"
+				"ypos"							"336"
+				"zpos"							"0"
+				"wide"							"94"
+				"tall"							"48"
+				"visible"						"1"
+				"enabled"						"1"
+				"proportionalToParent"			"1"
+				"paintBackground"				"1"
+				"paintbackgroundtype"			"0"
+				"bgcolor_override"				"Black"
+
+				"Title"
+				{
+					"ControlName"						"CExLabel"
+					"fieldName"							"Title"
+					"xpos"								"0"
+					"ypos"								"0"
+					"zpos"								"0"
+					"wide"								"f0"
+					"tall"								"14"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"use_proportional_insets"			"1"
+					"labelText"							"Health Icon"
+					"font"								"ItemFontNameSmallest"
+					"centerWrap"						"1"
+					"fgcolor"							"Black"
+					"paintBackground"					"1"
+					"paintbackgroundtype"				"0"
+					"bgcolor_override"					"HudPrimary"
+				}
+
+				"IconOn"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"IconOn"
+					"xpos"								"7"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"39"
+					"tall"								"35"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"paintBackground"					"0"
+
+					"IconOnButton"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"IconOnButton"
+						"xpos"								"cs-0.5"
+						"ypos"								"0"
+						"zpos"								"5"
+						"wide"								"f0"
+						"tall"								"f12"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionalToParent"				"1"
+						"labelText"							"On"						
+						"font"								"HudFontSmallBold"
+						"textAlignment"						"center"
+						"command"							"engine hud_healthicon_on"
+						"actionSignalLevel"					"5"
+						"sound_depressed"					"UI/buttonclick.wav"
+						"defaultbgcolor_override"			"HudBonusDark"
+						"armedbgcolor_override"				"HudBonusLight"
+						"depressedbgcolor_override"			"HudBonus"
+					}
+				}
+
+				"IconOff"
+				{
+					"ControlName"						"EditablePanel"
+					"fieldName"							"IconOff"
+					"xpos"								"rs1-7"
+					"ypos"								"20"
+					"zpos"								"20"
+					"wide"								"39"
+					"tall"								"35"
+					"visible"							"1"
+					"enabled"							"1"
+					"proportionalToParent"				"1"
+					"paintBackground"					"0"
+
+					"IconOffButton"
+					{
+						"ControlName"						"CExButton"
+						"fieldName"							"IconOffButton"
+						"xpos"								"cs-0.5"
+						"ypos"								"0"
+						"zpos"								"5"
+						"wide"								"f0"
+						"tall"								"f12"
+						"visible"							"1"
+						"enabled"							"1"
+						"proportionalToParent"				"1"
+						"labelText"							"Off"						
+						"font"								"HudFontSmallBold"
+						"textAlignment"						"center"
+						"command"							"engine hud_healthicon_off"
+						"actionSignalLevel"					"5"
+						"sound_depressed"					"UI/buttonclick.wav"
+						"defaultbgcolor_override"			"HudNegatDark"
+						"armedbgcolor_override"				"HudNegatLight"
+						"depressedbgcolor_override"			"HudNegat"
+					}
+				}
+			}
+		}
+	}
+}

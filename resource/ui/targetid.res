@@ -6,12 +6,12 @@
 		"fieldName"			"TargetBG"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"0"
+		"zpos"				"5"
 		"wide"				"f0"
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"Black"
+		"fillColor"			"Black"
 	}
 
 	"TargetIDBG"
@@ -36,6 +36,32 @@
 		"draw_corner_height" 	"8"	
 	}
 
+	"TargetIDBGTeamTriangle"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TargetIDBGTeamTriangle"
+		"xpos"			"s-0.05"
+		"ypos"			"s-0.04"
+		"zpos"			"2"
+		"wide"			"14"
+		"tall"	 		"o1"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+		"teambg_1"		"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+		"teambg_2"		"replay/thumbnails/hud/targetid_corner_red"
+		"teambg_3"		"replay/thumbnails/hud/targetid_corner_blue"
+
+		"scaleImage"			"1"
+		"alpha"					"255"
+		"proportionalToParent"	"1"
+
+		"pin_to_sibling"		"TargetIDBG"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+	}
+
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -47,7 +73,9 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_blue"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -67,7 +95,9 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_red"
+		"image"			"replay/thumbnails/hud/tournamentpanel/tournament_panel_base"
+
+		"drawcolor"		"HudPrimaryDark"
 
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -83,7 +113,7 @@
 		"font"			"HudTargetIDName"
 		"xpos"			"8"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"640"
 		"tall"	 		"15"
 		"visible"		"1"
@@ -100,7 +130,7 @@
 		"font"			"HudTargetIDIcons"
 		"xpos"			"15"
 		"ypos"			"15"
-		"zpos"			"1"
+		"zpos"			"6"
 		"wide"			"640"
 		"tall"			"12"
 		"visible"		"1"
@@ -121,7 +151,7 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"	
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"AmmoIcon"
@@ -129,14 +159,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"30"
-		"ypos"			"17"
-		"zpos"			"12"
+		"ypos"			"rs1.45"
+		"zpos"			"6"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
+		"proportionalToParent"	"1"
 	}
 
 	"KillstreakIconAnchor"
@@ -157,7 +188,7 @@
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"12"
+		"zpos"			"6"
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
@@ -207,7 +238,7 @@
 		{
 			"ControlName"	"Panel"
 			"fieldName"		"MoveableIconPin"
-			"xpos"			"14"
+			"xpos"			"15"
 			"ypos"			"-4"
 			"enabled"		"1"
 		}
@@ -245,9 +276,7 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
 		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"

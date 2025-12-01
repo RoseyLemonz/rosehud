@@ -77,7 +77,7 @@
 		"wide"			"49"
 		"tall"			"49"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"117 107 94 255"
 	}
 	"RedScoreBG"
@@ -102,7 +102,7 @@
 		"enabled"		"1"
 		"image"			"../hud/team_red"
 		"scaleImage"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		if_mvm
 		{
@@ -134,7 +134,7 @@
 		"wide"			"49"
 		"tall"			"49"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"117 107 94 255"
 	}
 	"MainBG"
@@ -150,9 +150,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintBackgroundType"	"2"
+		"paintbackgroundtype"	"2"
 		"bgcolor_override"		"TransparentBlack"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -198,12 +198,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"15"
-		"paintBackgroundType"		"2"
+		"textinsetX"	"15"
+		"paintbackgroundtype"		"2"
 		"bgcolor_override"			"BlueTeamTransparent"
-		"roundedcorners"			"5"
+		"roundedCorners"			"5"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
+		"proportionalToParent"		"1"
 		
 		if_mvm
 		{
@@ -227,9 +227,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"15"
+		"textinsetX"	"15"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
+		"proportionalToParent"		"1"
 		"pin_to_sibling"			"BlueTeamScore"
 		
 		if_mvm
@@ -275,7 +275,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -298,12 +298,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"15"
-		"paintBackgroundType"		"2"
+		"textinsetX"	"15"
+		"paintbackgroundtype"		"2"
 		"bgcolor_override"			"RedTeamTransparent"
-		"roundedcorners"			"10"
+		"roundedCorners"			"10"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
+		"proportionalToParent"		"1"
 		
 		if_mvm
 		{
@@ -327,9 +327,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsetx"	"15"
+		"textinsetX"	"15"
 		"use_proportional_insets"	"1"
-		"proportionaltoparent"		"1"
+		"proportionalToParent"		"1"
 		"pin_to_sibling"			"RedTeamScore"
 
 		if_mvm
@@ -353,7 +353,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -373,7 +373,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoresize"	"3"
+		"autoResize"	"3"
 		"linespacing"	"15"
 		"linegap"		"1"
 		"fgcolor"		"blue"
@@ -396,11 +396,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"autoresize"	"3"
+		"autoResize"	"3"
 		"linespacing"	"15"
 		"linegap"		"1"
 		"fgcolor"		"red"
-		"proportionaltoparent"	"1"	
+		"proportionalToParent"	"1"	
 		//"show_columns"	"1"
 
  		if_mvm
@@ -421,8 +421,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"fillColor"		"0 0 0 153"
+		"paintbackgroundtype"	"0"
 		
 		if_mvm
 		{
@@ -445,7 +445,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -474,8 +474,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"TransparentBlack"
-		"PaintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"proportionalToParent"	"1"
 
 		if_mvm
 		{
@@ -639,7 +639,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -662,7 +662,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -686,7 +686,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 
 		if_mvm
 		{
@@ -708,7 +708,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"centerwrap"	"1"
+		"centerWrap"	"1"
 		
 		if_mvm
 		{
@@ -730,8 +730,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
-		"paintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -761,8 +761,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"centerwrap"	"1"
+		"proportionalToParent"	"1"
+		"centerWrap"	"1"
 
 		if_mvm
 		{
@@ -783,8 +783,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
-		"centerwrap"	"1"
+		"proportionalToParent"	"1"
+		"centerWrap"	"1"
 		
 		if_mvm
 		{
@@ -808,7 +808,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		"pin_to_sibling"	"MapName"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
@@ -834,8 +834,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"BrightYellow"
-		"centerwrap"	"1"
-		"proportionaltoparent"	"1"
+		"centerWrap"	"1"
+		"proportionalToParent"	"1"
 		"pin_to_sibling"	"ServerTimeLeftLabel"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
@@ -857,8 +857,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"127 127 127 153"
-		"PaintBackgroundType"	"0"
+		"fillColor"		"127 127 127 153"
+		"paintbackgroundtype"	"0"
 		
 		if_mvm
 		{
@@ -963,7 +963,7 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"paintbackgroundtype"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
@@ -1042,7 +1042,7 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"paintbackgroundtype"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
@@ -1112,7 +1112,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"	"1"
+		"proportionalToParent"	"1"
 		
 		if_mvm
 		{
@@ -1604,7 +1604,7 @@
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"	"east"
 			"xpos"			"255"
-			"ypos"			"10"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1676,7 +1676,7 @@
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
 			"xpos"			"255"
-			"ypos"			"30"
+			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"

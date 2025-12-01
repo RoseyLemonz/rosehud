@@ -60,7 +60,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"north"
-		"centerwrap"			"1"
+		"centerWrap"			"1"
 		"font"					"HudMeterLabel"
 	}
 

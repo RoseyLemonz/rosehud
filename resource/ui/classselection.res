@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "resource/ui/classselection.res"
 {
 	"class"
@@ -63,7 +66,7 @@
 		"enabled"			"1"
 		"labelText"			"1"
 		"textAlignment"		"center"
-		"Command"			"select 1"
+		"command"			"select 1"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -75,11 +78,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
@@ -104,7 +107,7 @@
 		"enabled"			"1"
 		"labelText"			"2"
 		"textAlignment"		"center"
-		"Command"			"select 3"
+		"command"			"select 3"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -116,11 +119,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"scout"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -146,7 +149,7 @@
 		"enabled"			"1"
 		"labelText"			"3"
 		"textAlignment"		"center"
-		"Command"			"select 7"
+		"command"			"select 7"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -158,11 +161,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"soldier"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -189,7 +192,7 @@
 		"enabled"			"1"
 		"labelText"			"4"
 		"textAlignment"		"center"
-		"Command"			"select 4"
+		"command"			"select 4"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -201,11 +204,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
@@ -230,7 +233,7 @@
 		"enabled"			"1"
 		"labelText"			"5"
 		"textAlignment"		"center"
-		"Command"			"select 6"
+		"command"			"select 6"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -242,11 +245,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"demoman"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -273,7 +276,7 @@
 		"enabled"			"1"
 		"labelText"			"6"
 		"textAlignment"		"center"
-		"Command"			"select 9"
+		"command"			"select 9"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -285,11 +288,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"heavyweapons"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -316,7 +319,7 @@
 		"enabled"			"1"
 		"labelText"			"7"
 		"textAlignment"		"center"
-		"Command"			"select 5"
+		"command"			"select 5"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -328,11 +331,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
@@ -358,7 +361,7 @@
 		"enabled"			"1"
 		"labelText"			"8"
 		"textAlignment"		"center"
-		"Command"			"select 2"
+		"command"			"select 2"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -370,11 +373,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"medic"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -400,7 +403,7 @@
 		"enabled"			"1"
 		"labelText"			"9"
 		"textAlignment"		"center"
-		"Command"			"select 8"
+		"command"			"select 8"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -412,11 +415,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"sniper"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -443,7 +446,7 @@
 		"enabled"			"1"
 		"labelText"			"@&e"
 		"textAlignment"		"west"
-		"Command"			"openloadout"
+		"command"			"openloadout"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -455,11 +458,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"0"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
@@ -481,9 +484,9 @@
 		"textAlignment"		"west"
 		"font"				"HudClassSelect"
 
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 		"pin_to_sibling"	"EditLoadoutButton"
 	}	
 
@@ -500,7 +503,7 @@
 		"enabled"			"1"
 		"labelText"			"?"
 		"textAlignment"		"west"
-		"Command"			"select 12"
+		"command"			"select 12"
 		"font"				"HudClassSelect"
 		
 		"defaultfgcolor_override"	"White"
@@ -512,11 +515,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
+		"paintBackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
+		"keyboardInputEnabled"	"0"
 
 		"pin_to_sibling"		"EditLoadoutButton"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
@@ -545,10 +548,10 @@
 		"enabled"		"1"
 		"labelText"		"#rose_Cancel"
 		"textAlignment"	"center"
-		"Command"		"vguicancel"
+		"command"		"vguicancel"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"roundedCorners"	"0"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}	
 
 	"ResetButton" 
@@ -566,7 +569,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
-		"Command"		"resetclass"
+		"command"		"resetclass"
 		"font"			"HudFontSmallBold"
 	}
 
@@ -1078,8 +1081,8 @@
 		"wide"			"250"
 		"tall"			"165"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
+		"paintbackgroundtype"	"2"
+		"paintBackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
@@ -1142,14 +1145,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labeltext"		""
+			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"command"		"close"
 			
-			"paintbackground"	"0"
+			"paintBackground"	"0"
 			
 			"defaultfgcolor_override" "46 43 42 255"
 			"armedfgcolor_override" "200 80 60 255"
@@ -1194,8 +1197,8 @@
 		"fov"			"25"
 		"allow_rot"		"1"
 
-		"paintbackground" "1"		
-		"paintbackgroundenabled" "1"
+		"paintBackground" "1"		
+		"paintBackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
 		
 		"model"
@@ -1253,8 +1256,8 @@
 		"wide"			"250"
 		"tall"			"170"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
+		"paintbackgroundtype"	"2"
+		"paintBackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c-238"
@@ -1319,14 +1322,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labeltext"		""
+			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"close"
+			"command"		"close"
 			
-			"paintbackground"	"0"
+			"paintBackground"	"0"
 			
 			"defaultfgcolor_override" "46 43 42 255"
 			"armedfgcolor_override" "235 226 202 255"

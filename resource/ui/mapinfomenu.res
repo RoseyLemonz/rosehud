@@ -1,4 +1,7 @@
-#base "textpanel_base.res"
+#base "../../../../cfg/rosehud/hud_shaders_tx.txt"
+
+#base "../../_base/textpanel_base.res"
+
 "resource/ui/mapinfomenu.res"
 {
 	"mapinfo"
@@ -126,8 +129,8 @@
 		"command"		"continue"
 		"font"			"HudFontSmallBold"
 		"default"			"1"
-		"roundedcorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
+		"roundedCorners"	"0"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 
 	"MapInfoContinue"
@@ -143,7 +146,16 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"9999"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"10000"
+		"wide"			"150"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WatchIntro"
+		"textAlignment"	"center"
+		"command"		"intro"
 	}
 	
 	"MapInfoBack"
@@ -163,14 +175,7 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"font"			"HudFontSmallBold"
-		"roundedcorners"	"0"
-		"defaultBgColor_override"	"DarkerBlack"
-	}
-
-	"BGDarken"
-	{
-		"xpos"			"9999"
-		"wide"			"0"
-		"visible"		"0"
+		"roundedCorners"	"0"
+		"defaultbgcolor_override"	"DarkerBlack"
 	}
 }
